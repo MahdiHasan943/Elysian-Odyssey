@@ -28,15 +28,6 @@ module.exports = {
     //   grayDark : "#5E5B56" ,
     //   ...colors
     //  }  ,
-    screens: {
-      smallest: "375px",
-      xs: "457px",
-      sm: "640px",
-      md: "768",
-      xl: "1280px",
-      largeMonitor: "1500px",
-      largestMonitor: "1900px",
-    },
   },
   plugins: [],
 };
