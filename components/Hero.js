@@ -1,0 +1,21 @@
+import Image from "next/image";
+import React from "react";
+
+const Hero = () => {
+  return (
+    <div className=" w-[100vw] mt-[-140px] bg-[red] h-[100vh]">
+      <div className="overflow-hidden relative w-full h-full">
+        <div className=" absolute top-0 left-0 h-full w-full">
+          <Image
+            src={"/images/heromain.png"}
+            width={2000}
+            height={1000}
+            className="w-[100%] "
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Hero;
