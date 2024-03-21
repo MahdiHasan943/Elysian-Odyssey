@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className=" w-[100vw] mt-[-140px] bg-[red] h-[100vh]">
+    <div className=" w-full mt-[-140px] h-[200vh]">
       <div className="overflow-hidden relative w-full h-full">
         <div className=" absolute top-0 left-0 h-full w-full">
           <Image
