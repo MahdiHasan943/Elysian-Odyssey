@@ -49,7 +49,7 @@ const Header = () => {
   return (
     <>
       {stickyClass ? (
-        <div className="nav">
+        <div className="nav z-[999999999999]  absolute top-0">
           <nav className={` py-8    px-6 sm:px-16 z-50 relative`}>
             <div
               className={`w-full mx-auto flex justify-between items-center gap-8`}
@@ -125,7 +125,7 @@ const Header = () => {
                     </Link>
                   </p>
 
-                  <p
+                  {/* <p
                     className={`${roboto_slab.className}`}
                     onClick={() => {
                       setColor("GamePlay");
@@ -141,7 +141,7 @@ const Header = () => {
                     >
                       GamePlay
                     </Link>
-                  </p>
+                  </p> */}
 
                   <p
                     className={`${roboto_slab.className}`}
@@ -269,7 +269,7 @@ const Header = () => {
                           Charecters
                         </Link>
                       </p>
-                      <p
+                      {/* <p
                         className={`${roboto_slab.className}`}
                         onClick={() => {
                           setColor("GamePlay");
@@ -285,7 +285,7 @@ const Header = () => {
                         >
                           GamePlay
                         </Link>
-                      </p>
+                      </p> */}
                       <p
                         className={`${roboto_slab.className}`}
                         onClick={() => {
@@ -426,7 +426,7 @@ const Header = () => {
                     </Link>
                   </p>
 
-                  <p
+                  {/* <p
                     className={`${roboto_slab.className}`}
                     onClick={() => {
                       setColor("GamePlay");
@@ -442,7 +442,7 @@ const Header = () => {
                     >
                       GamePlay
                     </Link>
-                  </p>
+                  </p> */}
 
                   <p
                     className={`${roboto_slab.className}`}
@@ -570,7 +570,7 @@ const Header = () => {
                           Charecters
                         </Link>
                       </p>
-                      <p
+                      {/* <p
                         className={`${roboto_slab.className}`}
                         onClick={() => {
                           setColor("GamePlay");
@@ -586,7 +586,7 @@ const Header = () => {
                         >
                           GamePlay
                         </Link>
-                      </p>
+                      </p> */}
                       <p
                         className={`${roboto_slab.className}`}
                         onClick={() => {

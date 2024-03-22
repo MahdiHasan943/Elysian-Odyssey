@@ -65,7 +65,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 9999!important;
+  z-index: 999999999!important;
   position: sticky;
   opacity: 0; /* Initially hide the navigation bar */
   animation: fadeInDown 1s ease-in-out forwards; /* Change duration to 1s and remove iteration count */
@@ -82,4 +82,12 @@
     opacity: 1;
     transform: translateZ(0);
   }
+}
+.hbg{
+  background-image: url('/public/images/Screenshot_2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  width: 100%;
 }

@@ -14,7 +14,7 @@ export default function Home() {
 
       <About />
       <Charecters />
-      <Gameplay />
+      {/* <Gameplay /> */}
 
       <Tokenomics />
       <Team />
