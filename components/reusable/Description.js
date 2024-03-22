@@ -15,7 +15,7 @@ const Description = ({ text, className }) => {
       variants={textVariant4}
       initial="hidden"
       whileInView="show"
-      className={`${roboto_slab.className}  ${className} text-[21px] max-w-[1220px] mx-auto font-thin text-[#fff]`}
+      className={`${roboto_slab.className}  ${className} text-[16px] px-6 xl:text-[21px] max-w-[1220px] mx-auto font-thin text-[#fff]`}
     >
       {text}
     </motion.p>

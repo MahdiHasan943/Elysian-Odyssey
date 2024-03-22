@@ -9,7 +9,7 @@ const Button = ({ className, children, ...props }) => {
       variants={textVariant3}
       initial="hidden"
       whileInView="show"
-      className={`animated-button h-[55px] w-[200px] relative flex justify-center items-center overflow-hidden ${className}`}
+      className={`animated-button h-[55px] w-[200px]  relative flex justify-center items-center overflow-hidden ${className}`}
       {...props}
     >
       {children}

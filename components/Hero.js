@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { motion } from "framer-motion";
 import { textVariant2, textVariant3 } from "@/utils/motion";
@@ -14,7 +14,25 @@ const roboto_slab = Roboto_Slab({
 });
 const Hero = () => {
   const ref = useRef();
+  const [stickyPosition, setStickyPosition] = useState({
+    start: 0.9,
+    end: 2.5,
+  });
 
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 600) {
+        setStickyPosition({ start: 0, end: 11 });
+      } else {
+        setStickyPosition({ start: 0.9, end: 2.5 });
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []); // Run only once on component mount
   return (
     <div className="w-full mt-[-140px] overflow-hidden  parallax-container h-[100vh] sm:h-[140vh]">
       <Parallax pages={2} ref={ref}>
@@ -41,14 +59,6 @@ const Hero = () => {
         />
 
         <ParallaxLayer
-          sticky={{ start: 0.9, end: 2.5 }}
-          style={{ textAlign: "center" }}
-          onClick={() => ref.current.scrollTo(0)}
-        >
-          <img src={"/images/logo.png"} />
-        </ParallaxLayer>
-
-        <ParallaxLayer
           offset={0.2}
           speed={0.05}
           onClick={() => ref.current.scrollTo(1)}
@@ -58,7 +68,7 @@ const Hero = () => {
             variants={textVariant3}
             initial="hidden"
             whileInView="show"
-            className={`${roboto_slab.className} pb-20 mt-[100px] text-[#f9d286] font-bold text-[40px] leading-[40px] uppercase `}
+            className={`${roboto_slab.className} pb-8 sm:pb-20 mt-10 sm:mt-[100px] text-[#f9d286] font-bold text-[40px] leading-[40px] uppercase `}
           >
             Introduction
           </motion.h1>
@@ -88,7 +98,17 @@ const Hero = () => {
             }
           />
 
-          <Button className="uppercase my-20 text-[#fff] ">whitepaper</Button>
+          <Button className="uppercase xl:my-20 text-[#fff] ">
+            whitepaper
+          </Button>
+        </ParallaxLayer>
+        <ParallaxLayer
+          sticky={stickyPosition}
+          style={{ textAlign: "center" }}
+          onClick={() => ref.current.scrollTo(0)}
+          className="mt-[600px] sm:mb-0"
+        >
+          <img src={"/images/logo.png"} />
         </ParallaxLayer>
 
         {/* <ParallaxLayer
