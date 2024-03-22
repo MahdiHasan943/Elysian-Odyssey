@@ -44,13 +44,7 @@ const About = () => {
               />
             </motion.div>
 
-            <motion.div
-              variants={staggerContainer}
-              initial="hidden"
-              whileInView="show"
-              viewport={{ once: false, amount: 0.25 }}
-              className="relative"
-            >
+            <motion.div className="relative">
               <motion.div variants={planetVariants("left")} className="">
                 <Image
                   src={"/Screenshot_4-Photoroom-Photoroom-removebg-preview.png"}
