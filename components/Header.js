@@ -27,13 +27,21 @@ const Header = () => {
         <div
           className={`w-full mx-auto flex justify-between items-center gap-8`}
         >
-          <Image
-            src="/images/new_h-logo.png"
-            alt="logo"
-            width={200}
-            height={80}
-            // className="w-[24px] h-[24px] object-contain"
-          />
+          <p
+            onClick={() => {
+              setColor("logo");
+            }}
+          >
+            <Link href={"/"}>
+              <Image
+                src="/images/new_h-logo.png"
+                alt="logo"
+                width={200}
+                height={80}
+                // className="w-[24px] h-[24px] object-contain"
+              />
+            </Link>
+          </p>
           <div className="  ">
             <div className="hidden lg:flex justify-center items-center gap-8">
               <p
@@ -140,6 +148,23 @@ const Header = () => {
                   }
                 >
                   Team
+                </Link>
+              </p>
+              <p
+                className={`${roboto_slab.className}`}
+                onClick={() => {
+                  setColor("roadmap");
+                }}
+              >
+                <Link
+                  href={""}
+                  className={
+                    color === "roadmap"
+                      ? "text-[16px text-[#9e8b46] uppercase"
+                      : "text-[16px] text-[#fff] uppercase"
+                  }
+                >
+                  roadmap
                 </Link>
               </p>
             </div>
@@ -266,6 +291,23 @@ const Header = () => {
                       }
                     >
                       Team
+                    </Link>
+                  </p>
+                  <p
+                    className={`${roboto_slab.className}`}
+                    onClick={() => {
+                      setColor("roadmap");
+                    }}
+                  >
+                    <Link
+                      href={""}
+                      className={
+                        color === "roadmap"
+                          ? "text-[16px text-[#9e8b46] uppercase"
+                          : "text-[16px] text-[#fff] uppercase"
+                      }
+                    >
+                      roadmap
                     </Link>
                   </p>
                 </div>

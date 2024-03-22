@@ -22,3 +22,42 @@
   .parallax-container * {
     -ms-overflow-style: none;
   }
+
+
+
+
+
+  /* animation b u tton */
+.animated-button {
+  position: relative;
+  background-color: #f9d286; 
+  color: black; 
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-weight: bold;
+  transition: color 0.4s ease;
+}
+
+.animated-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%; 
+  width: 100%;
+  height: 100%;
+  background-color: white; 
+  transition: left 0.4s ease;
+  z-index: 0;
+}
+
+.animated-button:hover::before {
+  left: 100%; 
+}
+
+.animated-button span {
+  position: relative;
+  z-index: 1;
+}
+/* animation b u tton */
