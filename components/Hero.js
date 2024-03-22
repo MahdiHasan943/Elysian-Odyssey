@@ -34,7 +34,7 @@ const Hero = () => {
     };
   }, []); // Run only once on component mount
   return (
-    <div className="w-full mt-[-140px] overflow-hidden  parallax-container h-[100vh] sm:h-[140vh]">
+    <div className="w-full mt-[-140px] overflow-hidden  parallax-container h-[150vh] smallest:h-[100vh] sm:h-[140vh]">
       <Parallax pages={2} ref={ref}>
         <ParallaxLayer
           offset={0}
@@ -68,7 +68,7 @@ const Hero = () => {
             variants={textVariant3}
             initial="hidden"
             whileInView="show"
-            className={`${roboto_slab.className} pb-8 sm:pb-20 mt-10 sm:mt-[100px] text-[#f9d286] font-bold text-[40px] leading-[40px] uppercase `}
+            className={`${roboto_slab.className}   pb-8 sm:pb-20 mt-10 sm:mt-[100px] text-[#f9d286] font-bold text-[40px] leading-[40px] uppercase `}
           >
             Introduction
           </motion.h1>
@@ -98,7 +98,7 @@ const Hero = () => {
             }
           />
 
-          <Button className="uppercase xl:my-20 text-[#fff] ">
+          <Button className="uppercase my-10 xl:my-20 text-[#fff] ">
             whitepaper
           </Button>
         </ParallaxLayer>
@@ -106,7 +106,7 @@ const Hero = () => {
           sticky={stickyPosition}
           style={{ textAlign: "center" }}
           onClick={() => ref.current.scrollTo(0)}
-          className="mt-[600px] sm:mt-0"
+          className="mt-[1550px] smallest:mt-[1400px] sm:mt-0"
         >
           <img src={"/images/logo.png"} />
         </ParallaxLayer>
