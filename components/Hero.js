@@ -36,7 +36,10 @@ const Hero = () => {
   }, []); // Run only once on component mount
   return (
     <>
-      <div className="w-full mt-[-140px] hidden sm:block  parallax-container h-[100px] sm:h-[140vh]">
+      <div
+        id="hero"
+        className="w-full mt-[-140px] hidden sm:block  parallax-container h-[100px] sm:h-[140vh]"
+      >
         <Parallax pages={2} ref={ref}>
           <ParallaxLayer
             offset={0}
@@ -129,7 +132,10 @@ const Hero = () => {
         </ParallaxLayer> */}
         </Parallax>
       </div>
-      <div className="w-full mt-[-140px] block sm:hidden  parallax-container h-[1000px]">
+      <div
+        id="hero"
+        className="w-full mt-[-140px] block sm:hidden  parallax-container h-[1000px]"
+      >
         <Parallax pages={2} ref={ref}>
           <ParallaxLayer
             offset={0}

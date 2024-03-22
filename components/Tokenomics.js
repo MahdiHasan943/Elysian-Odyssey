@@ -1,7 +1,7 @@
 import React from "react";
 
 const Tokenomics = () => {
-  return <div>Tokenomics</div>;
+  return <div id="toke">Tokenomics</div>;
 };
 
 export default Tokenomics;

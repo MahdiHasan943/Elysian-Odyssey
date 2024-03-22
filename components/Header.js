@@ -8,6 +8,33 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Roboto_Slab } from "next/font/google";
 import useStickyNav from "@/utils/useStickyNav";
+const scrollToSection = (id) => {
+  const element = document.getElementById(id);
+  if (element) {
+    const to = element.offsetTop;
+    const duration = 800; // Adjust the duration as needed
+    const start = window.pageYOffset;
+    const startTime =
+      "now" in window.performance ? performance.now() : new Date().getTime();
+
+    const scroll = (timestamp) => {
+      const time =
+        "now" in window.performance ? performance.now() : new Date().getTime();
+      let progress = Math.min((time - startTime) / duration, 1);
+      const easeInOutQuad = (t) => (t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t);
+      progress = easeInOutQuad(progress);
+
+      const newPosition = start + (to - start) * progress;
+      window.scrollTo(0, newPosition);
+
+      if (progress < 1) {
+        window.requestAnimationFrame(scroll);
+      }
+    };
+
+    window.requestAnimationFrame(scroll);
+  }
+};
 
 const roboto_slab = Roboto_Slab({
   weight: "300",
@@ -51,7 +78,7 @@ const Header = () => {
                     }}
                   >
                     <Link
-                      href={""}
+                      href={"#hero"}
                       className={
                         color === "hero"
                           ? "text-[16px text-[#9e8b46] uppercase"
@@ -69,7 +96,7 @@ const Header = () => {
                     }}
                   >
                     <Link
-                      href={""}
+                      href={"#about"}
                       className={
                         color === "about"
                           ? "text-[16px text-[#9e8b46] uppercase"
@@ -87,7 +114,7 @@ const Header = () => {
                     }}
                   >
                     <Link
-                      href={""}
+                      href={"#charecter"}
                       className={
                         color === "Charecters"
                           ? "text-[16px text-[#9e8b46] uppercase"
@@ -105,7 +132,7 @@ const Header = () => {
                     }}
                   >
                     <Link
-                      href={""}
+                      href={"#gameplay"}
                       className={
                         color === "GamePlay"
                           ? "text-[16px text-[#9e8b46] uppercase"
@@ -123,7 +150,7 @@ const Header = () => {
                     }}
                   >
                     <Link
-                      href={""}
+                      href={"#toke"}
                       className={
                         color === "tokenomics"
                           ? "text-[16px text-[#9e8b46] uppercase"
@@ -140,7 +167,7 @@ const Header = () => {
                     }}
                   >
                     <Link
-                      href={""}
+                      href={"#team"}
                       className={
                         color === "Team"
                           ? "text-[16px text-[#9e8b46] uppercase"
@@ -157,7 +184,7 @@ const Header = () => {
                     }}
                   >
                     <Link
-                      href={""}
+                      href={"#road"}
                       className={
                         color === "roadmap"
                           ? "text-[16px text-[#9e8b46] uppercase"
@@ -198,7 +225,7 @@ const Header = () => {
                         }}
                       >
                         <Link
-                          href={""}
+                          href={"#hero"}
                           className={
                             color === "hero"
                               ? "text-[16px text-[#9e8b46] uppercase"
@@ -215,7 +242,7 @@ const Header = () => {
                         }}
                       >
                         <Link
-                          href={""}
+                          href={"#about"}
                           className={
                             color === "about"
                               ? "text-[16px text-[#9e8b46] uppercase"
@@ -232,7 +259,7 @@ const Header = () => {
                         }}
                       >
                         <Link
-                          href={""}
+                          href={"#charecter"}
                           className={
                             color === "Charecters"
                               ? "text-[16px text-[#9e8b46] uppercase"
@@ -249,7 +276,7 @@ const Header = () => {
                         }}
                       >
                         <Link
-                          href={""}
+                          href={"#gameplay"}
                           className={
                             color === "GamePlay"
                               ? "text-[16px text-[#9e8b46] uppercase"
@@ -266,7 +293,7 @@ const Header = () => {
                         }}
                       >
                         <Link
-                          href={""}
+                          href={"#toke"}
                           className={
                             color === "tokenomics"
                               ? "text-[16px text-[#9e8b46] uppercase"
@@ -283,7 +310,7 @@ const Header = () => {
                         }}
                       >
                         <Link
-                          href={""}
+                          href={"#team"}
                           className={
                             color === "Team"
                               ? "text-[16px text-[#9e8b46] uppercase"
@@ -300,7 +327,7 @@ const Header = () => {
                         }}
                       >
                         <Link
-                          href={""}
+                          href={"#road"}
                           className={
                             color === "roadmap"
                               ? "text-[16px text-[#9e8b46] uppercase"
@@ -352,7 +379,7 @@ const Header = () => {
                     }}
                   >
                     <Link
-                      href={""}
+                      href={"#hero"}
                       className={
                         color === "hero"
                           ? "text-[16px text-[#9e8b46] uppercase"
@@ -370,7 +397,7 @@ const Header = () => {
                     }}
                   >
                     <Link
-                      href={""}
+                      href={"#about"}
                       className={
                         color === "about"
                           ? "text-[16px text-[#9e8b46] uppercase"
@@ -388,7 +415,7 @@ const Header = () => {
                     }}
                   >
                     <Link
-                      href={""}
+                      href={"#charecter"}
                       className={
                         color === "Charecters"
                           ? "text-[16px text-[#9e8b46] uppercase"
@@ -406,7 +433,7 @@ const Header = () => {
                     }}
                   >
                     <Link
-                      href={""}
+                      href={"#gameplay"}
                       className={
                         color === "GamePlay"
                           ? "text-[16px text-[#9e8b46] uppercase"
@@ -424,7 +451,7 @@ const Header = () => {
                     }}
                   >
                     <Link
-                      href={""}
+                      href={"#toke"}
                       className={
                         color === "tokenomics"
                           ? "text-[16px text-[#9e8b46] uppercase"
@@ -441,7 +468,7 @@ const Header = () => {
                     }}
                   >
                     <Link
-                      href={""}
+                      href={"#team"}
                       className={
                         color === "Team"
                           ? "text-[16px text-[#9e8b46] uppercase"
@@ -458,7 +485,7 @@ const Header = () => {
                     }}
                   >
                     <Link
-                      href={""}
+                      href={"#road"}
                       className={
                         color === "roadmap"
                           ? "text-[16px text-[#9e8b46] uppercase"
@@ -499,7 +526,7 @@ const Header = () => {
                         }}
                       >
                         <Link
-                          href={""}
+                          href={"#hero"}
                           className={
                             color === "hero"
                               ? "text-[16px text-[#9e8b46] uppercase"
@@ -516,7 +543,7 @@ const Header = () => {
                         }}
                       >
                         <Link
-                          href={""}
+                          href={"#about"}
                           className={
                             color === "about"
                               ? "text-[16px text-[#9e8b46] uppercase"
@@ -533,7 +560,7 @@ const Header = () => {
                         }}
                       >
                         <Link
-                          href={""}
+                          href={"#charecter"}
                           className={
                             color === "Charecters"
                               ? "text-[16px text-[#9e8b46] uppercase"
@@ -550,7 +577,7 @@ const Header = () => {
                         }}
                       >
                         <Link
-                          href={""}
+                          href={"#gameplay"}
                           className={
                             color === "GamePlay"
                               ? "text-[16px text-[#9e8b46] uppercase"
@@ -567,7 +594,7 @@ const Header = () => {
                         }}
                       >
                         <Link
-                          href={""}
+                          href={"#toke"}
                           className={
                             color === "tokenomics"
                               ? "text-[16px text-[#9e8b46] uppercase"
@@ -584,7 +611,7 @@ const Header = () => {
                         }}
                       >
                         <Link
-                          href={""}
+                          href={"#team"}
                           className={
                             color === "Team"
                               ? "text-[16px text-[#9e8b46] uppercase"
@@ -601,7 +628,7 @@ const Header = () => {
                         }}
                       >
                         <Link
-                          href={""}
+                          href={"#road"}
                           className={
                             color === "roadmap"
                               ? "text-[16px text-[#9e8b46] uppercase"
