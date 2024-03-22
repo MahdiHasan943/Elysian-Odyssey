@@ -31,7 +31,6 @@ const Hero = () => {
         <ParallaxLayer
           offset={1}
           speed={1}
-          factor={4}
           style={{
             backgroundImage: `url("/images/secondhero.png")`,
             backgroundSize: "cover",
@@ -44,6 +43,7 @@ const Hero = () => {
         <ParallaxLayer
           sticky={{ start: 0.9, end: 2.5 }}
           style={{ textAlign: "center" }}
+          onClick={() => ref.current.scrollTo(0)}
         >
           <img src={"/images/logo.png"} />
         </ParallaxLayer>
