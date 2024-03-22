@@ -106,7 +106,7 @@ const Hero = () => {
           sticky={stickyPosition}
           style={{ textAlign: "center" }}
           onClick={() => ref.current.scrollTo(0)}
-          className="mt-[600px] sm:mb-0"
+          className="mt-[600px] sm:mt-0"
         >
           <img src={"/images/logo.png"} />
         </ParallaxLayer>
