@@ -1,7 +1,11 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import Title from "./reusable/Title";
 import Description from "./reusable/Description";
+import { TypingText } from "./reusable/CustomText";
+import { staggerContainer } from "@/utils/motion";
+import { motion } from "framer-motion";
 
 const Charecters = () => {
   return (
@@ -17,7 +21,18 @@ const Charecters = () => {
               className=""
             />
             <div className="w-full px-4  py-10 absolute top-0 left-0 h-full z-[100000] max-auto">
-              <Title text="Characters" className="text-center" />
+              <motion.div
+                variants={staggerContainer}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: false, amount: 0.25 }}
+                className=""
+              >
+                <TypingText
+                  title="Characters"
+                  textStyles={` text-center text-[#f2d387] pt-5 pb-20 font-bold text-[40px] leading-[40px] uppercase `}
+                />
+              </motion.div>
               <div className="flex gap-4 ">
                 <div className="w-[40%]"></div>
                 <div className="w-[60%]">
