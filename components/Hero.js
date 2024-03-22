@@ -71,14 +71,19 @@ const Hero = () => {
             onClick={() => ref.current.scrollTo(1)}
             className="flex flex-col justify-start gap-4 items-center"
           >
-            <motion.h1
-              variants={textVariant3}
+            <motion.div
+              variants={slideIn("right", "tween", 0.2, 1)}
               initial="hidden"
               whileInView="show"
-              className={`${roboto_slab.className}   pb-8 sm:pb-20 mt-10 sm:mt-[100px] text-[#f9d286] font-bold text-[40px] leading-[40px] uppercase `}
+              className=""
             >
-              Introduction
-            </motion.h1>
+              <Image
+                src={"/images/logo.png"}
+                alt="logo"
+                width={400}
+                height={400}
+              />
+            </motion.div>
             <Description
               text={
                 "Enter the vast expanse of Elysian Odyssey, a revolutionary MMORPG  experience that immerses players in a realm of cosmic warfare,  mythical beings, and the eternal struggle between light and darkness. This whitepaper serves as a guide to the intricacies of the Elysian universe, providing insights into its lore, gameplay mechanics, and the innovative economic ecosystem at its core."
@@ -167,14 +172,19 @@ const Hero = () => {
             onClick={() => ref.current.scrollTo(1)}
             className="flex flex-col justify-start gap-4 items-center"
           >
-            <motion.h1
-              variants={textVariant3}
+            <motion.div
+              variants={slideIn("right", "tween", 0.2, 1)}
               initial="hidden"
               whileInView="show"
-              className={`${roboto_slab.className}   pb-8 sm:pb-20 mt-10 sm:mt-[100px] text-[#f9d286] font-bold text-[40px] leading-[40px] uppercase `}
+              className=""
             >
-              Introduction
-            </motion.h1>
+              <Image
+                src={"/images/logo.png"}
+                alt="logo"
+                width={300}
+                height={300}
+              />
+            </motion.div>
             <Description
               text={
                 "Enter the vast expanse of Elysian Odyssey, a revolutionary MMORPG  experience that immerses players in a realm of cosmic warfare,  mythical beings, and the eternal struggle between light and darkness. This whitepaper serves as a guide to the intricacies of the Elysian universe, providing insights into its lore, gameplay mechanics, and the innovative economic ecosystem at its core."

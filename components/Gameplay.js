@@ -1,7 +1,7 @@
 import React from "react";
 
 const Gameplay = () => {
-  return <div>Gameplay</div>;
+  return <div id="gameplay">Gameplay</div>;
 };
 
 export default Gameplay;
