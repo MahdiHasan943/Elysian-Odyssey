@@ -49,7 +49,7 @@ const Header = () => {
   return (
     <>
       {stickyClass ? (
-        <div className="nav z-[999999999999]  absolute top-0">
+        <div className="nav hbg z-[999999999999]  absolute top-0">
           <nav className={` py-8    px-6 sm:px-16 z-50 relative`}>
             <div
               className={`w-full mx-auto flex justify-between items-center gap-8`}

@@ -145,7 +145,7 @@ const Hero = () => {
           <ParallaxLayer
             offset={0}
             speed={1}
-            factor={5}
+            factor={10}
             style={{
               backgroundImage: `url("/images/heromain.png")`,
               backgroundSize: "cover",
@@ -155,13 +155,11 @@ const Hero = () => {
           <ParallaxLayer
             offset={1}
             speed={0.5}
-            factor={0.1}
+            factor={1}
             style={{
-              backgroundImage: `url("/images/secondhero.png")`,
+              backgroundImage: `url("/images/heromain.png")`,
               backgroundSize: "cover",
               backgroundPosition: "center",
-              height: "100%",
-              width: "100%",
             }}
             className=""
           />
