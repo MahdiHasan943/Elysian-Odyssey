@@ -7,6 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { Roboto_Slab } from "next/font/google";
+
 const roboto_slab = Roboto_Slab({
   weight: "300",
   subsets: ["latin"],
@@ -18,11 +19,12 @@ const Header = () => {
 
   return (
     <>
+      {" "}
       <motion.nav
         variants={navVariants}
         initial="hidden"
         whileInView="show"
-        className={` py-8 px-6 sm:px-16 z-50 relative`}
+        className={` py-8  ticky  left-0 w-full px-6 sm:px-16 z-50 relative`}
       >
         <div
           className={`w-full mx-auto flex justify-between items-center gap-8`}
