@@ -15,7 +15,7 @@ const Title = ({ text, className }) => {
       variants={textVariant3}
       initial="hidden"
       whileInView="show"
-      className={`${roboto_slab.className} font-extrabold text-[30px] leading-[30px] tablet:text-[40px] tablet:leading-[40px] text-[#18191c] ${className}`}
+      className={`${roboto_slab.className}  text-[#f2d387] pt-5 pb-20 font-bold text-[40px] leading-[40px] uppercase ${className}`}
     >
       {text}
     </motion.h2>
