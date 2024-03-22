@@ -72,6 +72,23 @@ export const textContainer = {
   }),
 };
 
+export const textVariant3 = {
+  hidden: {
+    opacity: 0,
+    y: 20,
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: "tween",
+      ease: "easeIn",
+      ation: 1.25,
+      delay: 1.1,
+    },
+  },
+};
+
 export const textVariant2 = {
   hidden: {
     opacity: 0,

@@ -2,12 +2,19 @@
 import Image from "next/image";
 import React, { useRef } from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-
+import { motion } from "framer-motion";
+import { textVariant2, textVariant3 } from "@/utils/motion";
+import { Roboto_Slab } from "next/font/google";
+const roboto_slab = Roboto_Slab({
+  weight: ["400", "300", "500", "600", "700", "900"],
+  subsets: ["latin"],
+  display: "swap",
+});
 const Hero = () => {
   const ref = useRef();
 
   return (
-    <div className="w-full mt-[-140px] overflow-hidden  parallax-container h-[100vh] sm:h-[100vh]">
+    <div className="w-full mt-[-140px] overflow-hidden  parallax-container h-[100vh] sm:h-[120vh]">
       <Parallax pages={2} ref={ref} verticle>
         <ParallaxLayer
           offset={0}
@@ -45,11 +52,18 @@ const Hero = () => {
           onClick={() => ref.current.scrollTo(1)}
           style={{
             display: "flex",
-            alignItems: "center",
+            alignItems: "start",
             justifyContent: "center",
           }}
         >
-          <h2>Welcome to my website</h2>
+          <motion.h1
+            variants={textVariant3}
+            initial="hidden"
+            whileInView="show"
+            className={`${roboto_slab.className} mt-[100px] text-[#f9d286] text-[60px] leading-[40px] uppercase `}
+          >
+            Introduction
+          </motion.h1>
         </ParallaxLayer>
 
         {/* <ParallaxLayer
