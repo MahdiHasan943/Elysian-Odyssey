@@ -162,7 +162,7 @@ const Header = () => {
                 whileInView="show"
                 className={`${
                   !open ? "hidden" : "block"
-                } p-6 bg-[#1a3f57]  absolute top-20 right-0 mx-4 my-2 min-w-[200px] max-w-[200px] z-10 rounded-xl`}
+                } p-6 bg-[#1a3f57] block lg:hidden  absolute top-20 right-0 mx-4 my-2 min-w-[200px] max-w-[200px] z-10 rounded-xl`}
               >
                 <div className="">
                   {" "}
