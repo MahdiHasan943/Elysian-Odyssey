@@ -32,8 +32,12 @@ const Charecters = () => {
                   title="Characters"
                   textStyles={` text-center text-[#f2d387] pt-5 pb-20 font-bold text-[40px] leading-[40px] uppercase `}
                 />
+                <TypingText
+                  title="complete in the last"
+                  textStyles={` text-center text-[#f2d387] pt-5 pb-20 font-bold text-[40px] leading-[40px] uppercase `}
+                />
               </motion.div>
-              <div className="flex gap-4 ">
+              {/* <div className="flex gap-4 ">
                 <div className="w-[40%]"></div>
                 <div className="w-[60%]">
                   <h2 className=" text-[#f9d286] font-bold text-[28px] leading-[40px] uppercase">
@@ -112,7 +116,7 @@ const Charecters = () => {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
