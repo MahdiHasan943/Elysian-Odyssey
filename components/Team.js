@@ -98,8 +98,8 @@ const Team = () => {
                     FOUNDER & CEO{" "}
                   </h4>
                 </div>
-                <div className=" border-[5px]  border-[#f9d286] pl-4  sm:px-12 text-[#fff] text-[21px] leading-[32px] py-4">
-                  <ul className="list-disc  ">
+                <div className=" py-4">
+                  <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
                     <li>Web 2 entrepreneur</li>
                     <li>In crypto since 2017</li>
                     <li>
@@ -132,7 +132,7 @@ const Team = () => {
                   </h4>
                 </div>
                 <div className="py-4">
-                  <ul className="list-disc border-[5px] border-[#f9d286] px-4 sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
+                  <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
                     <li>
                       25 years of professional programming experience in video
                       games with focus on game engine architecture, tools and
@@ -171,7 +171,7 @@ const Team = () => {
                   </h4>
                 </div>
                 <div className=" py-4">
-                  <ul className="list-disc border-[5px] border-[#f9d286] px-4  sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
+                  <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
                     <li>
                       A veteran game developer started in early 90s, focusing on
                       technical art solutions, plugin and pipeline development
@@ -202,7 +202,7 @@ const Team = () => {
                   </h4>
                 </div>
                 <div className="py-4">
-                  <ul className="list-disc border-[5px] border-[#f9d286] px-4 sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
+                  <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
                     <li>Web 2 entrepreneur</li>
                     <li>In crypto since 2017</li>
                     <li>
@@ -235,7 +235,7 @@ const Team = () => {
                   </h4>
                 </div>
                 <div className="py-4">
-                  <ul className="list-disc border-[5px] border-[#f9d286] px-4 sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
+                  <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
                     <li>Web 2 entrepreneur</li>
                     <li>In crypto since 2017</li>
                     <li>
@@ -268,7 +268,7 @@ const Team = () => {
                   </h4>
                 </div>
                 <div className="py-4">
-                  <ul className="list-disc border-[5px] border-[#f9d286] px-4 sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
+                  <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
                     <li>Web 2 entrepreneur</li>
                     <li>In crypto since 2017</li>
                     <li>
