@@ -152,7 +152,7 @@ const Team = () => {
               </SwiperSlide>{" "}
               <SwiperSlide>
                 <Image
-                  src={"/images/MileNikolikj.jpg"}
+                  src={"/images/AlfioTrabuio.jfif"}
                   alt="team-member"
                   width={300}
                   height={300}
@@ -183,7 +183,7 @@ const Team = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <Image
-                  src={"/images/MileNikolikj.jpg"}
+                  src={"/images/TomislavTesla.jfif"}
                   alt="team-member"
                   width={300}
                   height={300}
@@ -193,30 +193,33 @@ const Team = () => {
                   <h3
                     className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
                   >
-                    MILE NIKOLIC
+                    TOMISLAV TESLA
                   </h3>
                   <h4
                     className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
                   >
-                    FOUNDER & CEO{" "}
+                    VFX / CREATURE ANIMATION
                   </h4>
                 </div>
                 <div className="py-4">
                   <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
-                    <li>Web 2 entrepreneur</li>
-                    <li>In crypto since 2017</li>
                     <li>
-                      Investor in 60+ gaming projects makes him understand the
-                      market very well
+                      A seasoned senior character and creature 3D animator with
+                      a rich background in diverse animation styles, covering
+                      games, AR/VR/MR, Feature, and VFX films.
                     </li>
-                    <li>Successfully sold 2 NFT projects</li>
-                    <li>Actively visiting various IRL crypto events</li>
+                    <li>
+                      Previously worked on famous blockbuster movies like:
+                      Aquaman, Disney’s Noelle, the immersive Underwater, the
+                      captivating Dungeons & Dragons: Honor Among Thieves, and
+                      the highly anticipated Mufasa: Lion King among others.
+                    </li>
                   </ul>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <Image
-                  src={"/images/MileNikolikj.jpg"}
+                  src={"/images/VladimirFilipovic.jfif"}
                   alt="team-member"
                   width={300}
                   height={300}
@@ -226,30 +229,28 @@ const Team = () => {
                   <h3
                     className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
                   >
-                    MILE NIKOLIC
+                    VLADIMIR FILIPOVIC
                   </h3>
                   <h4
                     className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
                   >
-                    FOUNDER & CEO{" "}
+                    PROGRAMMING
                   </h4>
                 </div>
                 <div className="py-4">
                   <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
-                    <li>Web 2 entrepreneur</li>
-                    <li>In crypto since 2017</li>
                     <li>
-                      Investor in 60+ gaming projects makes him understand the
-                      market very well
+                      Vladimir is software engineer with 20 years of experience,
+                      mainly in largescale backend systems, but also in video
+                      games, data science and finance.
                     </li>
-                    <li>Successfully sold 2 NFT projects</li>
-                    <li>Actively visiting various IRL crypto events</li>
+                    <li>Previously worked in Meta and Google</li>
                   </ul>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <Image
-                  src={"/images/MileNikolikj.jpg"}
+                  src={"/images/DavidFried.jfif"}
                   alt="team-member"
                   width={300}
                   height={300}
@@ -259,24 +260,27 @@ const Team = () => {
                   <h3
                     className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
                   >
-                    MILE NIKOLIC
+                    DAVID FRIED
                   </h3>
                   <h4
                     className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
                   >
-                    FOUNDER & CEO{" "}
+                    GAME DESIGN
                   </h4>
                 </div>
                 <div className="py-4">
                   <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
-                    <li>Web 2 entrepreneur</li>
-                    <li>In crypto since 2017</li>
                     <li>
-                      Investor in 60+ gaming projects makes him understand the
-                      market very well
+                      David has over 25 years of game and narrative design
+                      experience.r
                     </li>
-                    <li>Successfully sold 2 NFT projects</li>
-                    <li>Actively visiting various IRL crypto events</li>
+                    <li>
+                      Some of his work includes Warcraft III, World of Warcraft,
+                      Oddworld Stranger’s Wrath, Wasteland 3 and many more
+                    </li>
+                    <li>
+                      Previously worked for Blizzard Entertainment and Ubisoft
+                    </li>
                   </ul>
                 </div>
               </SwiperSlide>
