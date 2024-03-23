@@ -22,7 +22,12 @@ import { Navigation, Autoplay, Pagination } from "swiper/modules";
 
 const Team = () => {
   const swiperRef = useRef(null);
-
+  const progressCircle = useRef(null);
+  const progressContent = useRef(null);
+  const onAutoplayTimeLeft = (s, time, progress) => {
+    progressCircle.current.style.setProperty("--progress", 1 - progress);
+    progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
+  };
   const breakpoints = {
     300: {
       slidesPerView: 1,
@@ -82,6 +87,7 @@ const Team = () => {
               spaceBetween={40}
               className="mySwiper  max-w-[1540px] my-8 "
               breakpoints={breakpoints}
+              onAutoplayTimeLeft={onAutoplayTimeLeft}
             >
               <SwiperSlide>
                 <motion.div
@@ -338,6 +344,13 @@ const Team = () => {
                   </div>
                 </motion.div>
               </SwiperSlide>
+
+              <div className="autoplay-progress" slot="container-end">
+                <svg viewBox="0 0 48 48" ref={progressCircle}>
+                  <circle cx="24" cy="24" r="20"></circle>
+                </svg>
+                <span ref={progressContent}></span>
+              </div>
             </Swiper>
           </div>
         </div>
