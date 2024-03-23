@@ -49,7 +49,7 @@ const Team = () => {
         className=""
         id="road"
       >
-        <div className=" min-h-[1200px]   lg:min-h-[1100px] lg:max-h-[1100px]  relative overflow-hidden ">
+        <div className=" min-h-[1800px]   lg:min-h-[1100px] lg:max-h-[1100px]  relative overflow-hidden ">
           <div className="absolute top-0 left-0 h-full w-full">
             <Image
               src={"/images/heromain.png"}
@@ -70,20 +70,20 @@ const Team = () => {
             >
               <TypingText
                 title="roadmap"
-                textStyles={` text-center text-[#f2d387] pt-5 pb-20 font-bold text-[40px] leading-[40px] uppercase `}
+                textStyles={` text-center text-[#f2d387]  pt-12 sm:p-5 pb-20 font-bold text-[40px] leading-[40px] uppercase `}
               />
             </motion.div>
 
             <Swiper
               modules={[Navigation, Autoplay, Pagination]}
               slidesPerView="auto"
-              // loop={true}
-              // autoplay={{
-              //   delay: 12000,
-              //   speed: 3000,
+              loop={true}
+              autoplay={{
+                delay: 12000,
+                speed: 3000,
 
-              //   disableOnInteraction: false,
-              // }}
+                disableOnInteraction: false,
+              }}
               className="mySwiper  max-w-[1540px] my-8 "
               breakpoints={breakpoints}
               onAutoplayTimeLeft={onAutoplayTimeLeft}
@@ -108,7 +108,7 @@ const Team = () => {
 "
                 />
                 <div className="sm:flex px-6 gap-4 items-center  max-w-[1220px] mx-auto">
-                  <p className="text-[16px] uppercase min-w-[190px]  xl:text-[22px]  text-[#fff]  font-bold">
+                  <p className="text-[16px] uppercase min-w-[132px] xl:min-w-[190px]  xl:text-[22px]  text-[#fff]  font-bold">
                     Lore creation:
                   </p>
                   <p className="text-[16px]  xl:text-[21px] font-thin  text-[#fff] ">
@@ -144,9 +144,182 @@ const Team = () => {
                     a community of 1000+ holders was created.
                   </p>
                 </div>
+
+                <h2
+                  className={`${roboto_slab.className} max-w-[1220px] mx-auto text-[#f2d387] pt-20 pb-4 px-6 text-[26px] mt-6 leading-[30px] uppercase `}
+                >
+                  Phase 2: Conceptualization and Development (Q3 2023 - Q4 2023)
+                </h2>
+                <Description text="During this phase, our team focuses on conceptualising the game mechanics, storyline, and world-building elements of Elysian Odyssey. Key activities include:" />
+                <div className="sm:flex px-6 py-3 gap-4 items-center  max-w-[1220px] mx-auto">
+                  <p className="text-[16px] uppercase xl:text-[22px]  text-[#fff]  font-bold">
+                    Conceptualization:
+                  </p>
+                  <p className="text-[16px]  xl:text-[21px] font-thin text-[#fff] ">
+                    Refining the game concept, defining core gameplay mechanics,
+                    and establishing the narrative framework.{" "}
+                  </p>
+                </div>
+                <div className="sm:flex px-6 py-3 gap-4 items-center  max-w-[1220px] mx-auto">
+                  <p className="text-[16px] min-w-[237px] xl:min-w-[320px] uppercase xl:text-[22px]  text-[#fff]  font-bold">
+                    Prototype Development:
+                  </p>
+                  <p className="text-[16px]  xl:text-[21px] font-thin text-[#fff] ">
+                    Building early-stage prototypes to test fundamental game
+                    mechanics and gather user feedback.
+                  </p>
+                </div>
               </SwiperSlide>
-              <SwiperSlide>sdsdsd</SwiperSlide>
-              <SwiperSlide>sdfsdf</SwiperSlide>
+              <SwiperSlide>
+                <Description text="The development journey of Elysian Odyssey is divided into strategic phases aimed at achieving key milestones and delivering a captivating gaming experience for our community. Here is an overview of our roadmap:" />
+                <h2
+                  className={`${roboto_slab.className} max-w-[1220px] mx-auto text-[#f2d387] pt-5 pb-4 px-6 text-[26px] mt-6 leading-[30px] uppercase `}
+                >
+                  Phase 1: NFT Community building and NFT sale (Q1 2023 - Q2
+                  2023)
+                </h2>
+                <Description
+                  text="During this phase our team has worked on creating the storyline, designing the characters, building community and selling the characters
+"
+                />
+                <div className="sm:flex px-6 gap-4 items-center  max-w-[1220px] mx-auto">
+                  <p className="text-[16px] uppercase min-w-[132px] xl:min-w-[190px]  xl:text-[22px]  text-[#fff]  font-bold">
+                    Lore creation:
+                  </p>
+                  <p className="text-[16px]  xl:text-[21px] font-thin  text-[#fff] ">
+                    During this phase our team has worked on creating the
+                    storyline, designing the characters, building community and
+                    selling the characters{" "}
+                  </p>
+                </div>
+
+                <div className="sm:flex px-6 py-3 gap-4 items-center  max-w-[1220px] mx-auto">
+                  <p className="text-[16px]  uppercase xl:text-[22px]  text-[#fff]  font-bold">
+                    Character design:
+                  </p>
+                  <p className="text-[16px]  xl:text-[21px] font-thin text-[#fff] ">
+                    Each character was carefully designed to contain the
+                    characteristics described in the Lore.
+                  </p>
+                </div>
+
+                <div className="sm:flex px-6 gap-4 items-center  max-w-[1220px] mx-auto">
+                  <p className="text-[16px] uppercase  xl:text-[22px]  text-[#fff]  font-bold">
+                    NFT mint:
+                  </p>
+                  <p className="text-[16px]  xl:text-[21px] font-thin text-[#fff] ">
+                    5556 Elysians were born to live on the blockchain
+                  </p>
+                </div>
+                <div className="sm:flex px-6 py-3 gap-4 items-center  max-w-[1220px] mx-auto">
+                  <p className="text-[16px] uppercase xl:text-[22px]  text-[#fff]  font-bold">
+                    Community building:
+                  </p>
+                  <p className="text-[16px]  xl:text-[21px] font-thin text-[#fff] ">
+                    a community of 1000+ holders was created.
+                  </p>
+                </div>
+
+                <h2
+                  className={`${roboto_slab.className} max-w-[1220px] mx-auto text-[#f2d387] pt-20 pb-4 px-6 text-[26px] mt-6 leading-[30px] uppercase `}
+                >
+                  Phase 2: Conceptualization and Development (Q3 2023 - Q4 2023)
+                </h2>
+                <Description text="During this phase, our team focuses on conceptualising the game mechanics, storyline, and world-building elements of Elysian Odyssey. Key activities include:" />
+                <div className="sm:flex px-6 py-3 gap-4 items-center  max-w-[1220px] mx-auto">
+                  <p className="text-[16px] uppercase xl:text-[22px]  text-[#fff]  font-bold">
+                    Conceptualization:
+                  </p>
+                  <p className="text-[16px]  xl:text-[21px] font-thin text-[#fff] ">
+                    Refining the game concept, defining core gameplay mechanics,
+                    and establishing the narrative framework.{" "}
+                  </p>
+                </div>
+                <div className="sm:flex px-6 py-3 gap-4 items-center  max-w-[1220px] mx-auto">
+                  <p className="text-[16px] min-w-[237px] xl:min-w-[320px] uppercase xl:text-[22px]  text-[#fff]  font-bold">
+                    Prototype Development:
+                  </p>
+                  <p className="text-[16px]  xl:text-[21px] font-thin text-[#fff] ">
+                    Building early-stage prototypes to test fundamental game
+                    mechanics and gather user feedback.
+                  </p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Description text="The development journey of Elysian Odyssey is divided into strategic phases aimed at achieving key milestones and delivering a captivating gaming experience for our community. Here is an overview of our roadmap:" />
+                <h2
+                  className={`${roboto_slab.className} max-w-[1220px] mx-auto text-[#f2d387] pt-5 pb-4 px-6 text-[26px] mt-6 leading-[30px] uppercase `}
+                >
+                  Phase 1: NFT Community building and NFT sale (Q1 2023 - Q2
+                  2023)
+                </h2>
+                <Description
+                  text="During this phase our team has worked on creating the storyline, designing the characters, building community and selling the characters
+"
+                />
+                <div className="sm:flex px-6 gap-4 items-center  max-w-[1220px] mx-auto">
+                  <p className="text-[16px] uppercase min-w-[132px] xl:min-w-[190px]  xl:text-[22px]  text-[#fff]  font-bold">
+                    Lore creation:
+                  </p>
+                  <p className="text-[16px]  xl:text-[21px] font-thin  text-[#fff] ">
+                    During this phase our team has worked on creating the
+                    storyline, designing the characters, building community and
+                    selling the characters{" "}
+                  </p>
+                </div>
+
+                <div className="sm:flex px-6 py-3 gap-4 items-center  max-w-[1220px] mx-auto">
+                  <p className="text-[16px]  uppercase xl:text-[22px]  text-[#fff]  font-bold">
+                    Character design:
+                  </p>
+                  <p className="text-[16px]  xl:text-[21px] font-thin text-[#fff] ">
+                    Each character was carefully designed to contain the
+                    characteristics described in the Lore.
+                  </p>
+                </div>
+
+                <div className="sm:flex px-6 gap-4 items-center  max-w-[1220px] mx-auto">
+                  <p className="text-[16px] uppercase  xl:text-[22px]  text-[#fff]  font-bold">
+                    NFT mint:
+                  </p>
+                  <p className="text-[16px]  xl:text-[21px] font-thin text-[#fff] ">
+                    5556 Elysians were born to live on the blockchain
+                  </p>
+                </div>
+                <div className="sm:flex px-6 py-3 gap-4 items-center  max-w-[1220px] mx-auto">
+                  <p className="text-[16px] uppercase xl:text-[22px]  text-[#fff]  font-bold">
+                    Community building:
+                  </p>
+                  <p className="text-[16px]  xl:text-[21px] font-thin text-[#fff] ">
+                    a community of 1000+ holders was created.
+                  </p>
+                </div>
+
+                <h2
+                  className={`${roboto_slab.className} max-w-[1220px] mx-auto text-[#f2d387] pt-20 pb-4 px-6 text-[26px] mt-6 leading-[30px] uppercase `}
+                >
+                  Phase 2: Conceptualization and Development (Q3 2023 - Q4 2023)
+                </h2>
+                <Description text="During this phase, our team focuses on conceptualising the game mechanics, storyline, and world-building elements of Elysian Odyssey. Key activities include:" />
+                <div className="sm:flex px-6 py-3 gap-4 items-center  max-w-[1220px] mx-auto">
+                  <p className="text-[16px] uppercase xl:text-[22px]  text-[#fff]  font-bold">
+                    Conceptualization:
+                  </p>
+                  <p className="text-[16px]  xl:text-[21px] font-thin text-[#fff] ">
+                    Refining the game concept, defining core gameplay mechanics,
+                    and establishing the narrative framework.{" "}
+                  </p>
+                </div>
+                <div className="sm:flex px-6 py-3 gap-4 items-center  max-w-[1220px] mx-auto">
+                  <p className="text-[16px] min-w-[237px] xl:min-w-[320px] uppercase xl:text-[22px]  text-[#fff]  font-bold">
+                    Prototype Development:
+                  </p>
+                  <p className="text-[16px]  xl:text-[21px] font-thin text-[#fff] ">
+                    Building early-stage prototypes to test fundamental game
+                    mechanics and gather user feedback.
+                  </p>
+                </div>
+              </SwiperSlide>
             </Swiper>
           </div>
         </div>
