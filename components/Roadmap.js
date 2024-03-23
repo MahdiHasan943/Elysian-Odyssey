@@ -49,7 +49,7 @@ const Team = () => {
         className=""
         id="road"
       >
-        <div className=" min-h-[1800px]   lg:min-h-[1100px] lg:max-h-[1100px]  relative overflow-hidden ">
+        <div className=" min-h-[1800px]   lg:min-h-[1150px] lg:max-h-[1150px]  relative overflow-hidden ">
           <div className="absolute top-0 left-0 h-full w-full">
             <Image
               src={"/images/heromain.png"}
@@ -77,13 +77,13 @@ const Team = () => {
             <Swiper
               modules={[Navigation, Autoplay, Pagination]}
               slidesPerView="auto"
-              // loop={true}
-              // autoplay={{
-              //   delay: 12000,
-              //   speed: 3000,
+              loop={true}
+              autoplay={{
+                delay: 12000,
+                speed: 3000,
 
-              //   disableOnInteraction: false,
-              // }}
+                disableOnInteraction: false,
+              }}
               className="mySwiper  max-w-[1540px] my-8 "
               breakpoints={breakpoints}
               onAutoplayTimeLeft={onAutoplayTimeLeft}
