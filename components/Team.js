@@ -3,7 +3,12 @@ import Image from "next/image";
 import React, { useRef } from "react";
 import { TypingText } from "./reusable/CustomText";
 import { motion } from "framer-motion";
-import { planetVariants, slideIn, staggerContainer } from "@/utils/motion";
+import {
+  fadeIn,
+  planetVariants,
+  slideIn,
+  staggerContainer,
+} from "@/utils/motion";
 import { Roboto_Slab, Work_Sans } from "next/font/google";
 import Description from "./reusable/Description";
 const roboto_slab = Roboto_Slab({
@@ -79,210 +84,259 @@ const Team = () => {
               breakpoints={breakpoints}
             >
               <SwiperSlide>
-                <Image
-                  src={"/images/MileNikolikj.jpg"}
-                  alt="team-member"
-                  width={300}
-                  height={300}
-                  className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
-                />
-                <div className="text-center">
-                  <h3
-                    className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
-                  >
-                    MILE NIKOLIC
-                  </h3>
-                  <h4
-                    className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
-                  >
-                    FOUNDER & CEO{" "}
-                  </h4>
-                </div>
-                <div className=" py-4">
-                  <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
-                    <li>Web 2 entrepreneur</li>
-                    <li>In crypto since 2017</li>
-                    <li>
-                      Investor in 60+ gaming projects makes him understand the
-                      market very well
-                    </li>
-                    <li>Successfully sold 2 NFT projects</li>
-                    <li>Actively visiting various IRL crypto events</li>
-                  </ul>
-                </div>
+                <motion.div
+                  variants={fadeIn("right", "bounce", 0.2, 1)}
+                  initial="hidden"
+                  whileInView="show"
+                  className=""
+                >
+                  <Image
+                    src={"/images/MileNikolikj.jpg"}
+                    alt="team-member"
+                    width={300}
+                    height={300}
+                    className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
+                  />
+                  <div className="text-center">
+                    <h3
+                      className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
+                    >
+                      MILE NIKOLIC
+                    </h3>
+                    <h4
+                      className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
+                    >
+                      FOUNDER & CEO{" "}
+                    </h4>
+                  </div>
+                  <div className=" py-4">
+                    <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
+                      <li>Web 2 entrepreneur</li>
+                      <li>In crypto since 2017</li>
+                      <li>
+                        Investor in 60+ gaming projects makes him understand the
+                        market very well
+                      </li>
+                      <li>Successfully sold 2 NFT projects</li>
+                      <li>Actively visiting various IRL crypto events</li>
+                    </ul>
+                  </div>
+                </motion.div>
               </SwiperSlide>
+
               <SwiperSlide>
-                <Image
-                  src={"/images/MilosTosic.jfif"}
-                  alt="team-member"
-                  width={300}
-                  height={300}
-                  className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
-                />
-                <div className="text-center">
-                  <h3
-                    className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
-                  >
-                    MILOS TOSIC
-                  </h3>
-                  <h4
-                    className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
-                  >
-                    CTO
-                  </h4>
-                </div>
-                <div className="py-4">
-                  <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
-                    <li>
-                      25 years of professional programming experience in video
-                      games with focus on game engine architecture, tools and
-                      pipelines
-                    </li>
-                    <li>
-                      Former expert programmer in Ubisoft and Tencent and Senior
-                      programmer in Blue Side and Guerrilla
-                    </li>
-                    <li>
-                      Previous works: Assassin’s Creed Odyssey, League of
-                      Legends Wild Rift, PUBG Mobile, Mortal Kombat One, DDay,
-                      Killzone 3, Trials franchise (multiple titles), and more.
-                    </li>
-                  </ul>
-                </div>
-              </SwiperSlide>{" "}
-              <SwiperSlide>
-                <Image
-                  src={"/images/AlfioTrabuio.jfif"}
-                  alt="team-member"
-                  width={300}
-                  height={300}
-                  className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
-                />
-                <div className="text-center">
-                  <h3
-                    className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
-                  >
-                    ALFIO TRABUIO
-                  </h3>
-                  <h4
-                    className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
-                  >
-                    TECHNICAL ART DIRECTION
-                  </h4>
-                </div>
-                <div className=" py-4">
-                  <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
-                    <li>
-                      A veteran game developer started in early 90s, focusing on
-                      technical art solutions, plugin and pipeline development
-                      providing teams with productivity solutions
-                    </li>
-                    <li>Technical lead in Ubisoft</li>
-                  </ul>
-                </div>
+                <motion.div
+                  variants={fadeIn("down", "bounce", 0.2, 1)}
+                  initial="hidden"
+                  whileInView="show"
+                  className=""
+                >
+                  <Image
+                    src={"/images/MilosTosic.jfif"}
+                    alt="team-member"
+                    width={300}
+                    height={300}
+                    className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
+                  />
+                  <div className="text-center">
+                    <h3
+                      className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
+                    >
+                      MILOS TOSIC
+                    </h3>
+                    <h4
+                      className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
+                    >
+                      CTO
+                    </h4>
+                  </div>
+                  <div className="py-4">
+                    <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
+                      <li>
+                        25 years of professional programming experience in video
+                        games with focus on game engine architecture, tools and
+                        pipelines
+                      </li>
+                      <li>
+                        Former expert programmer in Ubisoft and Tencent and
+                        Senior programmer in Blue Side and Guerrilla
+                      </li>
+                      <li>
+                        Previous works: Assassin’s Creed Odyssey, League of
+                        Legends Wild Rift, PUBG Mobile, Mortal Kombat One, DDay,
+                        Killzone 3, Trials franchise (multiple titles), and
+                        more.
+                      </li>
+                    </ul>
+                  </div>
+                </motion.div>
               </SwiperSlide>
+
               <SwiperSlide>
-                <Image
-                  src={"/images/TomislavTesla.jfif"}
-                  alt="team-member"
-                  width={300}
-                  height={300}
-                  className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
-                />
-                <div className="text-center">
-                  <h3
-                    className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
-                  >
-                    TOMISLAV TESLA
-                  </h3>
-                  <h4
-                    className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
-                  >
-                    VFX / CREATURE ANIMATION
-                  </h4>
-                </div>
-                <div className="py-4">
-                  <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
-                    <li>
-                      A seasoned senior character and creature 3D animator with
-                      a rich background in diverse animation styles, covering
-                      games, AR/VR/MR, Feature, and VFX films.
-                    </li>
-                    <li>
-                      Previously worked on famous blockbuster movies like:
-                      Aquaman, Disney’s Noelle, the immersive Underwater, the
-                      captivating Dungeons & Dragons: Honor Among Thieves, and
-                      the highly anticipated Mufasa: Lion King among others.
-                    </li>
-                  </ul>
-                </div>
+                <motion.div
+                  variants={fadeIn("left", "bounce", 0.2, 1)}
+                  initial="hidden"
+                  whileInView="show"
+                  className=""
+                >
+                  <Image
+                    src={"/images/AlfioTrabuio.jfif"}
+                    alt="team-member"
+                    width={300}
+                    height={300}
+                    className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
+                  />
+                  <div className="text-center">
+                    <h3
+                      className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
+                    >
+                      ALFIO TRABUIO
+                    </h3>
+                    <h4
+                      className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
+                    >
+                      TECHNICAL ART DIRECTION
+                    </h4>
+                  </div>
+                  <div className=" py-4">
+                    <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
+                      <li>
+                        A veteran game developer started in early 90s, focusing
+                        on technical art solutions, plugin and pipeline
+                        development providing teams with productivity solutions
+                      </li>
+                      <li>Technical lead in Ubisoft</li>
+                    </ul>
+                  </div>
+                </motion.div>
               </SwiperSlide>
+
               <SwiperSlide>
-                <Image
-                  src={"/images/VladimirFilipovic.jfif"}
-                  alt="team-member"
-                  width={300}
-                  height={300}
-                  className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
-                />
-                <div className="text-center">
-                  <h3
-                    className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
-                  >
-                    VLADIMIR FILIPOVIC
-                  </h3>
-                  <h4
-                    className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
-                  >
-                    PROGRAMMING
-                  </h4>
-                </div>
-                <div className="py-4">
-                  <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
-                    <li>
-                      Vladimir is software engineer with 20 years of experience,
-                      mainly in largescale backend systems, but also in video
-                      games, data science and finance.
-                    </li>
-                    <li>Previously worked in Meta and Google</li>
-                  </ul>
-                </div>
+                <motion.div
+                  variants={fadeIn("down", "bounce", 0.2, 1)}
+                  initial="hidden"
+                  whileInView="show"
+                  className=""
+                >
+                  <Image
+                    src={"/images/TomislavTesla.jfif"}
+                    alt="team-member"
+                    width={300}
+                    height={300}
+                    className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
+                  />
+                  <div className="text-center">
+                    <h3
+                      className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
+                    >
+                      TOMISLAV TESLA
+                    </h3>
+                    <h4
+                      className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
+                    >
+                      VFX / CREATURE ANIMATION
+                    </h4>
+                  </div>
+                  <div className="py-4">
+                    <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
+                      <li>
+                        A seasoned senior character and creature 3D animator
+                        with a rich background in diverse animation styles,
+                        covering games, AR/VR/MR, Feature, and VFX films.
+                      </li>
+                      <li>
+                        Previously worked on famous blockbuster movies like:
+                        Aquaman, Disney’s Noelle, the immersive Underwater, the
+                        captivating Dungeons & Dragons: Honor Among Thieves, and
+                        the highly anticipated Mufasa: Lion King among others.
+                      </li>
+                    </ul>
+                  </div>
+                </motion.div>
               </SwiperSlide>
+
               <SwiperSlide>
-                <Image
-                  src={"/images/DavidFried.jfif"}
-                  alt="team-member"
-                  width={300}
-                  height={300}
-                  className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
-                />
-                <div className="text-center">
-                  <h3
-                    className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
-                  >
-                    DAVID FRIED
-                  </h3>
-                  <h4
-                    className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
-                  >
-                    GAME DESIGN
-                  </h4>
-                </div>
-                <div className="py-4">
-                  <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
-                    <li>
-                      David has over 25 years of game and narrative design
-                      experience.r
-                    </li>
-                    <li>
-                      Some of his work includes Warcraft III, World of Warcraft,
-                      Oddworld Stranger’s Wrath, Wasteland 3 and many more
-                    </li>
-                    <li>
-                      Previously worked for Blizzard Entertainment and Ubisoft
-                    </li>
-                  </ul>
-                </div>
+                <motion.div
+                  variants={fadeIn("down", "bounce", 0.2, 1)}
+                  initial="hidden"
+                  whileInView="show"
+                  className=""
+                >
+                  <Image
+                    src={"/images/VladimirFilipovic.jfif"}
+                    alt="team-member"
+                    width={300}
+                    height={300}
+                    className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
+                  />
+                  <div className="text-center">
+                    <h3
+                      className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
+                    >
+                      VLADIMIR FILIPOVIC
+                    </h3>
+                    <h4
+                      className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
+                    >
+                      PROGRAMMING
+                    </h4>
+                  </div>
+                  <div className="py-4">
+                    <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
+                      <li>
+                        Vladimir is software engineer with 20 years of
+                        experience, mainly in largescale backend systems, but
+                        also in video games, data science and finance.
+                      </li>
+                      <li>Previously worked in Meta and Google</li>
+                    </ul>
+                  </div>
+                </motion.div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <motion.div
+                  variants={fadeIn("left", "bounce", 0.2, 1)}
+                  initial="hidden"
+                  whileInView="show"
+                  className=""
+                >
+                  <Image
+                    src={"/images/DavidFried.jfif"}
+                    alt="team-member"
+                    width={300}
+                    height={300}
+                    className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
+                  />
+                  <div className="text-center">
+                    <h3
+                      className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
+                    >
+                      DAVID FRIED
+                    </h3>
+                    <h4
+                      className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
+                    >
+                      GAME DESIGN
+                    </h4>
+                  </div>
+                  <div className="py-4">
+                    <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
+                      <li>
+                        David has over 25 years of game and narrative design
+                        experience.r
+                      </li>
+                      <li>
+                        Some of his work includes Warcraft III, World of
+                        Warcraft, Oddworld Stranger’s Wrath, Wasteland 3 and
+                        many more
+                      </li>
+                      <li>
+                        Previously worked for Blizzard Entertainment and Ubisoft
+                      </li>
+                    </ul>
+                  </div>
+                </motion.div>
               </SwiperSlide>
             </Swiper>
           </div>
