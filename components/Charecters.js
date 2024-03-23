@@ -33,8 +33,8 @@ const Charecters = () => {
                   textStyles={` text-center text-[#f2d387] pt-5 pb-20 font-bold text-[40px] leading-[40px] uppercase `}
                 />
                 <TypingText
-                  title="complete in the last"
-                  textStyles={` text-center text-[#f2d387] pt-5 pb-20 font-bold text-[40px] leading-[40px] uppercase `}
+                  title="I will complete in the last"
+                  textStyles={` text-center text-[#f2d387] pt-5 pb-20 font-bold text-[30px] leading-[40px] uppercase `}
                 />
               </motion.div>
               {/* <div className="flex gap-4 ">
