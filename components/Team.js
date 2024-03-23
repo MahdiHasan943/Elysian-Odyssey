@@ -39,7 +39,7 @@ const Team = () => {
         className=""
         id="team"
       >
-        <div className=" min-h-[1100px]   lg:min-h-[1100px] lg:max-h-[1100px]  relative overflow-hidden ">
+        <div className=" min-h-[1200px]   lg:min-h-[1100px] lg:max-h-[1100px]  relative overflow-hidden ">
           <div className="absolute top-0 left-0 h-full w-full">
             <Image
               src={"/images/teambg.png"}
