@@ -21,7 +21,7 @@ const About = () => {
       className=""
       id="about"
     >
-      <div className=" min-h-[1500px]   lg:min-h-[1200px] lg:max-h-[1200px]  relative overflow-hidden ">
+      <div className=" min-h-[1500px] mt-[-150px]   lg:min-h-[1200px] lg:max-h-[1200px]  relative overflow-hidden ">
         <div className="absolute top-0 left-0 h-full w-full">
           <Image
             src={"/images/charecter2.png"}

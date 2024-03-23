@@ -4,13 +4,15 @@ import Gameplay from "@/components/Gameplay";
 import Hero from "@/components/Hero";
 import Roadmap from "@/components/Roadmap";
 import Team from "@/components/Team";
+import Test from "@/components/Test";
 import Tokenomics from "@/components/Tokenomics";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="w-full">
-      <Hero />
+      {/* <Hero /> */}
+      <Test />
 
       <About />
       <Charecters />
