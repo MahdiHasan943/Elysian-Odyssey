@@ -2,9 +2,9 @@ import React from "react";
 import CanvasJSReact from "@canvasjs/react-charts";
 import Description from "./reusable/Description";
 
-const CanvasJSChart = CanvasJSReact.CanvasJSChart;
-
 const Texts = () => {
+  const CanvasJSChart = CanvasJSReact.CanvasJSChart;
+
   const options = {
     animationEnabled: true,
     exportEnabled: true,
