@@ -15,7 +15,7 @@ const Charecters = () => {
   return (
     <div id="charecter">
       <div className="">
-        <div className=" min-h-[1300px]   lg:min-h-[1300px] lg:max-h-[1300px]  relative overflow-hidden ">
+        <div className=" min-h-[1100px]   lg:min-h-[1300px] lg:max-h-[1300px]  relative overflow-hidden ">
           <div className="absolute top-0 left-0 h-full w-full">
             <Image
               src={"/images/new_charecter.png"}
@@ -34,11 +34,15 @@ const Charecters = () => {
               >
                 <TypingText
                   title="Characters"
-                  textStyles={` text-center mt-20 text-[#f2d387] pt-5 pb-20 font-bold text-[40px] leading-[40px] uppercase `}
+                  textStyles={` text-center mt-20 text-[#f2d387] pt-5 pb-5 font-bold text-[40px] leading-[40px] uppercase `}
                 />
+                {/* <Description
+                  className="text-center text-[26px]"
+                  text=" Choose Your Ultimate Character"
+                /> */}
               </motion.div>
               <section
-                className={`sm:p-16 max-w-[1600px]  mx-auto xs:p-8 px-6 py-12`}
+                className={`sm:p-16 w-full max-w-[1600px]  mx-auto xs:p-8 px-6 py-12`}
                 id="explore"
               >
                 <motion.div
