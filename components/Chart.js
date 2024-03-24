@@ -1,9 +1,7 @@
-"use client";
 import React from "react";
 import CanvasJSReact from "@canvasjs/react-charts";
 import Description from "./reusable/Description";
 
-const CanvasJS = CanvasJSReact.CanvasJS;
 const CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 const Chart = () => {
