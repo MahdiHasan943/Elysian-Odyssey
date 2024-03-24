@@ -43,7 +43,7 @@ const roboto_slab = Roboto_Slab({
 });
 const Header = () => {
   const [color, setColor] = useState(false);
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   const stickyClass = useStickyNav();
 
   return (
