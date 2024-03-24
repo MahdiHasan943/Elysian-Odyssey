@@ -37,7 +37,7 @@ const scrollToSection = (id) => {
 };
 
 const roboto_slab = Roboto_Slab({
-  weight: "300",
+  weight: "600",
   subsets: ["latin"],
   display: "swap",
 });
@@ -56,7 +56,7 @@ const Header = () => {
           variants={navVariants}
           initial="hidden"
           whileInView="show"
-          className={` py-8    px-6 sm:px-16 z-50 relative`}
+          className={` py-8  overflow-hidden  px-6 sm:px-16 z-50 relative`}
         >
           <div
             className={`w-full mx-auto flex justify-between items-center gap-8`}
@@ -68,11 +68,20 @@ const Header = () => {
             >
               <Link href={"/"}>
                 <Image
-                  src="/images/new_h-logo.png"
+                  src="/images/whitelogo.png"
+                  alt="logo"
+                  width={350}
+                  height={80}
+                  className="hidden sm:block"
+                />
+              </Link>
+              <Link href={"/"}>
+                <Image
+                  src="/images/whitelogo.png"
                   alt="logo"
                   width={200}
                   height={80}
-                  // className="w-[24px] h-[24px] object-contain"
+                  className="block sm:hidden"
                 />
               </Link>
             </p>
@@ -88,7 +97,7 @@ const Header = () => {
                     href={"#hero"}
                     className={
                       color === "hero"
-                        ? "text-[16px text-[#9e8b46] uppercase"
+                        ? "text-[16px  text-[#9e8b46] uppercase"
                         : "text-[16px] text-[#fff] uppercase"
                     }
                   >

@@ -16,11 +16,11 @@ export default function Home() {
       {/* <Hero /> */}
       {/* <Test /> */}
       <MultiLayerParallax />
-      <div className="h-[400px] bg-[#210002] flex justify-center items-center py-20">
+      {/* <div className="h-[400px] flex justify-center items-center py-20">
         <Button className="mt-[-140px] uppercase mx-auto text-center  text-[#fff] ">
           whitepaper
         </Button>
-      </div>
+      </div> */}
       <About />
       <Charecters />
       {/* <Gameplay /> */}

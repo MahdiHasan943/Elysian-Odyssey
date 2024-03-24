@@ -2,6 +2,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import React, { useRef } from "react";
+import Button from "./reusable/Button";
 
 export default function MultiLayerParallax() {
   const ref = useRef(null);
@@ -15,7 +16,7 @@ export default function MultiLayerParallax() {
   return (
     <div
       ref={ref}
-      className="w-full mt-[-140px] h-[900px] overflow-hidden relative grid place-items-center"
+      className="w-full mt-[-220px] h-[990px] overflow-hidden relative grid place-items-center"
     >
       {/* <motion.h1
         style={{ y: textY }}
@@ -24,12 +25,20 @@ export default function MultiLayerParallax() {
         PARALLAX
       </motion.h1> */}
 
-      <motion.img
-        src={"/images/logo.png"}
-        alt="logo"
+      <motion.div
         style={{ y: textY }}
-        className="font-bold w-[450px] mt-[-100px] h-[500px] text-white text-7xl md:text-9xl relative z-10"
-      />
+        className=" mt-[-200px] overflow-hidden h-[400px] flex flex-col justify-center items-center relative z-10"
+      >
+        <motion.img
+          src="/images/whitelogo.png"
+          alt="logo"
+          className="font-bold w-[550px] h-[220px] text-white text-7xl md:text-9xl "
+        />
+        <Button className=" uppercase mx-auto text-center  text-[#fff] ">
+          whitepaper
+        </Button>
+      </motion.div>
+
       <motion.div
         className="absolute inset-0 z-0"
         style={{
