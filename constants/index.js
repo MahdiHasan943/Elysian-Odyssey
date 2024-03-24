@@ -1,28 +1,44 @@
 export const exploreWorlds = [
   {
     id: "world-1",
-    imgUrl: "/planet-01.png",
-    title: "The Hogwarts",
+    imgUrl: "/images/player1.jpg",
+    sub: "Celestial:",
+    title: " The Eternal Observer",
   },
   {
     id: "world-2",
-    imgUrl: "/planet-02.png",
-    title: "The Upside Down",
+    imgUrl: "/images/player2.jpg",
+    sub: "Inferno:",
+
+    title: "The Ember of Passion",
   },
   {
     id: "world-3",
-    imgUrl: "/planet-03.png",
-    title: "Kadirojo Permai",
+    imgUrl: "/images/player3.jpg",
+    sub: "Augmentum:",
+
+    title: "The Living Statue",
   },
   {
     id: "world-4",
-    imgUrl: "/planet-04.png",
-    title: "Paradise Island",
+    imgUrl: "/images/player4.jpg",
+    sub: "Yurei:",
+
+    title: "The Spiritual Weaver",
   },
   {
     id: "world-5",
-    imgUrl: "/planet-05.png",
-    title: "Hawkins Labs",
+    imgUrl: "/images/player5.jpg",
+    sub: "Carnalis:",
+
+    title: "The Malevolent Conqueror  ",
+  },
+  {
+    id: "world-6",
+    imgUrl: "/images/player6.jpg",
+    sub: "Carnalis:",
+
+    title: "The Malevolent Conqueror  ",
   },
 ];
 
