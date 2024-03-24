@@ -107,7 +107,7 @@ export const experiences = [
   {
     title: " NFT Community building and NFT",
     company_name: "Phase 1:",
-    icon: "/images/starbucks.png",
+    icon: "/images/roadmapIcon1.png",
     iconBg: "#383E56",
     date: "Q1 2023 - Q2 2023",
     pmain: "Lore creation",
@@ -123,7 +123,7 @@ export const experiences = [
   {
     title: "Conceptualization and Development ",
     company_name: "Phase 2",
-    icon: "/images/tesla.png",
+    icon: "/images/roadmapIcon2.png",
     des: "During this phase, our team focuses on conceptualising the game mechanics, storyline, and world-building elements of Elysian Odyssey. Key activities include:    ",
 
     iconBg: "#E6DEDD",
@@ -136,7 +136,7 @@ export const experiences = [
   {
     title: "Team Expansion and fundraising",
     company_name: "Phase 3:",
-    icon: "/images/shopify.png",
+    icon: "/images/roadmapIcon3.png",
     des: "During this phase, our team focuses on expanding the team with highly competent individuals that are leading professionals in the industry. Also the team is starting to raise funds to secure it’s development:",
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
@@ -149,7 +149,7 @@ export const experiences = [
   {
     title: "Team expansion and fundraising ",
     company_name: "Phase 4",
-    icon: "/images/meta.png",
+    icon: "/images/roadmapIcon4.png",
 
     iconBg: "#E6DEDD",
     date: "Q3 2024 - Q4 2024",
@@ -164,7 +164,7 @@ export const experiences = [
   {
     title: "Token Launch and Community Expansion",
     company_name: "Phase 5:",
-    icon: "/images/shopify.png",
+    icon: "/images/roadmapIcon5.png",
     des: "During this phase, we prepare for the public launch of ELY and focus on expanding our community outreach efforts. Key activities include:    ",
     iconBg: "#383E56",
     date: "(Q3 2024 - Q4 2024",
@@ -177,7 +177,7 @@ export const experiences = [
   {
     title: "Elysian Odyssey beta release  ",
     company_name: "Phase 6",
-    icon: "/images/meta.png",
+    icon: "/images/roadmapIcon6.png",
 
     iconBg: "#E6DEDD",
     date: "Q1 2025 - Q2 2025",
