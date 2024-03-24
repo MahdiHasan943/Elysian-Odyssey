@@ -11,6 +11,7 @@ import {
 } from "@/utils/motion";
 import { Roboto_Slab, Work_Sans } from "next/font/google";
 import Description from "./reusable/Description";
+import Chart from "./Chart";
 const roboto_slab = Roboto_Slab({
   weight: ["400", "300", "500", "600", "700", "900"],
   subsets: ["latin"],
@@ -28,10 +29,10 @@ const Team = () => {
         className=""
         id="team"
       >
-        <div className=" min-h-[1700px]   lg:min-h-[1200px] lg:max-h-[1200px]  relative overflow-hidden ">
-          <div className="absolute top-0 left-0 h-full w-full">
+        <div className=" min-h-[4000px] md:min-h-[2050px] md:max-h-[2050px]   xl:min-h-[1650px] xl:max-h-[1650px]  relative overflow-hidden ">
+          <div className="absolute  top-0 left-0 h-full w-full">
             <Image
-              src={"/images/tokinomics.png"}
+              src={"/images/301824.jpg"}
               alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
               layout="fill"
               objectFit="cover"
@@ -48,51 +49,188 @@ const Team = () => {
               className=""
             >
               <TypingText
-                title="Tournaments and Esports:"
-                textStyles={` text-center flex flex-wrap justify-center  text-[#f2d387] pt-10 pb-20 font-bold text-[40px] leading-[40px] uppercase `}
+                title="Tokenomics and Distribution   "
+                textStyles={` text-center flex flex-wrap justify-center  text-[#f2d387] pt-10 pb-8 font-bold  text-[35px] sm:text-[40px] leading-[40px] uppercase `}
               />
             </motion.div>
-
             <Description
-              className={"py-4"}
-              text="Elysian Odyssey embraces the competitive spirit with an array of tournaments and esports events that pit players against each other
-in thrilling battles of skill and strategy. As players hone their abilities and rise through the ranks, they'll have the opportunity to test
-their mettle against fellow adventurers from around the globe, competing for glory, prestige, and valuable rewards.
+              text="The Elysian Odyssey game ecosystem will be powered by the ELY token, providing utility, access, and rewards for players, investors, and stakeholders. The total token supply is capped at 300,000,000 ELY tokens.
+
 "
             />
-            <Description
-              text="Tournaments in Elysian Odyssey offer a diverse range of challenges, from individual duels to team-based showdowns, each designed
-to showcase the diverse talents of the game's player base. Whether vying for supremacy in intense PvP battles or demonstrating
-mastery in cooperative PvE encounters, players will find ample opportunities to prove themselves and claim victory.
-"
-            />
-            <Description
-              className={"py-4"}
-              text="In addition to in-game tournaments, Elysian Odyssey also hosts esports events that elevate competitive gaming to new heights. With
-professional leagues, live broadcasts, and spectator modes, these esports competitions provide a platform for the most skilled players
-to shine, attracting audiences of fans and enthusiasts eager to witness the pinnacle of virtual competition."
-            />
-            <Description
-              text="Through its robust tournament and esports infrastructure, Elysian Odyssey fosters a vibrant and competitive community where
-players can showcase their skills, forge rivalries, and celebrate the thrill of victory. Whether aspiring to become a champion or simply
-seeking to test their abilities, players of all levels will find a welcoming and competitive environment in the esports arena of Elysian
-Odyssey"
-            />
 
-            <motion.div
-              variants={slideIn("down", "bounce", 0.2, 1)}
-              initial="hidden"
-              whileInView="show"
-              className=" pt-[100px] pb-20 sm:px-20"
-            >
-              <Image
-                src={"/images/Screenshot_2-removebg-preview.png"}
-                alt="chart"
-                width={600}
-                height={300}
-                className="ml-auto"
-              />
-            </motion.div>
+            <div className="grid py-12  gap-8 grid-cols-1 px-4 sm:px-16 lg:grid-cols-2 ">
+              <div className="">
+                <p className="text-[#fff] text-[18px]">
+                  <span className="font-bold text-[25px] text-[#f2d387]">
+                    Pre-Seed:
+                  </span>{" "}
+                  <span className="px-4">
+                    {" "}
+                    5% of the total token supply will be allocated for the
+                    Pre-Seed phase, with a vesting schedule as follows:
+                  </span>
+                </p>
+                <ul className="list-disc py-2 px-8 text-[#fff] text-[18px]">
+                  <li>2% unlocked at Token Generation Event (TGE)</li>
+                  <li className="py-2">
+                    3 months cliff, then 5.16% unlocked monthly thereafter.
+                  </li>
+                </ul>
+
+                <p className="text-[#fff] text-[18px]">
+                  <span className="font-bold text-[25px] text-[#f2d387]">
+                    Seed:
+                  </span>{" "}
+                  <span className="px-4">
+                    {" "}
+                    11% of the total token supply will be allocated for the Seed
+                    phase, with a vesting schedule as follows:
+                  </span>
+                </p>
+                <ul className="list-disc py-2 px-8 text-[#fff] text-[18px]">
+                  <li>5% unlocked at Token Generation Event (TGE)</li>
+                  <li className="py-2">
+                    3 months cliff, then 5% unlocked monthly thereafter.
+                  </li>
+                </ul>
+
+                <p className="text-[#fff] text-[18px]">
+                  <span className="font-bold text-[25px] text-[#f2d387]">
+                    Private Round:
+                  </span>{" "}
+                  <span className="px-4">
+                    {" "}
+                    8.5% of the total token supply will be allocated for the
+                    Private Round phase, with a vesting schedule as follows:
+                  </span>
+                </p>
+                <ul className="list-disc py-2 px-8 text-[#fff] text-[18px]">
+                  <li>5% unlocked at Token Generation Event (TGE)</li>
+                  <li className="py-2">
+                    2 months cliff, then 5% unlocked monthly thereafter.
+                  </li>
+                </ul>
+
+                <p className="text-[#fff] text-[18px]">
+                  <span className="font-bold text-[25px] text-[#f2d387]">
+                    Public:
+                  </span>{" "}
+                  <span className="px-4">
+                    {" "}
+                    2% of the total token supply will be allocated for the
+                    Public phase, with a vesting schedule as follows:
+                  </span>
+                </p>
+                <ul className="list-disc py-2 px-8 text-[#fff] text-[18px]">
+                  <li>10% unlocked monthly thereafter.</li>
+                  <li className="py-2">10% unlocked monthly thereafter.</li>
+                </ul>
+
+                <p className="text-[#fff] text-[18px]">
+                  <span className="font-bold text-[25px] text-[#f2d387]">
+                    Team
+                  </span>{" "}
+                  <span className="px-4">
+                    {" "}
+                    12% of the total token supply will be allocated for the
+                    development team and core contributors, with a vesting
+                    schedule as follows:
+                  </span>
+                </p>
+                <ul className="list-disc py-2 px-8 text-[#fff] text-[18px]">
+                  <li>0% unlocked at Token Generation Event (TGE)</li>
+                  <li className="py-2">
+                    12 months cliff, then 8.33% unlocked quarterly thereafter.
+                  </li>
+                </ul>
+              </div>
+              <div className="">
+                <p className="text-[#fff] text-[18px]">
+                  <span className="font-bold text-[25px] text-[#f2d387]">
+                    Marketing & <br /> Advisory
+                  </span>{" "}
+                  <span className="px-4">
+                    {" "}
+                    6.5% of the total token supply will be allocated for
+                    marketing efforts, strategic partnerships, and advisory{" "}
+                    <br />
+                    services, with a vesting schedule as follows:
+                  </span>
+                </p>
+                <ul className="list-disc py-2 px-8 text-[#fff] text-[18px]">
+                  <li>0% unlocked at Token Generation Event (TGE)</li>
+                  <li className="py-2">
+                    6 months cliff, then 5% unlocked on month 7 and month 10,
+                    then 20% unlocked quarterly thereafter.
+                  </li>
+                </ul>
+
+                <p className="text-[#fff] text-[18px]">
+                  <span className="font-bold text-[25px] text-[#f2d387]">
+                    Liquidity:
+                  </span>{" "}
+                  <span className="px-4">
+                    {" "}
+                    5% of the total token supply will be allocated for liquidity
+                    provision to ensure smooth and efficient trading on
+                    supported exchanges.
+                  </span>
+                </p>
+
+                <p className="text-[#fff] text-[18px]">
+                  <span className="font-bold text-[25px] text-[#f2d387]">
+                    Play to Earn:
+                  </span>{" "}
+                  <span className="px-4">
+                    28% of the total token supply will be allocated for Play to
+                    Earn rewards, incentivizing players to actively participate
+                    in the game and earn tokens as compensation for their time
+                    and efforts.
+                  </span>
+                </p>
+
+                <p className="text-[#fff] text-[18px]">
+                  <span className="font-bold text-[25px] text-[#f2d387]">
+                    Staking Rewards:
+                  </span>{" "}
+                  <span className="px-4">
+                    7% of the total token supply will be allocated for staking
+                    rewards, allowing token holders to stake their ELY tokens
+                    and earn additional rewards for securing the network.
+                  </span>
+                </p>
+
+                <p className="text-[#fff] text-[18px]">
+                  <span className="font-bold text-[25px] text-[#f2d387]">
+                    E-sports:
+                  </span>{" "}
+                  <span className="px-4">
+                    5% of the total token supply will be allocated for
+                    organizing tournaments, competitions, and other e-sports
+                    events within the Elysian Odyssey ecosystem, fostering a
+                    competitive gaming environment.
+                  </span>
+                </p>
+
+                <p className="text-[#fff] text-[18px]">
+                  <span className="font-bold text-[25px] text-[#f2d387]">
+                    Reserve Fund:
+                  </span>{" "}
+                  <span className="px-4">
+                    10% of the total token supply will be allocated to the
+                    Reserve Fund, providing a buffer for future development,
+                    expansion, and community initiatives. The distribution of
+                    ELY tokens across these categories ensures a balanced and
+                    sustainable ecosystem that incentivizes participation,
+                    rewards contribution, and supports the long-term growth and
+                    success of the Elysian Odyssey game.{" "}
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            <Chart />
           </div>
         </div>
       </div>

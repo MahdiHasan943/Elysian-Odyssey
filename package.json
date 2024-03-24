@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@canvasjs/react-charts": "^1.0.2",
+    "@canvasjs/stockcharts": "^1.7.44",
     "@react-spring/parallax": "^9.7.3",
     "framer-motion": "^11.0.20",
     "next": "14.1.4",

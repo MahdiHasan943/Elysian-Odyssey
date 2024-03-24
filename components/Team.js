@@ -79,7 +79,7 @@ const Team = () => {
               slidesPerView="auto"
               loop={true}
               autoplay={{
-                delay: 12000,
+                delay: 3000,
                 speed: 3000,
 
                 disableOnInteraction: false,
