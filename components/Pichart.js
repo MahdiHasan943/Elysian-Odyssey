@@ -41,7 +41,7 @@ function Example() {
   return (
     <>
       {/* Pie chart */}
-      <div className="mx-auto grid grid-cols-1 md:grid-cols-2  ">
+      <div className="mx-auto mt-[100px] grid grid-cols-1 md:grid-cols-2  ">
         <Description
           className="max-w-[600px] py-20 md:py-0"
           text="The distribution of ELY tokens across these categories ensures a
