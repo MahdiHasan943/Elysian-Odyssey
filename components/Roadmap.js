@@ -19,6 +19,7 @@ const roboto_slab = Roboto_Slab({
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Navigation, Autoplay, Pagination } from "swiper/modules";
+import TimelineRoadmap from "./TimelineRoadmap";
 
 const Team = () => {
   const swiperRef = useRef(null);
@@ -49,7 +50,7 @@ const Team = () => {
         className=""
         id="road"
       >
-        <div className=" min-h-[1800px]   lg:min-h-[1150px] lg:max-h-[1150px]  relative overflow-hidden ">
+        <div className=" min-h-[4700px]   lg:min-h-[3500px] lg:max-h-[3400px]  relative overflow-hidden ">
           <div className="absolute top-0 left-0 h-full w-full">
             <Image
               src={"/images/heromain.png"}
@@ -72,9 +73,12 @@ const Team = () => {
                 title="roadmap"
                 textStyles={` text-center text-[#f2d387]  pt-12 sm:p-5 pb-20 font-bold text-[40px] leading-[40px] uppercase `}
               />
+              <Description text="The development journey of Elysian Odyssey is divided into strategic phases aimed at achieving key milestones and delivering a captivating gaming experience for our community. Here is an overview of our roadmap:" />
             </motion.div>
 
-            <Swiper
+            <TimelineRoadmap />
+
+            {/* <Swiper
               modules={[Navigation, Autoplay, Pagination]}
               slidesPerView="auto"
               loop={true}
@@ -360,7 +364,7 @@ const Team = () => {
                   </p>
                 </div>
               </SwiperSlide>
-            </Swiper>
+            </Swiper> */}
           </div>
         </div>
       </div>
