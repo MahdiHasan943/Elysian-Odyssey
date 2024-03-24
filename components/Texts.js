@@ -4,7 +4,7 @@ import Description from "./reusable/Description";
 
 const CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
-const Chart = () => {
+const Texts = () => {
   const options = {
     animationEnabled: true,
     exportEnabled: true,
@@ -49,4 +49,4 @@ growth and success of the Elysian Odyssey game."
   );
 };
 
-export default Chart;
+export default Texts;
