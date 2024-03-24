@@ -84,7 +84,7 @@ export const textVariant3 = {
       type: "tween",
       ease: "easeIn",
       ation: 1.25,
-      delay: 1.1,
+      delay: 0.6,
     },
   },
 };

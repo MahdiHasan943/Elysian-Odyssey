@@ -50,7 +50,7 @@ const Team = () => {
         className=""
         id="road"
       >
-        <div className="min-h-[5100px] smallest:min-h-[4700px]   lg:min-h-[3500px] lg:max-h-[3400px]  relative overflow-hidden ">
+        <div className="min-h-[5100px] mb-[-5px] smallest:min-h-[4700px]   lg:min-h-[3500px] lg:max-h-[3400px]  relative overflow-hidden ">
           <div className="absolute top-0 left-0 h-full w-full">
             <Image
               src={"/images/heromain.png"}
