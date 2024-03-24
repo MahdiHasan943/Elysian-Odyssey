@@ -41,7 +41,7 @@ function Example() {
   return (
     <>
       {/* Pie chart */}
-      <div className="mx-auto mt-[100px] grid grid-cols-1 md:grid-cols-2  ">
+      <div className="mx-auto grid grid-cols-1 md:grid-cols-2  ">
         <Description
           className="max-w-[600px] py-20 md:py-0"
           text="The distribution of ELY tokens across these categories ensures a
@@ -50,7 +50,7 @@ participation, rewards contribution, and supports the long-term
 growth and success of the Elysian Odyssey game."
         />
         <div className="flex mx-auto my-auto">
-          <div className=" rounded-xl  w-full h-fit my-auto  shadow-xl pb-2">
+          <div className=" rounded-xl ml-[-30px] w-full h-fit my-auto  shadow-xl pb-2">
             <canvas id="myChart"></canvas>
           </div>
         </div>

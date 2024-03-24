@@ -30,7 +30,7 @@ const Team = () => {
         className=""
         id="team"
       >
-        <div className=" min-h-[4000px] md:min-h-[2050px] md:max-h-[2050px]   xl:min-h-[1650px] xl:max-h-[1650px]  relative overflow-hidden ">
+        <div className=" min-h-[3800px] md:min-h-[2050px] md:max-h-[2050px]   xl:min-h-[1650px] xl:max-h-[1650px]  relative overflow-hidden ">
           <div className="absolute  top-0 left-0 h-full w-full">
             <Image
               src={"/images/301824.jpg"}
