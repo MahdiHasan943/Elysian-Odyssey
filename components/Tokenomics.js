@@ -11,7 +11,6 @@ import {
 } from "@/utils/motion";
 import { Roboto_Slab, Work_Sans } from "next/font/google";
 import Description from "./reusable/Description";
-import Texts from "./Texts";
 const roboto_slab = Roboto_Slab({
   weight: ["400", "300", "500", "600", "700", "900"],
   subsets: ["latin"],
@@ -230,7 +229,7 @@ const Team = () => {
               </div>
             </div>
 
-            <Texts />
+            {/* <Texts /> */}
           </div>
         </div>
       </div>
