@@ -36,7 +36,7 @@ const Top = () => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.25 }}
-          className="flex  justify-end overflow-hidden fixed  top-[90%] px-3   transition  delay-500  z-[99999!important]  right-0 "
+          className="flex  justify-end overflow-hidden fixed  top-[90%] px-3   transition  delay-500  z-[99999999999!important]  right-0 "
           onClick={goToBtn}
         >
           <motion.div
