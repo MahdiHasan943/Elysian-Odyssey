@@ -230,7 +230,7 @@ const Team = () => {
               </div>
             </div>
 
-            <Chart />
+            {/* <Chart /> */}
           </div>
         </div>
       </div>
