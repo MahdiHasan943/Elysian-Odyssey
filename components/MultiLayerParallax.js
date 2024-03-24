@@ -18,13 +18,6 @@ export default function MultiLayerParallax() {
       ref={ref}
       className="w-full mt-[-220px] h-[990px] overflow-hidden relative grid place-items-center"
     >
-      {/* <motion.h1
-        style={{ y: textY }}
-        className="font-bold text-white text-7xl md:text-9xl relative z-10"
-      >
-        PARALLAX
-      </motion.h1> */}
-
       <motion.div
         style={{ y: textY }}
         className=" mt-[-200px] overflow-hidden h-[400px] flex flex-col justify-center items-center relative z-10"

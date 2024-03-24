@@ -43,7 +43,7 @@ const roboto_slab = Roboto_Slab({
 });
 const Header = () => {
   const [color, setColor] = useState(false);
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   const stickyClass = useStickyNav();
 
   return (
@@ -56,7 +56,7 @@ const Header = () => {
           variants={navVariants}
           initial="hidden"
           whileInView="show"
-          className={` py-8  overflow-hidden  px-6 sm:px-16 z-50 relative`}
+          className={` py-8    px-6 sm:px-16 z-[99999999999999999] relative`}
         >
           <div
             className={`w-full mx-auto flex justify-between items-center gap-8`}
@@ -141,24 +141,6 @@ const Header = () => {
                   </Link>
                 </p>
 
-                {/* <p
-                    className={`${roboto_slab.className}`}
-                    onClick={() => {
-                      setColor("GamePlay");
-                    }}
-                  >
-                    <Link
-                      href={"#gameplay"}
-                      className={
-                        color === "GamePlay"
-                          ? "text-[16px text-[#9e8b46] uppercase"
-                          : "text-[16px] text-[#fff] uppercase"
-                      }
-                    >
-                      GamePlay
-                    </Link>
-                  </p> */}
-
                 <p
                   className={`${roboto_slab.className}`}
                   onClick={() => {
@@ -217,6 +199,7 @@ const Header = () => {
                 alt="menu"
                 className="w-[24px] block lg:hidden h-[24px] object-contain"
               />
+
               <motion.div
                 variants={staggerContainer}
                 initial="hidden"
@@ -225,11 +208,11 @@ const Header = () => {
                 className=""
               >
                 <motion.div
-                  variants={slideIn("down", "tween", 0.2, 1)}
+                  variants={slideIn("right", "tween", 0.2, 1)}
                   initial="hidden"
                   whileInView="show"
                   className={`${
-                    !open ? "hidden" : "block"
+                    !open ? "hidden" : "block fixed"
                   } p-6 bg-[#1a3f57] block lg:hidden  absolute top-20 right-0 mx-4 my-2 min-w-[200px] max-w-[200px] z-10 rounded-xl`}
                 >
                   <div className="">
@@ -285,23 +268,6 @@ const Header = () => {
                         Charecters
                       </Link>
                     </p>
-                    {/* <p
-                        className={`${roboto_slab.className}`}
-                        onClick={() => {
-                          setColor("GamePlay");
-                        }}
-                      >
-                        <Link
-                          href={"#gameplay"}
-                          className={
-                            color === "GamePlay"
-                              ? "text-[16px text-[#9e8b46] uppercase"
-                              : "text-[16px] text-[#fff] uppercase"
-                          }
-                        >
-                          GamePlay
-                        </Link>
-                      </p> */}
                     <p
                       className={`${roboto_slab.className}`}
                       onClick={() => {
