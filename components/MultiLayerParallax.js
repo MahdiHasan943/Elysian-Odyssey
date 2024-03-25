@@ -18,11 +18,11 @@ export default function MultiLayerParallax() {
   return (
     <div
       ref={ref}
-      className="w-full mt-[-220px] h-[990px] overflow-hidden relative grid place-items-center"
+      className="w-full mt-[-220px] h-[1000px] sm:h-[990px] overflow-hidden relative grid place-items-center"
     >
       <div
         // Set zIndex dynamically
-        className="  overflow-hidden mt-[-220px]  flex flex-col justify-center items-center relative "
+        className="  overflow-hidden mt-[-250px]  sm:mt-[-220px]  flex flex-col justify-center items-center relative "
       >
         <motion.img
           style={{ y: textY }}
@@ -30,7 +30,10 @@ export default function MultiLayerParallax() {
           alt="logo"
           className="font-bold mt-[150px] w-[550px] h-[220px]  z-10 "
         />
-        <motion.div style={{ y: textYB, zIndex: buttonZ }} className="">
+        <motion.div
+          style={{ y: textYB, zIndex: buttonZ }}
+          className="min-h-[100px] mt-[-50px] py-20"
+        >
           <Button className=" uppercase mx-auto text-center  text-[#fff] ">
             whitepaper
           </Button>
@@ -38,7 +41,7 @@ export default function MultiLayerParallax() {
       </div>
 
       <motion.div
-        className="absolute inset-0 z-0"
+        className="absolute inset-0  z-0"
         style={{
           backgroundImage: `url(/images/heromain.png)`,
           backgroundPosition: "bottom",
@@ -47,7 +50,7 @@ export default function MultiLayerParallax() {
         }}
       />
       <div
-        className="absolute inset-0 z-20"
+        className="absolute inset-0  z-20"
         style={{
           backgroundImage: `url(/image-bottom.png)`,
           backgroundPosition: "bottom",
