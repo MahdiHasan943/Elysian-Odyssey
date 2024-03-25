@@ -85,7 +85,7 @@ const Header = () => {
             </p>
             <div className="  ">
               <div className="hidden lg:flex justify-center items-center gap-8">
-                <p
+                {/* <p
                   className={`${roboto_slab.className}`}
                   onClick={() => {
                     setColor("hero");
@@ -101,7 +101,7 @@ const Header = () => {
                   >
                     Introduction
                   </Link>
-                </p>
+                </p> */}
 
                 <p
                   className={`${roboto_slab.className}`}
@@ -215,7 +215,7 @@ const Header = () => {
                 >
                   <div className="">
                     {" "}
-                    <p
+                    {/* <p
                       className={`${roboto_slab.className}`}
                       onClick={() => {
                         setColor("hero");
@@ -231,7 +231,7 @@ const Header = () => {
                       >
                         Introduction
                       </Link>
-                    </p>
+                    </p> */}
                     <p
                       className={`${roboto_slab.className}`}
                       onClick={() => {
