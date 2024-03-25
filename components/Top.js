@@ -41,7 +41,7 @@ const Top = () => {
         >
           <motion.div
             variants={slideIn("right", "tween", 0.2, 1)}
-            className="border border-[#25618B] rounded-full bg-[#25618B] ml-auto  top-btn  py-2 px-2 "
+            className="border border-[#1a283a] rounded-full bg-[#1a283a] ml-auto  top-btn  py-2 px-2 "
           >
             <Image
               src={"/images/topbtn.png"}

@@ -12,25 +12,30 @@ export default function MultiLayerParallax() {
   });
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
+  const buttonZ = useTransform(scrollYProgress, [0, 1], [30, 10]); // Adjust z based on scroll
+  const textYB = useTransform(scrollYProgress, [0, 1], ["0%", "300%"]);
 
   return (
     <div
       ref={ref}
       className="w-full mt-[-220px] h-[990px] overflow-hidden relative grid place-items-center"
     >
-      <motion.div
-        style={{ y: textY }}
-        className=" mt-[-200px] overflow-hidden h-[400px] flex flex-col justify-center items-center relative z-10"
+      <div
+        // Set zIndex dynamically
+        className="  overflow-hidden mt-[-220px]  flex flex-col justify-center items-center relative "
       >
         <motion.img
+          style={{ y: textY }}
           src="/images/whitelogo.png"
           alt="logo"
-          className="font-bold w-[550px] h-[220px] text-white text-7xl md:text-9xl "
+          className="font-bold mt-[150px] w-[550px] h-[220px]  z-10 "
         />
-        <Button className=" uppercase mx-auto text-center  text-[#fff] ">
-          whitepaper
-        </Button>
-      </motion.div>
+        <motion.div style={{ y: textYB, zIndex: buttonZ }} className="">
+          <Button className=" uppercase mx-auto text-center  text-[#fff] ">
+            whitepaper
+          </Button>
+        </motion.div>
+      </div>
 
       <motion.div
         className="absolute inset-0 z-0"

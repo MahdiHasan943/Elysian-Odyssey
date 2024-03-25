@@ -56,8 +56,10 @@ export default function PieChart() {
         options: {
           plugins: {
             legend: {
+              display: true,
+              position: "right",
               labels: {
-                color: "#fff",
+                color: "#fff", // Set label color to white
               },
             },
             tooltip: {
@@ -76,6 +78,17 @@ export default function PieChart() {
             doughnutGaps: {
               cutoutPercentage: 200, // Adjust the percentage to control the gap
             },
+            datalabels: {
+              color: "#fff",
+              anchor: "end", // Position labels to the end (right side) of segments
+              align: "end",
+              formatter: (value, ctx) => {
+                return value + "%";
+              },
+              font: {
+                weight: "bold",
+              },
+            },
           },
           layout: {
             padding: {
@@ -83,28 +96,6 @@ export default function PieChart() {
               bottom: 20,
               left: 20,
               right: 20,
-            },
-          },
-          plugins: {
-            tooltip: {
-              enabled: true,
-            },
-            legend: {
-              display: true,
-              position: "right",
-              labels: {
-                fontColor: "#fff",
-              },
-            },
-            datalabels: {
-              color: "#fff",
-              display: function (context) {
-                return context.dataset.data[context.dataIndex] > 0;
-              },
-              font: {
-                weight: "bold",
-              },
-              formatter: Math.round,
             },
           },
         },
@@ -120,7 +111,7 @@ export default function PieChart() {
         className="max-w-[600px] py-20 md:py-0"
         text="The distribution of ELY tokens across these categories ensures a balanced and sustainable ecosystem that incentivizes participation, rewards contribution, and supports the long-term growth and success of the Elysian Odyssey game."
       />
-      <div className="w-full max-w-[600px]">
+      <div className="max-w-[600px] py-20 md:py-0">
         <canvas ref={chartRef} />
       </div>
     </div>
