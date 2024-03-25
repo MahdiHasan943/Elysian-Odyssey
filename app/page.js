@@ -12,15 +12,8 @@ export default function Home() {
   return (
     <main className="w-full">
       <MultiLayerParallax />
-      {/* <div className="h-[400px] flex justify-center items-center py-20">
-        <Button className="mt-[-140px] uppercase mx-auto text-center  text-[#fff] ">
-          whitepaper
-        </Button>
-      </div> */}
       <About />
       <Charecters />
-      {/* <Gameplay /> */}
-
       <Tokenomics />
       <Team />
       <Roadmap />
