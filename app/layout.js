@@ -10,7 +10,7 @@ const roboto_slab = Roboto_Slab({
   display: "swap",
 });
 export const metadata = {
-  title: "ELYSIAN ODYSSEY",
+  title: "Elysian Odyssey",
   description:
     "Enter the vast expanse of Elysian Odyssey, a revolutionary MMORPG experience that immerses players in a realm of cosmic warfare, mythical beings, and the eternal struggle between light and darkness. This whitepaper serves as a guide to the intricacies of the Elysian universe, providing insights into its lore, gameplay mechanics, and the innovative economic ecosystem at its core.",
 };
