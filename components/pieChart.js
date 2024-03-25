@@ -34,7 +34,19 @@ export default function PieChart() {
             {
               label: "Info",
               data: [10, 6.5, 12.0, 5.0, 7, 5, 11, 8.5, 2, 5, 28],
-              backgroundColor: ["#4f18be", "#f5089f", "#03e9d8"],
+              backgroundColor: [
+                "#4f18be",
+                "#03e9d8",
+                "#f5089f",
+                "#00d163",
+                "#f45f59",
+                "#346897",
+                "#ffc7c7",
+                "#617c8b",
+                "#007777",
+                "#d37ed4",
+                "#a41d1a",
+              ],
               borderColor: "#287bbe",
               borderWidth: 1, // Increase the border width to add spacing
               margin: 5,

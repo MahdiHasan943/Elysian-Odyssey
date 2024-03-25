@@ -88,10 +88,12 @@ export const socials = [
   {
     name: "twitter",
     url: "/icons8-twitterx-30.png",
+    socialLink: "https://x.com/elysianodysseyg?s=11&t=MYFM-d6udoMcfZAdkjsejw",
   },
   {
     name: "telegram",
     url: "/icons8-telegram-50.png",
+    socialLink: "https://t.me/ElysianOdyssey",
   },
   // {
   //   name: "instagram",

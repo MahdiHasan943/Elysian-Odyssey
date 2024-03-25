@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { socials } from "../constants";
 import { footerVariants } from "../utils/motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => (
   <motion.footer
@@ -27,12 +28,14 @@ const Footer = () => (
 
           <div className="flex justify-center  max-w-[200px] sm:max-w-auto mx-auto sm:mx-0 gap-4">
             {socials.map((social) => (
-              <img
-                key={social.name}
-                src={social.url}
-                alt={social.name}
-                className="w-[24px] mx-auto  h-[24px] object-contain cursor-pointer"
-              />
+              <Link href={social.socialLink} target="_blank">
+                <img
+                  key={social.name}
+                  src={social.url}
+                  alt={social.name}
+                  className="w-[24px] mx-auto  h-[24px] object-contain cursor-pointer"
+                />
+              </Link>
             ))}
           </div>
         </div>
