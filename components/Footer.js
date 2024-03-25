@@ -9,7 +9,7 @@ const Footer = () => (
   <motion.footer
     className={`px-6 bg-[#1a283a] overflow-hidden w-full sm:px-16 py-8 relative`}
   >
-    <div className="footer-gradient" />
+    <div className="" />
     <div className={`w-full mx-auto flex flex-col gap-8`}>
       <div className="flex flex-col">
         {/* <div className="mb-[50px] h-[2px] bg-white opacity-5" /> */}
@@ -22,7 +22,7 @@ const Footer = () => (
             height={80}
             // className="w-[24px] h-[24px] object-contain"
           />
-          <p className="font-normal text-center text-[14px] text-white opacity-50">
+          <p className="font-normal text-center text-[14px] text-white ">
             Copyright © 2023 - 2024 ELYSIAN ODYSSEY. All rights reserved.
           </p>
 
