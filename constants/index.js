@@ -159,7 +159,7 @@ export const experiences = [
     points: [
       "Alpha Testing: Inviting a select group of players to participate in closed alpha testing to evaluate gameplay mechanics, identify bugs, and provide suggestions for improvement.      ",
       "Iterative Development: Implementing iterative updates and enhancements based on alpha testing feedback to optimize gameplay, user experience, and performance.      ",
-      "Community Engagement: Engaging with the community through regular updates, feedback sessions, and community-driven initiatives to foster a sense of ownership and collaboration.      .",
+      "Community Engagement: Engaging with the community through regular updates, feedback sessions, and community-driven initiatives to foster a sense of ownership and collaboration.      ",
     ],
   },
 
@@ -173,7 +173,7 @@ export const experiences = [
     points: [
       "Community Building: Scaling our community outreach efforts through social media campaigns, influencer partnerships, and community events to attract new players and build a vibrant gaming and crypto community",
       "Marketing Campaigns: Launching targeted marketing campaigns to raise awareness about Elysian Odyssey and drive user acquisition. ",
-      "Token Launch: Opening our community to a wider audience through a public release, allowing players and investors to join our community ",
+      "Token Launch: Opening our community to a wider audience through a public release, allowing players and investors to join our community. ",
     ],
   },
   {
