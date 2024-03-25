@@ -52,7 +52,7 @@ export default function PieChart() {
     }
   }, []);
   return (
-    <div className="grid mt-[-100px] py-10 grid-cols-1 lg:grid-cols-2">
+    <div className="grid  py-10 grid-cols-1 lg:grid-cols-2">
       <Description
         className="max-w-[600px] py-20 md:py-0"
         text="The distribution of ELY tokens across these categories ensures a balanced and sustainable ecosystem that incentivizes participation, rewards contribution, and supports the long-term growth and success of the Elysian Odyssey game."
