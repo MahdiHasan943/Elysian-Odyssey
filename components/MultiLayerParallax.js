@@ -1,7 +1,8 @@
 "use client";
+// MultiLayerParallax.js
+import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
-import React, { useRef } from "react";
 import Button from "./reusable/Button";
 
 export default function MultiLayerParallax() {
@@ -14,6 +15,31 @@ export default function MultiLayerParallax() {
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
   const buttonZ = useTransform(scrollYProgress, [0, 1], [30, 10]); // Adjust z based on scroll
   const textYB = useTransform(scrollYProgress, [0, 1], ["0%", "300%"]);
+
+  // const handleDownload = () => {
+  //   // You can implement the download logic here
+  //   // For example, triggering the download of a PDF file
+  //   // In this case, we're simulating the download of a PDF file
+  //   const pdfURL = "/Elysian-Odyssey-Whitepaper-copy-compressed.pdf";
+  //   window.open(pdfURL, "_blank");
+  // };
+  const handleDownload = () => {
+    const pdfURL = "/Elysian-Odyssey-Whitepaper-copy-compressed.pdf";
+
+    // Create a temporary anchor element
+    const anchorElement = document.createElement("a");
+    anchorElement.href = pdfURL;
+    anchorElement.download = "whitepaper.pdf"; // Set the filename for the download
+
+    // Append the anchor element to the body
+    document.body.appendChild(anchorElement);
+
+    // Trigger a click event on the anchor element
+    anchorElement.click();
+
+    // Remove the anchor element from the body
+    document.body.removeChild(anchorElement);
+  };
 
   return (
     <div
@@ -34,7 +60,10 @@ export default function MultiLayerParallax() {
           style={{ y: textYB, zIndex: buttonZ }}
           className="min-h-[100px] mt-[-50px] py-20"
         >
-          <Button className=" uppercase mx-auto text-center  text-[#fff] ">
+          <Button
+            className=" uppercase mx-auto text-center  text-[#fff] "
+            onClick={handleDownload}
+          >
             whitepaper
           </Button>
         </motion.div>
