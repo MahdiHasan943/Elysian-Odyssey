@@ -17,19 +17,34 @@ export default function PieChart() {
       const newChart = new Chart(context, {
         type: "pie",
         data: {
-          labels: ["John", "Jane", "Doe", "Emily", "Jack", "David", "Ruby"],
+          labels: [
+            "Reserved Fund",
+            "Marketing & Advisor",
+            "Team",
+            "E-Sports",
+            "Stacking Rewards",
+            "Pre Seed",
+            "Seed",
+            "Private Round",
+            "Public",
+            "Liquidity",
+            "Play to Earn",
+          ],
           datasets: [
             {
               label: "Info",
-              data: [34, 64, 23, 45, 67, 24, 64],
+              data: [10, 6.5, 12.0, 5.0, 7, 5, 11, 8.5, 2, 5, 28],
               backgroundColor: [
-                "#ff6384",
-                "#ff9f40",
-                "#ffd166",
-                "#4bc0c0",
-                "#36a2eb",
-                "#9966ff",
-                "#c9cbe1",
+                "#264b68",
+                "#1b334b",
+                "#cc2b12",
+                "#37262b",
+                "#f4ce84",
+                // "#9966ff",
+                "#262327",
+                "#151918",
+                "#cb660f",
+                "#81a3ba",
               ],
               borderColor: "#fff",
               borderWidth: 1,
@@ -37,11 +52,23 @@ export default function PieChart() {
           ],
         },
         options: {
-          // responsive: true,
           plugins: {
             legend: {
               labels: {
                 color: "#fff",
+              },
+            },
+            tooltip: {
+              callbacks: {
+                label: function (context) {
+                  let label = context.label || "";
+                  if (label) {
+                    label += ": ";
+                  }
+                  const value = context.raw || 0;
+                  label += value + "%";
+                  return label;
+                },
               },
             },
           },
