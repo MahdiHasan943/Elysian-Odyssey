@@ -100,7 +100,7 @@ export const textVariant4 = {
       type: "tween",
       ease: "easeIn",
       ation: 1.25,
-      delay: 1.3,
+      delay: 1.1,
     },
   },
 };

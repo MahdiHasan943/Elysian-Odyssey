@@ -21,7 +21,7 @@ const Player = ({ id, imgUrl, sub, title, index, active, handleClick }) => (
         {title}
       </h3>
     ) : (
-      <div className="absolute bottom-0 p-8 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
+      <div className="absolute bottom-0 p-8 flex justify-start w-full flex-col sm:bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
         <div
           className={`flex justify-center items-center w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
         >

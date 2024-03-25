@@ -124,7 +124,7 @@ export const experiences = [
   },
   {
     title: "Conceptualization and Development ",
-    company_name: "Phase 2",
+    company_name: "Phase 2:",
     icon: "/images/roadmapIcon2.png",
     des: "During this phase, our team focuses on conceptualising the game mechanics, storyline, and world-building elements of Elysian Odyssey. Key activities include:    ",
 
@@ -145,12 +145,12 @@ export const experiences = [
     points: [
       "Fundraising: Raising funds in this stage will make sure the team will have enough resources to develop the best possible product and ensure it has smooth launch process on the market.",
       "Team Expansion: Scaling our development team with skilled professionals in game design, development, and blockchain integration.      ",
-      "Alpha trailer: we will release the first trailer of the Elysian Odyssey game      ",
+      "Alpha trailer: we will release the first trailer of the Elysian Odyssey game. ",
     ],
   },
   {
     title: "Team expansion and fundraising ",
-    company_name: "Phase 4",
+    company_name: "Phase 4:",
     icon: "/images/roadmapIcon4.png",
 
     iconBg: "#E6DEDD",
@@ -178,7 +178,7 @@ export const experiences = [
   },
   {
     title: "Elysian Odyssey beta release  ",
-    company_name: "Phase 6",
+    company_name: "Phase 6:",
     icon: "/images/roadmapIcon6.png",
 
     iconBg: "#E6DEDD",

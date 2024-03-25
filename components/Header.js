@@ -85,24 +85,6 @@ const Header = () => {
             </p>
             <div className="  ">
               <div className="hidden lg:flex justify-center items-center gap-8">
-                {/* <p
-                  className={`${roboto_slab.className}`}
-                  onClick={() => {
-                    setColor("hero");
-                  }}
-                >
-                  <Link
-                    href={"#hero"}
-                    className={
-                      color === "hero"
-                        ? "text-[16px  text-[#9e8b46] uppercase"
-                        : "text-[16px] text-[#fff] uppercase"
-                    }
-                  >
-                    Introduction
-                  </Link>
-                </p> */}
-
                 <p
                   className={`${roboto_slab.className}`}
                   onClick={() => {
@@ -214,24 +196,6 @@ const Header = () => {
                   } p-6 bg-[#1a3f57] block lg:hidden  absolute top-20 right-0 mx-4 my-2 min-w-[200px] max-w-[200px] z-10 rounded-xl`}
                 >
                   <div className="">
-                    {" "}
-                    {/* <p
-                      className={`${roboto_slab.className}`}
-                      onClick={() => {
-                        setColor("hero");
-                      }}
-                    >
-                      <Link
-                        href={"#hero"}
-                        className={
-                          color === "hero"
-                            ? "text-[16px text-[#9e8b46] uppercase"
-                            : "text-[16px] text-[#fff] uppercase"
-                        }
-                      >
-                        Introduction
-                      </Link>
-                    </p> */}
                     <p
                       className={`${roboto_slab.className}`}
                       onClick={() => {

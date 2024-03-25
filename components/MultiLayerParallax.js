@@ -75,7 +75,7 @@ export default function MultiLayerParallax() {
           backgroundImage: `url(/images/heromain.png)`,
           backgroundPosition: "bottom",
           backgroundSize: "cover",
-          y: backgroundY,
+          // y: backgroundY,
         }}
       />
       <div
