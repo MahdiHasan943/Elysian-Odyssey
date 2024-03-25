@@ -146,7 +146,7 @@ const Header = () => {
                   }}
                 >
                   <Link
-                    href={"#toke"}
+                    href={"#tokenomics"}
                     className={
                       color === "tokenomics"
                         ? "text-[16px text-[#9e8b46] uppercase"
@@ -273,7 +273,7 @@ const Header = () => {
                       }}
                     >
                       <Link
-                        href={"#toke"}
+                        href={"#tokenomics"}
                         className={
                           color === "tokenomics"
                             ? "text-[16px text-[#9e8b46] uppercase"

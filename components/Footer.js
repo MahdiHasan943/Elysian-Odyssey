@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Footer = () => (
   <motion.footer
-    className={`px-6 bg-[#1c3850] overflow-hidden w-full sm:px-16 py-8 relative`}
+    className={`px-6 bg-[#1a283a] overflow-hidden w-full sm:px-16 py-8 relative`}
   >
     <div className="footer-gradient" />
     <div className={`w-full mx-auto flex flex-col gap-8`}>

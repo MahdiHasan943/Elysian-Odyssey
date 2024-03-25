@@ -27,7 +27,7 @@ const Team = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
         className=""
-        id="team"
+        id="tokenomics"
       >
         <div className="min-h-[4100px]  moreSmall:min-h-[3800px] md:min-h-[2050px] md:max-h-[2050px]   xl:min-h-[1650px] xl:max-h-[1650px]  relative overflow-hidden ">
           <div className="absolute  top-0 left-0 h-full w-full">
