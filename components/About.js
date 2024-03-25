@@ -19,7 +19,7 @@ const About = () => {
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
       className=""
-      id="about"
+      id="our-mission"
     >
       <div className=" min-h-[1500px] mt-[0]   lg:min-h-[1200px] lg:max-h-[1200px]  relative overflow-hidden ">
         <div className="absolute top-0 left-0 h-full w-full">

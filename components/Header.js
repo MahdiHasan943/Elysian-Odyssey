@@ -110,14 +110,14 @@ const Header = () => {
                   }}
                 >
                   <Link
-                    href={"#about"}
+                    href={"#our-mission"}
                     className={
                       color === "about"
                         ? "text-[16px text-[#9e8b46] uppercase"
                         : "text-[16px] text-[#fff] uppercase"
                     }
                   >
-                    about
+                    Our Mission
                   </Link>
                 </p>
 
@@ -239,14 +239,14 @@ const Header = () => {
                       }}
                     >
                       <Link
-                        href={"#about"}
+                        href={"#our-mission"}
                         className={
                           color === "about"
                             ? "text-[16px text-[#9e8b46] uppercase"
                             : "text-[16px] text-[#fff] uppercase"
                         }
                       >
-                        about
+                        Our Mission{" "}
                       </Link>
                     </p>
                     <p
