@@ -11,6 +11,7 @@ import {
 } from "@/utils/motion";
 import { Roboto_Slab, Work_Sans } from "next/font/google";
 import Description from "./reusable/Description";
+import PieChart from "./pieChart";
 const roboto_slab = Roboto_Slab({
   weight: ["400", "300", "500", "600", "700", "900"],
   subsets: ["latin"],
@@ -28,7 +29,7 @@ const Team = () => {
         className=""
         id="team"
       >
-        <div className=" min-h-[3800px] md:min-h-[2050px] md:max-h-[2050px]   xl:min-h-[1650px] xl:max-h-[1650px]  relative overflow-hidden ">
+        <div className="min-h-[4100px]  moreSmall:min-h-[3800px] md:min-h-[2050px] md:max-h-[2050px]   xl:min-h-[1650px] xl:max-h-[1650px]  relative overflow-hidden ">
           <div className="absolute  top-0 left-0 h-full w-full">
             <Image
               src={"/images/301824.jpg"}
@@ -230,6 +231,9 @@ const Team = () => {
             </div>
 
             {/* <Example /> */}
+            <div className="">
+              <PieChart />
+            </div>
           </div>
         </div>
       </div>
