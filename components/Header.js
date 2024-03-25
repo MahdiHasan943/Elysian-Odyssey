@@ -51,40 +51,50 @@ const Header = () => {
       {/* ) : ( */}
       <div className={``}>
         <motion.nav
-          variants={navVariants}
-          initial="hidden"
-          whileInView="show"
           className={` py-8    px-6 sm:px-16 z-[99999999999999999] relative`}
         >
           <div
             className={`w-full mx-auto flex justify-between items-center gap-8`}
           >
-            <p
-              onClick={() => {
-                setColor("logo");
-              }}
+            <motion.div
+              variants={navVariants}
+              initial="hidden"
+              whileInView="show"
+              className=""
             >
-              <Link href={"/"}>
-                <Image
-                  src="/images/whitelogo.png"
-                  alt="logo"
-                  width={350}
-                  height={80}
-                  className="hidden sm:block"
-                />
-              </Link>
-              <Link href={"/"}>
-                <Image
-                  src="/images/whitelogo.png"
-                  alt="logo"
-                  width={200}
-                  height={80}
-                  className="block sm:hidden"
-                />
-              </Link>
-            </p>
+              <p
+                onClick={() => {
+                  setColor("logo");
+                }}
+              >
+                <Link href={"/"}>
+                  <Image
+                    src="/images/whitelogo.png"
+                    alt="logo"
+                    width={350}
+                    height={80}
+                    className="hidden sm:block"
+                  />
+                </Link>
+                <Link href={"/"}>
+                  <Image
+                    src="/images/whitelogo.png"
+                    alt="logo"
+                    width={200}
+                    height={80}
+                    className="block sm:hidden"
+                  />
+                </Link>{" "}
+              </p>
+            </motion.div>
+
             <div className="  ">
-              <div className="hidden lg:flex justify-center items-center gap-8">
+              <motion.div
+                variants={navVariants}
+                initial="hidden"
+                whileInView="show"
+                className="hidden lg:flex justify-center items-center gap-8"
+              >
                 <p
                   className={`${roboto_slab.className}`}
                   onClick={() => {
@@ -172,8 +182,11 @@ const Header = () => {
                     roadmap
                   </Link>
                 </p>
-              </div>
-              <img
+              </motion.div>
+              <motion.img
+                variants={navVariants}
+                initial="hidden"
+                whileInView="show"
                 onClick={() => setOpen(!open)}
                 src="/images/menu.svg"
                 alt="menu"
