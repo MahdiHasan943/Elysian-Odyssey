@@ -135,7 +135,7 @@ const Header = () => {
                         : "text-[16px] text-[#fff] uppercase"
                     }
                   >
-                    Charecters
+                    Character{" "}
                   </Link>
                 </p>
 
@@ -263,7 +263,7 @@ const Header = () => {
                             : "text-[16px] text-[#fff] uppercase"
                         }
                       >
-                        Charecters
+                        Character
                       </Link>
                     </p>
                     <p
