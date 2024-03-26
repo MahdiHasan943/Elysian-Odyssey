@@ -1,7 +1,7 @@
 export const exploreWorlds = [
   {
     id: "world-1",
-    imgUrl: "/images/iternalObserver.png",
+    imgUrl: "/images/iternalObserver-removebg-preview.png",
     sub: "Celestial:",
     bg: "/images/charecter2.png",
     title: " The Eternal Observer",
@@ -10,7 +10,7 @@ export const exploreWorlds = [
     id: "world-2",
     imgUrl: "/images/emberofpassion.png",
     sub: "Inferno:",
-    bg: "/images/new_charecter.png",
+    bg: "/images/teambg.png",
 
     title: "The Ember of Passion",
   },
@@ -25,7 +25,7 @@ export const exploreWorlds = [
     id: "world-4",
     imgUrl: "/images/spiritual.png",
     sub: "Yurei:",
-    bg: "/images/heromain.png",
+    bg: "/images/tokinomics.png",
 
     title: "The Spiritual Weaver",
   },

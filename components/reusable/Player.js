@@ -8,12 +8,11 @@ const Player = ({ id, imgUrl, bg, sub, title, index, active, handleClick }) => (
     variants={fadeIn("right", "spring", index * 0.5, 0.75)}
     className={`relative ${
       active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[0.5] flex-[2]"
-    } flex items-center justify-center min-w-[170px] h-[700px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
+    } flex items-center justify-center min-w-[170px]  rounded-[24px] h-[700px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
     onClick={() => handleClick(id)}
-    // style={{
-    //   backgroundImage:
-    //     "url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
-    // }}
+    style={{
+      backgroundImage: `url(${bg})`,
+    }}
   >
     <div className="absolute  w-full h-full object-cover rounded-[24px]">
       <img
