@@ -1,8 +1,6 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import Title from "./reusable/Title";
-import Description from "./reusable/Description";
 import { TitleText, TypingText } from "./reusable/CustomText";
 import { staggerContainer } from "@/utils/motion";
 import { motion } from "framer-motion";
@@ -36,7 +34,6 @@ const Charecters = () => {
                   title="Characters"
                   textStyles={` text-center mt-20 text-[#f2d387] pt-5 pb-5 font-bold text-[40px] leading-[40px] uppercase `}
                 />
-               
               </motion.div>
               <section
                 className={`sm:p-16 w-full max-w-[1600px]  mx-auto xs:p-8 px-6 py-12`}
@@ -49,7 +46,6 @@ const Charecters = () => {
                   viewport={{ once: false, amount: 0.25 }}
                   className={`$2xl:max-w-[1280px] w-full mx-auto flex flex-col`}
                 >
-                  
                   <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
                     {exploreWorlds.map((world, index) => (
                       <Player

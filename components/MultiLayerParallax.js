@@ -1,5 +1,4 @@
 "use client";
-// MultiLayerParallax.js
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
@@ -16,13 +15,6 @@ export default function MultiLayerParallax() {
   const buttonZ = useTransform(scrollYProgress, [0, 1], [30, 10]); // Adjust z based on scroll
   const textYB = useTransform(scrollYProgress, [0, 1], ["0%", "300%"]);
 
-  // const handleDownload = () => {
-  //   // You can implement the download logic here
-  //   // For example, triggering the download of a PDF file
-  //   // In this case, we're simulating the download of a PDF file
-  //   const pdfURL = "/Elysian-Odyssey-Whitepaper-copy-compressed.pdf";
-  //   window.open(pdfURL, "_blank");
-  // };
   const handleDownload = () => {
     const pdfURL = "/Elysian-Odyssey-Whitepaper-copy-compressed.pdf";
 
