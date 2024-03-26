@@ -1,7 +1,7 @@
 export const exploreWorlds = [
   {
     id: "world-1",
-    // imgUrl: "/images/iternalObserver.png",
+    imgUrl: "/images/iternalObserver.png",
     sub: "Celestial:",
     bg: "/images/charecter2.png",
     title: " The Eternal Observer",
