@@ -169,7 +169,7 @@ export const experiences = [
     icon: "/images/roadmapIcon5.png",
     des: "During this phase, we prepare for the public launch of ELY and focus on expanding our community outreach efforts. Key activities include:    ",
     iconBg: "#383E56",
-    date: "(Q3 2024 - Q4 2024",
+    date: "Q3 2024 - Q4 2024",
     points: [
       "Community Building: Scaling our community outreach efforts through social media campaigns, influencer partnerships, and community events to attract new players and build a vibrant gaming and crypto community",
       "Marketing Campaigns: Launching targeted marketing campaigns to raise awareness about Elysian Odyssey and drive user acquisition. ",

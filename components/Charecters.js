@@ -36,10 +36,7 @@ const Charecters = () => {
                   title="Characters"
                   textStyles={` text-center mt-20 text-[#f2d387] pt-5 pb-5 font-bold text-[40px] leading-[40px] uppercase `}
                 />
-                {/* <Description
-                  className="text-center text-[26px]"
-                  text=" Choose Your Ultimate Character"
-                /> */}
+               
               </motion.div>
               <section
                 className={`sm:p-16 w-full max-w-[1600px]  mx-auto xs:p-8 px-6 py-12`}
@@ -52,16 +49,7 @@ const Charecters = () => {
                   viewport={{ once: false, amount: 0.25 }}
                   className={`$2xl:max-w-[1280px] w-full mx-auto flex flex-col`}
                 >
-                  {/* <TypingText title="| The World" textStyles="text-center" />
-                  <TitleText
-                    title={
-                      <>
-                        Choose the world you want{" "}
-                        <br className="md:block hidden" /> to explore
-                      </>
-                    }
-                    textStyles="text-center"
-                  /> */}
+                  
                   <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
                     {exploreWorlds.map((world, index) => (
                       <Player
