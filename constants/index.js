@@ -1,41 +1,37 @@
 export const exploreWorlds = [
   {
     id: "world-1",
-    imgUrl: "/images/player1.jpg",
+    // imgUrl: "/images/iternalObserver.png",
     sub: "Celestial:",
+    bg: "/images/charecter2.png",
     title: " The Eternal Observer",
   },
   {
     id: "world-2",
-    imgUrl: "/images/player2.jpg",
+    imgUrl: "/images/emberofpassion.png",
     sub: "Inferno:",
+    bg: "/images/new_charecter.png",
 
     title: "The Ember of Passion",
   },
   {
     id: "world-3",
-    imgUrl: "/images/player3.jpg",
+    imgUrl: "/images/livingStatus.png",
     sub: "Augmentum:",
 
     title: "The Living Statue",
   },
   {
     id: "world-4",
-    imgUrl: "/images/player4.jpg",
+    imgUrl: "/images/spiritual.png",
     sub: "Yurei:",
+    bg: "/images/heromain.png",
 
     title: "The Spiritual Weaver",
   },
   {
     id: "world-5",
-    imgUrl: "/images/player5.jpg",
-    sub: "Carnalis:",
-
-    title: "The Malevolent Conqueror  ",
-  },
-  {
-    id: "world-6",
-    imgUrl: "/images/player6.jpg",
+    imgUrl: "/images/conquer.png",
     sub: "Carnalis:",
 
     title: "The Malevolent Conqueror  ",

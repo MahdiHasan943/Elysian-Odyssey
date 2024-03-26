@@ -149,7 +149,7 @@ const Team = () => {
                 <p className="text-[#fff] text-[18px]">
                   <span className="font-bold text-[25px] text-[#f2d387]">
                     Marketing and
-                    <br /> Advisory:
+                    <br /> Team:
                   </span>{" "}
                   <span className="px-4">
                     {" "}
