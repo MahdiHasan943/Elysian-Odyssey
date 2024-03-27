@@ -10,7 +10,6 @@ import {
   staggerContainer,
 } from "@/utils/motion";
 import { Roboto_Slab, Work_Sans } from "next/font/google";
-import Description from "./reusable/Description";
 const roboto_slab = Roboto_Slab({
   weight: ["400", "300", "500", "600", "700", "900"],
   subsets: ["latin"],
@@ -19,15 +18,16 @@ const roboto_slab = Roboto_Slab({
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Navigation, Autoplay, Pagination } from "swiper/modules";
+import { SwipperNewBtn } from "./SwipperNewBtn";
 
 const Team = () => {
   const swiperRef = useRef(null);
-  const progressCircle = useRef(null);
-  const progressContent = useRef(null);
-  const onAutoplayTimeLeft = (s, time, progress) => {
-    progressCircle.current.style.setProperty("--progress", 1 - progress);
-    progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
-  };
+  // const progressCircle = useRef(null);
+  // const progressContent = useRef(null);
+  // const onAutoplayTimeLeft = (s, time, progress) => {
+  //   progressCircle.current.style.setProperty("--progress", 1 - progress);
+  //   progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
+  // };
   const breakpoints = {
     300: {
       slidesPerView: 1,
@@ -75,26 +75,22 @@ const Team = () => {
             </motion.div>
 
             <Swiper
-              modules={[Navigation, Autoplay, Pagination]}
+              modules={[Navigation, Pagination]}
               slidesPerView="auto"
-              loop={true}
-              autoplay={{
-                delay: 3000,
-                speed: 3000,
-
-                disableOnInteraction: false,
-              }}
-              spaceBetween={40}
-              className="mySwiper  max-w-[1540px] my-8 "
+              spaceBetween={20}
+              className="mySwiper   max-w-[1800px] my-8 "
               breakpoints={breakpoints}
-              onAutoplayTimeLeft={onAutoplayTimeLeft}
+              loop={true}
             >
+              <div className="absolute z-50 h-full   top-1/2 left-0 w-full">
+                <SwipperNewBtn />
+              </div>
               <SwiperSlide>
                 <motion.div
                   variants={fadeIn("right", "bounce", 0.2, 1)}
                   initial="hidden"
                   whileInView="show"
-                  className=""
+                  className="px-24"
                 >
                   <Image
                     src={"/images/MileNikolikj.jpg"}
@@ -135,7 +131,7 @@ const Team = () => {
                   variants={fadeIn("down", "bounce", 0.2, 1)}
                   initial="hidden"
                   whileInView="show"
-                  className=""
+                  className="px-24"
                 >
                   <Image
                     src={"/images/MilosTosic.jfif"}
@@ -183,7 +179,7 @@ const Team = () => {
                   variants={fadeIn("left", "bounce", 0.2, 1)}
                   initial="hidden"
                   whileInView="show"
-                  className=""
+                  className="px-8"
                 >
                   <Image
                     src={"/images/AlfioTrabuio.jfif"}
@@ -222,7 +218,7 @@ const Team = () => {
                   variants={fadeIn("down", "bounce", 0.2, 1)}
                   initial="hidden"
                   whileInView="show"
-                  className=""
+                  className="px-24"
                 >
                   <Image
                     src={"/images/TomislavTesla.jfif"}
@@ -345,12 +341,12 @@ const Team = () => {
                 </motion.div>
               </SwiperSlide>
 
-              <div className="autoplay-progress" slot="container-end">
+              {/* <div className="autoplay-progress" slot="container-end">
                 <svg viewBox="0 0 48 48" ref={progressCircle}>
                   <circle cx="24" cy="24" r="20"></circle>
                 </svg>
                 <span ref={progressContent}></span>
-              </div>
+              </div> */}
             </Swiper>
           </div>
         </div>
