@@ -269,3 +269,24 @@ background-size: cover;
 }
 }
 
+
+.swiper-button-next {
+  margin-top: 0px!important;
+  position: absolute!important;
+  top: 50%!important;
+  right: -40px!important;
+  width: 45px!important;
+  height: 45px!important;
+  transform: translateY(-50%)!important;
+}
+.swiper-button-prev {
+  position: absolute!important;
+  top: 50%!important;
+  left: -40px!important;
+  width: 45px!important;
+  height: 45px!important;
+  transform: translateY(-50%)!important;
+  margin-top: 0px!important;
+}
+
+

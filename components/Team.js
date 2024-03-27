@@ -37,6 +37,7 @@ const Team = () => {
     },
     1024: {
       slidesPerView: 3,
+      spaceAround: 40,
     },
   };
   return (
@@ -77,20 +78,19 @@ const Team = () => {
             <Swiper
               modules={[Navigation, Pagination]}
               slidesPerView="auto"
-              spaceBetween={20}
-              className="mySwiper   max-w-[1800px] my-8 "
+              spaceBetween={40}
+              className="mySwiper max-w-[1800px!important] overflow-hidden mx-auto md:px-[40px!important]  my-8 "
               breakpoints={breakpoints}
               loop={true}
             >
               <div className="absolute z-50 h-full   top-1/2 left-0 w-full">
                 <SwipperNewBtn />
               </div>
-              <SwiperSlide>
+              <SwiperSlide className="">
                 <motion.div
                   variants={fadeIn("right", "bounce", 0.2, 1)}
                   initial="hidden"
                   whileInView="show"
-                  className="px-24"
                 >
                   <Image
                     src={"/images/MileNikolikj.jpg"}
@@ -99,7 +99,7 @@ const Team = () => {
                     height={300}
                     className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
                   />
-                  <div className="text-center">
+                  <div className="text-center mb-10">
                     <h3
                       className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
                     >
@@ -126,12 +126,11 @@ const Team = () => {
                 </motion.div>
               </SwiperSlide>
 
-              <SwiperSlide>
+              <SwiperSlide className="">
                 <motion.div
                   variants={fadeIn("down", "bounce", 0.2, 1)}
                   initial="hidden"
                   whileInView="show"
-                  className="px-24"
                 >
                   <Image
                     src={"/images/MilosTosic.jfif"}
@@ -174,12 +173,11 @@ const Team = () => {
                 </motion.div>
               </SwiperSlide>
 
-              <SwiperSlide>
+              <SwiperSlide className="">
                 <motion.div
                   variants={fadeIn("left", "bounce", 0.2, 1)}
                   initial="hidden"
                   whileInView="show"
-                  className="px-8"
                 >
                   <Image
                     src={"/images/AlfioTrabuio.jfif"}
@@ -213,12 +211,11 @@ const Team = () => {
                 </motion.div>
               </SwiperSlide>
 
-              <SwiperSlide>
+              <SwiperSlide className="">
                 <motion.div
                   variants={fadeIn("down", "bounce", 0.2, 1)}
                   initial="hidden"
                   whileInView="show"
-                  className="px-24"
                 >
                   <Image
                     src={"/images/TomislavTesla.jfif"}
@@ -227,7 +224,7 @@ const Team = () => {
                     height={300}
                     className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
                   />
-                  <div className="text-center">
+                  <div className="text-center  mb-10">
                     <h3
                       className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
                     >
@@ -257,7 +254,7 @@ const Team = () => {
                 </motion.div>
               </SwiperSlide>
 
-              <SwiperSlide>
+              <SwiperSlide className="">
                 <motion.div
                   variants={fadeIn("down", "bounce", 0.2, 1)}
                   initial="hidden"
@@ -271,7 +268,7 @@ const Team = () => {
                     height={300}
                     className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
                   />
-                  <div className="text-center">
+                  <div className="text-center  mb-10">
                     <h3
                       className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
                     >
@@ -296,7 +293,7 @@ const Team = () => {
                 </motion.div>
               </SwiperSlide>
 
-              <SwiperSlide>
+              <SwiperSlide className="">
                 <motion.div
                   variants={fadeIn("left", "bounce", 0.2, 1)}
                   initial="hidden"
@@ -310,7 +307,7 @@ const Team = () => {
                     height={300}
                     className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
                   />
-                  <div className="text-center">
+                  <div className="text-center  mb-10">
                     <h3
                       className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
                     >
