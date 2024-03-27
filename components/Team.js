@@ -37,7 +37,6 @@ const Team = () => {
     },
     1024: {
       slidesPerView: 3,
-      spaceAround: 40,
     },
   };
   return (
@@ -50,7 +49,7 @@ const Team = () => {
         className=""
         id="team"
       >
-        <div className=" min-h-[1200px]   lg:min-h-[1100px] lg:max-h-[1100px]  relative overflow-hidden ">
+        <div className=" min-h-[1200px]   lg:min-h-[1250px] lg:max-h-[1250px] 2xl:min-h-[1150px]  2xl:max-h-[1150px] relative overflow-hidden ">
           <div className="absolute top-0 left-0 h-full w-full">
             <Image
               src={"/images/teambg.png"}
@@ -78,8 +77,8 @@ const Team = () => {
             <Swiper
               modules={[Navigation, Pagination]}
               slidesPerView="auto"
-              spaceBetween={40}
-              className="mySwiper max-w-[1800px!important] overflow-hidden mx-auto md:px-[40px!important]  my-8 "
+              spaceBetween={50}
+              className="mySwiper max-w-[1800px!important] overflow-hidden mx-auto smallest:px-[12px!important] md:px-[40px!important]  my-8 "
               breakpoints={breakpoints}
               loop={true}
             >
