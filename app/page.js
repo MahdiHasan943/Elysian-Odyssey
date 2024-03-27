@@ -10,7 +10,7 @@ export default function Home() {
       <MultiLayerParallax />
       <About />
       <Charecters />
-      <Tokenomics />
+      {/* <Tokenomics /> */}
       <Team />
       <Roadmap />
     </main>

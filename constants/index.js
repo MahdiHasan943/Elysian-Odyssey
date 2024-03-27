@@ -2,14 +2,14 @@ export const exploreWorlds = [
   {
     id: "world-1",
     imgUrl: "/images/iternalObserver-removebg-preview.png",
-    sub: "Celestial:",
+    sub: "Celestial",
     bg: "/images/charecter2.png",
     title: " The Eternal Observer",
   },
   {
     id: "world-2",
     imgUrl: "/images/emberofpassion.png",
-    sub: "Inferno:",
+    sub: "Inferno",
     bg: "/images/teambg.png",
 
     title: "The Ember of Passion",
@@ -17,14 +17,14 @@ export const exploreWorlds = [
   {
     id: "world-3",
     imgUrl: "/images/livingStatus.png",
-    sub: "Augmentum:",
+    sub: "Augmentum",
 
     title: "The Living Statue",
   },
   {
     id: "world-4",
     imgUrl: "/images/spiritual.png",
-    sub: "Yurei:",
+    sub: "Yurei",
     bg: "/images/tokinomics.png",
 
     title: "The Spiritual Weaver",
@@ -32,7 +32,7 @@ export const exploreWorlds = [
   {
     id: "world-5",
     imgUrl: "/images/conquer.png",
-    sub: "Carnalis:",
+    sub: "Carnalis",
 
     title: "The Malevolent Conqueror  ",
   },

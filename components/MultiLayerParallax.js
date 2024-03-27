@@ -3,6 +3,9 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import Button from "./reusable/Button";
+import Title from "./reusable/Title";
+import { TypingText, TypingText1 } from "./reusable/CustomText";
+import { staggerContainer } from "@/utils/motion";
 
 export default function MultiLayerParallax() {
   const ref = useRef(null);
@@ -17,20 +20,7 @@ export default function MultiLayerParallax() {
 
   const handleDownload = () => {
     const pdfURL = "/Elysian-Odyssey-Whitepaper-copy-compressed.pdf";
-
-    // Create a temporary anchor element
-    const anchorElement = document.createElement("a");
-    anchorElement.href = pdfURL;
-    anchorElement.download = "whitepaper.pdf"; // Set the filename for the download
-
-    // Append the anchor element to the body
-    document.body.appendChild(anchorElement);
-
-    // Trigger a click event on the anchor element
-    anchorElement.click();
-
-    // Remove the anchor element from the body
-    document.body.removeChild(anchorElement);
+    window.open(pdfURL, "_blank");
   };
 
   return (
@@ -42,12 +32,39 @@ export default function MultiLayerParallax() {
         // Set zIndex dynamically
         className="  overflow-hidden mt-[-250px]  sm:mt-[-220px]  flex flex-col justify-center items-center relative "
       >
-        <motion.img
+        {/* <motion.img
           style={{ y: textY }}
           src="/images/whitelogo.png"
           alt="logo"
           className="font-bold mt-[150px] w-[550px] h-[220px]  z-10 "
-        />
+        /> */}
+        <motion
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0.25 }}
+          className="div"
+        >
+          <motion.div
+            variants={staggerContainer}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.25 }}
+            style={{ y: textY }}
+            className="font-bold text-white w-full sm:w-auto sm:max-w-[700px] mx-auto text-center pt-20 text-[20px]   sm:text-[40px] sm:leading-[60px] uppercase relative z-10"
+          >
+            {" "}
+            <TypingText1
+              textStyles={"text-white"}
+              title="Elysian Odyssey Build On Fast,"
+            />
+            <TypingText1
+              textStyles={"text-white"}
+              title="Scalable,Custom Engine"
+            />
+          </motion.div>
+        </motion>
+
         <motion.div
           style={{ y: textYB, zIndex: buttonZ }}
           className="min-h-[100px] mt-[-50px] py-20"
