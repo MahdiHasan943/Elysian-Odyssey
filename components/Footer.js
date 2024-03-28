@@ -29,10 +29,12 @@ const Footer = () => (
           <div className="flex justify-center  max-w-[200px] sm:max-w-auto mx-auto sm:mx-0 gap-4">
             {socials.map((social) => (
               <Link href={social.socialLink} target="_blank">
-                <img
+                <Image
                   key={social.name}
                   src={social.url}
                   alt={social.name}
+                  width={32}
+                  height={32}
                   className="w-[32px] mx-auto  h-[32px] object-contain cursor-pointer"
                 />
               </Link>

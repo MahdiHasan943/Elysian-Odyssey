@@ -2,6 +2,7 @@
 
 import { fadeIn } from "@/utils/motion";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Player = ({ id, imgUrl, bg, sub, title, index, active, handleClick }) => (
   <motion.div
@@ -15,9 +16,11 @@ const Player = ({ id, imgUrl, bg, sub, title, index, active, handleClick }) => (
     }}
   >
     <div className="absolute  w-full h-full object-cover rounded-[24px]">
-      <img
+      <Image
         src={imgUrl}
         alt="planet-04"
+        layout="fill"
+        objectFit="cover"
         className="absolute  w-full h-full object-cover rounded-[24px]"
       />
     </div>

@@ -9,6 +9,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { slideIn, textVariant } from "@/utils/motion";
 import { experiences } from "@/constants";
 import { useInView } from "react-intersection-observer";
+import Image from "next/image";
 
 const ExperienceCard = ({ experience }) => {
   const { ref, inView, entry } = useInView({
@@ -33,9 +34,11 @@ const ExperienceCard = ({ experience }) => {
           whileInView="show"
           className="flex justify-center items-center w-full h-full"
         >
-          <img
+          <Image
             src={experience.icon}
             alt={experience.company_name}
+            width={100}
+            height={100}
             className="w-[100%] h-[100%] rounded-full "
           />
         </motion.div>
