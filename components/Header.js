@@ -183,15 +183,21 @@ const Header = () => {
                   </Link>
                 </p>
               </motion.div>
-              <motion.img
+              <motion.div
                 variants={navVariants}
                 initial="hidden"
                 whileInView="show"
-                onClick={() => setOpen(!open)}
-                src="/images/menu.svg"
-                alt="menu"
-                className="w-[24px] block lg:hidden h-[24px] object-contain"
-              />
+                className=""
+              >
+                <Image
+                  onClick={() => setOpen(!open)}
+                  src="/images/menu.svg"
+                  alt="menu"
+                  width={24}
+                  height={24}
+                  className="w-[24px] block lg:hidden h-[24px] object-contain"
+                />
+              </motion.div>
 
               <motion.div
                 variants={staggerContainer}

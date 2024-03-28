@@ -19,7 +19,7 @@ export default function MultiLayerParallax() {
   const textYB = useTransform(scrollYProgress, [0, 1], ["0%", "300%"]);
 
   const handleDownload = () => {
-    const pdfURL = "/Elysian-Odyssey-Whitepaper-copy-compressed.pdf";
+    const pdfURL = "/images/newfile_compressed.pdf";
     window.open(pdfURL, "_blank");
   };
 
