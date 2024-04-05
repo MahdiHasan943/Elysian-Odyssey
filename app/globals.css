@@ -289,4 +289,11 @@ background-size: cover;
   margin-top: 0px!important;
 }
 
+.fade-down {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
 
+.fade-down.in-view {
+  opacity: 1;
+}

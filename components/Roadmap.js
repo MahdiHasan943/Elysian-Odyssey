@@ -77,7 +77,6 @@ const Team = () => {
             </motion.div>
 
             <TimelineRoadmap />
-           
           </div>
         </div>
       </div>

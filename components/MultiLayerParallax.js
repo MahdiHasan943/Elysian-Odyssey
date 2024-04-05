@@ -30,7 +30,7 @@ export default function MultiLayerParallax() {
     >
       <div
         // Set zIndex dynamically
-        className="  overflow-hidden mt-[-250px]  sm:mt-[-220px]  flex flex-col justify-center items-center relative "
+        className="  overflow-hidden mt-[-250px]  sm:mt-[-100px]  flex flex-col justify-center items-center relative "
       >
         {/* <motion.img
           style={{ y: textY }}
@@ -51,16 +51,16 @@ export default function MultiLayerParallax() {
             whileInView="show"
             viewport={{ once: false, amount: 0.25 }}
             style={{ y: textY }}
-            className="font-bold text-white w-full sm:w-auto sm:max-w-[700px] mx-auto text-center pt-20 text-[20px]   sm:text-[40px] sm:leading-[60px] uppercase relative z-10"
+            className="font-bold text-white w-full sm:w-auto sm:max-w-[750px] mx-auto text-center pt-20 text-[20px]   sm:text-[40px] sm:leading-[60px] uppercase relative z-20"
           >
             {" "}
             <TypingText1
               textStyles={"text-white"}
-              title="Elysian Odyssey Build On Fast,"
+              title="Elysian Odyssey - Build On Fast"
             />
             <TypingText1
               textStyles={"text-white"}
-              title="Scalable,Custom Engine"
+              title="Scalable AND Custom Engine"
             />
           </motion.div>
         </motion>
@@ -79,12 +79,21 @@ export default function MultiLayerParallax() {
       </div>
 
       <motion.div
+        className="absolute inset-0  z-10"
+        style={{
+          backgroundImage: `url(/images/heromain.png)`,
+          backgroundPosition: "bottom",
+          backgroundSize: "cover",
+          y: backgroundY,
+        }}
+      />
+
+      <motion.div
         className="absolute inset-0  z-0"
         style={{
           backgroundImage: `url(/images/heromain.png)`,
           backgroundPosition: "bottom",
           backgroundSize: "cover",
-          // y: backgroundY,
         }}
       />
       <div
