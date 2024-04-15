@@ -22,7 +22,7 @@ const Footer = () => (
       className="absolute hidden sm:block top-0 left-0 "
     />
     <Image
-      src={"/footer.png"}
+      src={"/Screenshot_1.png"}
       alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
       width={600}
       height={200}
