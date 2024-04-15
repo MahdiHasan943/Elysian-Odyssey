@@ -33,7 +33,7 @@ const About = () => {
       className=""
       id="our-mission"
     >
-      <div className=" min-h-[1500px] mt-[-200px]   lg:min-h-[1400px] lg:max-h-[1200px]  relative overflow-hidden ">
+      <div className=" min-h-[800px] mt-[-200px]   lg:min-h-[1400px] lg:max-h-[1200px]  relative overflow-hidden ">
         <div className="absolute top-0 left-0 h-full w-full">
           <Image
             src={"/images/new_charecter.png"}
@@ -43,7 +43,7 @@ const About = () => {
             className=""
           />
           <div className="w-full px-4 flex justify-center   py-10 absolute top-0 left-0 h-full z-[100000] max-auto">
-            <div className="flex flex-col justify-center items-center gap-20">
+            <div className="flex flex-col justify-center items-center gap-5 sm:gap-20">
               <motion.div
                 variants={textVariant2}
                 initial="hidden"
@@ -70,7 +70,7 @@ const About = () => {
                   alt="logo"
                   width={400}
                   height={127}
-                  className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
+                  className="hover:scale-[1.1] w-[200px]  sm:h-auto sm:w-auto duration-200 delay-75 ease-linear"
                 />
               </motion.div>
             </div>
