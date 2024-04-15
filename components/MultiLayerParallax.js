@@ -54,13 +54,19 @@ export default function MultiLayerParallax() {
             className="font-bold text-white w-full sm:w-auto sm:max-w-[750px] mx-auto text-center pt-20 text-[20px]   sm:text-[40px] sm:leading-[60px] uppercase relative z-20"
           >
             {" "}
-            <TypingText1
+            {/* <TypingText1
               textStyles={"text-white"}
               title="Elysian Odyssey - Build On Fast"
             />
             <TypingText1
               textStyles={"text-white"}
               title="Scalable AND Custom Engine"
+            /> */}
+            <Image
+              src={"/Logo-Zlatno.png"}
+              alt="logo"
+              width={800}
+              height={500}
             />
           </motion.div>
         </motion>
@@ -69,41 +75,48 @@ export default function MultiLayerParallax() {
           style={{ y: textYB, zIndex: buttonZ }}
           className="min-h-[100px] mt-[-50px] py-20"
         >
-          <Button
+          {/* <Button
             className=" uppercase mx-auto text-center  text-[#fff] "
             onClick={handleDownload}
           >
             whitepaper
-          </Button>
+          </Button> */}
+          <Image
+            src={"/redwhitePapper.png"}
+            alt="logo"
+            width={400}
+            height={127}
+            className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
+          />
         </motion.div>
       </div>
 
       <motion.div
         className="absolute inset-0  z-10"
-        style={{
-          backgroundImage: `url(/images/heromain.png)`,
-          backgroundPosition: "bottom",
-          backgroundSize: "cover",
-          y: backgroundY,
-        }}
+        // style={{
+        //   backgroundImage: `url(/images/heromain.png)`,
+        //   backgroundPosition: "bottom",
+        //   backgroundSize: "cover",
+        //   y: backgroundY,
+        // }}
       />
 
       <motion.div
         className="absolute inset-0  z-0"
         style={{
-          backgroundImage: `url(/images/heromain.png)`,
+          backgroundImage: `url(/images/new_charecter.png)`,
           backgroundPosition: "bottom",
           backgroundSize: "cover",
         }}
       />
-      <div
+      {/* <div
         className="absolute inset-0  z-20"
         style={{
           backgroundImage: `url(/image-bottom.png)`,
           backgroundPosition: "bottom",
           backgroundSize: "cover",
         }}
-      />
+      /> */}
     </div>
   );
 }
