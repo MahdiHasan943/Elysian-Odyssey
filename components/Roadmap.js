@@ -50,15 +50,15 @@ const Team = () => {
         className=""
         id="road"
       >
-        <div className="min-h-[5400px] mb-[-5px] smallest:min-h-[5000px] moreSmall:min-h-[4800px]   lg:min-h-[3500px] lg:max-h-[3400px]  relative overflow-hidden ">
-          <div className="absolute top-0 left-0 h-full w-full">
-            <Image
+        <div className="min-h-[5400px]  mb-[-5px] smallest:min-h-[5000px] moreSmall:min-h-[4800px]   lg:min-h-[3500px] lg:max-h-[3400px]  relative overflow-hidden ">
+          <div className="absolute top-0 bg-[black] left-0 h-full w-full">
+            {/* <Image
               src={"/images/heromain.png"}
               alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
               layout="fill"
               objectFit="cover"
               className=""
-            />
+            /> */}
           </div>
 
           <div className="w-full px-4  py-10 absolute top-0 left-0 h-full z-[100000] max-auto">

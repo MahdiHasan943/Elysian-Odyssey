@@ -7,41 +7,38 @@ import Link from "next/link";
 
 const Footer = () => (
   <motion.footer
-    className={`px-6 bg-[#1a283a] overflow-hidden w-full sm:px-16 py-8 relative`}
+    className={`px-6 bg-[black] mt-[-90px] overflow-hidden w-full h-[250px] sm:px-16 py-8 `}
+    style={{
+      backgroundImage: `url(/footer.png)`,
+      backgroundPosition: "center",
+      backgroundSize: "cover",
+    }}
   >
-    <div className="" />
-    <div className={`w-full mx-auto flex flex-col gap-8`}>
-      <div className="flex flex-col">
-        {/* <div className="mb-[50px] h-[2px] bg-white opacity-5" /> */}
-
-        <div className="flex items-center justify-between flex-wrap gap-4">
-          <Image
-            src="/images/whitelogo.png"
-            alt="logo"
-            width={300}
-            height={80}
-            // className="w-[24px] h-[24px] object-contain"
-          />
-          <p className="font-normal text-center text-[14px] text-white ">
-            Copyright © 2023 - 2024 ELYSIAN ODYSSEY. All rights reserved.
-          </p>
-
-          <div className="flex justify-center  max-w-[200px] sm:max-w-auto mx-auto sm:mx-0 gap-4">
-            {socials.map((social) => (
-              <Link href={social.socialLink} target="_blank">
-                <Image
-                  key={social.name}
-                  src={social.url}
-                  alt={social.name}
-                  width={32}
-                  height={32}
-                  className="w-[32px] mx-auto  h-[32px] object-contain cursor-pointer"
-                />
-              </Link>
-            ))}
-          </div>
-        </div>
-      </div>
+    <div className="flex  w-full h-full justify-center items-end gap-16">
+      <Link
+        href={
+          "https://twitter.com/elysianodysseyg?s=11&t=MYFM-d6udoMcfZAdkjsejw"
+        }
+        target="_blank"
+      >
+        <Image
+          src={"/x-twitter1.png"}
+          alt="x-twitter"
+          height={35}
+          width={35}
+          className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
+        />
+      </Link>
+      <Link href={"https://t.me/ElysianOdyssey"} target="_blank">
+        {" "}
+        <Image
+          src={"/telegram.png"}
+          alt="telegram"
+          height={35}
+          width={35}
+          className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
+        />{" "}
+      </Link>
     </div>
   </motion.footer>
 );
