@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Footer = () => (
   <motion.footer
-    className={`px-6 bg-[black] relative mt-[-90px] overflow-hidden w-full h-[150px] sm:h-[250px] sm:px-16 py-8 `}
+    className={`px-6 bg-[black] relative mt-[-90px] overflow-hidden w-full h-[230px] sm:h-[250px] sm:px-16 py-8 `}
     // style={{
     //   backgroundImage: `url(/footer.png)`,
     //   backgroundPosition: "center",
@@ -26,9 +26,9 @@ const Footer = () => (
       alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
       width={600}
       height={200}
-      className="absolute block sm:hidden top-0 left-0 "
+      className="absolute h-[230px] w-[100%] block sm:hidden top-0 left-0 "
     />
-    <div className="flex absolute z-50 top-0 left-0  w-full pb-8 h-full justify-center items-end gap-16">
+    <div className="flex absolute z-50 top-0 left-0 bg-transparent  w-full pb-8 h-full justify-center items-end gap-16">
       <Link
         href={
           "https://twitter.com/elysianodysseyg?s=11&t=MYFM-d6udoMcfZAdkjsejw"
