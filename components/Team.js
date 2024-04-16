@@ -70,7 +70,7 @@ const Team = () => {
             />
           </div>
 
-          <div className="w-full px-4  py-10 absolute top-0 left-0 h-full z-[100000] max-auto">
+          <div className="w-full  px-4  py-10 absolute top-0 left-0 h-full z-[100000] max-auto">
             {/* <motion.div
               variants={staggerContainer}
               initial="hidden"
