@@ -50,32 +50,18 @@ const Team = () => {
         className=""
         id="road"
       >
-        <div className="min-h-[5400px]  mb-[-5px] smallest:min-h-[5000px] moreSmall:min-h-[4800px]   lg:min-h-[3500px] lg:max-h-[3400px]  relative overflow-hidden ">
-          <div className="absolute top-0 bg-[black] left-0 h-full w-full">
-            {/* <Image
-              src={"/images/heromain.png"}
+        <div className="min-h-[5400px] bg-[black]  mb-[-5px] smallest:min-h-[5000px] moreSmall:min-h-[4800px]   lg:min-h-[3500px] lg:max-h-[3400px]  relative overflow-hidden ">
+          <div className="absolute top-0 left-0 h-full w-full">
+            <Image
+              src={"/roadmap.png"}
               alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
               layout="fill"
               objectFit="cover"
               className=""
-            /> */}
+            />
           </div>
 
           <div className="w-full px-4  py-10 absolute top-0 left-0 h-full z-[100000] max-auto">
-            <motion.div
-              variants={staggerContainer}
-              initial="hidden"
-              whileInView="show"
-              viewport={{ once: false, amount: 0.25 }}
-              className=""
-            >
-              <TypingText
-                title="roadmap"
-                textStyles={` text-center text-[#f2d387]  pt-12 sm:p-5 pb-20 font-bold text-[40px] leading-[40px] uppercase `}
-              />
-              <Description text="The development journey of Elysian Odyssey is divided into strategic phases aimed at achieving key milestones and delivering a captivating gaming experience for our community. Here is an overview of our roadmap:" />
-            </motion.div>
-
             <TimelineRoadmap />
           </div>
         </div>
