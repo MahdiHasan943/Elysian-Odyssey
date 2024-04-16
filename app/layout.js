@@ -1,11 +1,11 @@
-import { Inter, Roboto_Slab } from "next/font/google";
+import { Inter, Cinzel } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Top from "@/components/Top";
 
-const roboto_slab = Roboto_Slab({
-  weight: ["400", "300", "500", "600", "700", "900"],
+const roboto_slab = Cinzel({
+  weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
   display: "swap",
 });

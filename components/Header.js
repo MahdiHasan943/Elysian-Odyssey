@@ -212,9 +212,9 @@ const Header = () => {
                   whileInView="show"
                   className={`${
                     !open ? "hidden" : "block fixed"
-                  } p-6 bg-[#1a3f57] block lg:hidden  absolute top-20 right-0 mx-4 my-2 min-w-[200px] max-w-[200px] z-10 rounded-xl`}
+                  } p-6 bg-[#161113] block lg:hidden  absolute top-20 right-0 mx-4 my-2 min-w-[200px] max-w-[200px] z-10 rounded-xl`}
                 >
-                  <div className="">
+                  <div className="flex flex-col gap-4">
                     <p
                       className={`${roboto_slab.className}`}
                       onClick={() => {

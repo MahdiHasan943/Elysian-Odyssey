@@ -297,3 +297,16 @@ background-size: cover;
 .fade-down.in-view {
   opacity: 1;
 }
+/* components/SectionTitle.module.css */
+
+.sectionTitle {
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  opacity: 0.2;
+  letter-spacing: 8px;
+  text-shadow: 8px 8px 8px #FFFFFF, 8px 8px 8px rgba(0, 0, 0, 0.5);
+  /* Increased shadow effect */
+  z-index: -1; /* Set z-index to place it behind the content */
+
+}
