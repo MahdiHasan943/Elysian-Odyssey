@@ -4,7 +4,7 @@ import { navVariants, slideIn, staggerContainer } from "../utils/motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { Roboto_Slab } from "next/font/google";
+import { Cinzel } from "next/font/google";
 import useStickyNav from "@/utils/useStickyNav";
 const scrollToSection = (id) => {
   const element = document.getElementById(id);
@@ -34,8 +34,8 @@ const scrollToSection = (id) => {
   }
 };
 
-const roboto_slab = Roboto_Slab({
-  weight: "600",
+const roboto_slab = Cinzel({
+  weight: "700",
   subsets: ["latin"],
   display: "swap",
 });

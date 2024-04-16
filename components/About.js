@@ -4,7 +4,7 @@ import React from "react";
 import { TypingText } from "./reusable/CustomText";
 import { motion } from "framer-motion";
 import { planetVariants, slideIn, staggerContainer } from "@/utils/motion";
-import { Roboto_Slab, Work_Sans } from "next/font/google";
+import { Roboto_Slab, Work_Sans, Cinzel } from "next/font/google";
 import Description from "./reusable/Description";
 const roboto_slab = Roboto_Slab({
   weight: ["400", "300", "500", "600", "700", "900"],
@@ -21,7 +21,7 @@ const About = () => {
       className=""
       id="our-mission"
     >
-      <div className=" min-h-[1000px] mt-[0]   md:min-h-[800px] md:max-h-[800px]  relative overflow-hidden ">
+      <div className=" min-h-[1200px] mt-[0]   md:min-h-[800px] md:max-h-[800px]  relative overflow-hidden ">
         <div className="absolute top-0 left-0 h-full w-full">
           <Image
             src={"/whoweare.png"}
