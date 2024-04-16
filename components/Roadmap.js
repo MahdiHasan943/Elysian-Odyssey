@@ -169,7 +169,7 @@ const Team = () => {
                 </div>
               </div>
               {/* 2 */}
-              <div className="relative h-[880px] mb-[50px] sm:h-[650px] mt-auto   mx-auto w-full ">
+              <div className="relative h-[880px] mb-[50px] sm:h-[700px] mt-auto   mx-auto w-full ">
                 <Image
                   src={"/Screenshot_6.png"}
                   alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
