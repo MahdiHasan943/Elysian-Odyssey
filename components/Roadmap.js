@@ -63,7 +63,7 @@ const Team = () => {
 
           <div className="w-full px-4 pt-[200px]  py-10 absolute top-0 left-0 h-full z-[100000] max-auto">
             {/* <TimelineRoadmap /> */}
-            <div className="relative   h-[450px] mx-auto w-[815px]">
+            <div className="relative h-[800px] sm:h-[500px]  lg:h-[450px] mx-auto w-full lg:w-[815px]">
               <div className="absolute top-0 left-1/2 transform z-20 border-[#403307] border-[4px] -translate-x-1/2  mt-[-120px] w-[300px] h-[130px]">
                 <p className="text-[#b3b1b1] font-bold text-center text-[80px]">
                   2022
