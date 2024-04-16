@@ -52,7 +52,7 @@ const Team = () => {
         <div className=" min-h-[1200px]   lg:min-h-[1250px] lg:max-h-[1250px] 2xl:min-h-[1150px]  2xl:max-h-[1150px] relative overflow-hidden ">
           <div className="absolute top-0 left-0 h-full w-full">
             <Image
-              src={"/images/teambg.png"}
+              src={"/teambg.png"}
               alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
               layout="fill"
               objectFit="cover"
@@ -61,7 +61,7 @@ const Team = () => {
           </div>
 
           <div className="w-full px-4  py-10 absolute top-0 left-0 h-full z-[100000] max-auto">
-            <motion.div
+            {/* <motion.div
               variants={staggerContainer}
               initial="hidden"
               whileInView="show"
@@ -72,7 +72,7 @@ const Team = () => {
                 title="Team"
                 textStyles={` text-center text-[#f2d387] pt-5 pb-20 font-bold text-[40px] leading-[40px] uppercase `}
               />
-            </motion.div>
+            </motion.div> */}
 
             <Swiper
               modules={[Navigation, Pagination]}
