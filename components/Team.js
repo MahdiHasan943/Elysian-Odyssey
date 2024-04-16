@@ -38,6 +38,9 @@ const Team = () => {
     1024: {
       slidesPerView: 3,
     },
+    1280: {
+      slidesPerView: 4,
+    },
   };
   return (
     <>
@@ -49,14 +52,21 @@ const Team = () => {
         className=""
         id="team"
       >
-        <div className=" min-h-[1200px]   lg:min-h-[1250px] lg:max-h-[1250px] 2xl:min-h-[1150px]  2xl:max-h-[1150px] relative overflow-hidden ">
+        <div className=" min-h-[1100px]   lg:min-h-[1250px] lg:max-h-[1250px] 2xl:min-h-[1350px]  2xl:max-h-[1250px] relative overflow-hidden ">
           <div className="absolute top-0 left-0 h-full w-full">
             <Image
               src={"/teambg.png"}
               alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
               layout="fill"
               objectFit="cover"
-              className=""
+              className="bg-center hidden sm:block"
+            />
+            <Image
+              src={"/teambg.png"}
+              alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
+              width={986}
+              height={665}
+              className=" w-full h-full block sm:hidden"
             />
           </div>
 
@@ -78,261 +88,277 @@ const Team = () => {
               modules={[Navigation, Pagination]}
               slidesPerView="auto"
               spaceBetween={50}
-              className="mySwiper max-w-[1800px!important] overflow-hidden mx-auto smallest:px-[12px!important] md:px-[40px!important]  my-8 "
+              className="mySwiper max-w-[1800px!important] mt-[200px] 2xl:mt-[400px] overflow-hidden mx-auto smallest:px-[12px!important] md:px-[40px!important]  my-8 "
               breakpoints={breakpoints}
               loop={true}
             >
               <div className="absolute z-50 h-full   top-1/2 left-0 w-full">
                 <SwipperNewBtn />
               </div>
-              <SwiperSlide className="">
+              <SwiperSlide className=" py-[130px]">
                 <motion.div
                   variants={fadeIn("right", "bounce", 0.2, 1)}
                   initial="hidden"
                   whileInView="show"
                 >
-                  <Image
-                    src={"/images/MileNikolikj.jpg"}
-                    alt="team-member"
-                    width={300}
-                    height={300}
-                    className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
-                  />
-                  <div className="text-center mb-10">
-                    <h3
-                      className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
+                  <div className="border-[#36371c]  z-20 border-[2px] min-h-[700px]">
+                    <Image
+                      src={"/images/MileNikolikj.jpg"}
+                      alt="team-member"
+                      width={300}
+                      height={300}
+                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
+                    />
+                    <p
+                      className={`${roboto_slab.className} text-center font-bold text-[#fff] text-[30px]`}
                     >
-                      MILE NIKOLIC
-                    </h3>
-                    <h4
-                      className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
+                      Mile Nikolikj
+                    </p>
+                    <p
+                      className={`${roboto_slab.className} font-bold text-[#fff] text-center text-[24px]`}
                     >
-                      FOUNDER & CEO{" "}
-                    </h4>
-                  </div>
-                  <div className=" py-4">
-                    <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
-                      <li>Web 2 entrepreneur</li>
-                      <li>In crypto since 2017</li>
-                      <li>
-                        Investor in 60+ gaming projects makes him understand the
-                        market very well
-                      </li>
-                      <li>Successfully sold 2 NFT projects</li>
-                      <li>Actively visiting various IRL crypto events</li>
-                    </ul>
+                      Founder and CEO
+                    </p>
+                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
+                        Web 2 entrepreneur
+                      </p>
+                      <p className="text-[18px] py-5  leading-[25px]  text-[#fff] ">
+                        In crypto since 2017
+                      </p>
+
+                      <p className="text-[18px]  leading-[25px]  text-[#fff]">
+                        Investor in 60+ gaming <br />
+                        Projects makes him <br />
+                        understand the market <br /> very well
+                      </p>
+                      <p className="text-[18px] py-5  leading-[25px]  text-[#fff] ">
+                        Successfully sold 2 NFT <br />
+                        projects
+                      </p>
+                      <p className="text-[18px] py-5  leading-[25px]  text-[#fff] ">
+                        Avtively visiting various IRL <br />
+                        crypto events
+                      </p>
+                    </div>
                   </div>
                 </motion.div>
               </SwiperSlide>
-
-              <SwiperSlide className="">
+              <SwiperSlide className=" py-[130px]">
                 <motion.div
-                  variants={fadeIn("down", "bounce", 0.2, 1)}
+                  variants={fadeIn("right", "bounce", 0.2, 1)}
                   initial="hidden"
                   whileInView="show"
                 >
-                  <Image
-                    src={"/images/MilosTosic.jfif"}
-                    alt="team-member"
-                    width={300}
-                    height={300}
-                    className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
-                  />
-                  <div className="text-center">
-                    <h3
-                      className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
+                  <div className="border-[#36371c] min-h-[700px] z-20 border-[2px]">
+                    <Image
+                      src={"/images/MilosTosic.jfif"}
+                      alt="team-member"
+                      width={300}
+                      height={300}
+                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
+                    />
+                    <p
+                      className={`${roboto_slab.className} text-center font-bold text-[#fff] text-[30px]`}
                     >
                       MILOS TOSIC
-                    </h3>
-                    <h4
-                      className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
+                    </p>
+                    <p
+                      className={`${roboto_slab.className} font-bold text-[#fff] text-center text-[24px]`}
                     >
                       CTO
-                    </h4>
-                  </div>
-                  <div className="py-4">
-                    <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
-                      <li>
+                    </p>
+                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
                         25 years of professional programming experience in video
                         games with focus on game engine architecture, tools and
                         pipelines
-                      </li>
-                      <li>
+                      </p>
+
+                      <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
                         Former expert programmer in Ubisoft and Tencent and
                         Senior programmer in Blue Side and Guerrilla
-                      </li>
-                      <li>
+                      </p>
+                      <p className="text-[18px] py-5  leading-[25px]  text-[#fff] ">
                         Previous works: Assassin’s Creed Odyssey, League of
                         Legends Wild Rift, PUBG Mobile, Mortal Kombat One, DDay,
                         Killzone 3, Trials franchise (multiple titles), and
                         more.
-                      </li>
-                    </ul>
+                      </p>
+                    </div>
                   </div>
                 </motion.div>
               </SwiperSlide>
-
-              <SwiperSlide className="">
+              <SwiperSlide className=" py-[130px]">
                 <motion.div
-                  variants={fadeIn("left", "bounce", 0.2, 1)}
+                  variants={fadeIn("right", "bounce", 0.2, 1)}
                   initial="hidden"
                   whileInView="show"
                 >
-                  <Image
-                    src={"/images/AlfioTrabuio.jfif"}
-                    alt="team-member"
-                    width={300}
-                    height={300}
-                    className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
-                  />
-                  <div className="text-center">
-                    <h3
-                      className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
+                  <div className="border-[#36371c] min-h-[700px]  z-20 border-[2px]">
+                    <Image
+                      src={"/images/AlfioTrabuio.jfif"}
+                      alt="team-member"
+                      width={300}
+                      height={300}
+                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
+                    />
+                    <p
+                      className={`${roboto_slab.className} text-center font-bold text-[#fff] text-[30px]`}
                     >
                       ALFIO TRABUIO
-                    </h3>
-                    <h4
-                      className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
+                    </p>
+                    <p
+                      className={`${roboto_slab.className} font-bold text-[#fff] text-center text-[24px]`}
                     >
                       TECHNICAL ART DIRECTION
-                    </h4>
-                  </div>
-                  <div className=" py-4">
-                    <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
-                      <li>
+                    </p>
+                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
                         A veteran game developer started in early 90s, focusing
                         on technical art solutions, plugin and pipeline
                         development providing teams with productivity solutions
-                      </li>
-                      <li>Technical lead in Ubisoft</li>
-                    </ul>
+                      </p>
+
+                      <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
+                        Technical lead in Ubisoft
+                      </p>
+                    </div>
                   </div>
                 </motion.div>
               </SwiperSlide>
 
-              <SwiperSlide className="">
+              <SwiperSlide className=" py-[130px]">
                 <motion.div
-                  variants={fadeIn("down", "bounce", 0.2, 1)}
+                  variants={fadeIn("right", "bounce", 0.2, 1)}
                   initial="hidden"
                   whileInView="show"
                 >
-                  <Image
-                    src={"/images/TomislavTesla.jfif"}
-                    alt="team-member"
-                    width={300}
-                    height={300}
-                    className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
-                  />
-                  <div className="text-center  mb-10">
-                    <h3
-                      className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
+                  <div className="border-[#36371c] min-h-[700px]  z-20 border-[2px]">
+                    <Image
+                      src={"/images/TomislavTesla.jfif"}
+                      alt="team-member"
+                      width={300}
+                      height={300}
+                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
+                    />
+                    <p
+                      className={`${roboto_slab.className} text-center font-bold text-[#fff] text-[30px]`}
                     >
                       TOMISLAV TESLA
-                    </h3>
-                    <h4
-                      className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
+                    </p>
+                    <p
+                      className={`${roboto_slab.className} font-bold text-[#fff] text-center text-[24px]`}
                     >
                       VFX / CREATURE ANIMATION
-                    </h4>
-                  </div>
-                  <div className="py-4">
-                    <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
-                      <li>
+                    </p>
+                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
                         A seasoned senior character and creature 3D animator
                         with a rich background in diverse animation styles,
                         covering games, AR/VR/MR, Feature, and VFX films.
-                      </li>
-                      <li>
+                      </p>
+
+                      <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
                         Previously worked on famous blockbuster movies like:
                         Aquaman, Disney’s Noelle, the immersive Underwater, the
                         captivating Dungeons & Dragons: Honor Among Thieves, and
                         the highly anticipated Mufasa: Lion King among others.
-                      </li>
-                    </ul>
+                      </p>
+                    </div>
                   </div>
                 </motion.div>
               </SwiperSlide>
 
-              <SwiperSlide className="">
+              <SwiperSlide className=" py-[130px]">
                 <motion.div
-                  variants={fadeIn("down", "bounce", 0.2, 1)}
+                  variants={fadeIn("right", "bounce", 0.2, 1)}
                   initial="hidden"
                   whileInView="show"
-                  className=""
                 >
-                  <Image
-                    src={"/images/VladimirFilipovic.jfif"}
-                    alt="team-member"
-                    width={300}
-                    height={300}
-                    className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
-                  />
-                  <div className="text-center  mb-10">
-                    <h3
-                      className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
+                  <div className="border-[#36371c] min-h-[700px] z-20 border-[2px]">
+                    <Image
+                      src={"/images/VladimirFilipovic.jfif"}
+                      alt="team-member"
+                      width={300}
+                      height={300}
+                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
+                    />
+                    <p
+                      className={`${roboto_slab.className} text-center font-bold text-[#fff] text-[30px]`}
                     >
                       VLADIMIR FILIPOVIC
-                    </h3>
-                    <h4
-                      className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
+                    </p>
+                    <p
+                      className={`${roboto_slab.className} font-bold text-[#fff] text-center text-[24px]`}
                     >
                       PROGRAMMING
-                    </h4>
-                  </div>
-                  <div className="py-4">
-                    <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
-                      <li>
+                    </p>
+                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
                         Vladimir is software engineer with 20 years of
                         experience, mainly in largescale backend systems, but
                         also in video games, data science and finance.
-                      </li>
-                      <li>Previously worked in Meta and Google</li>
-                    </ul>
+                      </p>
+
+                      <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
+                        Previously worked in Meta and Google
+                      </p>
+                    </div>
                   </div>
                 </motion.div>
               </SwiperSlide>
-
-              <SwiperSlide className="">
+              <SwiperSlide className=" py-[130px]">
                 <motion.div
-                  variants={fadeIn("left", "bounce", 0.2, 1)}
+                  variants={fadeIn("right", "bounce", 0.2, 1)}
                   initial="hidden"
                   whileInView="show"
-                  className=""
                 >
-                  <Image
-                    src={"/images/DavidFried.jfif"}
-                    alt="team-member"
-                    width={300}
-                    height={300}
-                    className=" border-[5px]  mx-auto my-4 w-[250px] h-[250px] border-[#f9d286] rounded-full"
-                  />
-                  <div className="text-center  mb-10">
-                    <h3
-                      className={`${roboto_slab.className} font-bold text-[#fff] text-[30px]`}
+                  <div className="border-[#36371c] min-h-[700px]  z-20 border-[2px]">
+                    <Image
+                      src={"/images/DavidFried.jfif"}
+                      alt="team-member"
+                      width={300}
+                      height={300}
+                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
+                    />
+                    <p
+                      className={`${roboto_slab.className} text-center font-bold text-[#fff] text-[30px]`}
                     >
                       DAVID FRIED
-                    </h3>
-                    <h4
-                      className={`${roboto_slab.className} font-bold text-[#f9d286] text-[24px]`}
+                    </p>
+                    <p
+                      className={`${roboto_slab.className} font-bold text-[#fff] text-center text-[24px]`}
                     >
                       GAME DESIGN
-                    </h4>
-                  </div>
-                  <div className="py-4">
-                    <ul className="list-disc w-[350px] px-8  mx-auto sm:w-full border-[5px] border-[#f9d286] sm:px-12 text-[#fff] text-[20px] leading-[32px] py-4">
-                      <li>
+                    </p>
+                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
                         David has over 25 years of game and narrative design
                         experience.r
-                      </li>
-                      <li>
+                      </p>
+
+                      <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
                         Some of his work includes Warcraft III, World of
                         Warcraft, Oddworld Stranger’s Wrath, Wasteland 3 and
                         many more
-                      </li>
-                      <li>
+                      </p>
+                      <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
                         Previously worked for Blizzard Entertainment and Ubisoft
-                      </li>
-                    </ul>
+                      </p>
+                    </div>
                   </div>
                 </motion.div>
               </SwiperSlide>
