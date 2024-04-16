@@ -3,7 +3,12 @@ import Image from "next/image";
 import React from "react";
 import { TypingText } from "./reusable/CustomText";
 import { motion } from "framer-motion";
-import { planetVariants, slideIn, staggerContainer } from "@/utils/motion";
+import {
+  fadeIn,
+  planetVariants,
+  slideIn,
+  staggerContainer,
+} from "@/utils/motion";
 import { Roboto_Slab, Work_Sans, Cinzel } from "next/font/google";
 import Description from "./reusable/Description";
 const roboto_slab = Roboto_Slab({
@@ -41,31 +46,43 @@ const About = () => {
               className="block sm:hidden"
             />
             <div className="grid grid-cols-1  gap-5 md:grid-cols-3">
-              <div className="">
+              <motion.div
+                variants={fadeIn("right", "bounce", 0.2, 1)}
+                className=""
+              >
                 <Image
                   src={"/images/OurVision.png"}
                   alt="eye"
                   width={400}
                   height={400}
+                  className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
                 />
-              </div>
+              </motion.div>
 
-              <div className="">
+              <motion.div
+                variants={fadeIn("up", "bounce", 0.2, 1)}
+                className=""
+              >
                 <Image
                   src={"/images/OurMission.png"}
                   alt="eye"
                   width={400}
                   height={400}
+                  className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
                 />
-              </div>
-              <div className="">
+              </motion.div>
+              <motion.div
+                variants={fadeIn("left", "bounce", 0.2, 1)}
+                className=""
+              >
                 <Image
                   src={"/images/Commitment.png"}
                   alt="eye"
                   width={400}
                   height={400}
+                  className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
                 />
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
