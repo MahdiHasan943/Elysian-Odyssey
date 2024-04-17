@@ -15,13 +15,13 @@ export const SwipperNewBtn = () => {
           className=" animated-button  group rounded-full flex   relative  overflow-hidden justify-center items-center w-[10px] h-[15px]     sm:w-[50px] sm:h-[50px]"
           onClick={() => swiper.slidePrev()}
         >
-          <BsArrowLeft className="text-[#111] group-hover:text-[#fff] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-[10px] sm:text-[16px]" />
+          <BsArrowLeft className="text-[#111] group-hover:text-[#fff] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-[15px] sm:text-[16px]" />
         </span>
         <span
           className="bg-[#000]  tablet:hidden rounded-full animated-button group flex relative justify-center items-center w-[10px] h-[15px]     sm:w-[50px] sm:h-[50px]"
           onClick={() => swiper.slideNext()}
         >
-          <BsArrowRight className="text-[#111] group-hover:text-[#fff]  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-[10px] sm:text-[16px]" />
+          <BsArrowRight className="text-[#111] group-hover:text-[#fff]  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-[15px] sm:text-[16px]" />
         </span>
       </div>
     </div>
@@ -38,13 +38,13 @@ export const SwipperNewBtn1 = () => {
           className=" animated-button  group rounded-full flex   relative  overflow-hidden justify-center items-center w-[10px] h-[15px]     sm:w-[50px] sm:h-[50px]"
           onClick={() => swiper.slidePrev()}
         >
-          <BsArrowLeft className="text-[#111] group-hover:text-[#fff] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-[10px] sm:text-[16px]" />
+          <BsArrowLeft className="text-[#111] group-hover:text-[#fff] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-[15px] sm:text-[16px]" />
         </span> */}
         <span
           className="bg-[#000] mx-auto rounded-full animated-button group flex relative justify-end items-end w-[10px] h-[15px]     sm:w-[50px] sm:h-[50px]"
           onClick={() => swiper.slideNext()}
         >
-          <BsArrowRight className="text-[#111] group-hover:text-[#fff]  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-[10px] sm:text-[16px]" />
+          <BsArrowRight className="text-[#111] group-hover:text-[#fff]  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-[15px] sm:text-[16px]" />
         </span>
       </div>
     </div>
