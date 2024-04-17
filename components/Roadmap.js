@@ -11,10 +11,15 @@ import {
   textVariant2,
   textVariant3,
 } from "@/utils/motion";
-import { Roboto_Slab, Work_Sans } from "next/font/google";
+import { Cinzel, Roboto_Slab, Work_Sans } from "next/font/google";
 import Description from "./reusable/Description";
 const roboto_slab = Roboto_Slab({
   weight: ["400", "300", "500", "600", "700", "900"],
+  subsets: ["latin"],
+  display: "swap",
+});
+const cinzel = Cinzel({
+  weight: "700",
   subsets: ["latin"],
   display: "swap",
 });
@@ -49,12 +54,14 @@ const Team = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className=""
+        className={`${roboto_slab.className}`}
         id="road"
       >
         <div className="min-h-[7600px] bg-[black]  mb-[-5px] smallest:min-h-[7600px] moreSmall:min-h-[7600px]   lg:min-h-[4500px] lg:max-h-[4500px]  relative overflow-hidden ">
           <div className=" absolute top-0 flex justify-center items-center w-full h-[400px] left-0 z-[50]">
-            <h2 className="text-center sectionTitle text-[60px] md:text-[300px]">
+            <h2
+              className={`${cinzel.className} text-center sectionTitle text-[60px] md:text-[300px]`}
+            >
               ROADMAP
             </h2>
           </div>
@@ -78,12 +85,16 @@ const Team = () => {
               className="relative h-[800px] sm:h-[500px]  lg:h-[450px] mx-auto w-full lg:w-[815px]"
             >
               <div className="absolute top-0 left-1/2 transform z-20 border-[#403307] bg-[#050303] border-[4px] -translate-x-1/2  mt-[-115px] w-[300px] h-[130px]">
-                <p className="text-[#b3b1b1] font-bold text-center text-[80px]">
+                <p
+                  className={`${cinzel.className} text-[#b3b1b1] font-bold text-center text-[80px]`}
+                >
                   2022
                 </p>
               </div>
               <div className="absolute bottom-0 left-1/2 transform z-20 bg-[#050303] border-[#403307] border-[4px] -translate-x-1/2  mb-[-113px] w-[300px] h-[130px]">
-                <p className="text-[#b3b1b1] font-bold text-center text-[80px]">
+                <p
+                  className={`${cinzel.className} text-[#b3b1b1] font-bold text-center text-[80px]`}
+                >
                   2023
                 </p>
               </div>
@@ -103,7 +114,9 @@ const Team = () => {
               />
 
               <div className="absolute px-4 py-10  top-0 h-full w-full left-0">
-                <p className="text-[#fff] text-[26px] font-semibold text-center">
+                <p
+                  className={`${cinzel.className} text-[#fff] text-[26px] font-semibold text-center`}
+                >
                   Team Expansion and Fundraising
                 </p>
                 <div className="h-[4px] w-full bg-[#717070] my-2"></div>
@@ -173,16 +186,22 @@ const Team = () => {
 
                 <div className="absolute px-2 top-0 h-full w-full left-0">
                   <div className="grid grid-cols-2  gap-4">
-                    <p className="text-[#fff] text-[46px] py-7 border-r-[#717070] border-r-2 font-semibold text-center">
+                    <p
+                      className={`${cinzel.className} text-[#fff] text-[46px] py-7 border-r-[#717070] border-r-2 font-semibold text-center `}
+                    >
                       Q1
                     </p>
-                    <p className="text-[#fff] text-[46px] py-7 font-semibold text-center">
+                    <p
+                      className={`${cinzel.className} text-[#fff] text-[46px] py-7 font-semibold text-center `}
+                    >
                       Q2
                     </p>
                   </div>
                   <div className="h-[4px] w-full bg-[#717070] mb-2"></div>
 
-                  <p className="py-6 font-bold text-[#fff] text-[35px] text-center">
+                  <p
+                    className={`${cinzel.className} py-6 font-bold text-[#fff] text-[35px] text-center `}
+                  >
                     NFT Community Building and NFT Sale
                   </p>
                   <div className="h-[4px] w-full bg-[#717070] my-2"></div>
@@ -229,16 +248,22 @@ const Team = () => {
                 />
                 <div className="absolute px-2 top-0 h-full w-full left-0">
                   <div className="grid grid-cols-2  gap-4">
-                    <p className="text-[#fff] text-[46px] py-7 border-r-[#717070] border-r-2 font-semibold text-center">
+                    <p
+                      className={`${cinzel.className} text-[#fff] text-[46px] py-7 border-r-[#717070] border-r-2 font-semibold text-center `}
+                    >
                       Q3
                     </p>
-                    <p className="text-[#fff] text-[46px] py-7 font-semibold text-center">
+                    <p
+                      className={`${cinzel.className} text-[#fff] text-[46px] py-7 font-semibold text-center `}
+                    >
                       Q4
                     </p>
                   </div>
                   <div className="h-[4px] w-full bg-[#717070] mb-2"></div>
 
-                  <p className="py-6 font-bold text-[#fff] text-[28px]  sm:text-[35px] text-center">
+                  <p
+                    className={`${cinzel.className} py-6 font-bold text-[#fff] text-[28px]  sm:text-[35px] text-center `}
+                  >
                     Conceptualization and <br /> Development
                   </p>
                   <div className="h-[4px] w-full bg-[#717070] my-2"></div>
@@ -269,7 +294,7 @@ const Team = () => {
                   variants={textVariant3}
                   initial="hidden"
                   whileInView="show"
-                  className="text-[#b3b1b1] font-bold text-center text-[80px]"
+                  className={`${cinzel.className} text-[#b3b1b1] font-bold text-center text-[80px] `}
                 >
                   2024
                 </motion.p>
@@ -312,16 +337,22 @@ const Team = () => {
                 />
                 <div className="absolute px-2 top-0 h-full w-full left-0">
                   <div className="grid grid-cols-2  gap-4">
-                    <p className="text-[#fff] text-[46px] py-7 border-r-[#717070] border-r-2 font-semibold text-center">
+                    <p
+                      className={`${cinzel.className} text-[#fff] text-[46px] py-7 border-r-[#717070] border-r-2 font-semibold text-center `}
+                    >
                       Q1
                     </p>
-                    <p className="text-[#fff] text-[46px] py-7 font-semibold text-center">
+                    <p
+                      className={`${cinzel.className} text-[#fff] text-[46px] py-7 font-semibold text-center `}
+                    >
                       Q2
                     </p>
                   </div>
                   <div className="h-[4px] w-full bg-[#717070] mb-2"></div>
 
-                  <p className="py-6 font-bold text-[#fff] text-[35px] text-center">
+                  <p
+                    className={`${cinzel.className} py-6 font-bold text-[#fff] text-[35px] text-center `}
+                  >
                     Team Expansion and Fundraising
                   </p>
                   <div className="h-[4px] w-full bg-[#717070] my-2"></div>
@@ -371,16 +402,22 @@ const Team = () => {
                 />
                 <div className="absolute px-2 top-0 h-full w-full left-0">
                   <div className="grid grid-cols-2  gap-4">
-                    <p className="text-[#fff] text-[46px] py-7 border-r-[#717070] border-r-2 font-semibold text-center">
+                    <p
+                      className={`${cinzel.className} text-[#fff] text-[46px] py-7 border-r-[#717070] border-r-2 font-semibold text-center `}
+                    >
                       Q3
                     </p>
-                    <p className="text-[#fff] text-[46px] py-7 font-semibold text-center">
+                    <p
+                      className={`${cinzel.className} text-[#fff] text-[46px] py-7 font-semibold text-center `}
+                    >
                       Q4
                     </p>
                   </div>
                   <div className="h-[4px] w-full bg-[#717070] mb-2"></div>
 
-                  <p className="py-6 font-bold text-[#fff] text-[28px]  sm:text-[35px] text-center">
+                  <p
+                    className={`${cinzel.className} py-6 font-bold text-[#fff] text-[28px]  sm:text-[35px] text-center `}
+                  >
                     Token Launch and Community Expansion{" "}
                   </p>
                   <div className="h-[4px] w-full bg-[#717070] my-2"></div>
@@ -415,7 +452,7 @@ const Team = () => {
                   variants={textVariant3}
                   initial="hidden"
                   whileInView="show"
-                  className="text-[#b3b1b1] font-bold text-center text-[80px]"
+                  className={`${cinzel.className} text-[#b3b1b1] font-bold text-center text-[80px] `}
                 >
                   2025
                 </motion.p>
@@ -458,16 +495,22 @@ const Team = () => {
                 />
                 <div className="absolute px-2 top-0 h-full w-full left-0">
                   <div className="grid grid-cols-2  gap-4">
-                    <p className="text-[#fff] text-[46px] py-7 border-r-[#717070] border-r-2 font-semibold text-center">
+                    <p
+                      className={`${cinzel.className} text-[#fff] text-[46px] py-7 border-r-[#717070] border-r-2 font-semibold text-center `}
+                    >
                       Q1
                     </p>
-                    <p className="text-[#fff] text-[46px] py-7 font-semibold text-center">
+                    <p
+                      className={`${cinzel.className} text-[#fff] text-[46px] py-7 font-semibold text-center `}
+                    >
                       Q2
                     </p>
                   </div>
                   <div className="h-[4px] w-full bg-[#717070] mb-2"></div>
 
-                  <p className="py-6 font-bold text-[#fff] text-[35px] text-center">
+                  <p
+                    className={`${cinzel.className} py-6 font-bold text-[#fff] text-[35px] text-center `}
+                  >
                     Elysian Odyssey Beta Release
                   </p>
                   <div className="h-[4px] w-full bg-[#717070] my-2"></div>

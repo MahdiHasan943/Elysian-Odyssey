@@ -9,7 +9,7 @@ import {
   slideIn,
   staggerContainer,
 } from "@/utils/motion";
-import { Roboto_Slab, Work_Sans } from "next/font/google";
+import { Cinzel, Roboto_Slab, Work_Sans } from "next/font/google";
 const roboto_slab = Roboto_Slab({
   weight: ["400", "300", "500", "600", "700", "900"],
   subsets: ["latin"],
@@ -19,7 +19,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Navigation, Autoplay, Pagination } from "swiper/modules";
 import { SwipperNewBtn } from "./SwipperNewBtn";
-
+const cinzel = Cinzel({
+  weight: "700",
+  subsets: ["latin"],
+  display: "swap",
+});
 const Team = () => {
   const swiperRef = useRef(null);
   // const progressCircle = useRef(null);
@@ -49,12 +53,14 @@ const Team = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className=""
+        className={`${roboto_slab.className}`}
         id="team"
       >
         <div className=" min-h-[1100px]   lg:min-h-[1350px] lg:max-h-[1350px] 2xl:min-h-[1350px]  2xl:max-h-[1350px] relative overflow-hidden ">
           <div className=" absolute top-0 flex justify-center items-center w-full h-[400px] left-0 z-[50]">
-            <h2 className="text-center sectionTitle flex justify-center text-[47px] md:text-[350px]">
+            <h2
+              className={`${cinzel.className} text-center sectionTitle flex justify-center text-[47px] md:text-[350px] `}
+            >
               T{" "}
               <a href="" className="sm:mt-[40px] block">
                 EAM
@@ -133,7 +139,9 @@ const Team = () => {
                       <p className="text-[18px]  leading-[25px]  text-[#fff] ">
                         Web 2 entrepreneur
                       </p>
-                      <p className="text-[18px] py-5  leading-[25px]  text-[#fff] ">
+                      <p
+                        className={`${roboto_slab.className}text-[18px] py-5  leading-[25px]  text-[#fff] `}
+                      >
                         In crypto since 2017
                       </p>
 
