@@ -274,7 +274,7 @@ const Team = () => {
                 variants={textVariant3}
                 initial="hidden"
                 whileInView="show"
-                className="relative h-[1100px] mt-[50px] sm:h-[800px]   mx-auto w-full "
+                className="relative h-[1250px] moreSmall:h-[1150px] mt-[50px] sm:h-[800px]   mx-auto w-full "
               >
                 <Image
                   src={"/Screenshot_6.png"}
@@ -326,7 +326,7 @@ const Team = () => {
                 variants={textVariant3}
                 initial="hidden"
                 whileInView="show"
-                className="relative h-[950px] mb-[50px] sm:h-[750px] mt-auto   mx-auto w-full "
+                className="relative h-[1150px] mb-[50px] sm:h-[750px] mt-auto   mx-auto w-full "
               >
                 <Image
                   src={"/Screenshot_6.png"}
