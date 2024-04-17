@@ -62,7 +62,7 @@ const Team = () => {
               className={`${cinzel.className} text-center sectionTitle flex justify-center text-[85px] md:text-[350px] `}
             >
               T{" "}
-              <a href="" className="  sm:mt-[40px] block">
+              <a href="" className="   block">
                 EAM
               </a>{" "}
             </h2>

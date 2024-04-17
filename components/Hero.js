@@ -78,6 +78,7 @@ const About = () => {
                   alt="logo"
                   width={800}
                   height={500}
+                  className=""
                 />
               </motion.div>
               <motion.div
@@ -85,8 +86,29 @@ const About = () => {
                 initial="hidden"
                 whileInView="show"
                 className=" "
+                onMouseEnter={handleHover}
+                onMouseLeave={handleHover}
               >
-                <Image
+                {isHovered ? (
+                  <Image
+                    src={"/two.png"}
+                    alt="logo"
+                    width={482}
+                    height={127}
+                    onClick={handleDownload}
+                    className=" w-[200px] buttonshadow sm:h-auto sm:w-auto duration-200 delay-75 ease-linear"
+                  />
+                ) : (
+                  <Image
+                    src={"/one.png"}
+                    alt="logo"
+                    width={482}
+                    height={127}
+                    onClick={handleDownload}
+                    className=" w-[200px] buttonshadow1  sm:h-auto sm:w-auto duration-200 delay-75 ease-linear"
+                  />
+                )}
+                {/* <Image
                   src={
                     isHovered
                       ? "/Whitepapper-kopce-Hover.png"
@@ -96,10 +118,8 @@ const About = () => {
                   width={400}
                   height={127}
                   onClick={handleDownload}
-                  onMouseEnter={handleHover}
-                  onMouseLeave={handleHover}
                   className=" w-[200px] sm:h-auto sm:w-auto duration-200 delay-75 ease-linear"
-                />
+                /> */}
               </motion.div>
             </div>
           </div>
