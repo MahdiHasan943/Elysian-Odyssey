@@ -52,7 +52,7 @@ const Team = () => {
         className=""
         id="road"
       >
-        <div className="min-h-[7150px] bg-[black]  mb-[-5px] smallest:min-h-[7150px] moreSmall:min-h-[7100px]   lg:min-h-[4100px] lg:max-h-[4100px]  relative overflow-hidden ">
+        <div className="min-h-[7400px] bg-[black]  mb-[-5px] smallest:min-h-[7400px] moreSmall:min-h-[7400px]   lg:min-h-[4100px] lg:max-h-[4100px]  relative overflow-hidden ">
           <div className="absolute top-0 left-0 h-full w-full">
             <Image
               src={"/roadmap.png"}
