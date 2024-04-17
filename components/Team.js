@@ -101,7 +101,7 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <div className="border-[#36371c]  z-20 border-[2px] min-h-[700px]">
+                  <div className="border-[#36371c] bg-[#161616] shadow-2xl  z-20 border-[2px] min-h-[700px]">
                     <Image
                       src={"/images/MileNikolikj.jpg"}
                       alt="team-member"
@@ -152,7 +152,7 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <div className="border-[#36371c] min-h-[700px] z-20 border-[2px]">
+                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px] z-20 border-[2px]">
                     <Image
                       src={"/images/MilosTosic.jfif"}
                       alt="team-member"
@@ -199,7 +199,7 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <div className="border-[#36371c] min-h-[700px]  z-20 border-[2px]">
+                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
                     <Image
                       src={"/images/AlfioTrabuio.jfif"}
                       alt="team-member"
@@ -240,7 +240,7 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <div className="border-[#36371c] min-h-[700px]  z-20 border-[2px]">
+                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
                     <Image
                       src={"/images/TomislavTesla.jfif"}
                       alt="team-member"
@@ -284,7 +284,7 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <div className="border-[#36371c] min-h-[700px] z-20 border-[2px]">
+                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px] z-20 border-[2px]">
                     <Image
                       src={"/images/VladimirFilipovic.jfif"}
                       alt="team-member"
@@ -324,7 +324,7 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <div className="border-[#36371c] min-h-[700px]  z-20 border-[2px]">
+                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
                     <Image
                       src={"/images/DavidFried.jfif"}
                       alt="team-member"
