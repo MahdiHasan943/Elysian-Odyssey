@@ -72,12 +72,12 @@ const Team = () => {
               whileInView="show"
               className="relative h-[800px] sm:h-[500px]  lg:h-[450px] mx-auto w-full lg:w-[815px]"
             >
-              <div className="absolute top-0 left-1/2 transform z-20 border-[#403307] border-[4px] -translate-x-1/2  mt-[-120px] w-[300px] h-[130px]">
+              <div className="absolute top-0 left-1/2 transform z-20 border-[#403307] bg-[#050303] border-[4px] -translate-x-1/2  mt-[-115px] w-[300px] h-[130px]">
                 <p className="text-[#b3b1b1] font-bold text-center text-[80px]">
                   2022
                 </p>
               </div>
-              <div className="absolute bottom-0 left-1/2 transform z-20 border-[#403307] border-[4px] -translate-x-1/2  mb-[-120px] w-[300px] h-[130px]">
+              <div className="absolute bottom-0 left-1/2 transform z-20 bg-[#050303] border-[#403307] border-[4px] -translate-x-1/2  mb-[-113px] w-[300px] h-[130px]">
                 <p className="text-[#b3b1b1] font-bold text-center text-[80px]">
                   2023
                 </p>
@@ -90,7 +90,7 @@ const Team = () => {
                 className=" hidden sm:block"
               />
               <Image
-                src={"/Screenshot_7.png"}
+                src={"/panel/phone.roeadmap.png"}
                 alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
                 layout="fill"
                 objectFit="fill"
@@ -156,8 +156,16 @@ const Team = () => {
                   alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
                   layout="fill"
                   objectFit="fill"
-                  className=" "
+                  className="hidden sm:block "
                 />
+                <Image
+                  src={"/panel/phone.roeadmap.png"}
+                  alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
+                  layout="fill"
+                  objectFit="fill"
+                  className="block sm:hidden"
+                />
+
                 <div className="absolute px-2 top-0 h-full w-full left-0">
                   <div className="grid grid-cols-2  gap-4">
                     <p className="text-[#fff] text-[46px] py-7 border-r-[#717070] border-r-2 font-semibold text-center">
@@ -205,7 +213,14 @@ const Team = () => {
                   alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
                   layout="fill"
                   objectFit="fill"
-                  className=" "
+                  className="hidden sm:block "
+                />
+                <Image
+                  src={"/panel/phone.roeadmap.png"}
+                  alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
+                  layout="fill"
+                  objectFit="fill"
+                  className="block sm:hidden"
                 />
                 <div className="absolute px-2 top-0 h-full w-full left-0">
                   <div className="grid grid-cols-2  gap-4">
@@ -281,7 +296,14 @@ const Team = () => {
                   alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
                   layout="fill"
                   objectFit="fill"
-                  className=" "
+                  className="hidden sm:block "
+                />
+                <Image
+                  src={"/panel/phone.roeadmap.png"}
+                  alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
+                  layout="fill"
+                  objectFit="fill"
+                  className="block sm:hidden"
                 />
                 <div className="absolute px-2 top-0 h-full w-full left-0">
                   <div className="grid grid-cols-2  gap-4">
@@ -333,7 +355,14 @@ const Team = () => {
                   alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
                   layout="fill"
                   objectFit="fill"
-                  className=" "
+                  className="hidden sm:block "
+                />
+                <Image
+                  src={"/panel/phone.roeadmap.png"}
+                  alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
+                  layout="fill"
+                  objectFit="fill"
+                  className="block sm:hidden"
                 />
                 <div className="absolute px-2 top-0 h-full w-full left-0">
                   <div className="grid grid-cols-2  gap-4">
@@ -413,7 +442,14 @@ const Team = () => {
                   alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
                   layout="fill"
                   objectFit="fill"
-                  className=" "
+                  className="hidden sm:block "
+                />
+                <Image
+                  src={"/panel/phone.roeadmap.png"}
+                  alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
+                  layout="fill"
+                  objectFit="fill"
+                  className="block sm:hidden"
                 />
                 <div className="absolute px-2 top-0 h-full w-full left-0">
                   <div className="grid grid-cols-2  gap-4">

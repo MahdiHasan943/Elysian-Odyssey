@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import { TypingText } from "./reusable/CustomText";
 import { motion } from "framer-motion";
 import {
@@ -19,6 +19,29 @@ const roboto_slab = Roboto_Slab({
   display: "swap",
 });
 const About = () => {
+  // State to track hover status
+  const [isHovered, setIsHovered] = useState(false);
+  let timeoutId;
+
+  // Function to toggle hover status with a delay
+  const handleHover = () => {
+    // Clear any existing timeout
+    clearTimeout(timeoutId);
+
+    // Set a new timeout to toggle the hover state after 200 milliseconds
+    timeoutId = setTimeout(() => {
+      setIsHovered(!isHovered);
+    }, 200);
+  };
+
+  // Function to handle mouse leave
+  const handleMouseLeave = () => {
+    // Clear the timeout if mouse leaves before the delay
+    clearTimeout(timeoutId);
+
+    // Reset the hover state immediately
+    setIsHovered(false);
+  };
   const handleDownload = () => {
     const pdfURL = "/images/newfile_compressed.pdf";
     window.open(pdfURL, "_blank");
@@ -62,15 +85,21 @@ const About = () => {
                 variants={textVariant3}
                 initial="hidden"
                 whileInView="show"
-                className=""
+                className=" "
               >
                 <Image
-                  onClick={handleDownload}
-                  src={"/redwhitePapper.png"}
+                  src={
+                    isHovered
+                      ? "/Whitepapper-kopce-Hover.png"
+                      : "/redwhitePapper.png"
+                  }
                   alt="logo"
                   width={400}
                   height={127}
-                  className="hover:scale-[1.1] w-[200px]  sm:h-auto sm:w-auto duration-200 delay-75 ease-linear"
+                  onClick={handleDownload}
+                  onMouseEnter={handleHover}
+                  onMouseLeave={handleHover}
+                  className=" w-[200px] sm:h-auto sm:w-auto duration-200 delay-75 ease-linear"
                 />
               </motion.div>
             </div>
