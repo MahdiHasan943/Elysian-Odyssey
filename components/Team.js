@@ -53,16 +53,24 @@ const Team = () => {
         id="team"
       >
         <div className=" min-h-[1100px]   lg:min-h-[1350px] lg:max-h-[1350px] 2xl:min-h-[1350px]  2xl:max-h-[1350px] relative overflow-hidden ">
+          <div className=" absolute top-0 flex justify-center items-center w-full h-[400px] left-0 z-[50]">
+            <h2 className="text-center sectionTitle flex justify-center text-[47px] md:text-[350px]">
+              T{" "}
+              <a href="" className="sm:mt-[40px] block">
+                EAM
+              </a>{" "}
+            </h2>
+          </div>
           <div className="absolute top-0 left-0 h-full w-full">
             <Image
-              src={"/teambg.png"}
+              src={"/panel/team.jpg"}
               alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
               layout="fill"
               objectFit="cover"
               className="bg-center hidden sm:block"
             />
             <Image
-              src={"/teambg.png"}
+              src={"/panel/team.jpg"}
               alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
               width={986}
               height={665}
@@ -88,7 +96,7 @@ const Team = () => {
               modules={[Navigation, Pagination]}
               slidesPerView="auto"
               spaceBetween={50}
-              className="mySwiper max-w-[1800px!important] mt-[200px] 2xl:mt-[400px] overflow-hidden mx-auto smallest:px-[12px!important] md:px-[40px!important]  my-8 "
+              className="mySwiper max-w-[1800px!important] mt-[200px] 2xl:mt-[350px] overflow-hidden mx-auto smallest:px-[12px!important] md:px-[40px!important]  my-8 "
               breakpoints={breakpoints}
               loop={true}
             >

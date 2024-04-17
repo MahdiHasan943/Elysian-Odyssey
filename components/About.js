@@ -23,28 +23,34 @@ const About = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className=""
+      className="mt-[-50px] z-0"
       id="our-mission"
     >
       <div className=" min-h-[1200px] mt-[0]   md:min-h-[800px] md:max-h-[800px]  relative overflow-hidden ">
+        <div className=" absolute top-0 flex justify-center items-center w-full h-[400px] left-0 z-[50]">
+          <h2 className=" text-center sectionTitle text-[42px] md:text-[200px]">
+            WHO ARE WE
+          </h2>
+        </div>
+
         <div className="absolute top-0 left-0 h-full w-full">
           <Image
-            src={"/whoweare.png"}
+            src={"/panel/who.jpg"}
             alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
             layout="fill"
             objectFit="cover"
             className=""
           />
         </div>
-        <div className="w-full  px-4  md:min-h-[800px] md:max-h-[800px]   py-10 flex justify-center items-center absolute top-0 left-0 h-full z-[100000] max-auto">
+        <div className="w-full mt-[150px] sm:mt-[50px]  px-4  md:min-h-[800px] md:max-h-[800px]   py-10 flex justify-center items-center absolute top-0 left-0 h-full z-[100000] max-auto">
           <div className=" max-w-[1400px]  mx-auto  sm:mt-[300px] md:mt-0 md:min-h-[450px] md:max-h-[450px] ">
-            <Image
+            {/* <Image
               src={"/Screenshot_2.png"}
               alt="eye"
               width={400}
               height={400}
               className="block sm:hidden"
-            />
+            /> */}
             <div className="grid grid-cols-1  gap-5 md:grid-cols-3">
               <motion.div
                 variants={fadeIn("right", "bounce", 0.2, 1)}
