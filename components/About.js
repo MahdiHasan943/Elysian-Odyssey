@@ -26,9 +26,9 @@ const About = () => {
       className="mt-[-50px] z-0"
       id="our-mission"
     >
-      <div className=" min-h-[1200px] mt-[0]   md:min-h-[800px] md:max-h-[800px]  relative overflow-hidden ">
+      <div className=" min-h-[1450px] mt-[0]   md:min-h-[900px] md:max-h-[900px]  relative overflow-hidden ">
         <div className=" absolute top-0 flex justify-center items-center w-full h-[400px] left-0 z-[50]">
-          <h2 className=" text-center sectionTitle text-[42px] md:text-[200px]">
+          <h2 className=" text-center sectionTitle text-[42px] lg:text-[160px] 2xl:text-[200px]">
             WHO ARE WE
           </h2>
         </div>
@@ -42,7 +42,7 @@ const About = () => {
             className=""
           />
         </div>
-        <div className="w-full mt-[150px] sm:mt-[50px]  px-4  md:min-h-[800px] md:max-h-[800px]   py-10 flex justify-center items-center absolute top-0 left-0 h-full z-[100000] max-auto">
+        <div className="w-full mt-[50px] sm:mt-[50px]  px-4  md:min-h-[800px] md:max-h-[800px]   py-10 flex justify-center items-center absolute top-0 left-0 h-full z-[100000] max-auto">
           <div className=" max-w-[1400px]  mx-auto  sm:mt-[300px] md:mt-0 md:min-h-[450px] md:max-h-[450px] ">
             {/* <Image
               src={"/Screenshot_2.png"}
