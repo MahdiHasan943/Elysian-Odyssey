@@ -59,10 +59,10 @@ const Team = () => {
         <div className=" min-h-[1100px]   lg:min-h-[1350px] lg:max-h-[1350px] 2xl:min-h-[1350px]  2xl:max-h-[1350px] relative overflow-hidden ">
           <div className=" absolute top-0 flex justify-center items-center w-full h-[400px] left-0 z-[50]">
             <h2
-              className={`${cinzel.className} text-center sectionTitle flex justify-center text-[47px] md:text-[350px] `}
+              className={`${cinzel.className} text-center sectionTitle flex justify-center text-[85px] md:text-[350px] `}
             >
               T{" "}
-              <a href="" className="sm:mt-[40px] block">
+              <a href="" className="  sm:mt-[40px] block">
                 EAM
               </a>{" "}
             </h2>
