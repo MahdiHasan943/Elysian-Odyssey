@@ -52,7 +52,7 @@ const Team = () => {
         className=""
         id="team"
       >
-        <div className=" min-h-[1100px]   lg:min-h-[1250px] lg:max-h-[1250px] 2xl:min-h-[1350px]  2xl:max-h-[1250px] relative overflow-hidden ">
+        <div className=" min-h-[1100px]   lg:min-h-[1350px] lg:max-h-[1350px] 2xl:min-h-[1350px]  2xl:max-h-[1350px] relative overflow-hidden ">
           <div className="absolute top-0 left-0 h-full w-full">
             <Image
               src={"/teambg.png"}

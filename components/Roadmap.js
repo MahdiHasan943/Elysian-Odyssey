@@ -52,7 +52,7 @@ const Team = () => {
         className=""
         id="road"
       >
-        <div className="min-h-[7100px] bg-[black]  mb-[-5px] smallest:min-h-[7100px] moreSmall:min-h-[7000px]   lg:min-h-[4100px] lg:max-h-[4100px]  relative overflow-hidden ">
+        <div className="min-h-[7150px] bg-[black]  mb-[-5px] smallest:min-h-[7150px] moreSmall:min-h-[7100px]   lg:min-h-[4100px] lg:max-h-[4100px]  relative overflow-hidden ">
           <div className="absolute top-0 left-0 h-full w-full">
             <Image
               src={"/roadmap.png"}
@@ -127,7 +127,7 @@ const Team = () => {
               </div>
             </motion.div>
             {/* 2023 */}
-            <div className="grid pl-[30px] sm:pl-0 grid-cols-1 sm:h-[1050px] md:grid-cols-2 mt-[150px] justify-center max-w-[1200px] mx-auto gap-20 relative ">
+            <div className="grid pl-[30px] sm:pl-0 grid-cols-1 sm:h-[1050px] md:grid-cols-2 mt-[150px] justify-center max-w-[1300px] mx-auto gap-20 relative ">
               {/* whiteline */}
               <motion.div
                 variants={textVariant3}
@@ -145,7 +145,12 @@ const Team = () => {
               </motion.div>
               {/* main content */}
               {/* 1 */}
-              <div className="relative h-[1100px] mt-[50px] sm:h-[800px]   mx-auto w-full ">
+              <motion.div
+                variants={textVariant3}
+                initial="hidden"
+                whileInView="show"
+                className="relative h-[1100px] mt-[50px] sm:h-[800px]   mx-auto w-full "
+              >
                 <Image
                   src={"/Screenshot_6.png"}
                   alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
@@ -187,9 +192,14 @@ const Team = () => {
                     created.
                   </p>
                 </div>
-              </div>
+              </motion.div>
               {/* 2 */}
-              <div className="relative h-[880px] mb-[50px] sm:h-[700px] mt-auto   mx-auto w-full ">
+              <motion.div
+                variants={textVariant3}
+                initial="hidden"
+                whileInView="show"
+                className="relative h-[880px] mb-[50px] sm:h-[700px] mt-auto   mx-auto w-full "
+              >
                 <Image
                   src={"/Screenshot_6.png"}
                   alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
@@ -228,17 +238,28 @@ const Team = () => {
                     user feedback.
                   </p>
                 </div>
-              </div>
+              </motion.div>
             </div>
             {/* 2024 */}
             <div className="grid pl-[30px] sm:pl-0 grid-cols-1 sm:h-[1050px] md:grid-cols-2 mt-[150px] justify-center max-w-[1200px] mx-auto gap-20 relative ">
               {/* whiteline */}
+
               <div className="absolute top-0 left-1/2 transform z-20 border-[#403307] border-[4px] -translate-x-1/2  mt-[-140px] w-[300px] h-[130px]">
-                <p className="text-[#b3b1b1] font-bold text-center text-[80px]">
+                <motion.p
+                  variants={textVariant3}
+                  initial="hidden"
+                  whileInView="show"
+                  className="text-[#b3b1b1] font-bold text-center text-[80px]"
+                >
                   2024
-                </p>
+                </motion.p>
               </div>
-              <div className="absolute h-full sm:h-[1050px] w-[15px] top-0 left-0 sm:left-1/2 -translate-x-1/2">
+              <motion.div
+                variants={textVariant3}
+                initial="hidden"
+                whileInView="show"
+                className="absolute h-full sm:h-[1050px] w-[15px] top-0 left-0 sm:left-1/2 -translate-x-1/2"
+              >
                 <Image
                   src={"/whiteline.png"}
                   alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
@@ -246,10 +267,15 @@ const Team = () => {
                   height={600}
                   className=" h-full w-[5px]  "
                 />
-              </div>
+              </motion.div>
               {/* main content */}
               {/* 1 */}
-              <div className="relative h-[1100px] mt-[50px] sm:h-[800px]   mx-auto w-full ">
+              <motion.div
+                variants={textVariant3}
+                initial="hidden"
+                whileInView="show"
+                className="relative h-[1100px] mt-[50px] sm:h-[800px]   mx-auto w-full "
+              >
                 <Image
                   src={"/Screenshot_6.png"}
                   alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
@@ -269,31 +295,39 @@ const Team = () => {
                   <div className="h-[4px] w-full bg-[#717070] mb-2"></div>
 
                   <p className="py-6 font-bold text-[#fff] text-[35px] text-center">
-                    NFT Community Building and NFT Sale
+                    Team Expansion and Fundraising
                   </p>
                   <div className="h-[4px] w-full bg-[#717070] my-2"></div>
 
                   <p className="text-[#fff] text-[16px] px-4 py-2">
-                    During this phase our team has worked on creating the
-                    storyline, designing the characters, building community and
-                    selling the characters in form of NFT.
+                    In this phase, we conduct alpha testing to gather insights
+                    from early adopters and refine the game based on their
+                    feedback. Key activities include:
                   </p>
                   <div className="h-[4px] w-full bg-[#717070] my-5"></div>
 
                   <p className="py-6 text-[#fff] text-[16px] px-4">
-                    - Lore creation: The story about the four beings of genesis
-                    has been born.Each character got in depth explanation about
-                    their abilities and disadvantages. <br /> - Character
-                    design: Each character was carefully designed to contain the
-                    characteristics described in the Lore. <br /> - NFT mint:
-                    5556 Elysians were born to live on the blockchain -
-                    <br /> Community building: a community of 1000+ holders was
-                    created.
+                    -Alpha Testing: Inviting a select group of players to
+                    participate in closed alpha testing to evaluate gameplay
+                    mechanics, identify bugs, and provide suggestions for
+                    improvement. <br /> -Iterative Development: Implementing
+                    iterative updates and enhancements based on alpha testing
+                    feedback to optimize gameplay, user experience, and
+                    performance. <br />
+                    -Community Engagement: Engaging with the community through
+                    regular updates, feedback sessions, and community-driven
+                    initiatives to foster a sense of ownership and
+                    collaboration.
                   </p>
                 </div>
-              </div>
+              </motion.div>
               {/* 2 */}
-              <div className="relative h-[880px] mb-[50px] sm:h-[700px] mt-auto   mx-auto w-full ">
+              <motion.div
+                variants={textVariant3}
+                initial="hidden"
+                whileInView="show"
+                className="relative h-[950px] mb-[50px] sm:h-[750px] mt-auto   mx-auto w-full "
+              >
                 <Image
                   src={"/Screenshot_6.png"}
                   alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
@@ -313,37 +347,51 @@ const Team = () => {
                   <div className="h-[4px] w-full bg-[#717070] mb-2"></div>
 
                   <p className="py-6 font-bold text-[#fff] text-[28px]  sm:text-[35px] text-center">
-                    Conceptualization and <br /> Development
+                    Token Launch and Community Expansion{" "}
                   </p>
                   <div className="h-[4px] w-full bg-[#717070] my-2"></div>
 
                   <p className="text-[#fff] text-[16px] px-4 py-2">
-                    During this phase, our team focuses on conceptualising the
-                    game mechanics, storyline, and world-building elements of
-                    Elysian Odyssey. Key activities include:
+                    During this phase, we prepare for the public launch of ELY
+                    and focus on expanding our community outreach efforts. Key
+                    activities include:
                   </p>
                   <div className="h-[4px] w-full bg-[#717070] my-5"></div>
 
                   <p className="py-6 text-[#fff] text-[16px] px-4">
-                    - Conceptualization: Refining the game concept, defining
-                    core gameplay mechanics, and establishing the narrative
-                    framework. - Prototype Development: Building early-stage
-                    prototypes to test fundamental game mechanics and gather
-                    user feedback.
+                    - Community Building: Scaling our community outreach effort
+                    through social media campaigns, influencer partnerships, and
+                    community events to attract new players and build a vibrant
+                    gaming and crypto community - Marketing Campaigns: Launching
+                    targeted marketing campaigns to raise awareness about
+                    Elysian Odyssey and drive user acquisition. - Token Launch:
+                    Opening our community to a wider audience through a public
+                    release, allowing players and investors to join our
+                    community.
                   </p>
                 </div>
-              </div>
+              </motion.div>
             </div>
 
             {/* 2025 */}
             <div className="grid pl-[30px] sm:pl-0 grid-cols-1 sm:h-[1050px] md:grid-cols-2 mt-[150px] justify-center max-w-[1200px] mx-auto gap-20 relative ">
               {/* whiteline */}
               <div className="absolute top-0 left-1/2 transform z-20 border-[#403307] border-[4px] -translate-x-1/2  mt-[-140px] w-[300px] h-[130px]">
-                <p className="text-[#b3b1b1] font-bold text-center text-[80px]">
+                <motion.p
+                  variants={textVariant3}
+                  initial="hidden"
+                  whileInView="show"
+                  className="text-[#b3b1b1] font-bold text-center text-[80px]"
+                >
                   2025
-                </p>
+                </motion.p>
               </div>
-              <div className="absolute h-full sm:h-[1050px] w-[15px] top-0 left-0 sm:left-1/2 -translate-x-1/2">
+              <motion.div
+                variants={textVariant3}
+                initial="hidden"
+                whileInView="show"
+                className="absolute h-full sm:h-[1050px] w-[15px] top-0 left-0 sm:left-1/2 -translate-x-1/2"
+              >
                 <Image
                   src={"/whiteline.png"}
                   alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
@@ -351,10 +399,15 @@ const Team = () => {
                   height={600}
                   className=" h-full w-[5px]  "
                 />
-              </div>
+              </motion.div>
               {/* main content */}
               {/* 1 */}
-              <div className="relative h-[1100px] mt-[50px] sm:h-[800px]   mx-auto w-full ">
+              <motion.div
+                variants={textVariant3}
+                initial="hidden"
+                whileInView="show"
+                className="relative h-[1100px] mt-[50px] sm:h-[800px]   mx-auto w-full "
+              >
                 <Image
                   src={"/Screenshot_6.png"}
                   alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
@@ -374,7 +427,7 @@ const Team = () => {
                   <div className="h-[4px] w-full bg-[#717070] mb-2"></div>
 
                   <p className="py-6 font-bold text-[#fff] text-[35px] text-center">
-                    NFT Community Building and NFT Sale
+                    Elysian Odyssey Beta Release
                   </p>
                   <div className="h-[4px] w-full bg-[#717070] my-2"></div>
 
@@ -392,11 +445,11 @@ const Team = () => {
                     design: Each character was carefully designed to contain the
                     characteristics described in the Lore. <br /> - NFT mint:
                     5556 Elysians were born to live on the blockchain -
-                    <br /> Community building: a community of 1000+ holders was
+                    Community building: a community of 1000+ holders was
                     created.
                   </p>
                 </div>
-              </div>
+              </motion.div>
               {/* 2 */}
             </div>
           </div>
