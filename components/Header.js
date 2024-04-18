@@ -131,7 +131,7 @@ const Header = () => {
                   </Link>
                 </p>
 
-                <p
+                {/* <p
                   className={`${roboto_slab.className}`}
                   onClick={() => {
                     setColor("tokenomics");
@@ -147,7 +147,7 @@ const Header = () => {
                   >
                     tokenomics
                   </Link>
-                </p>
+                </p> */}
                 <p
                   className={`${roboto_slab.className}`}
                   onClick={() => {
@@ -249,7 +249,7 @@ const Header = () => {
                         Character
                       </Link>
                     </p>
-                    <p
+                    {/* <p
                       className={`${roboto_slab.className}`}
                       onClick={() => {
                         setColor("tokenomics");
@@ -265,7 +265,7 @@ const Header = () => {
                       >
                         tokenomics
                       </Link>
-                    </p>
+                    </p> */}
                     <p
                       className={`${roboto_slab.className}`}
                       onClick={() => {
