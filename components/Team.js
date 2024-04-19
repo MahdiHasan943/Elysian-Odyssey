@@ -19,6 +19,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Navigation, Autoplay, Pagination } from "swiper/modules";
 import { SwipperNewBtn } from "./SwipperNewBtn";
+import Link from "next/link";
 const cinzel = Cinzel({
   weight: "700",
   subsets: ["latin"],
@@ -42,7 +43,7 @@ const Team = () => {
     1024: {
       slidesPerView: 3,
     },
-    1280: {
+    1281: {
       slidesPerView: 4,
     },
   };
@@ -56,7 +57,7 @@ const Team = () => {
         className={`${roboto_slab.className}`}
         id="team"
       >
-        <div className=" min-h-[1100px]   lg:min-h-[1350px] lg:max-h-[1350px] 2xl:min-h-[1350px]  2xl:max-h-[1350px] relative overflow-hidden ">
+        <div className=" min-h-[1200px]   lg:min-h-[1350px] lg:max-h-[1350px] 2xl:min-h-[1350px]  2xl:max-h-[1350px] relative overflow-hidden ">
           <div className=" absolute top-0 flex justify-center items-center w-full h-[400px] left-0 z-[50]">
             <h2
               className={`${cinzel.className} text-center sectionTitle flex justify-center text-[85px] md:text-[350px] `}
@@ -106,7 +107,7 @@ const Team = () => {
               breakpoints={breakpoints}
               loop={true}
             >
-              <div className="absolute z-50 h-full   top-1/2 left-0 w-full">
+              <div className="absolute z-50 h-[300px]  top-1/2 left-0 w-full">
                 <SwipperNewBtn />
               </div>
               <SwiperSlide className=" py-[130px]">
@@ -160,6 +161,18 @@ const Team = () => {
                       </p>
                     </div>
                   </div>
+                  <Link
+                    href="https://www.linkedin.com/in/mile-nikolikj-2664681a1/"
+                    target="_blank"
+                  >
+                    <Image
+                      src={"/linkdin.png"}
+                      alt="linkdin"
+                      width={60}
+                      height={60}
+                      className="py-6 mx-auto"
+                    />
+                  </Link>
                 </motion.div>
               </SwiperSlide>
               <SwiperSlide className=" py-[130px]">
@@ -207,6 +220,18 @@ const Team = () => {
                       </p>
                     </div>
                   </div>
+                  <Link
+                    href="https://www.linkedin.com/in/milostosic77/"
+                    target="_blank"
+                  >
+                    <Image
+                      src={"/linkdin.png"}
+                      alt="linkdin"
+                      width={60}
+                      height={60}
+                      className="py-6 mx-auto"
+                    />
+                  </Link>
                 </motion.div>
               </SwiperSlide>
               <SwiperSlide className=" py-[130px]">
@@ -247,6 +272,18 @@ const Team = () => {
                       </p>
                     </div>
                   </div>
+                  <Link
+                    href="https://www.linkedin.com/in/alfio-trabuio-5915511/"
+                    target="_blank"
+                  >
+                    <Image
+                      src={"/linkdin.png"}
+                      alt="linkdin"
+                      width={60}
+                      height={60}
+                      className="py-6 mx-auto"
+                    />
+                  </Link>
                 </motion.div>
               </SwiperSlide>
 
@@ -291,6 +328,18 @@ const Team = () => {
                       </p>
                     </div>
                   </div>
+                  <Link
+                    href="https://www.linkedin.com/in/vladimir-filipovi%C4%87-744b516/"
+                    target="_blank"
+                  >
+                    <Image
+                      src={"/linkdin.png"}
+                      alt="linkdin"
+                      width={60}
+                      height={60}
+                      className="py-6 mx-auto"
+                    />
+                  </Link>
                 </motion.div>
               </SwiperSlide>
 
@@ -332,6 +381,18 @@ const Team = () => {
                       </p>
                     </div>
                   </div>
+                  <Link
+                    href="https://www.linkedin.com/in/gamedesignerdave/"
+                    target="_blank"
+                  >
+                    <Image
+                      src={"/linkdin.png"}
+                      alt="linkdin"
+                      width={60}
+                      height={60}
+                      className="py-6 mx-auto"
+                    />
+                  </Link>
                 </motion.div>
               </SwiperSlide>
               <SwiperSlide className=" py-[130px]">
@@ -376,6 +437,19 @@ const Team = () => {
                       </p>
                     </div>
                   </div>
+
+                  <Link
+                    href="https://www.linkedin.com/in/urospavlovic/"
+                    target="_blank"
+                  >
+                    <Image
+                      src={"/linkdin.png"}
+                      alt="linkdin"
+                      width={60}
+                      height={60}
+                      className="py-6 mx-auto"
+                    />
+                  </Link>
                 </motion.div>
               </SwiperSlide>
 
