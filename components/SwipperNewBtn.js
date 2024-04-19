@@ -9,7 +9,7 @@ export const SwipperNewBtn = () => {
   const swiper = useSwiper();
 
   return (
-    <div className="swiper-nav-btns    h-[300px] ">
+    <div className="swiper-nav-btns    h-[100px] ">
       <div className="flex  tablet:flex-col gap-4 relative justify-between tablet:justify-center">
         <span
           className=" animated-button  group rounded-full flex   relative  overflow-hidden justify-center items-center w-[10px] h-[15px]     sm:w-[50px] sm:h-[50px]"

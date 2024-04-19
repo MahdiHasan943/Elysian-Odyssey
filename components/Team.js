@@ -107,7 +107,7 @@ const Team = () => {
               breakpoints={breakpoints}
               loop={true}
             >
-              <div className="absolute z-50 h-[300px]  top-1/2 left-0 w-full">
+              <div className="absolute z-50 h-[100px]   top-1/2 left-0 w-full">
                 <SwipperNewBtn />
               </div>
               <SwiperSlide className=" py-[130px]">
@@ -160,19 +160,19 @@ const Team = () => {
                         crypto events
                       </p>
                     </div>
+                    <Link
+                      href="https://www.linkedin.com/in/mile-nikolikj-2664681a1/"
+                      target="_blank"
+                    >
+                      <Image
+                        src={"/linkdin.png"}
+                        alt="linkdin"
+                        width={40}
+                        height={40}
+                        className="py-6 mx-auto"
+                      />
+                    </Link>
                   </div>
-                  <Link
-                    href="https://www.linkedin.com/in/mile-nikolikj-2664681a1/"
-                    target="_blank"
-                  >
-                    <Image
-                      src={"/linkdin.png"}
-                      alt="linkdin"
-                      width={60}
-                      height={60}
-                      className="py-6 mx-auto"
-                    />
-                  </Link>
                 </motion.div>
               </SwiperSlide>
               <SwiperSlide className=" py-[130px]">
@@ -219,19 +219,19 @@ const Team = () => {
                         more.
                       </p>
                     </div>
+                    <Link
+                      href="https://www.linkedin.com/in/milostosic77/"
+                      target="_blank"
+                    >
+                      <Image
+                        src={"/linkdin.png"}
+                        alt="linkdin"
+                        width={40}
+                        height={40}
+                        className="py-6 mx-auto"
+                      />
+                    </Link>
                   </div>
-                  <Link
-                    href="https://www.linkedin.com/in/milostosic77/"
-                    target="_blank"
-                  >
-                    <Image
-                      src={"/linkdin.png"}
-                      alt="linkdin"
-                      width={60}
-                      height={60}
-                      className="py-6 mx-auto"
-                    />
-                  </Link>
                 </motion.div>
               </SwiperSlide>
               <SwiperSlide className=" py-[130px]">
@@ -271,19 +271,19 @@ const Team = () => {
                         Technical lead in Ubisoft
                       </p>
                     </div>
+                    <Link
+                      href="https://www.linkedin.com/in/alfio-trabuio-5915511/"
+                      target="_blank"
+                    >
+                      <Image
+                        src={"/linkdin.png"}
+                        alt="linkdin"
+                        width={40}
+                        height={40}
+                        className="py-6 mx-auto"
+                      />
+                    </Link>
                   </div>
-                  <Link
-                    href="https://www.linkedin.com/in/alfio-trabuio-5915511/"
-                    target="_blank"
-                  >
-                    <Image
-                      src={"/linkdin.png"}
-                      alt="linkdin"
-                      width={60}
-                      height={60}
-                      className="py-6 mx-auto"
-                    />
-                  </Link>
                 </motion.div>
               </SwiperSlide>
 
@@ -327,19 +327,19 @@ const Team = () => {
                         the highly anticipated Mufasa: Lion King among others.
                       </p>
                     </div>
+                    <Link
+                      href="https://www.linkedin.com/in/vladimir-filipovi%C4%87-744b516/"
+                      target="_blank"
+                    >
+                      <Image
+                        src={"/linkdin.png"}
+                        alt="linkdin"
+                        width={40}
+                        height={40}
+                        className="py-6 mx-auto"
+                      />
+                    </Link>
                   </div>
-                  <Link
-                    href="https://www.linkedin.com/in/vladimir-filipovi%C4%87-744b516/"
-                    target="_blank"
-                  >
-                    <Image
-                      src={"/linkdin.png"}
-                      alt="linkdin"
-                      width={60}
-                      height={60}
-                      className="py-6 mx-auto"
-                    />
-                  </Link>
                 </motion.div>
               </SwiperSlide>
 
@@ -380,19 +380,19 @@ const Team = () => {
                         Previously worked in Meta and Google
                       </p>
                     </div>
+                    <Link
+                      href="https://www.linkedin.com/in/gamedesignerdave/"
+                      target="_blank"
+                    >
+                      <Image
+                        src={"/linkdin.png"}
+                        alt="linkdin"
+                        width={40}
+                        height={40}
+                        className="py-6 mx-auto"
+                      />
+                    </Link>
                   </div>
-                  <Link
-                    href="https://www.linkedin.com/in/gamedesignerdave/"
-                    target="_blank"
-                  >
-                    <Image
-                      src={"/linkdin.png"}
-                      alt="linkdin"
-                      width={60}
-                      height={60}
-                      className="py-6 mx-auto"
-                    />
-                  </Link>
                 </motion.div>
               </SwiperSlide>
               <SwiperSlide className=" py-[130px]">
@@ -436,20 +436,20 @@ const Team = () => {
                         Previously worked for Blizzard Entertainment and Ubisoft
                       </p>
                     </div>
-                  </div>
 
-                  <Link
-                    href="https://www.linkedin.com/in/urospavlovic/"
-                    target="_blank"
-                  >
-                    <Image
-                      src={"/linkdin.png"}
-                      alt="linkdin"
-                      width={60}
-                      height={60}
-                      className="py-6 mx-auto"
-                    />
-                  </Link>
+                    <Link
+                      href="https://www.linkedin.com/in/urospavlovic/"
+                      target="_blank"
+                    >
+                      <Image
+                        src={"/linkdin.png"}
+                        alt="linkdin"
+                        width={40}
+                        height={40}
+                        className="py-6 mx-auto"
+                      />
+                    </Link>
+                  </div>
                 </motion.div>
               </SwiperSlide>
 
