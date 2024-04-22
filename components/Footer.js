@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Footer = () => (
   <motion.footer
-    className={`px-6 bg-[black] relative mt-[-90px] overflow-hidden w-full h-[230px] sm:h-[320px] sm:px-16 py-8 `}
+    className={`px-6 bg-[black] relative mt-[-90px] overflow-hidden w-full h-[250px] sm:h-[320px] sm:px-16 py-8 `}
     // style={{
     //   backgroundImage: `url(/footer.png)`,
     //   backgroundPosition: "center",
