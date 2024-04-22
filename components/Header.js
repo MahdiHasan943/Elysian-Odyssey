@@ -106,7 +106,7 @@ const Header = () => {
                     className={
                       color === "about"
                         ? "text-[16px text-[#fff] uppercase"
-                        : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
+                        : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
                     }
                   >
                     Who Are We
@@ -124,7 +124,7 @@ const Header = () => {
                     className={
                       color === "Charecters"
                         ? "text-[16px text-[#fff] uppercase"
-                        : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
+                        : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
                     }
                   >
                     Character{" "}
@@ -142,7 +142,7 @@ const Header = () => {
                     className={
                       color === "tokenomics"
                         ? "text-[16px text-[#fff] uppercase"
-                        : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
+                        : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
                     }
                   >
                     tokenomics
@@ -159,7 +159,7 @@ const Header = () => {
                     className={
                       color === "Team"
                         ? "text-[16px text-[#fff] uppercase"
-                        : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
+                        : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
                     }
                   >
                     Team
@@ -176,7 +176,7 @@ const Header = () => {
                     className={
                       color === "roadmap"
                         ? "text-[16px text-[#fff] uppercase"
-                        : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
+                        : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
                     }
                   >
                     roadmap
@@ -226,7 +226,7 @@ const Header = () => {
                         className={
                           color === "about"
                             ? "text-[16px text-[#fff] uppercase"
-                            : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
+                            : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
                         }
                       >
                         Who Are We
@@ -243,7 +243,7 @@ const Header = () => {
                         className={
                           color === "Charecters"
                             ? "text-[16px text-[#fff] uppercase"
-                            : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
+                            : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
                         }
                       >
                         Character
@@ -260,7 +260,7 @@ const Header = () => {
                         className={
                           color === "tokenomics"
                             ? "text-[16px text-[#fff] uppercase"
-                            : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
+                            : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
                         }
                       >
                         tokenomics
@@ -277,7 +277,7 @@ const Header = () => {
                         className={
                           color === "Team"
                             ? "text-[16px text-[#fff] uppercase"
-                            : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
+                            : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
                         }
                       >
                         Team
@@ -294,7 +294,7 @@ const Header = () => {
                         className={
                           color === "roadmap"
                             ? "text-[16px text-[#fff] uppercase"
-                            : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
+                            : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
                         }
                       >
                         roadmap

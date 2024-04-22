@@ -452,6 +452,323 @@ const Team = () => {
                 </motion.div>
               </SwiperSlide>
 
+              {/* 7 */}
+              <SwiperSlide className=" py-[130px]">
+                <motion.div
+                  variants={fadeIn("right", "bounce", 0.2, 1)}
+                  initial="hidden"
+                  whileInView="show"
+                >
+                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
+                    <Image
+                      src={"/uros.png"}
+                      alt="team-member"
+                      width={300}
+                      height={300}
+                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
+                    />
+                    <p
+                      className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
+                    >
+                      Uros Pavlovic
+                    </p>
+                    <p
+                      className={`${roboto_slab.className} uppercase font-bold text-[#fff] text-center text-[24px]`}
+                    >
+                      Level design
+                    </p>
+                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
+                        Uros has been working in the field of level design and
+                        level art for more than 20 years. <br /> <br />
+                        He has 14 titles shipped on variety of platforms, from
+                        PC via console to mobile. He holds an active lecturing
+                        role on 3D modelling and game design at University of
+                        Belgrade.
+                      </p>
+                    </div>
+
+                    <Link
+                      href="https://www.linkedin.com/in/urospavlovic/"
+                      target="_blank"
+                    >
+                      <Image
+                        src={"/linkdin.png"}
+                        alt="linkdin"
+                        width={40}
+                        height={40}
+                        className="py-6 mx-auto"
+                      />
+                    </Link>
+                  </div>
+                </motion.div>
+              </SwiperSlide>
+
+              {/* 8 */}
+              <SwiperSlide className=" py-[130px]">
+                <motion.div
+                  variants={fadeIn("right", "bounce", 0.2, 1)}
+                  initial="hidden"
+                  whileInView="show"
+                >
+                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
+                    <Image
+                      src={"/nenand.png"}
+                      alt="team-member"
+                      width={300}
+                      height={300}
+                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
+                    />
+                    <p
+                      className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
+                    >
+                      Nenad Krstic
+                    </p>
+                    <p
+                      className={`${roboto_slab.className} uppercase font-bold text-[#fff] text-center text-[24px]`}
+                    >
+                      Concept Art & Illustration
+                    </p>
+                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
+                        Nenad is a concept designer with a background in
+                        architecture who has over 10 years of game development
+                        experience in in a wide range of genres ranging from
+                        real-time strategies to first person shooters. <br />{" "}
+                        <br />
+                        He held a variety of in-house studio roles: game
+                        designer, modelling supervisor, concept artist, UI/UX
+                        designer and research & development lead.
+                      </p>
+                    </div>
+
+                    <Link
+                      href="https://www.linkedin.com/in/nenad-krstic-6b23b259/"
+                      target="_blank"
+                    >
+                      <Image
+                        src={"/linkdin.png"}
+                        alt="linkdin"
+                        width={40}
+                        height={40}
+                        className="py-6 mx-auto"
+                      />
+                    </Link>
+                  </div>
+                </motion.div>
+              </SwiperSlide>
+
+              {/* 9 */}
+
+              {/* 10 */}
+              <SwiperSlide className=" py-[130px]">
+                <motion.div
+                  variants={fadeIn("right", "bounce", 0.2, 1)}
+                  initial="hidden"
+                  whileInView="show"
+                >
+                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
+                    <Image
+                      src={"/Andrew.png"}
+                      alt="team-member"
+                      width={300}
+                      height={300}
+                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
+                    />
+                    <p
+                      className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
+                    >
+                      Andrew Hakim Lie
+                    </p>
+                    <p
+                      className={`${roboto_slab.className} uppercase font-bold text-[#fff] text-center text-[24px]`}
+                    >
+                      3D modelling & art
+                    </p>
+                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
+                        Award winning computer graphics artist with over 18
+                        years of experience specialising in both photoreal and
+                        stylized imagery. <br />
+                        <br />
+                        Previously worked on PUBG Mobile, WeShoot, Shadow
+                        Tracker (Vive VR)
+                        <br /> <br />
+                      </p>
+                    </div>
+
+                    <Link
+                      href="https://www.linkedin.com/in/andrew-hakim-lie-b52b8557/"
+                      target="_blank"
+                    >
+                      <Image
+                        src={"/linkdin.png"}
+                        alt="linkdin"
+                        width={40}
+                        height={40}
+                        className="py-6 mx-auto"
+                      />
+                    </Link>
+                  </div>
+                </motion.div>
+              </SwiperSlide>
+              {/* 11 */}
+
+              <SwiperSlide className=" py-[130px]">
+                <motion.div
+                  variants={fadeIn("right", "bounce", 0.2, 1)}
+                  initial="hidden"
+                  whileInView="show"
+                >
+                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
+                    <Image
+                      src={"/Nikolija.png"}
+                      alt="team-member"
+                      width={300}
+                      height={300}
+                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
+                    />
+                    <p
+                      className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
+                    >
+                      Nikolija Stojmenovic
+                    </p>
+                    <p
+                      className={`${roboto_slab.className} font-bold text-[#fff] text-center text-[24px]`}
+                    >
+                      HR
+                    </p>
+                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
+                        Successfully recruited 5000+ highly competent
+                        professionals Large network of developers
+                      </p>
+                    </div>
+
+                    <Link
+                      href="https://www.linkedin.com/in/nikolija-stojmenovic-a931a8b6/"
+                      target="_blank"
+                    >
+                      <Image
+                        src={"/linkdin.png"}
+                        alt="linkdin"
+                        width={40}
+                        height={40}
+                        className="py-6 mx-auto"
+                      />
+                    </Link>
+                  </div>
+                </motion.div>
+              </SwiperSlide>
+              {/* 12 */}
+
+              <SwiperSlide className=" py-[130px]">
+                <motion.div
+                  variants={fadeIn("right", "bounce", 0.2, 1)}
+                  initial="hidden"
+                  whileInView="show"
+                >
+                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
+                    <Image
+                      src={"/minoru.png"}
+                      alt="team-member"
+                      width={300}
+                      height={300}
+                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
+                    />
+                    <p
+                      className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
+                    >
+                      Minoru Pathirana
+                    </p>
+                    <p
+                      className={`${roboto_slab.className} uppercase font-bold text-[#fff] text-center text-[24px]`}
+                    >
+                      Character designer
+                    </p>
+                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
+                        -Certified Adobe artist -50+ 1/1 NFT designs sold
+                      </p>
+                    </div>
+
+                    {/* <Link
+                      href="https://www.linkedin.com/in/urospavlovic/"
+                      target="_blank"
+                    >
+                      <Image
+                        src={"/linkdin.png"}
+                        alt="linkdin"
+                        width={40}
+                        height={40}
+                        className="py-6 mx-auto"
+                      />
+                    </Link> */}
+                  </div>
+                </motion.div>
+              </SwiperSlide>
+
+              {/* 12 */}
+              <SwiperSlide className=" py-[130px]">
+                <motion.div
+                  variants={fadeIn("right", "bounce", 0.2, 1)}
+                  initial="hidden"
+                  whileInView="show"
+                >
+                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
+                    <Image
+                      src={"/zafir.png"}
+                      alt="team-member"
+                      width={300}
+                      height={300}
+                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
+                    />
+                    <p
+                      className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
+                    >
+                      Zafir Chuchanov
+                    </p>
+                    <p
+                      className={`${roboto_slab.className} uppercase font-bold text-[#fff] text-center text-[24px]`}
+                    >
+                      Business development
+                    </p>
+                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
+                        -iGaming Business development expert -13 years of
+                        experience in the field -Deep understanding of the
+                        market and customer behaviour
+                      </p>
+                    </div>
+
+                    <Link
+                      href=" https://www.linkedin.com/in/zchuchanov/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                      target="_blank"
+                    >
+                      <Image
+                        src={"/linkdin.png"}
+                        alt="linkdin"
+                        width={40}
+                        height={40}
+                        className="py-6 mx-auto"
+                      />
+                    </Link>
+                  </div>
+                </motion.div>
+              </SwiperSlide>
+
               {/* <div className="autoplay-progress" slot="container-end">
                 <svg viewBox="0 0 48 48" ref={progressCircle}>
                   <circle cx="24" cy="24" r="20"></circle>
