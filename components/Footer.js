@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Footer = () => (
   <motion.footer
-    className={`px-6 bg-[black] relative mt-[-90px] overflow-hidden w-full h-[230px] sm:h-[250px] sm:px-16 py-8 `}
+    className={`px-6 bg-[black] relative mt-[-90px] overflow-hidden w-full h-[230px] sm:h-[320px] sm:px-16 py-8 `}
     // style={{
     //   backgroundImage: `url(/footer.png)`,
     //   backgroundPosition: "center",
@@ -29,30 +29,35 @@ const Footer = () => (
       className="absolute h-[230px] w-[100%] block sm:hidden top-0 left-0 "
     />
     <div className="flex absolute z-50 top-0 left-0 bg-transparent  w-full pb-8 h-full justify-center items-end gap-16">
-      <Link
-        href={
-          "https://twitter.com/elysianodysseyg?s=11&t=MYFM-d6udoMcfZAdkjsejw"
-        }
-        target="_blank"
-      >
-        <Image
-          src={"/x-twitter1.png"}
-          alt="x-twitter"
-          height={35}
-          width={35}
-          className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
-        />
-      </Link>
-      <Link href={"https://t.me/ElysianOdyssey"} target="_blank">
-        {" "}
-        <Image
-          src={"/telegram.png"}
-          alt="telegram"
-          height={35}
-          width={35}
-          className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
-        />{" "}
-      </Link>
+      <div className="">
+        <div className="flex justify-center gap-16 py-4">
+          <Link
+            href={
+              "https://twitter.com/elysianodysseyg?s=11&t=MYFM-d6udoMcfZAdkjsejw"
+            }
+            target="_blank"
+          >
+            <Image
+              src={"/x-twitter1.png"}
+              alt="x-twitter"
+              height={35}
+              width={35}
+              className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
+            />
+          </Link>
+          <Link href={"https://t.me/ElysianOdyssey"} target="_blank">
+            {" "}
+            <Image
+              src={"/telegram.png"}
+              alt="telegram"
+              height={35}
+              width={35}
+              className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
+            />{" "}
+          </Link>
+        </div>
+        <p className="text-white">Elysian Capital LTD 2024</p>
+      </div>
     </div>
   </motion.footer>
 );

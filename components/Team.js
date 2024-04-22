@@ -152,12 +152,11 @@ const Team = () => {
                         understand the market <br /> very well
                       </p>
                       <p className="text-[18px] py-5  leading-[25px]  text-[#fff] ">
-                        Successfully sold 2 NFT <br />
+                        Successfully LAUNCHED 2 NFT <br />
                         projects
                       </p>
                       <p className="text-[18px] py-5  leading-[25px]  text-[#fff] ">
-                        Avtively visiting various IRL <br />
-                        crypto events
+                        Actively visiting various IRL events
                       </p>
                     </div>
                     <Link
