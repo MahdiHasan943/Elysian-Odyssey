@@ -125,12 +125,12 @@ const Team = () => {
                       className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
                     />
                     <p
-                      className={`${roboto_slab.className} text-center font-bold text-[#fff] text-[30px]`}
+                      className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
                     >
                       Mile Nikolikj
                     </p>
                     <p
-                      className={`${roboto_slab.className} font-bold text-[#fff] text-center text-[24px]`}
+                      className={`${roboto_slab.className} uppercase font-bold text-[#fff] text-center text-[24px]`}
                     >
                       Founder and CEO
                     </p>
@@ -147,12 +147,15 @@ const Team = () => {
                       </p>
 
                       <p className="text-[18px]  leading-[25px]  text-[#fff]">
-                        Investor in 60+ gaming <br />
+                        Investor in <span className="text-[#ff7f98]"> 60+</span>{" "}
+                        gaming <br />
                         Projects makes him <br />
                         understand the market <br /> very well
                       </p>
                       <p className="text-[18px] py-5  leading-[25px]  text-[#fff] ">
-                        Successfully LAUNCHED 2 NFT <br />
+                        Successfully LAUNCHED{" "}
+                        <span className="text-[#ff7f98]">2 NFT </span>
+                        <br />
                         projects
                       </p>
                       <p className="text-[18px] py-5  leading-[25px]  text-[#fff] ">
@@ -208,14 +211,24 @@ const Team = () => {
                       </p>
 
                       <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
-                        Former expert programmer in Ubisoft and Tencent and
-                        Senior programmer in Blue Side and Guerrilla
+                        Former expert programmer in{" "}
+                        <span className="text-[#ff7f98]"> Ubisoft </span> and
+                        Tencent and Senior programmer in Blue Side and Guerrilla
                       </p>
                       <p className="text-[18px] py-5  leading-[25px]  text-[#fff] ">
-                        Previous works: Assassin’s Creed Odyssey, League of
-                        Legends Wild Rift, PUBG Mobile, Mortal Kombat One, DDay,
-                        Killzone 3, Trials franchise (multiple titles), and
-                        more.
+                        Previous works:{" "}
+                        <span className="text-[#ff7f98]">
+                          {" "}
+                          Assassin’s Creed{" "}
+                        </span>{" "}
+                        Odyssey,{" "}
+                        <span className="text-[#ff7f98]">
+                          {" "}
+                          League of Legends{" "}
+                        </span>{" "}
+                        Wild Rift,<span className="text-[#ff7f98]"> PUBG </span>
+                        Mobile, Mortal Kombat One, DDay, Killzone 3, Trials
+                        franchise (multiple titles), and more.
                       </p>
                     </div>
                     <Link
@@ -267,7 +280,8 @@ const Team = () => {
                       </p>
 
                       <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
-                        Technical lead in Ubisoft
+                        Technical lead in{" "}
+                        <span className="text-[#ff7f98]"> Ubisoft</span>
                       </p>
                     </div>
                     <Link
@@ -321,9 +335,13 @@ const Team = () => {
 
                       <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
                         Previously worked on famous blockbuster movies like:
-                        Aquaman, Disney’s Noelle, the immersive Underwater, the
-                        captivating Dungeons & Dragons: Honor Among Thieves, and
-                        the highly anticipated Mufasa: Lion King among others.
+                        <span className="text-[#ff7f98]"> Aquaman,</span>{" "}
+                        <span className="text-[#ff7f98]">Disney’s</span> Noelle,
+                        the immersive Underwater, the captivating Dungeons &
+                        Dragons: Honor Among Thieves, and the highly anticipated
+                        Mufasa:{" "}
+                        <span className="text-[#ff7f98]">Lion King </span>among
+                        others.
                       </p>
                     </div>
                     <Link
@@ -376,7 +394,9 @@ const Team = () => {
                       </p>
 
                       <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
-                        Previously worked in Meta and Google
+                        Previously worked in{" "}
+                        <span className="text-[#ff7f98]">Meta</span> and{" "}
+                        <span className="text-[#ff7f98]">Google</span>
                       </p>
                     </div>
                     <Link
@@ -427,12 +447,19 @@ const Team = () => {
                       </p>
 
                       <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
-                        Some of his work includes Warcraft III, World of
-                        Warcraft, Oddworld Stranger’s Wrath, Wasteland 3 and
-                        many more
+                        Some of his work includes{" "}
+                        <span className="text-[#ff7f98]">Warcraft III</span>,{" "}
+                        <span className="text-[#ff7f98]">
+                          World of Warcraft,
+                        </span>{" "}
+                        Oddworld Stranger’s Wrath, Wasteland 3 and many more
                       </p>
                       <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
-                        Previously worked for Blizzard Entertainment and Ubisoft
+                        Previously worked for{" "}
+                        <span className="text-[#ff7f98]">
+                          Blizzard Entertainmen
+                        </span>
+                        t and <span className="text-[#ff7f98]">Ubisoft</span>
                       </p>
                     </div>
 
