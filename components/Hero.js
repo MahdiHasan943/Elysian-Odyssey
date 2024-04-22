@@ -55,7 +55,7 @@ const About = () => {
       viewport={{ once: false, amount: 0.25 }}
       className="z-10"
     >
-      <div className=" min-h-[800px] mt-[-200px]   lg:min-h-[1400px] lg:max-h-[1200px]  relative overflow-hidden ">
+      <div className=" min-h-[800px] mt-[-200px] sm:min-h-[1000px]    larger:min-h-[1400px] larger:max-h-[1200px]  relative overflow-hidden ">
         <div className="absolute top-0 left-0 h-full w-full">
           <Image
             src={"/images/new_charecter.png"}
@@ -78,7 +78,14 @@ const About = () => {
                   alt="logo"
                   width={800}
                   height={500}
-                  className=""
+                  className="hidden larger:block"
+                />
+                <Image
+                  src={"/Logo-Zlatno.png"}
+                  alt="logo"
+                  width={500}
+                  height={500}
+                  className="block larger:hidden"
                 />
               </motion.div>
               <motion.div
@@ -90,23 +97,44 @@ const About = () => {
                 onMouseLeave={handleHover}
               >
                 {isHovered ? (
-                  <Image
+                  <>
+                    <Image
+                      src={"/two.png"}
+                      alt="logo"
+                      width={482}
+                      height={127}
+                      onClick={handleDownload}
+                      className=" w-[200px]  buttonshadow larger:h-auto larger:w-auto duration-200 delay-75 ease-linear"
+                    />
+
+                    {/* <Image
                     src={"/two.png"}
                     alt="logo"
                     width={482}
                     height={127}
                     onClick={handleDownload}
                     className=" w-[200px] buttonshadow sm:h-auto sm:w-auto duration-200 delay-75 ease-linear"
-                  />
+                    /> */}
+                  </>
                 ) : (
-                  <Image
+                  <>
+                    <Image
+                      src={"/one.png"}
+                      alt="logo"
+                      width={482}
+                      height={127}
+                      onClick={handleDownload}
+                      className=" w-[200px] buttonshadow1  larger:h-auto  larger:w-auto duration-200 delay-75 ease-linear"
+                    />
+                    {/* <Image
                     src={"/one.png"}
                     alt="logo"
                     width={482}
                     height={127}
                     onClick={handleDownload}
                     className=" w-[200px] buttonshadow1  sm:h-auto sm:w-auto duration-200 delay-75 ease-linear"
-                  />
+                  /> */}
+                  </>
                 )}
                 {/* <Image
                   src={

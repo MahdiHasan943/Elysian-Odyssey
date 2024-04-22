@@ -71,9 +71,9 @@ const Header = () => {
                   <Image
                     src="/images/whitelogo.png"
                     alt="logo"
-                    width={350}
+                    width={300}
                     height={80}
-                    className="hidden sm:block"
+                    className="hidden lar ml-[-40px] larger:block"
                   />
                 </Link>
                 <Link href={"/"}>
@@ -82,7 +82,7 @@ const Header = () => {
                     alt="logo"
                     width={200}
                     height={80}
-                    className="block sm:hidden"
+                    className="block larger:hidden"
                   />
                 </Link>{" "}
               </p>
