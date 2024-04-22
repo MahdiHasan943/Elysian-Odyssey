@@ -60,7 +60,7 @@ const Team = () => {
         <div className="min-h-[7600px] bg-[black]  mb-[-5px] smallest:min-h-[7600px] moreSmall:min-h-[7600px]   lg:min-h-[4300px] lg:max-h-[4300px] relative overflow-hidden ">
           <div className=" absolute top-0 flex justify-center items-center w-full h-[400px] left-0 z-[50]">
             <h2
-              className={`${cinzel.className} text-center sectionTitle text-[60px] md:text-[300px]`}
+              className={`${cinzel.className} text-center sectionTitle text-[60px] md:text-[200px] larger:text-[300px]`}
             >
               ROADMAP
             </h2>
