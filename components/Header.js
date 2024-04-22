@@ -105,8 +105,8 @@ const Header = () => {
                     href={"#our-mission"}
                     className={
                       color === "about"
-                        ? "text-[16px text-[#9e8b46] uppercase"
-                        : " text-[16px] sm:text-[18px]  text-[#fff] uppercase"
+                        ? "text-[16px text-[#fff] uppercase"
+                        : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
                     }
                   >
                     Who Are We
@@ -123,8 +123,8 @@ const Header = () => {
                     href={"#charecter"}
                     className={
                       color === "Charecters"
-                        ? "text-[16px text-[#9e8b46] uppercase"
-                        : " text-[16px] sm:text-[18px]  text-[#fff] uppercase"
+                        ? "text-[16px text-[#fff] uppercase"
+                        : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
                     }
                   >
                     Character{" "}
@@ -141,8 +141,8 @@ const Header = () => {
                     href={"#tokenomics"}
                     className={
                       color === "tokenomics"
-                        ? "text-[16px text-[#9e8b46] uppercase"
-                        : " text-[16px] sm:text-[18px]  text-[#fff] uppercase"
+                        ? "text-[16px text-[#fff] uppercase"
+                        : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
                     }
                   >
                     tokenomics
@@ -158,8 +158,8 @@ const Header = () => {
                     href={"#team"}
                     className={
                       color === "Team"
-                        ? "text-[16px text-[#9e8b46] uppercase"
-                        : " text-[16px] sm:text-[18px]  text-[#fff] uppercase"
+                        ? "text-[16px text-[#fff] uppercase"
+                        : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
                     }
                   >
                     Team
@@ -175,8 +175,8 @@ const Header = () => {
                     href={"#road"}
                     className={
                       color === "roadmap"
-                        ? "text-[16px text-[#9e8b46] uppercase"
-                        : " text-[16px] sm:text-[18px]  text-[#fff] uppercase"
+                        ? "text-[16px text-[#fff] uppercase"
+                        : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
                     }
                   >
                     roadmap
@@ -225,8 +225,8 @@ const Header = () => {
                         href={"#our-mission"}
                         className={
                           color === "about"
-                            ? "text-[16px text-[#9e8b46] uppercase"
-                            : " text-[16px] sm:text-[18px]  text-[#fff] uppercase"
+                            ? "text-[16px text-[#fff] uppercase"
+                            : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
                         }
                       >
                         Who Are We
@@ -242,8 +242,8 @@ const Header = () => {
                         href={"#charecter"}
                         className={
                           color === "Charecters"
-                            ? "text-[16px text-[#9e8b46] uppercase"
-                            : " text-[16px] sm:text-[18px]  text-[#fff] uppercase"
+                            ? "text-[16px text-[#fff] uppercase"
+                            : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
                         }
                       >
                         Character
@@ -259,8 +259,8 @@ const Header = () => {
                         href={"#tokenomics"}
                         className={
                           color === "tokenomics"
-                            ? "text-[16px text-[#9e8b46] uppercase"
-                            : " text-[16px] sm:text-[18px]  text-[#fff] uppercase"
+                            ? "text-[16px text-[#fff] uppercase"
+                            : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
                         }
                       >
                         tokenomics
@@ -276,8 +276,8 @@ const Header = () => {
                         href={"#team"}
                         className={
                           color === "Team"
-                            ? "text-[16px text-[#9e8b46] uppercase"
-                            : " text-[16px] sm:text-[18px]  text-[#fff] uppercase"
+                            ? "text-[16px text-[#fff] uppercase"
+                            : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
                         }
                       >
                         Team
@@ -293,8 +293,8 @@ const Header = () => {
                         href={"#road"}
                         className={
                           color === "roadmap"
-                            ? "text-[16px text-[#9e8b46] uppercase"
-                            : " text-[16px] sm:text-[18px]  text-[#fff] uppercase"
+                            ? "text-[16px text-[#fff] uppercase"
+                            : " text-[16px] sm:text-[18px]  text-[#ff7f98] uppercase"
                         }
                       >
                         roadmap
