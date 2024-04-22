@@ -109,7 +109,7 @@ const Header = () => {
                         : " text-[16px] sm:text-[18px]  text-[#fff] uppercase"
                     }
                   >
-                    Our Mission
+                    Who Are We
                   </Link>
                 </p>
 
@@ -229,7 +229,7 @@ const Header = () => {
                             : " text-[16px] sm:text-[18px]  text-[#fff] uppercase"
                         }
                       >
-                        Our Mission{" "}
+                        Who Are We
                       </Link>
                     </p>
                     <p
