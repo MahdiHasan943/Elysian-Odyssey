@@ -56,7 +56,7 @@ const About = () => {
                 variants={fadeIn("right", "bounce", 0.2, 1)}
                 className=""
               >
-                <div className="relative w-[350px] h-[350px] sm:w-[400px] sm:h-[400px] ">
+                <div className="relative w-[360px] h-[360px] sm:w-[400px] sm:h-[400px] ">
                   <Image
                     src={"/who1.png"}
                     alt="eye"
@@ -78,7 +78,7 @@ const About = () => {
                 variants={fadeIn("up", "bounce", 0.2, 1)}
                 className=""
               >
-                <div className="relative w-[350px] h-[350px] sm:w-[400px] sm:h-[400px] xl:w-[450px] xl:h-[400px] ">
+                <div className="relative w-[360px] h-[360px] sm:w-[400px] sm:h-[400px] xl:w-[450px] xl:h-[400px] ">
                   <Image
                     src={"/who2.png"}
                     alt="eye"
@@ -103,7 +103,7 @@ const About = () => {
                 variants={fadeIn("left", "bounce", 0.2, 1)}
                 className=""
               >
-                <div className="relative w-[350px] h-[350px] sm:w-[400px] sm:h-[400px] ">
+                <div className="relative w-[360px] h-[360px] sm:w-[400px] sm:h-[400px] ">
                   <Image
                     src={"/who3.png"}
                     alt="eye"
