@@ -157,7 +157,7 @@ const Team = () => {
                         understand the market <br /> very well
                       </p>
                       <p className="text-[18px] py-5  leading-[25px]  text-[#fff] ">
-                        Successfully LAUNCHED{" "}
+                        Successfully launched{" "}
                         <span className="text-[#ff7f98] font-bold  text-[19px] ">
                           2 NFT{" "}
                         </span>
