@@ -117,30 +117,24 @@ const Team = () => {
                 <p
                   className={`${cinzel.className} text-[#fff] text-[26px] font-semibold text-center`}
                 >
-                  Team Expansion and Fundraising
+                  NFT Community Building and NFT Sale
                 </p>
                 <div className="h-[4px] w-full bg-[#717070] my-2"></div>
 
                 <p className="py-6 font-semibold text-[#fff] text-[18px] text-center">
-                  During this phase, our team focuses on expanding the team with
-                  highly competent individuals that are leading professionals in
-                  the industry. Also the team is starting to raise funds to
-                  secure it’s development:
+                  During this phase our team has worked on creating the
+                  storyline, designing the characters, building community and
+                  selling the characters in form of NFT.
                 </p>
                 <p className="text-[#fff] text-[16px] text-center">
-                  {" "}
-                  - Fundraising: Raising funds in this stage will make sure the
-                  team will have enough resources to develop the best possible
-                  product and ensure it has smooth launch process on the market.
-                </p>
-                <p className="py-6 text-[#fff] text-[16px] text-center">
-                  - Team Expansion: Scaling our development team with skilled
-                  professionals in game design, development, and blockchain
-                  integration.
-                </p>
-                <p className="text-[#fff] text-[16px] text-center">
-                  - Alpha trailer: we will release the first trailer of the
-                  Elysian Odyssey game
+                  - Lore creation: The story about the four beings of genesis
+                  has been born.Each character got in depth explanation about
+                  their abilities and disadvantages. <br /> - Character design:
+                  Each character was carefully designed to contain the
+                  characteristics described in the Lore. <br /> - NFT mint: 5556
+                  Elysians were born to live on the blockchain -
+                  <br /> Community building: a community of 1000+ holders was
+                  created.
                 </p>
               </div>
             </motion.div>
@@ -163,7 +157,7 @@ const Team = () => {
               </motion.div>
               {/* main content */}
               {/* 1 */}
-              <motion.div
+              {/* <motion.div
                 variants={textVariant3}
                 initial="hidden"
                 whileInView="show"
@@ -224,13 +218,12 @@ const Team = () => {
                     created.
                   </p>
                 </div>
-              </motion.div>
-              {/* 2 */}
+              </motion.div> */}
               <motion.div
                 variants={textVariant3}
                 initial="hidden"
                 whileInView="show"
-                className="relative h-[880px] mb-[50px] sm:h-[700px] mt-auto   mx-auto w-full "
+                className="relative h-[1100px] mt-[50px] sm:h-[800px]   mx-auto w-full "
               >
                 <Image
                   src={"/Screenshot_6.png"}
@@ -281,6 +274,68 @@ const Team = () => {
                     framework. - Prototype Development: Building early-stage
                     prototypes to test fundamental game mechanics and gather
                     user feedback.
+                  </p>
+                </div>
+              </motion.div>
+              {/* 2 */}
+              <motion.div
+                variants={textVariant3}
+                initial="hidden"
+                whileInView="show"
+                className="relative h-[880px] mb-[50px] sm:h-[700px] mt-auto   mx-auto w-full "
+              >
+                <Image
+                  src={"/Screenshot_6.png"}
+                  alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
+                  layout="fill"
+                  objectFit="fill"
+                  className="hidden sm:block "
+                />
+                <Image
+                  src={"/panel/phone.roeadmap.png"}
+                  alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
+                  layout="fill"
+                  objectFit="fill"
+                  className="block sm:hidden"
+                />
+                <div className="absolute px-2 top-0 h-full w-full left-0">
+                  <div className="grid grid-cols-2  gap-4">
+                    <p
+                      className={`${cinzel.className} text-[#fff] text-[46px] py-7 border-r-[#717070] border-r-2 font-semibold text-center `}
+                    >
+                      Q3
+                    </p>
+                    <p
+                      className={`${cinzel.className} text-[#fff] text-[46px] py-7 font-semibold text-center `}
+                    >
+                      Q4
+                    </p>
+                  </div>
+                  <div className="h-[4px] w-full bg-[#717070] mb-2"></div>
+
+                  <p
+                    className={`${cinzel.className} py-6 font-bold text-[#fff] text-[28px]  sm:text-[35px] text-center `}
+                  >
+                    Team Expansion and fundraising
+                  </p>
+                  <div className="h-[4px] w-full bg-[#717070] my-2"></div>
+
+                  <p className="text-[#fff] text-[16px] px-4 py-2">
+                    During this phase, our team focuses on expanding the team
+                    with highly competent individuals that are leading
+                    professionals in the industry. Also the team is starting to
+                    raise funds to secure it’s development:
+                  </p>
+                  <div className="h-[4px] w-full bg-[#717070] my-5"></div>
+
+                  <p className="py-6 text-[#fff] text-[16px] px-4">
+                    Fundraising: Raising funds in this stage will make sure the
+                    team will have enough resources to develop the best possible
+                    product and ensure it has smooth launch process on the
+                    market. Team Expansion: Scaling our development team with
+                    skilled professionals in game design, development, and
+                    blockchain integration. Alpha trailer: we will release the
+                    first trailer of the Elysian Odyssey game
                   </p>
                 </div>
               </motion.div>
@@ -353,7 +408,7 @@ const Team = () => {
                   <p
                     className={`${cinzel.className} py-6 font-bold text-[#fff] text-[35px] text-center `}
                   >
-                    Team Expansion and Fundraising
+                    Full development mode and launch preparations
                   </p>
                   <div className="h-[4px] w-full bg-[#717070] my-2"></div>
 
@@ -365,14 +420,13 @@ const Team = () => {
                   <div className="h-[4px] w-full bg-[#717070] my-5"></div>
 
                   <p className="py-6 text-[#fff] text-[16px] px-4">
-                    -Alpha Testing: Inviting a select group of players to
+                    Alpha Testing: Inviting a select group of players to
                     participate in closed alpha testing to evaluate gameplay
                     mechanics, identify bugs, and provide suggestions for
-                    improvement. <br /> -Iterative Development: Implementing
-                    iterative updates and enhancements based on alpha testing
-                    feedback to optimize gameplay, user experience, and
-                    performance. <br />
-                    -Community Engagement: Engaging with the community through
+                    improvement. Iterative Development: Implementing iterative
+                    updates and enhancements based on alpha testing feedback to
+                    optimize gameplay, user experience, and performance.
+                    Community Engagement: Engaging with the community through
                     regular updates, feedback sessions, and community-driven
                     initiatives to foster a sense of ownership and
                     collaboration.
