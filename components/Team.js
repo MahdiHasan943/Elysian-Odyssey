@@ -130,7 +130,7 @@ const Team = () => {
                       Mile Nikolikj
                     </p>
                     <p
-                      className={`${roboto_slab.className} uppercase font-bold text-[#fff] text-center text-[24px]`}
+                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
                     >
                       Founder and CEO
                     </p>
@@ -147,14 +147,20 @@ const Team = () => {
                       </p>
 
                       <p className="text-[18px]  leading-[25px]  text-[#fff]">
-                        Investor in <span className="text-[#ff7f98]"> 60+</span>{" "}
+                        Investor in{" "}
+                        <span className="text-[#ff7f98] font-bold  text-[20px] ">
+                          {" "}
+                          60+
+                        </span>{" "}
                         gaming <br />
                         Projects makes him <br />
                         understand the market <br /> very well
                       </p>
                       <p className="text-[18px] py-5  leading-[25px]  text-[#fff] ">
                         Successfully LAUNCHED{" "}
-                        <span className="text-[#ff7f98]">2 NFT </span>
+                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                          2 NFT{" "}
+                        </span>
                         <br />
                         projects
                       </p>
@@ -197,7 +203,7 @@ const Team = () => {
                       MILOS TOSIC
                     </p>
                     <p
-                      className={`${roboto_slab.className} font-bold text-[#fff] text-center text-[24px]`}
+                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
                     >
                       CTO
                     </p>
@@ -212,21 +218,29 @@ const Team = () => {
 
                       <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
                         Former expert programmer in{" "}
-                        <span className="text-[#ff7f98]"> Ubisoft </span> and
-                        Tencent and Senior programmer in Blue Side and Guerrilla
+                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                          {" "}
+                          Ubisoft{" "}
+                        </span>{" "}
+                        and Tencent and Senior programmer in Blue Side and
+                        Guerrilla
                       </p>
                       <p className="text-[18px] py-5  leading-[25px]  text-[#fff] ">
                         Previous works:{" "}
-                        <span className="text-[#ff7f98]">
+                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
                           {" "}
                           Assassin’s Creed{" "}
                         </span>{" "}
                         Odyssey,{" "}
-                        <span className="text-[#ff7f98]">
+                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
                           {" "}
                           League of Legends{" "}
                         </span>{" "}
-                        Wild Rift,<span className="text-[#ff7f98]"> PUBG </span>
+                        Wild Rift,
+                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                          {" "}
+                          PUBG{" "}
+                        </span>
                         Mobile, Mortal Kombat One, DDay, Killzone 3, Trials
                         franchise (multiple titles), and more.
                       </p>
@@ -266,7 +280,7 @@ const Team = () => {
                       ALFIO TRABUIO
                     </p>
                     <p
-                      className={`${roboto_slab.className} font-bold text-[#fff] text-center text-[24px]`}
+                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
                     >
                       TECHNICAL ART DIRECTION
                     </p>
@@ -281,7 +295,10 @@ const Team = () => {
 
                       <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
                         Technical lead in{" "}
-                        <span className="text-[#ff7f98]"> Ubisoft</span>
+                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                          {" "}
+                          Ubisoft
+                        </span>
                       </p>
                     </div>
                     <Link
@@ -320,7 +337,7 @@ const Team = () => {
                       TOMISLAV TESLA
                     </p>
                     <p
-                      className={`${roboto_slab.className} font-bold text-[#fff] text-center text-[24px]`}
+                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
                     >
                       VFX / CREATURE ANIMATION
                     </p>
@@ -335,13 +352,20 @@ const Team = () => {
 
                       <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
                         Previously worked on famous blockbuster movies like:
-                        <span className="text-[#ff7f98]"> Aquaman,</span>{" "}
-                        <span className="text-[#ff7f98]">Disney’s</span> Noelle,
-                        the immersive Underwater, the captivating Dungeons &
-                        Dragons: Honor Among Thieves, and the highly anticipated
-                        Mufasa:{" "}
-                        <span className="text-[#ff7f98]">Lion King </span>among
-                        others.
+                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                          {" "}
+                          Aquaman,
+                        </span>{" "}
+                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                          Disney’s
+                        </span>{" "}
+                        Noelle, the immersive Underwater, the captivating
+                        Dungeons & Dragons: Honor Among Thieves, and the highly
+                        anticipated Mufasa:{" "}
+                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                          Lion King{" "}
+                        </span>
+                        among others.
                       </p>
                     </div>
                     <Link
@@ -380,7 +404,7 @@ const Team = () => {
                       VLADIMIR FILIPOVIC
                     </p>
                     <p
-                      className={`${roboto_slab.className} font-bold text-[#fff] text-center text-[24px]`}
+                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
                     >
                       PROGRAMMING
                     </p>
@@ -395,8 +419,13 @@ const Team = () => {
 
                       <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
                         Previously worked in{" "}
-                        <span className="text-[#ff7f98]">Meta</span> and{" "}
-                        <span className="text-[#ff7f98]">Google</span>
+                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                          Meta
+                        </span>{" "}
+                        and{" "}
+                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                          Google
+                        </span>
                       </p>
                     </div>
                     <Link
@@ -434,7 +463,7 @@ const Team = () => {
                       DAVID FRIED
                     </p>
                     <p
-                      className={`${roboto_slab.className} font-bold text-[#fff] text-center text-[24px]`}
+                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
                     >
                       GAME DESIGN
                     </p>
@@ -448,18 +477,24 @@ const Team = () => {
 
                       <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
                         Some of his work includes{" "}
-                        <span className="text-[#ff7f98]">Warcraft III</span>,{" "}
-                        <span className="text-[#ff7f98]">
+                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                          Warcraft III
+                        </span>
+                        ,{" "}
+                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
                           World of Warcraft,
                         </span>{" "}
                         Oddworld Stranger’s Wrath, Wasteland 3 and many more
                       </p>
                       <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
                         Previously worked for{" "}
-                        <span className="text-[#ff7f98]">
+                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
                           Blizzard Entertainmen
                         </span>
-                        t and <span className="text-[#ff7f98]">Ubisoft</span>
+                        t and{" "}
+                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                          Ubisoft
+                        </span>
                       </p>
                     </div>
 
@@ -500,7 +535,7 @@ const Team = () => {
                       Uros Pavlovic
                     </p>
                     <p
-                      className={`${roboto_slab.className} uppercase font-bold text-[#fff] text-center text-[24px]`}
+                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
                     >
                       Level design
                     </p>
@@ -554,7 +589,7 @@ const Team = () => {
                       Nenad Krstic
                     </p>
                     <p
-                      className={`${roboto_slab.className} uppercase font-bold text-[#fff] text-center text-[24px]`}
+                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
                     >
                       Concept Art & Illustration
                     </p>
@@ -612,7 +647,7 @@ const Team = () => {
                       Andrew Hakim Lie
                     </p>
                     <p
-                      className={`${roboto_slab.className} uppercase font-bold text-[#fff] text-center text-[24px]`}
+                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
                     >
                       3D modelling & art
                     </p>
@@ -667,7 +702,7 @@ const Team = () => {
                       Nikolija Stojmenovic
                     </p>
                     <p
-                      className={`${roboto_slab.className} font-bold text-[#fff] text-center text-[24px]`}
+                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
                     >
                       HR
                     </p>
@@ -717,7 +752,7 @@ const Team = () => {
                       Minoru Pathirana
                     </p>
                     <p
-                      className={`${roboto_slab.className} uppercase font-bold text-[#fff] text-center text-[24px]`}
+                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
                     >
                       Character designer
                     </p>
@@ -766,7 +801,7 @@ const Team = () => {
                       Zafir Chuchanov
                     </p>
                     <p
-                      className={`${roboto_slab.className} uppercase font-bold text-[#fff] text-center text-[24px]`}
+                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
                     >
                       Business development
                     </p>

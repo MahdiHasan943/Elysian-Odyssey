@@ -67,7 +67,9 @@ const About = () => {
                   <div className="absolute  w-full bottom-[80px] left-1/2 -translate-x-1/2">
                     <p className="text-[#fff] font-bold  text-center">
                       Crafting a{" "}
-                      <span className="text-[#ff7f98]">Custom Engine </span>
+                      <span className="text-[#ff7f98] font-extrabold text-[18px]">
+                        Custom Engine{" "}
+                      </span>
                       <br /> to Cultivate a Sustainable <br /> Gaming Ecosystem
                     </p>
                   </div>
@@ -89,7 +91,7 @@ const About = () => {
                   <div className="absolute  w-full bottom-[80px] left-1/2 -translate-x-1/2">
                     <p className="text-[#fff] font-bold  text-center">
                       Bringing a Revolutionary <br />
-                      <span className="text-[#ff7f98] pr-1">
+                      <span className="text-[#ff7f98] pr-1 font-extrabold text-[18px]">
                         {" "}
                         AI-Driven MMORPG
                       </span>
@@ -114,7 +116,9 @@ const About = () => {
                   <div className="absolute  w-full bottom-[80px] left-1/2 -translate-x-1/2">
                     <p className="text-[#fff] font-bold  text-center">
                       Creating{" "}
-                      <span className="text-[#ff7f98]">Jobs and Careers</span>{" "}
+                      <span className="text-[#ff7f98] font-extrabold text-[18px]">
+                        Jobs and Careers
+                      </span>{" "}
                       <br />
                       of the New Age Within Game
                     </p>
