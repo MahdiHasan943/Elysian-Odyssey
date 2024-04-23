@@ -26,11 +26,11 @@ const Footer = () => (
       alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
       width={600}
       height={200}
-      className="absolute h-[230px] w-[100%] block sm:hidden top-0 left-0 "
+      className="absolute h-[260px] w-[100%] block sm:hidden top-0 left-0 "
     />
     <div className="flex absolute z-50 top-0 left-0 bg-transparent  w-full pb-8 h-full justify-center items-end gap-18">
       <div className="">
-        <div className="flex justify-center gap-16 pb-8 pt-4">
+        <div className="flex  justify-center gap-16 pb-3 sm:pb-8 pt-4">
           <Link
             href={
               "https://twitter.com/elysianodysseyg?s=11&t=MYFM-d6udoMcfZAdkjsejw"
