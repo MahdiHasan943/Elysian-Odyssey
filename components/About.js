@@ -43,7 +43,7 @@ const About = () => {
           />
         </div>
         <div className="w-full mt-[50px] sm:mt-[50px]  px-4  md:min-h-[800px] md:max-h-[800px]   py-10 flex justify-center items-center absolute top-0 left-0 h-full z-[100000] max-auto">
-          <div className=" max-w-[1400px]  mx-auto  sm:mt-[300px] md:mt-0 md:min-h-[450px] md:max-h-[450px] ">
+          <div className=" max-w-[1600px]  mx-auto  sm:mt-[300px] md:mt-0 md:min-h-[450px] md:max-h-[450px] ">
             {/* <Image
               src={"/Screenshot_2.png"}
               alt="eye"
@@ -56,38 +56,70 @@ const About = () => {
                 variants={fadeIn("right", "bounce", 0.2, 1)}
                 className=""
               >
-                <Image
-                  src={"/images/OurVision.png"}
-                  alt="eye"
-                  width={400}
-                  height={400}
-                  className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
-                />
+                <div className="relative w-[350px] h-[350px] sm:w-[400px] sm:h-[400px] ">
+                  <Image
+                    src={"/who1.png"}
+                    alt="eye"
+                    layout="fill"
+                    objectFit="fill"
+                    className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
+                  />
+                  <div className="absolute  w-full bottom-[80px] left-1/2 -translate-x-1/2">
+                    <p className="text-[#fff] font-bold  text-center">
+                      Crafting a{" "}
+                      <span className="text-[#ff7f98]">Custom Engine </span>
+                      <br /> to Cultivate a Sustainable <br /> Gaming Ecosystem
+                    </p>
+                  </div>
+                </div>
               </motion.div>
 
               <motion.div
                 variants={fadeIn("up", "bounce", 0.2, 1)}
                 className=""
               >
-                <Image
-                  src={"/images/OurMission.png"}
-                  alt="eye"
-                  width={400}
-                  height={400}
-                  className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
-                />
+                <div className="relative w-[350px] h-[350px] sm:w-[400px] sm:h-[400px] xl:w-[450px] xl:h-[400px] ">
+                  <Image
+                    src={"/who2.png"}
+                    alt="eye"
+                    layout="fill"
+                    objectFit="fill"
+                    className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
+                  />
+                  <div className="absolute  w-full bottom-[80px] left-1/2 -translate-x-1/2">
+                    <p className="text-[#fff] font-bold  text-center">
+                      Bringing a Revolutionary <br />
+                      <span className="text-[#ff7f98] pr-1">
+                        {" "}
+                        AI-Driven MMORPG
+                      </span>
+                      Experience <br />
+                      to Gamers Worldwide.
+                    </p>
+                  </div>
+                </div>
               </motion.div>
               <motion.div
                 variants={fadeIn("left", "bounce", 0.2, 1)}
                 className=""
               >
-                <Image
-                  src={"/images/Commitment.png"}
-                  alt="eye"
-                  width={400}
-                  height={400}
-                  className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
-                />
+                <div className="relative w-[350px] h-[350px] sm:w-[400px] sm:h-[400px] ">
+                  <Image
+                    src={"/who3.png"}
+                    alt="eye"
+                    layout="fill"
+                    objectFit="fill"
+                    className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
+                  />
+                  <div className="absolute  w-full bottom-[80px] left-1/2 -translate-x-1/2">
+                    <p className="text-[#fff] font-bold  text-center">
+                      Creating{" "}
+                      <span className="text-[#ff7f98]">Jobs and Careers</span>{" "}
+                      <br />
+                      of the New Age Within Game
+                    </p>
+                  </div>
+                </div>
               </motion.div>
             </div>
           </div>
