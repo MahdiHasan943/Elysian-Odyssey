@@ -10,11 +10,16 @@ import {
   textVariant2,
   textVariant3,
 } from "@/utils/motion";
-import { Roboto_Slab, Work_Sans } from "next/font/google";
+import { Roboto_Slab, Work_Sans, Cinzel } from "next/font/google";
 import Description from "./reusable/Description";
 import Link from "next/link";
 const roboto_slab = Roboto_Slab({
-  weight: ["400", "300", "500", "600", "700", "900"],
+  weight: ["300", "400", "500", "600"],
+  subsets: ["latin"],
+  display: "swap",
+});
+const cinzel = Cinzel({
+  weight: ["400", "500", "600"],
   subsets: ["latin"],
   display: "swap",
 });
@@ -55,7 +60,7 @@ const About = () => {
       viewport={{ once: false, amount: 0.25 }}
       className="z-10"
     >
-      <div className=" min-h-[800px] mt-[-200px] sm:min-h-[1000px]    larger:min-h-[1400px] larger:max-h-[1200px]  relative overflow-hidden ">
+      <div className=" min-h-[850px] mt-[-200px] sm:min-h-[950px]    larger:min-h-[1050px] larger:max-h-[1200px]  relative overflow-hidden ">
         <div className="absolute top-0 left-0 h-full w-full">
           <Image
             src={"/Assets/Background-Landing-P.png"}
@@ -64,8 +69,62 @@ const About = () => {
             objectFit="cover"
             className=""
           />
-          <div className="w-full px-4 flex justify-center   py-10 absolute top-0 left-0 h-full z-[100000] max-auto">
-            <div className="flex flex-col justify-center items-center gap-5 sm:gap-20"></div>
+          <div className="w-full px-4 flex justify-center items-center  py-10 absolute top-0 left-0 h-full z-[100000] max-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 max-w-[2500px] mx-auto sm:px-4 xl:px-16 h-full items-center gap-2 w-full  ">
+              <div className="mt-[100px] lg:mt-0">
+                {/* <Image
+                  src={"/Assets/Logo.webp"}
+                  alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
+                  width={500}
+                  height={500}
+                  className=""
+                /> */}
+                <img
+                  src="/Assets/Logo.webp"
+                  className="w-[260px] sm:w-[500px] mx-auto lg:w-auto lg:h-auto"
+                  alt=""
+                />
+                <Image
+                  src={"/Assets/Button.png"}
+                  alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
+                  width={350}
+                  height={100}
+                  className="w-[200px] sm:w-auto mx-auto mt-8"
+                />
+              </div>
+              <img
+                src="/Assets/Linija.svg"
+                className="absolute top-[50%] hidden lg:block left-[50%] translate-x-[-50%] translate-y-[-50%] z-[1]"
+                alt=""
+              />
+
+              <div className="min-w-[50%] mt-[-120px] sm:mt-0 z-10 xl:min-w-auto">
+                <p
+                  className={`${roboto_slab.className} text-[30px] sm:text-[42px] atharo:text-[80px] font-[300!important] text-center lg:text-right text-[#D4D297] atharo:leading-[90px]`}
+                >
+                  Welcome to
+                </p>
+                <h1
+                  className={`${cinzel.className} font-bold text-[#D4D297] text-[38px] leading-[50px]  sm:text-[52px] sm:leading-[62px]    atharo:text-[79px] text-center lg:text-right atharo:leading-[88px]`}
+                >
+                  Elysian Odyssey
+                </h1>
+                <p
+                  className={`${roboto_slab.className} text-[18px] leading-[27px] sm:text-[20px] sm:leading-[36px]  xl:text-[31px] font-[300!important] text-center lg:text-right text-[#F3F3F3] xl:leading-[42px]`}
+                >
+                  Elysian Odyssey is a game development platform
+                  <br className="hidden sm:block"></br> that requires
+                  <span className="text-[#0DA25A]"> no prior</span> game
+                  development skills,<br className="hidden sm:block"></br>{" "}
+                  allows
+                  <span className="text-[#0DA25A]"> seamless</span> asset
+                  integration, delivers<br className="hidden sm:block"></br>{" "}
+                  <span className="text-[#0DA25A]">extremely lightweight</span>{" "}
+                  content, powered by the <br className="hidden sm:block"></br>
+                  revolutionary iMagus engine.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
