@@ -58,100 +58,16 @@ const About = () => {
       <div className=" min-h-[800px] mt-[-200px] sm:min-h-[1000px]    larger:min-h-[1400px] larger:max-h-[1200px]  relative overflow-hidden ">
         <div className="absolute top-0 left-0 h-full w-full">
           <Image
-            src={"/images/new_charecter.png"}
+            src={"/Assets/Background-Landing-P.png"}
             alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
             layout="fill"
             objectFit="cover"
             className=""
           />
           <div className="w-full px-4 flex justify-center   py-10 absolute top-0 left-0 h-full z-[100000] max-auto">
-            <div className="flex flex-col justify-center items-center gap-5 sm:gap-20">
-              <motion.div
-                variants={textVariant2}
-                initial="hidden"
-                whileInView="show"
-                className=""
-              >
-                {" "}
-                <Image
-                  src={"/Logo-Zlatno.png"}
-                  alt="logo"
-                  width={800}
-                  height={500}
-                  className="hidden larger:block"
-                />
-                <Image
-                  src={"/Logo-Zlatno.png"}
-                  alt="logo"
-                  width={500}
-                  height={500}
-                  className="block larger:hidden"
-                />
-              </motion.div>
-              <motion.div
-                variants={textVariant3}
-                initial="hidden"
-                whileInView="show"
-                className=" "
-                onMouseEnter={handleHover}
-                onMouseLeave={handleHover}
-              >
-                {isHovered ? (
-                  <>
-                    <Image
-                      src={"/two.png"}
-                      alt="logo"
-                      width={482}
-                      height={127}
-                      onClick={handleDownload}
-                      className=" w-[200px]  buttonshadow larger:h-auto larger:w-auto duration-200 delay-75 ease-linear"
-                    />
-
-                    {/* <Image
-                    src={"/two.png"}
-                    alt="logo"
-                    width={482}
-                    height={127}
-                    onClick={handleDownload}
-                    className=" w-[200px] buttonshadow sm:h-auto sm:w-auto duration-200 delay-75 ease-linear"
-                    /> */}
-                  </>
-                ) : (
-                  <>
-                    <Image
-                      src={"/one.png"}
-                      alt="logo"
-                      width={482}
-                      height={127}
-                      onClick={handleDownload}
-                      className=" w-[200px] buttonshadow1  larger:h-auto  larger:w-auto duration-200 delay-75 ease-linear"
-                    />
-                    {/* <Image
-                    src={"/one.png"}
-                    alt="logo"
-                    width={482}
-                    height={127}
-                    onClick={handleDownload}
-                    className=" w-[200px] buttonshadow1  sm:h-auto sm:w-auto duration-200 delay-75 ease-linear"
-                  /> */}
-                  </>
-                )}
-                {/* <Image
-                  src={
-                    isHovered
-                      ? "/Whitepapper-kopce-Hover.png"
-                      : "/redwhitePapper.png"
-                  }
-                  alt="logo"
-                  width={400}
-                  height={127}
-                  onClick={handleDownload}
-                  className=" w-[200px] sm:h-auto sm:w-auto duration-200 delay-75 ease-linear"
-                /> */}
-              </motion.div>
-            </div>
+            <div className="flex flex-col justify-center items-center gap-5 sm:gap-20"></div>
           </div>
-        </div>{" "}
+        </div>
       </div>
     </motion.div>
   );
