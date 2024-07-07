@@ -20,7 +20,7 @@ const Charecters = () => {
             </h2>
           </div>
 
-          <div className="absolute top-0 left-0 h-full w-full">
+          <div className="absolute bg-[#3A3120] top-0 left-0 h-full w-full">
             <Image
               src={"/images/new_charecter.png"}
               alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
