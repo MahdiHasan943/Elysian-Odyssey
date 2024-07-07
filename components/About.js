@@ -31,7 +31,7 @@ const About = () => {
       className="mt-[-50px] z-0"
       id="About-Us"
     >
-      <div className=" min-h-[1000px] mt-[0]   md:min-h-[900px] md:max-h-[900px]  relative overflow-hidden ">
+      <div className=" min-h-[1100px] mt-[0]   md:min-h-[900px] md:max-h-[900px]  relative overflow-hidden ">
         <div className=" absolute top-0 flex justify-center items-center w-full min-h-[100px] sm:h-[400px] left-0 z-[50]">
           <h2
             className={`${cinzel.className} capitalize text-center  sectionTitle text-[42px] sm:text-[120px] lg:text-[160px] 2xl:text-[200px]`}
@@ -58,7 +58,7 @@ const About = () => {
               height={400}
               className="block sm:hidden"
             /> */}
-            <div className="grid grid-cols-1 md:mt-[200px] gap-6  xl:gap-20 md:grid-cols-2">
+            <div className="grid grid-cols-1 mt-[-100px] sm:mt-0  md:mt-[200px] gap-6  xl:gap-20 md:grid-cols-2">
               <div className="mx-auto w-full xl:w-auto abox1  relative">
                 <div className="w-full p-5 h-full abox">
                   <p
