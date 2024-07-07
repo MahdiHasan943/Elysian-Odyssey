@@ -31,10 +31,10 @@ const Genesis = () => {
       className="mt-[-50px] z-0"
       id="The-Genesis"
     >
-      <div className="  mt-[0] min-h-[2000px] sm:min-h-[1500px] sm:max-h-[1800px]   lg:min-h-[1000px] lg:max-h-[1000px]  relative ">
-        <div className=" absolute top-0 flex justify-center items-center w-full min-h-[250px] sm:h-[400px] left-0 z-[50]">
+      <div className="  mt-[0] min-h-[1300px] sm:min-h-[1200px] sm:max-h-[1200px]   lg:min-h-[1000px] lg:max-h-[1000px]  relative ">
+        <div className=" absolute top-0 flex justify-center items-center w-full min-h-[180px] sm:h-[200px] lg:h-[400px] left-0 z-[50]">
           <h2
-            className={`${cinzel.className} capitalize text-center  sectionTitle text-[42px] tracking-tighter sm:text-[120px] lg:text-[160px] 2xl:text-[180px]`}
+            className={`${cinzel.className} capitalize text-center  sectionTitle text-[42px] carsho30:text-[50px] tracking-tighter sm:text-[100px] lg:text-[120px] 2xl:text-[180px]`}
           >
             The Genesis{" "}
           </h2>
@@ -59,28 +59,28 @@ const Genesis = () => {
               className="block sm:hidden"
             /> */}
 
-            <div className=" w-full absolute top-0 left-[50%] translate-x-[-50%] mt-[240px] bg-[#1C1817] h-[0px] ">
+            <div className=" w-full px-4 absolute top-0 left-[50%] translate-x-[-50%] mt-[60px] tinso90:mt-[92px] carsho12:mt-[110px] carsho14:mt-[108px] carsho30:mt-[150px] sm:mt-[130px] lg:mt-[240px] bg-[#1C1817] h-[0px] ">
               <img
-                className="absolute top-[-0px] w-[120px]   left-[50%] translate-x-[-50%]"
+                className="absolute top-[-0px] w-[60px]  sm:w-[120px]   left-[50%] translate-x-[-50%]"
                 src="/Assets/TheGenesis.png"
                 alt=""
               />
               <img
                 src="/Assets/Screenshot_13-removebg-preview.png"
-                className="mx-auto "
+                className="mx-auto min-h-[130px] "
                 alt=""
               />
             </div>
-            <div className="grid grid-cols-1  h-full xl:max-w-[1400px] border border-t-[1] border-b-0 border-l-0 border-r-0 border-[#D4D297] p-2 md:mt-[380px] gap-y-0 gap-x-2 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid grid-cols-1  h-full xl:max-w-[1400px] border border-t-[1]  border-b-0 border-l-0 border-r-0 border-[#D4D297] p-2 lg:mt-[460px] sxl:mt-[380px] gap-y-0 gap-x-2 sm:grid-cols-2 lg:grid-cols-3">
               <div className="mx-auto w-full  min-h-[200px]  xl:w-auto   relative">
                 <div className="w-full h-full genesis">
                   <p
-                    className={`${roboto_slab.className} border border-[#D4D297] capitalize text-[#D4D297] text-center text-[38px] lg:text-[44px] font-bold`}
+                    className={`${roboto_slab.className} border border-[#D4D297] capitalize text-[#D4D297] text-center text-[38px] 2xl:text-[44px] font-bold`}
                   >
                     Featured Game
                   </p>
                   <p
-                    className={`${roboto_slab.className} px-2 capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
+                    className={`${roboto_slab.className} px-2 capitalize text-[#615d55] text-center pt-4 text-[20px] `}
                   >
                     Discover 'The Genesis', our first AI-driven AAA MMORPG.
                     Explore a vast, dynamic world filled with adventure and
@@ -93,12 +93,12 @@ const Genesis = () => {
               <div className="mx-auto   min-h-[200px]  mt-5 sm:mt-0 w-full xl:w-auto  relative">
                 <div className="w-full  h-full genesis">
                   <p
-                    className={`${roboto_slab.className} border border-[#D4D297]  capitalize text-[#D4D297] text-center text-[38px] lg:text-[44px] font-bold`}
+                    className={`${roboto_slab.className} border border-[#D4D297]  capitalize text-[#D4D297] text-center text-[38px] 2xl:text-[44px] font-bold`}
                   >
                     Play-and-Earn
                   </p>
                   <p
-                    className={`${roboto_slab.className} px-2 capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
+                    className={`${roboto_slab.className} px-2 capitalize text-[#615d55] text-center pt-4 text-[20px] `}
                   >
                     Elysian Odyssey's play-and-earn model allows you to earn
                     real-world rewards by participating in the game. Complete
@@ -111,12 +111,12 @@ const Genesis = () => {
               <div className="mx-auto mt-5 lg:mt-0 min-h-[200px]  w-full xl:w-auto   relative">
                 <div className="w-full  h-full genesis">
                   <p
-                    className={`${roboto_slab.className} border border-[#D4D297]  capitalize text-[#D4D297] text-center text-[38px] lg:text-[44px] font-bold`}
+                    className={`${roboto_slab.className} border border-[#D4D297]  capitalize text-[#D4D297] text-center text-[38px] 2xl:text-[44px] font-bold`}
                   >
                     In-Game Professions
                   </p>
                   <p
-                    className={`${roboto_slab.className} px-2 capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
+                    className={`${roboto_slab.className} px-2 capitalize text-[#615d55] text-center pt-4 text-[20px] `}
                   >
                     Choose from various in-game professions such as crafting,
                     trading, and mining. Each profession offers unique

@@ -18,11 +18,17 @@ module.exports = {
     screens: {
       smallest: "392px",
       moreSmall: "405px",
+      carsho14: "414px",
+      tinso90: "390px",
+      carsho30: "430px",
+      carsho12: "412px",
 
       sm: "640px",
       md: "768px",
       lg: "1024px",
       xl: "1280px",
+      sxl: "1281px",
+
       "2xl": "1536px",
       atharo: "1850px",
       larger: "1800px",
