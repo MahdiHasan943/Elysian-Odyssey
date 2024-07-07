@@ -60,7 +60,7 @@ const About = () => {
       viewport={{ once: false, amount: 0.25 }}
       className="z-10"
     >
-      <div className=" min-h-[850px] mt-[-200px] sm:min-h-[950px]    larger:min-h-[1050px] larger:max-h-[1200px]  relative overflow-hidden ">
+      <div className=" min-h-[850px] mt-[-200px] sm:min-h-[950px]    larger:min-h-[1000px] larger:max-h-[1200px]  relative overflow-hidden ">
         <div className="absolute top-0 left-0 h-full w-full">
           <Image
             src={"/Assets/Background-Landing-P.png"}
@@ -87,6 +87,7 @@ const About = () => {
                 <Image
                   src={"/Assets/Button.png"}
                   alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
+                  onClick={handleDownload}
                   width={350}
                   height={100}
                   className="w-[200px] sm:w-auto mx-auto mt-8"

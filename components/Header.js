@@ -102,32 +102,32 @@ const Header = () => {
                   }}
                 >
                   <Link
-                    href={"#our-mission"}
+                    href={"#About-Us"}
                     className={
                       color === "about"
-                        ? "text-[16px text-[#fff] uppercase"
-                        : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
+                        ? "text-[16px text-[#ff7f98] uppercase"
+                        : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
                     }
                   >
-                    Who Are We
+                    About Us
                   </Link>
                 </p>
 
                 <p
                   className={`${roboto_slab.className}`}
                   onClick={() => {
-                    setColor("Charecters");
+                    setColor("iMagus");
                   }}
                 >
                   <Link
-                    href={"#charecter"}
+                    href={"#iMagus"}
                     className={
-                      color === "Charecters"
-                        ? "text-[16px text-[#fff] uppercase"
-                        : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
+                      color === "iMagus"
+                        ? "text-[16px text-[#ff7f98] uppercase"
+                        : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
                     }
                   >
-                    Character{" "}
+                    iMagus
                   </Link>
                 </p>
 
@@ -151,37 +151,93 @@ const Header = () => {
                 <p
                   className={`${roboto_slab.className}`}
                   onClick={() => {
-                    setColor("Team");
+                    setColor("TheGenesis");
                   }}
                 >
                   <Link
-                    href={"#team"}
+                    href={"#The-Genesis"}
                     className={
-                      color === "Team"
-                        ? "text-[16px text-[#fff] uppercase"
-                        : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
+                      color === "TheGenesis"
+                        ? "text-[16px text-[#ff7f98] uppercase"
+                        : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
                     }
                   >
-                    Team
+                    The Genesis
                   </Link>
                 </p>
                 <p
                   className={`${roboto_slab.className}`}
                   onClick={() => {
-                    setColor("roadmap");
+                    setColor("NFT");
                   }}
                 >
                   <Link
-                    href={"#road"}
+                    href={"#NFT"}
                     className={
-                      color === "roadmap"
-                        ? "text-[16px text-[#fff] uppercase"
-                        : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
+                      color === "NFT"
+                        ? "text-[16px text-[#ff7f98] uppercase"
+                        : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
                     }
                   >
-                    roadmap
+                    NFT
                   </Link>
                 </p>
+
+                {/*  */}
+                <p
+                  className={`${roboto_slab.className}`}
+                  onClick={() => {
+                    setColor("Characters");
+                  }}
+                >
+                  <Link
+                    href={"#Characters"}
+                    className={
+                      color === "Characters"
+                        ? "text-[16px text-[#ff7f98] uppercase"
+                        : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                    }
+                  >
+                    Characters
+                  </Link>
+                </p>
+                {/*  */}
+                <p
+                  className={`${roboto_slab.className}`}
+                  onClick={() => {
+                    setColor("Buy-Sell-Trade");
+                  }}
+                >
+                  <Link
+                    href={"#Buy-Sell-Trade"}
+                    className={
+                      color === "Buy-Sell-Trade"
+                        ? "text-[16px text-[#ff7f98] uppercase"
+                        : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                    }
+                  >
+                    Buy-Sell-Trade
+                  </Link>
+                </p>
+                {/*  */}
+                <p
+                  className={`${roboto_slab.className}`}
+                  onClick={() => {
+                    setColor("Roadmap");
+                  }}
+                >
+                  <Link
+                    href={"#Roadmap"}
+                    className={
+                      color === "Roadmap"
+                        ? "text-[16px text-[#ff7f98] uppercase"
+                        : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                    }
+                  >
+                    Roadmap
+                  </Link>
+                </p>
+                {/*  */}
               </motion.div>
               <motion.div
                 variants={navVariants}
@@ -222,84 +278,142 @@ const Header = () => {
                       }}
                     >
                       <Link
-                        href={"#our-mission"}
+                        href={"#About-Us"}
                         className={
                           color === "about"
-                            ? "text-[16px text-[#fff] uppercase"
-                            : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
+                            ? "text-[16px text-[#ff7f98] uppercase"
+                            : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
                         }
                       >
-                        Who Are We
+                        About Us
                       </Link>
                     </p>
+
                     <p
                       className={`${roboto_slab.className}`}
                       onClick={() => {
-                        setColor("Charecters");
+                        setColor("iMagus");
                       }}
                     >
                       <Link
-                        href={"#charecter"}
+                        href={"#iMagus"}
                         className={
-                          color === "Charecters"
-                            ? "text-[16px text-[#fff] uppercase"
-                            : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
+                          color === "iMagus"
+                            ? "text-[16px text-[#ff7f98] uppercase"
+                            : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
                         }
                       >
-                        Character
+                        iMagus
                       </Link>
                     </p>
+
                     {/* <p
-                      className={`${roboto_slab.className}`}
-                      onClick={() => {
-                        setColor("tokenomics");
-                      }}
-                    >
-                      <Link
-                        href={"#tokenomics"}
-                        className={
-                          color === "tokenomics"
-                            ? "text-[16px text-[#fff] uppercase"
-                            : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
-                        }
-                      >
-                        tokenomics
-                      </Link>
-                    </p> */}
+                  className={`${roboto_slab.className}`}
+                  onClick={() => {
+                    setColor("tokenomics");
+                  }}
+                >
+                  <Link
+                    href={"#tokenomics"}
+                    className={
+                      color === "tokenomics"
+                        ? "text-[16px text-[#fff] uppercase"
+                        : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
+                    }
+                  >
+                    tokenomics
+                  </Link>
+                </p> */}
                     <p
                       className={`${roboto_slab.className}`}
                       onClick={() => {
-                        setColor("Team");
+                        setColor("TheGenesis");
                       }}
                     >
                       <Link
-                        href={"#team"}
+                        href={"#The-Genesis"}
                         className={
-                          color === "Team"
-                            ? "text-[16px text-[#fff] uppercase"
-                            : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
+                          color === "TheGenesis"
+                            ? "text-[16px text-[#ff7f98] uppercase"
+                            : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
                         }
                       >
-                        Team
+                        The Genesis
                       </Link>
                     </p>
                     <p
                       className={`${roboto_slab.className}`}
                       onClick={() => {
-                        setColor("roadmap");
+                        setColor("NFT");
                       }}
                     >
                       <Link
-                        href={"#road"}
+                        href={"#NFT"}
                         className={
-                          color === "roadmap"
-                            ? "text-[16px text-[#fff] uppercase"
-                            : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
+                          color === "NFT"
+                            ? "text-[16px text-[#ff7f98] uppercase"
+                            : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
                         }
                       >
-                        roadmap
+                        NFT
                       </Link>
                     </p>
+
+                    {/*  */}
+                    <p
+                      className={`${roboto_slab.className}`}
+                      onClick={() => {
+                        setColor("Characters");
+                      }}
+                    >
+                      <Link
+                        href={"#Characters"}
+                        className={
+                          color === "Characters"
+                            ? "text-[16px text-[#ff7f98] uppercase"
+                            : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                        }
+                      >
+                        Characters
+                      </Link>
+                    </p>
+                    {/*  */}
+                    <p
+                      className={`${roboto_slab.className}`}
+                      onClick={() => {
+                        setColor("Buy-Sell-Trade");
+                      }}
+                    >
+                      <Link
+                        href={"#Buy-Sell-Trade"}
+                        className={
+                          color === "Buy-Sell-Trade"
+                            ? "text-[16px text-[#ff7f98] uppercase"
+                            : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                        }
+                      >
+                        Buy-Sell-Trade
+                      </Link>
+                    </p>
+                    {/*  */}
+                    <p
+                      className={`${roboto_slab.className}`}
+                      onClick={() => {
+                        setColor("Roadmap");
+                      }}
+                    >
+                      <Link
+                        href={"#Roadmap"}
+                        className={
+                          color === "Roadmap"
+                            ? "text-[16px text-[#ff7f98] uppercase"
+                            : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                        }
+                      >
+                        Roadmap
+                      </Link>
+                    </p>
+                    {/*  */}
                   </div>
                 </motion.div>
               </motion.div>

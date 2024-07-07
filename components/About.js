@@ -9,10 +9,15 @@ import {
   slideIn,
   staggerContainer,
 } from "@/utils/motion";
-import { Roboto_Slab, Work_Sans, Cinzel } from "next/font/google";
+import { Roboto_Slab, Cinzel } from "next/font/google";
 import Description from "./reusable/Description";
 const roboto_slab = Roboto_Slab({
   weight: ["400", "300", "500", "600", "700", "900"],
+  subsets: ["latin"],
+  display: "swap",
+});
+const cinzel = Cinzel({
+  weight: ["400", "500", "600"],
   subsets: ["latin"],
   display: "swap",
 });
@@ -24,26 +29,28 @@ const About = () => {
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
       className="mt-[-50px] z-0"
-      id="our-mission"
+      id="About-Us"
     >
-      <div className=" min-h-[1450px] mt-[0]   md:min-h-[900px] md:max-h-[900px]  relative overflow-hidden ">
-        <div className=" absolute top-0 flex justify-center items-center w-full h-[400px] left-0 z-[50]">
-          <h2 className=" text-center sectionTitle text-[42px] lg:text-[160px] 2xl:text-[200px]">
-            WHO ARE WE
+      <div className=" min-h-[1000px] mt-[0]   md:min-h-[900px] md:max-h-[900px]  relative overflow-hidden ">
+        <div className=" absolute top-0 flex justify-center items-center w-full min-h-[100px] sm:h-[400px] left-0 z-[50]">
+          <h2
+            className={`${cinzel.className} capitalize text-center  sectionTitle text-[42px] sm:text-[120px] lg:text-[160px] 2xl:text-[200px]`}
+          >
+            ABOUT US
           </h2>
         </div>
 
-        <div className="absolute top-0 left-0 h-full w-full">
-          <Image
-            src={"/panel/who.jpg"}
+        <div className="absolute top-0 bg-[#191919] left-0 h-full w-full">
+          {/* <Image
+            src={"/Assets/about.png"}
             alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
             layout="fill"
             objectFit="cover"
             className=""
-          />
+          /> */}
         </div>
         <div className="w-full mt-[50px] sm:mt-[50px]  px-4  md:min-h-[800px] md:max-h-[800px]   py-10 flex justify-center items-center absolute top-0 left-0 h-full z-[100000] max-auto">
-          <div className=" max-w-[1600px]  mx-auto  sm:mt-[300px] md:mt-0 md:min-h-[450px] md:max-h-[450px] ">
+          <div className="   mx-auto  ">
             {/* <Image
               src={"/Screenshot_2.png"}
               alt="eye"
@@ -51,80 +58,75 @@ const About = () => {
               height={400}
               className="block sm:hidden"
             /> */}
-            <div className="grid grid-cols-1  gap-5 md:grid-cols-3">
-              <motion.div
-                variants={fadeIn("right", "bounce", 0.2, 1)}
-                className=""
-              >
-                <div className="relative w-[360px] h-[360px] sm:w-[400px] sm:h-[400px] ">
-                  <Image
-                    src={"/who1.png"}
-                    alt="eye"
-                    layout="fill"
-                    objectFit="fill"
-                    className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
-                  />
-                  <div className="absolute  w-full bottom-[80px] left-1/2 -translate-x-1/2">
-                    <p className="text-[#fff] font-bold  text-center">
-                      Crafting a{" "}
-                      <span className="text-[#ff7f98] font-extrabold text-[18px]">
-                        Custom Engine{" "}
-                      </span>
-                      <br /> to Cultivate a Sustainable <br /> Gaming Ecosystem
-                    </p>
-                  </div>
+            <div className="grid grid-cols-1 md:mt-[200px] gap-6  xl:gap-20 md:grid-cols-2">
+              <div className="mx-auto w-full xl:w-auto abox1  relative">
+                <div className="w-full p-5 h-full abox">
+                  <p
+                    className={`${roboto_slab.className} capitalize text-[#D4D297] text-center text-[56px] font-bold`}
+                  >
+                    Mission
+                  </p>
+                  <div
+                    className={` w-full max-w-[290px] min-w-[290px]   xl:min-w-[500px] xl:max-w-full  h-[2px] bg-[#D4D297]`}
+                  ></div>
+                  <p
+                    className={`${roboto_slab.className} capitalize text-[#fff] text-center pt-4 text-[22px] `}
+                  >
+                    Revolutionize the Gaming Industry
+                  </p>
                 </div>
-              </motion.div>
+              </div>
 
-              <motion.div
-                variants={fadeIn("up", "bounce", 0.2, 1)}
-                className=""
-              >
-                <div className="relative w-[360px] h-[360px] sm:w-[400px] sm:h-[400px] xl:w-[450px] xl:h-[400px] ">
-                  <Image
-                    src={"/who2.png"}
-                    alt="eye"
-                    layout="fill"
-                    objectFit="fill"
-                    className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
-                  />
-                  <div className="absolute  w-full bottom-[80px] left-1/2 -translate-x-1/2">
-                    <p className="text-[#fff] font-bold  text-center">
-                      Bringing a Revolutionary <br />
-                      <span className="text-[#ff7f98] pr-1 font-extrabold text-[18px]">
-                        {" "}
-                        AI-Driven MMORPG
-                      </span>
-                      Experience <br />
-                      to Gamers Worldwide.
-                    </p>
-                  </div>
+              {/* 2 */}
+              <div className="mx-auto abox2 w-full xl:w-auto  relative">
+                <div className="w-full p-5 h-full abox">
+                  <p
+                    className={`${roboto_slab.className} capitalize text-[#D4D297] text-center text-[56px] font-bold`}
+                  >
+                    Vision
+                  </p>
+                  <div
+                    className={` w-full max-w-[290px] min-w-[290px]    xl:min-w-[500px] xl:max-w-full  h-[2px] bg-[#D4D297]`}
+                  ></div>
+                  <p
+                    className={`${roboto_slab.className} capitalize text-[#fff] text-center pt-4 text-[22px] `}
+                  >
+                    Create a Sustainable, <br></br> Player-Driven Ecosystem{" "}
+                  </p>
                 </div>
-              </motion.div>
-              <motion.div
-                variants={fadeIn("left", "bounce", 0.2, 1)}
-                className=""
-              >
-                <div className="relative w-[360px] h-[360px] sm:w-[400px] sm:h-[400px] ">
-                  <Image
-                    src={"/who3.png"}
-                    alt="eye"
-                    layout="fill"
-                    objectFit="fill"
-                    className="hover:scale-[1.1] duration-200 delay-75 ease-linear"
-                  />
-                  <div className="absolute  w-full bottom-[80px] left-1/2 -translate-x-1/2">
-                    <p className="text-[#fff] font-bold  text-center">
-                      Creating{" "}
-                      <span className="text-[#ff7f98] font-extrabold text-[18px]">
-                        Jobs and Careers
-                      </span>{" "}
-                      <br />
-                      of the New Age Within Game
-                    </p>
-                  </div>
+              </div>
+              {/* 3 */}
+              <div className="mx-auto w-full xl:w-auto abox3  relative">
+                <div className="w-full p-5 h-full abox">
+                  <p
+                    className={`${roboto_slab.className} capitalize text-[#D4D297] text-center text-[56px] font-bold`}
+                  >
+                    Team{" "}
+                  </p>
+                  <div
+                    className={` w-full max-w-[290px] min-w-[290px]   xl:min-w-[500px] xl:max-w-full  h-[2px] bg-[#D4D297]`}
+                  ></div>
+                  <img src="/Assets/abtn.png" className="mx-auto pt-4" alt="" />
                 </div>
-              </motion.div>
+              </div>
+              {/* 4 */}
+              <div className="mx-auto abox4 w-full xl:w-auto relative">
+                <div className="w-full p-5 h-full abox">
+                  <p
+                    className={`${roboto_slab.className} capitalize text-[#D4D297] text-center text-[56px] font-bold`}
+                  >
+                    Our Story
+                  </p>
+                  <div
+                    className={` w-full max-w-[290px] min-w-[290px]  xl:min-w-[500px] xl:max-w-full  h-[2px] bg-[#D4D297]`}
+                  ></div>
+                  <p
+                    className={`${roboto_slab.className} capitalize text-[#fff] text-center pt-4 text-[22px] `}
+                  >
+                    iMagus engine
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

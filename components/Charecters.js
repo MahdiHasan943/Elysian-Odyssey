@@ -11,7 +11,7 @@ const Charecters = () => {
   const [active, setActive] = useState("world-2");
 
   return (
-    <div id="charecter">
+    <div id="Characters">
       <div className="">
         <div className=" min-h-[1100px]   lg:min-h-[1100px] lg:max-h-[1100px]  relative overflow-hidden ">
           <div className=" absolute top-0 flex justify-center items-center w-full h-[400px] left-0 z-[50]">
