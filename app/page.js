@@ -7,6 +7,7 @@ import Tokenomics from "@/components/Tokenomics";
 import Hero from "@/components/Hero";
 import { Cinzel } from "next/font/google";
 import Imagus from "@/components/Imagus";
+import Genesis from "@/components/Genesis";
 
 const cinzel = Cinzel({
   weight: ["900"],
@@ -20,7 +21,11 @@ export default function Home() {
       {/* <MultiLayerParallax /> */}
       <About />
       <Imagus></Imagus>
-      <div className="w-full bg-[#191919] text-center border border-[#566000] py-8 px-4">
+      <Genesis />
+      <div
+        id="NFT"
+        className="w-full bg-[#191919] text-center border border-[#566000] py-8 px-4"
+      >
         <button
           className={`${cinzel.className} bg-[#D5D399] py-1  text-[44px] px-10  rounded-sm`}
         >

@@ -29,7 +29,7 @@ const Imagus = () => {
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
       className="mt-[-50px] z-0"
-      id="About-Us"
+      id="iMagus"
     >
       <div className="  mt-[0] min-h-[2000px] sm:min-h-[1500px] sm:max-h-[1800px]   lg:min-h-[900px] lg:max-h-[900px]  relative ">
         <div className=" absolute top-0 flex justify-center items-center w-full min-h-[250px] sm:h-[400px] left-0 z-[50]">
@@ -74,7 +74,7 @@ const Imagus = () => {
                   </p>
                   <div className={` w-full   h-[2px] bg-[#D4D297]`}></div>
                   <p
-                    className={`${roboto_slab.className} capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
+                    className={`${roboto_slab.className} px-2 capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
                   >
                     ReThe iMagus engine is the heart of Elysian Odyssey,
                     designed to make game development accessible and efficient.
@@ -94,26 +94,26 @@ const Imagus = () => {
                   </p>
                   <div className={` w-full  h-[2px] bg-[#D4D297]`}></div>
                   <p
-                    className={`${roboto_slab.className} capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
+                    className={`${roboto_slab.className} px-2 capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
                   >
                     C- No Prior Skills Required - Create and develop games
                     without any technical expertise.{" "}
                   </p>
 
                   <p
-                    className={`${roboto_slab.className} capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
+                    className={`${roboto_slab.className} px-2 capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
                   >
                     - Optimized Performance - Enjoy high-quality graphics with
                     minimal weight.
                   </p>
                   <p
-                    className={`${roboto_slab.className} capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
+                    className={`${roboto_slab.className} px-2 capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
                   >
                     - Blockchain Integration - Secure and transparent
                     transactions with full on-chain support.
                   </p>
                   <p
-                    className={`${roboto_slab.className} capitalize pb-10 text-[#D4D297] text-center pt-4 text-[20px] `}
+                    className={`${roboto_slab.className} px-2 capitalize pb-10 text-[#D4D297] text-center pt-4 text-[20px] `}
                   >
                     - Easy asset integration - Effortlessly integrate assets for
                     a seamless game development experience
@@ -130,7 +130,7 @@ const Imagus = () => {
                   </p>
                   <div className={` w-full h-[2px] bg-[#D4D297]`}></div>
                   <p
-                    className={`${roboto_slab.className} capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
+                    className={`${roboto_slab.className} px-2 capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
                   >
                     Designed for all game types, our platform supports 2D, 3D,
                     AAA titles, indie games, and beyond, ensuring versatility
