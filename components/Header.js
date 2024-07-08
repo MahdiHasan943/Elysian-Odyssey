@@ -82,7 +82,7 @@ const Header = () => {
                     alt="logo"
                     width={200}
                     height={80}
-                    className="block larger:hidden"
+                    className="block ml-[-26px] larger:hidden"
                   />
                 </Link>{" "}
               </p>
