@@ -13,7 +13,7 @@ const Charecters = () => {
   return (
     <div id="Characters">
       <div className="">
-        <div className=" min-h-[900px]   lg:min-h-[1100px] lg:max-h-[1100px]  relative overflow-hidden ">
+        <div className=" min-h-[900px]   lg:min-h-[1100px] lg:max-h-[1100px]  relative  ">
           <div className=" absolute top-0 flex justify-center items-center w-full h-[200px] sm:h-[400px] left-0 z-[50]">
             <h2 className=" text-center sectionTitle text-[47px] md:text-[160px] larger:text-[180px]">
               CHARECTERS

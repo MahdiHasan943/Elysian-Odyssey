@@ -39,9 +39,13 @@ export default function Home() {
       <Charecters />
       <div
         id="Buy-Sell-Trade"
-        className="w-full bg-[#191919] text-center border border-[#566000] py-8 px-4"
+        className="w-full bg-[#191919]  z-[90000000] relative text-center border border-[#566000] py-8 px-4"
       >
-        <img src="/Assets/buybtn1.png" className="mx-auto" alt="" />
+        <img
+          src="/Assets/buybtn1.png"
+          className="mt-[-50px] pl-2 sm:pl-0 sm:mt-[-90px] mx-auto"
+          alt=""
+        />
         <p
           className={`${roboto_slab.className} px-2 mt-[-10px] capitalize text-[#fff] text-center  text-[20px] `}
         >
