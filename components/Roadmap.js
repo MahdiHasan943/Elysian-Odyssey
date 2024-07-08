@@ -60,19 +60,19 @@ const Team = () => {
         <div className="min-h-[7600px] bg-[black]  mb-[-5px] smallest:min-h-[7600px] moreSmall:min-h-[7600px]   lg:min-h-[4300px] lg:max-h-[4300px] relative overflow-hidden ">
           <div className=" absolute top-0 flex justify-center items-center w-full h-[400px] left-0 z-[50]">
             <h2
-              className={`${cinzel.className} text-center sectionTitle text-[60px] md:text-[200px] larger:text-[300px]`}
+              className={`${cinzel.className} text-center sectionTitle text-[60px] md:text-[200px] larger:text-[200px]`}
             >
               ROADMAP
             </h2>
           </div>
-          <div className="absolute top-0 left-0 h-full w-full">
-            <Image
+          <div className="absolute top-0 bg-[#221E1B] left-0 h-full w-full">
+            {/* <Image
               src={"/panel/roadmap.jpg"}
               alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
               layout="fill"
               objectFit="cover"
               className=""
-            />
+            /> */}
           </div>
 
           <div className="w-full px-4 pt-[400px] sm:pt-[400px]  py-10 absolute top-0 left-0 h-full z-[100000] max-auto">

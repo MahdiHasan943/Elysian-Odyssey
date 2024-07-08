@@ -38,7 +38,7 @@ export default function Home() {
       </div>
       <Charecters />
       <div
-        id="NFT"
+        id="Buy-Sell-Trade"
         className="w-full bg-[#191919] text-center border border-[#566000] py-8 px-4"
       >
         <img src="/Assets/buybtn1.png" className="mx-auto" alt="" />

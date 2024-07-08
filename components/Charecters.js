@@ -15,19 +15,19 @@ const Charecters = () => {
       <div className="">
         <div className=" min-h-[900px]   lg:min-h-[1100px] lg:max-h-[1100px]  relative overflow-hidden ">
           <div className=" absolute top-0 flex justify-center items-center w-full h-[200px] sm:h-[400px] left-0 z-[50]">
-            <h2 className=" text-center sectionTitle text-[47px] md:text-[160px] larger:text-[200px]">
+            <h2 className=" text-center sectionTitle text-[47px] md:text-[160px] larger:text-[180px]">
               CHARECTERS
             </h2>
           </div>
 
-          <div className="absolute bg-[#3A3120] top-0 left-0 h-full w-full">
-            <Image
+          <div className="absolute bg-[#241F1E] top-0 left-0 h-full w-full">
+            {/* <Image
               src={"/images/new_charecter.png"}
               alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
               layout="fill"
               objectFit="cover"
               className=""
-            />
+            /> */}
             <div className="w-full px-4  py-10 absolute top-0 left-0 h-full z-[100000] max-auto">
               <section
                 className={`sm:p-16 w-full max-w-[1600px]  mt-[-70px] sm:mt-0 mx-auto xs:p-8 px-6 py-12`}
@@ -38,7 +38,7 @@ const Charecters = () => {
                   initial="hidden"
                   whileInView="show"
                   viewport={{ once: false, amount: 0.25 }}
-                  className={`$2xl:max-w-[1280px] mt-[100px] w-full mx-auto flex flex-col`}
+                  className={`$2xl:max-w-[1280px] mt-[120px] w-full mx-auto flex flex-col`}
                 >
                   <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
                     {exploreWorlds.map((world, index) => (

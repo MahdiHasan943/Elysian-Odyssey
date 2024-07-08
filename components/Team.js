@@ -57,10 +57,10 @@ const Team = () => {
         className={`${roboto_slab.className}`}
         id="team"
       >
-        <div className=" min-h-[1200px]   lg:min-h-[1350px] lg:max-h-[1350px] 2xl:min-h-[1350px]  2xl:max-h-[1350px] relative overflow-hidden ">
+        <div className=" min-h-[1200px]   lg:min-h-[1350px] lg:max-h-[1350px] 2xl:min-h-[1200px]  2xl:max-h-[1200px] relative overflow-hidden ">
           <div className=" absolute top-0 flex justify-center items-center w-full h-[400px] left-0 z-[50]">
             <h2
-              className={`${cinzel.className} text-center sectionTitle flex justify-center text-[85px] md:text-[350px] `}
+              className={`${cinzel.className} text-center sectionTitle flex justify-center text-[85px] md:text-[180px] `}
             >
               T{" "}
               <a href="" className="   block">
@@ -68,8 +68,8 @@ const Team = () => {
               </a>{" "}
             </h2>
           </div>
-          <div className="absolute top-0 left-0 h-full w-full">
-            <Image
+          <div className="absolute top-0 bg-[#191919] left-0 h-full w-full">
+            {/* <Image
               src={"/panel/team.jpg"}
               alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
               layout="fill"
@@ -82,7 +82,7 @@ const Team = () => {
               width={986}
               height={665}
               className=" w-full h-full block sm:hidden"
-            />
+            /> */}
           </div>
 
           <div className="w-full  px-4  py-10 absolute top-0 left-0 h-full z-[100000] max-auto">
@@ -103,7 +103,7 @@ const Team = () => {
               modules={[Navigation, Pagination]}
               slidesPerView="auto"
               spaceBetween={50}
-              className="mySwiper max-w-[1800px!important] mt-[200px] 2xl:mt-[350px] overflow-hidden mx-auto smallest:px-[12px!important] md:px-[40px!important]  my-8 "
+              className="mySwiper max-w-[1800px!important] mt-[200px] 2xl:mt-[150px] overflow-hidden mx-auto smallest:px-[12px!important] md:px-[40px!important]  my-8 "
               breakpoints={breakpoints}
               loop={true}
             >
