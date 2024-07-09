@@ -28,7 +28,7 @@ const Genesis = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="mt-[-50px] overflow-hidden z-0"
+      className="mt-[-50px]  z-0"
       id="The-Genesis"
     >
       <div className="  mt-[0] min-h-[1300px] sm:min-h-[1200px] sm:max-h-[1200px]   lg:min-h-[1000px] lg:max-h-[1000px]  relative ">
