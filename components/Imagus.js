@@ -31,7 +31,7 @@ const Imagus = () => {
       className="mt-[-50px] z-0"
       id="iMagus"
     >
-      <div className="  mt-[0] min-h-[2000px] sm:min-h-[1500px] sm:max-h-[1800px]   lg:min-h-[900px] lg:max-h-[900px]  relative ">
+      <div className="overflow-hidden  mt-[0] min-h-[2000px] sm:min-h-[1500px] sm:max-h-[1800px]   lg:min-h-[900px] lg:max-h-[900px]  relative ">
         <div className=" absolute top-0 flex justify-center items-center w-full min-h-[250px] sm:h-[400px] left-0 z-[50]">
           <img
             className="absolute top-[-50px] w-[120px]   left-[50%] translate-x-[-50%]"
@@ -68,7 +68,7 @@ const Imagus = () => {
               <div className="mx-auto w-full min-h-[500px]  xl:w-auto imagus1  relative">
                 <div className="w-full h-full imagus">
                   <p
-                    className={`${roboto_slab.className}  capitalize text-[#D4D297] text-center text-[50px] lg:text-[56px] font-bold`}
+                    className={`${roboto_slab.className}  capitalize text-[#D4D297] text-center text-[44px]  lg:text-[44px] font-bold`}
                   >
                     Overview
                   </p>
@@ -88,7 +88,7 @@ const Imagus = () => {
               <div className="mx-auto imagus2 min-h-[500px]  mt-5 sm:mt-0 w-full xl:w-auto  relative">
                 <div className="w-full  h-full imagus">
                   <p
-                    className={`${roboto_slab.className}  capitalize text-[#D4D297] text-center text-[50px] lg:text-[56px] font-bold`}
+                    className={`${roboto_slab.className}  capitalize text-[#D4D297] text-center text-[44px] lg:text-[44px] font-bold`}
                   >
                     Key Advantages
                   </p>
@@ -124,7 +124,7 @@ const Imagus = () => {
               <div className="mx-auto mt-5 lg:mt-0 min-h-[500px]  w-full xl:w-auto imagus3  relative">
                 <div className="w-full  h-full imagus">
                   <p
-                    className={`${roboto_slab.className}  capitalize text-[#D4D297] text-center text-[50px] lg:text-[56px] font-bold`}
+                    className={`${roboto_slab.className}  capitalize text-[#D4D297] text-center text-[44px] lg:text-[44px] font-bold`}
                   >
                     Compatibility
                   </p>
