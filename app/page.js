@@ -8,6 +8,7 @@ import Hero from "@/components/Hero";
 import { Cinzel, Roboto_Slab } from "next/font/google";
 import Imagus from "@/components/Imagus";
 import Genesis from "@/components/Genesis";
+import NewRoadmap from "@/components/NewRoadmap";
 const roboto_slab = Roboto_Slab({
   weight: ["400", "300", "500", "600", "700", "900"],
   subsets: ["latin"],
@@ -60,7 +61,8 @@ export default function Home() {
       </div>
       {/* <Tokenomics /> */}
       <Team />
-      <Roadmap />
+      {/* <Roadmap /> */}
+      <NewRoadmap />
     </main>
   );
 }
