@@ -25,9 +25,9 @@ const cinzel = Cinzel({
 });
 const NewRoadmap = () => {
   return (
-    <div className="bg-[#241D1C] px-4 sm:px-16">
+    <div id="Roadmap" className="bg-[#241D1C] px-4  sm:px-16">
       <h2
-        className={`${cinzel.className} text-center sectionTitle text-[60px] md:text-[200px] larger:text-[200px]`}
+        className={`${cinzel.className} text-center sectionTitle text-[60px] md:text-[120px] larger:text-[200px]`}
       >
         ROADMAP
       </h2>
@@ -67,6 +67,215 @@ const NewRoadmap = () => {
         >
           2023
         </p>
+        <div className="grid relative grid-cols-1 py-4 lg:grid-cols-2 gap-5 lg:gap-1">
+          <div className="">
+            <div className="max-w-[90%] border border-[#8F8D68] mx-auto">
+              <div className="grid grid-cols-2  gap-4">
+                <p
+                  className={`${cinzel.className} text-[#fff] text-[46px] py-2 border-r-[#717070] border-r-2 font-semibold text-center `}
+                >
+                  Q1
+                </p>
+                <p
+                  className={`${cinzel.className} text-[#fff] text-[46px] py-2 font-semibold text-center `}
+                >
+                  Q2
+                </p>
+              </div>
+              <h2
+                className={`${roboto_slab} font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
+              >
+                {" "}
+                NFT Community Building and NFT Sale
+              </h2>
+            </div>
+            <div className="w-full border border-[#8F8D68]">
+              <p className="text-[#fff] text-[16px] px-4 py-2">
+                During this phase, our team focuses on conceptualising the game
+                mechanics, storyline, and world-building elements of Elysian
+                Odyssey. Key activities include:
+              </p>
+              <p className="py-6 text-[#fff] text-[16px] px-4">
+                - Conceptualization: Refining the game concept, defining core
+                gameplay mechanics, and establishing the narrative framework. -
+                Prototype Development: Building early-stage prototypes to test
+                fundamental game mechanics and gather user feedback.
+              </p>
+            </div>
+          </div>
+          <Image
+            src={"/whiteline.png"}
+            alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
+            width={5}
+            height={600}
+            className="absolute top-0 hidden lg:block left-[50%] translate-x-[-50%] h-full  w-[5px]  "
+          />
+          {/* 2 */}
+          <div className=" lg:mt-20">
+            <div className="max-w-[90%] border border-[#8F8D68] mx-auto">
+              <div className="grid grid-cols-2  gap-4">
+                <p
+                  className={`${cinzel.className} text-[#fff] text-[46px] py-2 border-r-[#717070] border-r-2 font-semibold text-center `}
+                >
+                  Q3
+                </p>
+                <p
+                  className={`${cinzel.className} text-[#fff] text-[46px] py-2 font-semibold text-center `}
+                >
+                  Q4
+                </p>
+              </div>
+              <h2
+                className={`${roboto_slab} font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
+              >
+                {" "}
+                NFT Community Building and NFT Sale
+              </h2>
+            </div>
+            <div className="w-full border border-[#8F8D68]">
+              <p className="text-[#fff] text-[16px] px-4 py-2">
+                During this phase, our team focuses on conceptualising the game
+                mechanics, storyline, and world-building elements of Elysian
+                Odyssey. Key activities include:
+              </p>
+              <p className="py-6 text-[#fff] text-[16px] px-4">
+                - Conceptualization: Refining the game concept, defining core
+                gameplay mechanics, and establishing the narrative framework. -
+                Prototype Development: Building early-stage prototypes to test
+                fundamental game mechanics and gather user feedback.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <p
+          className={`${roboto_slab.className} font-bold text-[#fff] text-[60px] sm:text-[100px] text-center`}
+        >
+          2024
+        </p>
+        {/* 2 grid */}
+        <div className="grid relative grid-cols-1 py-4 lg:grid-cols-2 gap-5 lg:gap-1">
+          <div className="">
+            <div className="max-w-[90%] border border-[#8F8D68] mx-auto">
+              <div className="grid grid-cols-2  gap-4">
+                <p
+                  className={`${cinzel.className} text-[#fff] text-[46px] py-2 border-r-[#717070] border-r-2 font-semibold text-center `}
+                >
+                  Q1
+                </p>
+                <p
+                  className={`${cinzel.className} text-[#fff] text-[46px] py-2 font-semibold text-center `}
+                >
+                  Q2
+                </p>
+              </div>
+              <h2
+                className={`${roboto_slab} font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
+              >
+                {" "}
+                NFT Community Building and NFT Sale
+              </h2>
+            </div>
+            <div className="w-full border border-[#8F8D68]">
+              <p className="text-[#fff] text-[16px] px-4 py-2">
+                During this phase, our team focuses on conceptualising the game
+                mechanics, storyline, and world-building elements of Elysian
+                Odyssey. Key activities include:
+              </p>
+              <p className="py-6 text-[#fff] text-[16px] px-4">
+                - Conceptualization: Refining the game concept, defining core
+                gameplay mechanics, and establishing the narrative framework. -
+                Prototype Development: Building early-stage prototypes to test
+                fundamental game mechanics and gather user feedback.
+              </p>
+            </div>
+          </div>
+          <Image
+            src={"/whiteline.png"}
+            alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
+            width={5}
+            height={600}
+            className="absolute top-0 hidden lg:block left-[50%] translate-x-[-50%] h-full  w-[5px]  "
+          />
+          {/* 2 */}
+          <div className=" lg:mt-20">
+            <div className="max-w-[90%] border border-[#8F8D68] mx-auto">
+              <div className="grid grid-cols-2  gap-4">
+                <p
+                  className={`${cinzel.className} text-[#fff] text-[46px] py-2 border-r-[#717070] border-r-2 font-semibold text-center `}
+                >
+                  Q3
+                </p>
+                <p
+                  className={`${cinzel.className} text-[#fff] text-[46px] py-2 font-semibold text-center `}
+                >
+                  Q4
+                </p>
+              </div>
+              <h2
+                className={`${roboto_slab} font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
+              >
+                {" "}
+                NFT Community Building and NFT Sale
+              </h2>
+            </div>
+            <div className="w-full border border-[#8F8D68]">
+              <p className="text-[#fff] text-[16px] px-4 py-2">
+                During this phase, our team focuses on conceptualising the game
+                mechanics, storyline, and world-building elements of Elysian
+                Odyssey. Key activities include:
+              </p>
+              <p className="py-6 text-[#fff] text-[16px] px-4">
+                - Conceptualization: Refining the game concept, defining core
+                gameplay mechanics, and establishing the narrative framework. -
+                Prototype Development: Building early-stage prototypes to test
+                fundamental game mechanics and gather user feedback.
+              </p>
+            </div>
+          </div>
+        </div>
+        <p
+          className={`${roboto_slab.className} font-bold text-[#fff] text-[60px] sm:text-[100px] text-center`}
+        >
+          2025
+        </p>
+        <div className="flex justify-center items-center  py-4 lg:grid-cols-2 gap-5 ">
+          <div className="max-w-[540px]">
+            <div className="max-w-[90%] border border-[#8F8D68] mx-auto">
+              <div className="grid grid-cols-2  gap-4">
+                <p
+                  className={`${cinzel.className} text-[#fff] text-[46px] py-2 border-r-[#717070] border-r-2 font-semibold text-center `}
+                >
+                  Q1
+                </p>
+                <p
+                  className={`${cinzel.className} text-[#fff] text-[46px] py-2 font-semibold text-center `}
+                >
+                  Q2
+                </p>
+              </div>
+              <h2
+                className={`${roboto_slab} font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
+              >
+                {" "}
+                NFT Community Building and NFT Sale
+              </h2>
+            </div>
+            <div className="w-full border border-[#8F8D68]">
+              <p className="text-[#fff] text-[16px] px-4 py-2">
+                During this phase, our team focuses on conceptualising the game
+                mechanics, storyline, and world-building elements of Elysian
+                Odyssey. Key activities include:
+              </p>
+              <p className="py-6 text-[#fff] text-[16px] px-4">
+                - Conceptualization: Refining the game concept, defining core
+                gameplay mechanics, and establishing the narrative framework. -
+                Prototype Development: Building early-stage prototypes to test
+                fundamental game mechanics and gather user feedback.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

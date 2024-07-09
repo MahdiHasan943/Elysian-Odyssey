@@ -15,7 +15,7 @@ const Charecters = () => {
       <div className="">
         <div className=" min-h-[900px]   lg:min-h-[1100px] lg:max-h-[1100px]  relative  ">
           <div className=" absolute top-0 flex justify-center items-center w-full h-[200px] sm:h-[400px] left-0 z-[50]">
-            <h2 className=" text-center sectionTitle text-[47px] md:text-[160px] larger:text-[180px]">
+            <h2 className=" text-center sectionTitle text-[47px] md:text-[120px] larger:text-[180px]">
               CHARECTERS
             </h2>
           </div>
@@ -40,7 +40,7 @@ const Charecters = () => {
                   viewport={{ once: false, amount: 0.25 }}
                   className={`$2xl:max-w-[1280px] mt-[120px] w-full mx-auto flex flex-col`}
                 >
-                  <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+                  <div className="mt-[50px] overflow-hidden flex lg:flex-row flex-col min-h-[70vh] gap-5">
                     {exploreWorlds.map((world, index) => (
                       <Player
                         key={world.id}
