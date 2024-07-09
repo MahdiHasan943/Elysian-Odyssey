@@ -82,9 +82,27 @@ const Genesis = () => {
                   <p
                     className={`${roboto_slab.className} px-2 capitalize text-[#615d55] text-center pt-4 text-[20px] `}
                   >
-                    Discover 'The Genesis', our first AI-driven AAA MMORPG.
-                    Explore a vast, dynamic world filled with adventure and
-                    opportunity.
+                    Discover{" "}
+                    <span className=" pl-1 text-[#615d55] text-[24px] font-bold">
+                      'The Genesis',{" "}
+                    </span>
+                    our first{" "}
+                    <span className=" pl-1 text-[#615d55] text-[24px] font-bold">
+                      AI-driven AAA MMORPG.{" "}
+                    </span>
+                    Explore a{" "}
+                    <span className=" pl-1 text-[#615d55] text-[24px] font-bold">
+                      vast, dynamic{" "}
+                    </span>
+                    world filled with{" "}
+                    <span className=" pl-1 text-[#615d55] text-[24px] font-bold">
+                      adventure{" "}
+                    </span>
+                    and{" "}
+                    <span className=" pl-1 text-[#615d55] text-[24px] font-bold">
+                      opportunity{" "}
+                    </span>
+                    .
                   </p>
                 </div>
               </div>
@@ -100,10 +118,25 @@ const Genesis = () => {
                   <p
                     className={`${roboto_slab.className} px-2 capitalize text-[#615d55] text-center pt-4 text-[20px] `}
                   >
-                    Elysian Odyssey's play-and-earn model allows you to earn
-                    real-world rewards by participating in the game. Complete
-                    quests, win battles, and contribute to the ecosystem and
-                    earn $ELY tokens.
+                    <span className=" pl-1 text-[#615d55] text-[24px] font-bold">
+                      Elysian Odyssey's{" "}
+                    </span>
+                    play-and-earn model allows you to{" "}
+                    <span className=" pl-1 text-[#615d55] text-[24px] font-bold">
+                      earn real-world rewards{" "}
+                    </span>
+                    by participating in the game. Complete
+                    <span className=" pl-1 text-[#615d55] text-[24px] font-bold">
+                      quests, win battles,{" "}
+                    </span>
+                    and{" "}
+                    <span className=" pl-1 text-[#615d55] text-[24px] font-bold">
+                      contribute{" "}
+                    </span>
+                    to the ecosystem and
+                    <span className=" pl-1 text-[#615d55] text-[24px] font-bold">
+                      earn $ELY tokens.{" "}
+                    </span>
                   </p>
                 </div>
               </div>
@@ -118,9 +151,23 @@ const Genesis = () => {
                   <p
                     className={`${roboto_slab.className} px-2 capitalize text-[#615d55] text-center pt-4 text-[20px] `}
                   >
-                    Choose from various in-game professions such as crafting,
-                    trading, and mining. Each profession offers unique
-                    opportunities to earn and grow within the game.
+                    Choose from various{" "}
+                    <span className=" pl-1 text-[#615d55] text-[24px] font-bold">
+                      in-game professions{" "}
+                    </span>
+                    such as{" "}
+                    <span className=" pl-1 text-[#615d55] text-[24px] font-bold">
+                      crafting, trading,{" "}
+                    </span>
+                    and{" "}
+                    <span className=" pl-1 text-[#615d55] text-[24px] font-bold">
+                      mining.{" "}
+                    </span>
+                    Each profession{" "}
+                    <span className=" pl-1 text-[#615d55] text-[24px] font-bold">
+                      offers unique opportunities to earn and grow{" "}
+                    </span>
+                    within the game.
                   </p>
                 </div>
               </div>
