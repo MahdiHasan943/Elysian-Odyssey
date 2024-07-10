@@ -31,7 +31,7 @@ const Imagus = () => {
       className="mt-[-50px] z-0"
       id="iMagus"
     >
-      <div className="  mt-[0] min-h-[2000px] sm:min-h-[1500px] sm:max-h-[1800px]   lg:min-h-[900px] lg:max-h-[900px]  relative ">
+      <div className="  mt-[0] min-h-[2080px] sm:min-h-[1500px] sm:max-h-[1800px]   lg:min-h-[900px] lg:max-h-[900px]  relative ">
         <div className=" absolute top-0 flex justify-center items-center w-full min-h-[250px] sm:h-[400px] left-0 z-[50]">
           <img
             className="absolute top-[-50px] w-[120px]  border-[5px] hover:border-[#194219] duration-200 delay-75 ease-linear hover:rotate-[-5deg] border-[#531212] rounded-[999px]   left-[50%] translate-x-[-50%]"
