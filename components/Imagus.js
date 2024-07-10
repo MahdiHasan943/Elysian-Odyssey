@@ -34,15 +34,16 @@ const Imagus = () => {
       <div className="  mt-[0] min-h-[2080px] sm:min-h-[1500px] sm:max-h-[1800px]   lg:min-h-[900px] lg:max-h-[900px]  relative ">
         <div className=" absolute top-0 flex justify-center items-center w-full min-h-[250px] sm:h-[400px] left-0 z-[50]">
           <img
-            className="absolute top-[-50px] w-[120px]  border-[5px] hover:border-[#194219] duration-200 delay-75 ease-linear hover:rotate-[-5deg] border-[#531212] rounded-[999px]   left-[50%] translate-x-[-50%]"
+            className="absolute top-[-50px] w-[120px]  border-[5px] hover:border-[#0F8049] duration-200 delay-75 ease-linear hover:rotate-[-5deg] border-[#94180C] rounded-[999px]   left-[50%] translate-x-[-50%]"
             src="/Assets/iMagus.png"
             alt=""
           />
 
           <h2
-            className={`${cinzel.className} capitalize text-center  sectionTitle text-[42px] tracking-tighter sm:text-[120px] lg:text-[160px] 2xl:text-[180px]`}
+            className={`  text-center  sectionTitle text-[42px] tracking-tighter sm:text-[120px] lg:text-[160px] 2xl:text-[180px]`}
           >
-            iMagus Engine
+            <span className={`${roboto_slab.className} mr-[-50px]`}> i</span>{" "}
+            <span className={`${cinzel.className}`}>Magus Engine</span>
           </h2>
         </div>
 
@@ -65,16 +66,16 @@ const Imagus = () => {
               className="block sm:hidden"
             /> */}
             <div className="grid grid-cols-1  h-auto xl:max-w-[1400px] border border-[#D4D297] p-2 md:mt-[200px] gap-5 lg:gap-2 sm:grid-cols-2 lg:grid-cols-3">
-              <div className="mx-auto w-[98%] h-[98%] hover:w-full hover:h-full min-h-[500px] group   duration-200 delay-75 ease-linear  xl:w-auto imagus1  relative">
+              <div className="mx-auto w-[98%] h-[98%] hover:w-full hover:h-full min-h-[500px] group   duration-500 delay-150 ease-linear  xl:w-auto imagus1  relative">
                 <div className="w-full h-full imagus">
                   <p
-                    className={`${cinzel.className} px-2 text-left group-hover:text-center group-hover:bg-[#f7f6a4] group-hover:text-[#111] duration-300 delay-75 ease-linear capitalize text-[#f7f6a4]  text-[44px]  lg:text-[44px] font-bold`}
+                    className={`${cinzel.className} px-2 text-left group-hover:text-center group-hover:bg-[#f7f6a4] group-hover:text-[#111] duration-500 delay-150 ease-linear capitalize text-[#f7f6a4]  text-[44px]  lg:text-[44px] font-bold`}
                   >
                     Overview
                   </p>
                   <div className={` w-full   h-[2px] bg-[#D4D297]`}></div>
                   <p
-                    className={`${roboto_slab.className} px-2 capitalize text-[#cfcd9a] text-center pt-4 text-[20px] `}
+                    className={`${roboto_slab.className} group-hover:scale-105 px-2 capitalize text-[#cfcd9a] text-center pt-4 text-[20px] `}
                   >
                     The
                     <span className=" pl-1 text-[#f7f6a4] text-[24px] font-bold">
@@ -117,9 +118,9 @@ const Imagus = () => {
                   </p>
                   <div className={` w-full  h-[2px] bg-[#D4D297]`}></div>
                   <p
-                    className={`${roboto_slab.className} px-2 capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
+                    className={`${roboto_slab.className} group-hover:scale-105 px-2 capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
                   >
-                    C-{" "}
+                    {" "}
                     <span className=" pl-1 text-[#f7f6a4] text-[24px] font-bold">
                       No Prior Skills Required -{" "}
                     </span>
@@ -127,7 +128,7 @@ const Imagus = () => {
                   </p>
 
                   <p
-                    className={`${roboto_slab.className} px-2 capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
+                    className={`${roboto_slab.className} group-hover:scale-105 px-2 capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
                   >
                     <span className=" pl-1 text-[#f7f6a4] text-[24px] font-bold">
                       - Optimized Performance{" "}
@@ -135,7 +136,7 @@ const Imagus = () => {
                     - Enjoy high-quality graphics with minimal weight.
                   </p>
                   <p
-                    className={`${roboto_slab.className} px-2 capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
+                    className={`${roboto_slab.className} group-hover:scale-105 px-2 capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
                   >
                     <span className=" pl-1 text-[#f7f6a4] text-[24px] font-bold">
                       - Blockchain Integration{" "}
@@ -144,7 +145,7 @@ const Imagus = () => {
                     support.
                   </p>
                   <p
-                    className={`${roboto_slab.className} px-2 capitalize pb-10 text-[#D4D297] text-center pt-4 text-[20px] `}
+                    className={`${roboto_slab.className} group-hover:scale-105 px-2 capitalize pb-10 text-[#D4D297] text-center pt-4 text-[20px] `}
                   >
                     <span className=" pl-1 text-[#f7f6a4] text-[24px] font-bold">
                       - Easy asset integration{" "}
@@ -164,7 +165,7 @@ const Imagus = () => {
                   </p>
                   <div className={` w-full h-[2px] bg-[#D4D297]`}></div>
                   <p
-                    className={`${roboto_slab.className} px-2 capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
+                    className={`${roboto_slab.className} group-hover:scale-105 px-2 capitalize text-[#D4D297] text-center pt-4 text-[20px] `}
                   >
                     Designed for{" "}
                     <span className=" pl-1 text-[#f7f6a4] text-[24px] font-bold">
