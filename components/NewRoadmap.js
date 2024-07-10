@@ -37,37 +37,23 @@ const NewRoadmap = () => {
         >
           2022
         </p>
-        <div className="group">
-          <h2
-            className={`${roboto_slab} block group-hover:hidden duration-300 delay-75 ease-linear font-bold text-center text-[36px] border p-5 max-w-[800px] mx-auto border-[#8F8D68] text-[#D2D096]`}
-          >
-            {" "}
-            NFT Community Building and NFT Sale
-          </h2>{" "}
-          <div className="hidden group-hover:block duration-500 delay-200 ease-linear border border-[#8F8D68] mx-auto">
-            <h2
-              className={`${roboto_slab} font-bold text-center text-[36px] sm:text-[44px] border p-5 border-t-0 border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
-            >
-              {" "}
-              NFT Community Building and NFT Sale
-            </h2>
-            <div className="p-5">
-              <p className="py-6 font-semibold text-[#fff] text-[18px] text-center">
-                During this phase our team has worked on creating the storyline,
-                designing the characters, building community and selling the
-                characters in form of NFT.
-              </p>
-              <p className="text-[#fff] text-[16px] text-center">
-                - Lore creation: The story about the four beings of genesis has
-                been born.Each character got in depth explanation about their
-                abilities and disadvantages. <br /> - Character design: Each
-                character was carefully designed to contain the characteristics
-                described in the Lore. <br /> - NFT mint: 5556 Elysians were
-                born to live on the blockchain -
-                <br /> Community building: a community of 1000+ holders was
-                created.
-              </p>
-            </div>
+        <div class="group nft-container">
+          <h2 class="nft-title">NFT Community Building and NFT Sale</h2>
+          <div class="nft-content">
+            <p class="nft-description">
+              During this phase our team has worked on creating the storyline,
+              designing the characters, building community and selling the
+              characters in form of NFT.
+            </p>
+            <p class="nft-details">
+              - Lore creation: The story about the four beings of genesis has
+              been born. Each character got in depth explanation about their
+              abilities and disadvantages. <br />
+              - Character design: Each character was carefully designed to
+              contain the characteristics described in the Lore. <br />- NFT
+              mint: 5556 Elysians were born to live on the blockchain - <br />-
+              Community building: a community of 1000+ holders was created.
+            </p>
           </div>
         </div>
 
@@ -77,7 +63,7 @@ const NewRoadmap = () => {
           2023
         </p>
         <div className="grid relative grid-cols-1 py-4 lg:grid-cols-2 gap-5 lg:gap-1">
-          <div className="group">
+          <div className="group roadMap1">
             <div className="max-w-[90%] border border-[#8F8D68] mx-auto">
               <div className="grid grid-cols-2  gap-4">
                 <p
@@ -98,7 +84,7 @@ const NewRoadmap = () => {
                 NFT Community Building and NFT Sale
               </h2>
             </div>
-            <div className="w-full border hidden group-hover:block duration-300 delay-75 ease-linear border-[#8F8D68]">
+            <div className="w-full border  roadMap1_content duration-300 delay-75 ease-linear border-[#8F8D68]">
               <p className="text-[#fff] text-[16px] px-4 py-2">
                 During this phase, our team focuses on conceptualising the game
                 mechanics, storyline, and world-building elements of Elysian
@@ -120,7 +106,7 @@ const NewRoadmap = () => {
             className="absolute top-0 hidden lg:block left-[50%] translate-x-[-50%] h-full  w-[5px]  "
           />
           {/* 2 */}
-          <div className=" lg:mt-20 group">
+          <div className=" lg:mt-20 group roadMap1">
             <div className="max-w-[90%] border border-[#8F8D68] mx-auto">
               <div className="grid grid-cols-2  gap-4">
                 <p
@@ -141,7 +127,7 @@ const NewRoadmap = () => {
                 NFT Community Building and NFT Sale
               </h2>
             </div>
-            <div className="w-full hidden group-hover:block duration-300 delay-75 ease-linear border border-[#8F8D68]">
+            <div className="w-full roadMap1_content duration-300 delay-75 ease-linear border border-[#8F8D68]">
               <p className="text-[#fff] text-[16px] px-4 py-2">
                 During this phase, our team focuses on conceptualising the game
                 mechanics, storyline, and world-building elements of Elysian
@@ -164,7 +150,7 @@ const NewRoadmap = () => {
         </p>
         {/* 2 grid */}
         <div className="grid relative grid-cols-1 py-4 lg:grid-cols-2 gap-5 lg:gap-1">
-          <div className="group">
+          <div className="group roadMap1">
             <div className="max-w-[90%] border border-[#8F8D68] mx-auto">
               <div className="grid grid-cols-2  gap-4">
                 <p
@@ -185,7 +171,7 @@ const NewRoadmap = () => {
                 NFT Community Building and NFT Sale
               </h2>
             </div>
-            <div className="w-full hidden group-hover:block duration-300 delay-75 ease-linear border border-[#8F8D68]">
+            <div className="w-full roadMap1_content duration-300 delay-75 ease-linear border border-[#8F8D68]">
               <p className="text-[#fff] text-[16px] px-4 py-2">
                 During this phase, our team focuses on conceptualising the game
                 mechanics, storyline, and world-building elements of Elysian
@@ -207,7 +193,7 @@ const NewRoadmap = () => {
             className="absolute top-0 hidden lg:block left-[50%] translate-x-[-50%] h-full  w-[5px]  "
           />
           {/* 2 */}
-          <div className="group lg:mt-20">
+          <div className="group roadMap1 lg:mt-20">
             <div className="max-w-[90%] border border-[#8F8D68] mx-auto">
               <div className="grid grid-cols-2  gap-4">
                 <p
@@ -228,7 +214,7 @@ const NewRoadmap = () => {
                 NFT Community Building and NFT Sale
               </h2>
             </div>
-            <div className="w-full border hidden group-hover:block duration-300 delay-75 ease-linear border-[#8F8D68]">
+            <div className="w-full border roadMap1_content duration-300 delay-75 ease-linear border-[#8F8D68]">
               <p className="text-[#fff] text-[16px] px-4 py-2">
                 During this phase, our team focuses on conceptualising the game
                 mechanics, storyline, and world-building elements of Elysian
@@ -249,7 +235,7 @@ const NewRoadmap = () => {
           2025
         </p>
         <div className="flex justify-center items-center  py-4 lg:grid-cols-2 gap-5 ">
-          <div className="max-w-[540px] group">
+          <div className="max-w-[540px] group roadMap1">
             <div className="max-w-[90%] border border-[#8F8D68] mx-auto">
               <div className="grid grid-cols-2  gap-4">
                 <p
@@ -270,7 +256,7 @@ const NewRoadmap = () => {
                 NFT Community Building and NFT Sale
               </h2>
             </div>
-            <div className="w-full hidden group-hover:block duration-300 delay-75 ease-linear border border-[#8F8D68]">
+            <div className="w-full roadMap1_content duration-300 delay-75 ease-linear border border-[#8F8D68]">
               <p className="text-[#fff] text-[16px] px-4 py-2">
                 During this phase, our team focuses on conceptualising the game
                 mechanics, storyline, and world-building elements of Elysian
