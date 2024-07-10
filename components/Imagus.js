@@ -34,7 +34,7 @@ const Imagus = () => {
       <div className="  mt-[0] min-h-[2000px] sm:min-h-[1500px] sm:max-h-[1800px]   lg:min-h-[900px] lg:max-h-[900px]  relative ">
         <div className=" absolute top-0 flex justify-center items-center w-full min-h-[250px] sm:h-[400px] left-0 z-[50]">
           <img
-            className="absolute top-[-50px] w-[120px]   left-[50%] translate-x-[-50%]"
+            className="absolute top-[-50px] w-[120px]  border-[5px] hover:border-[#194219] duration-200 delay-75 ease-linear hover:rotate-[-5deg] border-[#531212] rounded-[999px]   left-[50%] translate-x-[-50%]"
             src="/Assets/iMagus.png"
             alt=""
           />
@@ -64,11 +64,11 @@ const Imagus = () => {
               height={400}
               className="block sm:hidden"
             /> */}
-            <div className="grid grid-cols-1  h-full xl:max-w-[1400px] border border-[#D4D297] p-2 md:mt-[200px] gap-y-0 gap-x-2 sm:grid-cols-2 lg:grid-cols-3">
-              <div className="mx-auto w-full min-h-[500px]  xl:w-auto imagus1  relative">
+            <div className="grid grid-cols-1  h-auto xl:max-w-[1400px] border border-[#D4D297] p-2 md:mt-[200px] gap-5 lg:gap-2 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="mx-auto w-[98%] h-[98%] hover:w-full hover:h-full min-h-[500px] group   duration-200 delay-75 ease-linear  xl:w-auto imagus1  relative">
                 <div className="w-full h-full imagus">
                   <p
-                    className={`${roboto_slab.className}  capitalize text-[#f7f6a4] text-center text-[44px]  lg:text-[44px] font-bold`}
+                    className={`${roboto_slab.className} px-2 text-left group-hover:text-center group-hover:bg-[#f7f6a4] group-hover:text-[#111] duration-300 delay-75 ease-linear capitalize text-[#f7f6a4]  text-[44px]  lg:text-[44px] font-bold`}
                   >
                     Overview
                   </p>
@@ -108,10 +108,10 @@ const Imagus = () => {
               </div>
 
               {/* 2 */}
-              <div className="mx-auto imagus2 min-h-[500px]  mt-5 sm:mt-0 w-full xl:w-auto  relative">
+              <div className="mx-auto w-[98%] h-[98%] hover:w-full hover:h-full min-h-[500px] group   duration-200 delay-75 ease-linear  xl:w-auto imagus2  relative">
                 <div className="w-full  h-full imagus">
                   <p
-                    className={`${roboto_slab.className}  capitalize text-[#f7f6a4] text-center text-[44px] lg:text-[44px] font-bold`}
+                    className={`${roboto_slab.className}  px-2 text-left group-hover:text-center group-hover:bg-[#f7f6a4] group-hover:text-[#111] duration-300 delay-75 ease-linear capitalize text-[#f7f6a4]  text-[44px]  lg:text-[44px] font-bold`}
                   >
                     Key Advantages
                   </p>
@@ -155,10 +155,10 @@ const Imagus = () => {
                 </div>
               </div>
               {/* 3 */}
-              <div className="mx-auto mt-5 lg:mt-0 min-h-[500px]  w-full xl:w-auto imagus3  relative">
+              <div className="mx-auto w-[98%] h-[98%] hover:w-full hover:h-full min-h-[500px] group   duration-200 delay-75 ease-linear  xl:w-auto imagus3  relative">
                 <div className="w-full  h-full imagus">
                   <p
-                    className={`${roboto_slab.className}  capitalize text-[#f7f6a4] text-center text-[44px] lg:text-[44px] font-bold`}
+                    className={`${roboto_slab.className} px-2 text-left group-hover:text-center group-hover:bg-[#f7f6a4] group-hover:text-[#111] duration-300 delay-75 ease-linear capitalize text-[#f7f6a4]  text-[44px]  lg:text-[44px] font-bold`}
                   >
                     Compatibility
                   </p>

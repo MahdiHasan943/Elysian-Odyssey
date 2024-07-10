@@ -171,7 +171,7 @@ const About = () => {
                 </div>
               </div>
               {/* 4 */}
-              <div className="mx-auto border  flex justify-center items-center border-[#D4D297] hover:h-[380px] lg:hover:h-[280px]  h-[280px] w-full group abox2  relative">
+              <div className="mx-auto border overflow-hidden  flex justify-center items-center border-[#D4D297] hover:h-[380px] lg:hover:h-[280px]  h-[280px] w-full group abox2  relative">
                 <div className=" py-2 w-[300px] xl:w-[500px] group-hover:w-full group-hover:h-full  duration-300 delay-100 ease-linear  h-[80%] abox">
                   <p
                     className={`${roboto_slab.className} capitalize text-[#D4D297] text-center text-[56px] font-bold`}

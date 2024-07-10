@@ -61,7 +61,7 @@ const Genesis = () => {
 
             <div className=" w-full px-4 absolute top-0 left-[50%] translate-x-[-50%] mt-[60px] tinso90:mt-[92px] carsho12:mt-[110px] carsho14:mt-[108px] carsho30:mt-[150px] sm:mt-[130px] lg:mt-[240px] bg-[#1C1817] h-[0px] ">
               <img
-                className="absolute top-[-0px] w-[60px]  sm:w-[120px]   left-[50%] translate-x-[-50%]"
+                className="absolute top-[-0px] w-[60px]  border-[5px] hover:border-[#194219] duration-200 delay-75 ease-linear hover:rotate-[-5deg] border-[#531212] rounded-[999px]   sm:w-[120px]   left-[50%] translate-x-[-50%]"
                 src="/Assets/TheGenesis.png"
                 alt=""
               />

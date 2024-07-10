@@ -55,7 +55,7 @@ export default function Home() {
         </p>
         <img
           src="/Assets/buybtn2.png"
-          className="w-[80px]  lg:w-auto mx-auto mt-6"
+          className="w-[80px]  border-[5px] hover:border-[#194219] duration-200 delay-75 ease-linear hover:rotate-[-5deg] border-[#531212] rounded-[999px]   lg:w-auto mx-auto mt-6"
           alt=""
         />
       </div>
