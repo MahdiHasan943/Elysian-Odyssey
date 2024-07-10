@@ -68,21 +68,26 @@ const Header = () => {
                 }}
               >
                 <Link href={"/"}>
-                  <Image
-                    src="/images/whitelogo.png"
+                  {/* <Image
+                    src="/Assets/logo.png"
                     alt="logo"
-                    width={300}
+                    width={100}
                     height={80}
-                    className="hidden lar ml-[-40px] larger:block"
+                    className="hidden hover:scale-110 duration-300 delay-100 ease-linear  larger:block"
                   />
                 </Link>
                 <Link href={"/"}>
                   <Image
-                    src="/images/whitelogo.png"
+                    src="/Assets/logo.png"
                     alt="logo"
                     width={200}
                     height={80}
-                    className="block ml-[-26px] larger:hidden"
+                    className="block hover:scale-110 duration-300 delay-100 ease-linear ml-[-26px] larger:hidden"
+                  /> */}
+                  <img
+                    src="/Assets/logo.png"
+                    className="hover:scale-110 duration-300 delay-100 ease-linear"
+                    alt=""
                   />
                 </Link>{" "}
               </p>
@@ -96,7 +101,7 @@ const Header = () => {
                 className="hidden lg:flex justify-center items-center gap-8"
               >
                 <p
-                  className={`${roboto_slab.className}`}
+                  className={`${roboto_slab.className} hover:scale-110 duration-300 delay-100 ease-linear`}
                   onClick={() => {
                     setColor("about");
                   }}
@@ -105,8 +110,8 @@ const Header = () => {
                     href={"#About-Us"}
                     className={
                       color === "about"
-                        ? "text-[16px text-[#ff7f98] uppercase"
-                        : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                        ? "text-[16px text-[#D4D297] uppercase "
+                        : " text-[16px] sm:text-[18px]  hover:text-[#D4D297]  text-[#fff] uppercase "
                     }
                   >
                     About Us
@@ -114,7 +119,7 @@ const Header = () => {
                 </p>
 
                 <p
-                  className={`${roboto_slab.className}`}
+                  className={`${roboto_slab.className} hover:scale-110 duration-300 delay-100 ease-linear`}
                   onClick={() => {
                     setColor("iMagus");
                   }}
@@ -123,8 +128,8 @@ const Header = () => {
                     href={"#iMagus"}
                     className={
                       color === "iMagus"
-                        ? "text-[16px text-[#ff7f98] uppercase"
-                        : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                        ? "text-[16px text-[#D4D297] uppercase"
+                        : " text-[16px] sm:text-[18px]  hover:text-[#D4D297]  text-[#fff] uppercase"
                     }
                   >
                     iMagus
@@ -142,14 +147,14 @@ const Header = () => {
                     className={
                       color === "tokenomics"
                         ? "text-[16px text-[#fff] uppercase"
-                        : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
+                        : " text-[16px] sm:text-[18px]  text-[#D4D297]  hover:text-[#fff] uppercase"
                     }
                   >
                     tokenomics
                   </Link>
                 </p> */}
                 <p
-                  className={`${roboto_slab.className}`}
+                  className={`${roboto_slab.className} hover:scale-110 duration-300 delay-100 ease-linear`}
                   onClick={() => {
                     setColor("TheGenesis");
                   }}
@@ -158,15 +163,15 @@ const Header = () => {
                     href={"#The-Genesis"}
                     className={
                       color === "TheGenesis"
-                        ? "text-[16px text-[#ff7f98] uppercase"
-                        : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                        ? "text-[16px text-[#D4D297] uppercase"
+                        : " text-[16px] sm:text-[18px]  hover:text-[#D4D297]  text-[#fff] uppercase"
                     }
                   >
                     The Genesis
                   </Link>
                 </p>
                 <p
-                  className={`${roboto_slab.className}`}
+                  className={`${roboto_slab.className} hover:scale-110 duration-300 delay-100 ease-linear`}
                   onClick={() => {
                     setColor("NFT");
                   }}
@@ -175,8 +180,8 @@ const Header = () => {
                     href={"#NFT"}
                     className={
                       color === "NFT"
-                        ? "text-[16px text-[#ff7f98] uppercase"
-                        : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                        ? "text-[16px text-[#D4D297] uppercase"
+                        : " text-[16px] sm:text-[18px]  hover:text-[#D4D297]  text-[#fff] uppercase"
                     }
                   >
                     NFT
@@ -185,7 +190,7 @@ const Header = () => {
 
                 {/*  */}
                 <p
-                  className={`${roboto_slab.className}`}
+                  className={`${roboto_slab.className} hover:scale-110 duration-300 delay-100 ease-linear`}
                   onClick={() => {
                     setColor("Characters");
                   }}
@@ -194,8 +199,8 @@ const Header = () => {
                     href={"#Characters"}
                     className={
                       color === "Characters"
-                        ? "text-[16px text-[#ff7f98] uppercase"
-                        : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                        ? "text-[16px text-[#D4D297] uppercase"
+                        : " text-[16px] sm:text-[18px]  hover:text-[#D4D297]  text-[#fff] uppercase"
                     }
                   >
                     Characters
@@ -203,7 +208,7 @@ const Header = () => {
                 </p>
                 {/*  */}
                 <p
-                  className={`${roboto_slab.className}`}
+                  className={`${roboto_slab.className} hover:scale-110 duration-300 delay-100 ease-linear`}
                   onClick={() => {
                     setColor("Buy-Sell-Trade");
                   }}
@@ -212,8 +217,8 @@ const Header = () => {
                     href={"#Buy-Sell-Trade"}
                     className={
                       color === "Buy-Sell-Trade"
-                        ? "text-[16px text-[#ff7f98] uppercase"
-                        : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                        ? "text-[16px text-[#D4D297] uppercase"
+                        : " text-[16px] sm:text-[18px]  hover:text-[#D4D297]  text-[#fff] uppercase"
                     }
                   >
                     Buy-Sell-Trade
@@ -221,7 +226,7 @@ const Header = () => {
                 </p>
                 {/*  */}
                 <p
-                  className={`${roboto_slab.className}`}
+                  className={`${roboto_slab.className} hover:scale-110 duration-300 delay-100 ease-linear`}
                   onClick={() => {
                     setColor("Roadmap");
                   }}
@@ -230,8 +235,8 @@ const Header = () => {
                     href={"#Roadmap"}
                     className={
                       color === "Roadmap"
-                        ? "text-[16px text-[#ff7f98] uppercase"
-                        : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                        ? "text-[16px text-[#D4D297] uppercase"
+                        : " text-[16px] sm:text-[18px]  hover:text-[#D4D297]  text-[#fff] uppercase"
                     }
                   >
                     Roadmap
@@ -281,8 +286,8 @@ const Header = () => {
                         href={"#About-Us"}
                         className={
                           color === "about"
-                            ? "text-[16px text-[#ff7f98] uppercase"
-                            : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                            ? "text-[16px text-[#D4D297] uppercase"
+                            : " text-[16px] sm:text-[18px]  hover:text-[#D4D297]  text-[#fff] uppercase"
                         }
                       >
                         About Us
@@ -290,7 +295,7 @@ const Header = () => {
                     </p>
 
                     <p
-                      className={`${roboto_slab.className}`}
+                      className={`${roboto_slab.className} hover:scale-110 duration-300 delay-100 ease-linear`}
                       onClick={() => {
                         setColor("iMagus");
                       }}
@@ -299,8 +304,8 @@ const Header = () => {
                         href={"#iMagus"}
                         className={
                           color === "iMagus"
-                            ? "text-[16px text-[#ff7f98] uppercase"
-                            : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                            ? "text-[16px text-[#D4D297] uppercase"
+                            : " text-[16px] sm:text-[18px]  hover:text-[#D4D297]  text-[#fff] uppercase"
                         }
                       >
                         iMagus
@@ -318,7 +323,7 @@ const Header = () => {
                     className={
                       color === "tokenomics"
                         ? "text-[16px text-[#fff] uppercase"
-                        : " text-[16px] sm:text-[18px]  text-[#ff7f98]  hover:text-[#fff] uppercase"
+                        : " text-[16px] sm:text-[18px]  text-[#D4D297]  hover:text-[#fff] uppercase"
                     }
                   >
                     tokenomics
@@ -334,8 +339,8 @@ const Header = () => {
                         href={"#The-Genesis"}
                         className={
                           color === "TheGenesis"
-                            ? "text-[16px text-[#ff7f98] uppercase"
-                            : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                            ? "text-[16px text-[#D4D297] uppercase"
+                            : " text-[16px] sm:text-[18px]  hover:text-[#D4D297]  text-[#fff] uppercase"
                         }
                       >
                         The Genesis
@@ -351,8 +356,8 @@ const Header = () => {
                         href={"#NFT"}
                         className={
                           color === "NFT"
-                            ? "text-[16px text-[#ff7f98] uppercase"
-                            : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                            ? "text-[16px text-[#D4D297] uppercase"
+                            : " text-[16px] sm:text-[18px]  hover:text-[#D4D297]  text-[#fff] uppercase"
                         }
                       >
                         NFT
@@ -370,8 +375,8 @@ const Header = () => {
                         href={"#Characters"}
                         className={
                           color === "Characters"
-                            ? "text-[16px text-[#ff7f98] uppercase"
-                            : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                            ? "text-[16px text-[#D4D297] uppercase"
+                            : " text-[16px] sm:text-[18px]  hover:text-[#D4D297]  text-[#fff] uppercase"
                         }
                       >
                         Characters
@@ -388,8 +393,8 @@ const Header = () => {
                         href={"#Buy-Sell-Trade"}
                         className={
                           color === "Buy-Sell-Trade"
-                            ? "text-[16px text-[#ff7f98] uppercase"
-                            : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                            ? "text-[16px text-[#D4D297] uppercase"
+                            : " text-[16px] sm:text-[18px]  hover:text-[#D4D297]  text-[#fff] uppercase"
                         }
                       >
                         Buy-Sell-Trade
@@ -406,8 +411,8 @@ const Header = () => {
                         href={"#Roadmap"}
                         className={
                           color === "Roadmap"
-                            ? "text-[16px text-[#ff7f98] uppercase"
-                            : " text-[16px] sm:text-[18px]  hover:text-[#ff7f98]  text-[#fff] uppercase"
+                            ? "text-[16px text-[#D4D297] uppercase"
+                            : " text-[16px] sm:text-[18px]  hover:text-[#D4D297]  text-[#fff] uppercase"
                         }
                       >
                         Roadmap

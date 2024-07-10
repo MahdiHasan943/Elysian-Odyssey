@@ -86,7 +86,7 @@ const About = () => {
                   onClick={handleDownload}
                   width={350}
                   height={100}
-                  className="w-[200px] sm:w-auto mx-auto mt-8"
+                  className="w-[200px] hover:scale-x-125 duration-300 delay-100 ease-linear sm:w-auto mx-auto mt-8"
                 />
               </div>
               <img
@@ -114,16 +114,20 @@ const About = () => {
                 <p
                   className={`${roboto_slab.className} text-[18px] leading-[27px] sm:text-[20px] sm:leading-[36px]  xl:text-[31px] font-[300!important] text-center lg:text-right text-[#F3F3F3] xl:leading-[42px]`}
                 >
-                  Elysian Odyssey is a game development platform
+                  <span className={`font-bold`}>Elysian Odyssey</span> is a{" "}
+                  <span className={`font-bold`}>game development platform</span>
                   <br className="hidden sm:block"></br> that requires
                   <span className="text-[#0DA25A]"> no prior</span> game
-                  development skills,<br className="hidden sm:block"></br>{" "}
-                  allows
-                  <span className="text-[#0DA25A]"> seamless</span> asset
-                  integration, delivers<br className="hidden sm:block"></br>{" "}
+                  <span className={`font-bold`}> development skills,</span>{" "}
+                  <br className="hidden sm:block"></br> allows
+                  <span className="text-[#0DA25A]"> seamless</span>{" "}
+                  <span className={`font-bold`}>asset integration,</span>{" "}
+                  delivers<br className="hidden sm:block"></br>{" "}
                   <span className="text-[#0DA25A]">extremely lightweight</span>{" "}
-                  content, powered by the <br className="hidden sm:block"></br>
-                  revolutionary iMagus engine.
+                  <span className={`font-bold`}>content,</span> powered by the{" "}
+                  <br className="hidden sm:block"></br>
+                  revolutionary <span className={`text-[#0DA25A]`}>i</span>
+                  <span className={`font-bold`}>Magus</span> engine.
                 </p>
               </div>
             </div>
