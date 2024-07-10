@@ -44,7 +44,7 @@ export default function Home() {
       <Genesis />
       <div
         id="NFT"
-        className="w-full group h-auto bg-[#191919] text-center border border-[#566000] py-8 px-4"
+        className="w-full group overflow-hidden h-auto bg-[#191919] text-center border border-[#566000] py-8 px-4"
       >
         <button
           className={`${cinzel.className} group-hover:mt-[-130px!important] bg-[#D5D399] py-1  text-[44px] px-10  rounded-sm`}

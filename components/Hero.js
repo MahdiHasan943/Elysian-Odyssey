@@ -62,7 +62,7 @@ const Hero = () => {
     >
       <motion.div
         style={{ y: textY }}
-        className=" min-h-[850px]  sm:min-h-[950px]    larger:min-h-[1000px] larger:max-h-[1200px]  relative overflow-hidden "
+        className=" min-h-[850px]  sm:min-h-[950px] mt-[-100px] sm:mt-0    larger:min-h-[1000px] larger:max-h-[1200px]  relative overflow-hidden "
       >
         <div className="absolute top-0 left-0 h-full w-full">
           <Image
