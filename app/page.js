@@ -1,3 +1,12 @@
+"use client";
+import { motion } from "framer-motion";
+import {
+  planetVariants,
+  slideIn,
+  staggerContainer,
+  textVariant2,
+  textVariant3,
+} from "@/utils/motion";
 import About from "@/components/About";
 import Charecters from "@/components/Charecters";
 import MultiLayerParallax from "@/components/MultiLayerParallax";
@@ -21,7 +30,13 @@ const cinzel = Cinzel({
 });
 export default function Home() {
   return (
-    <main className="w-full">
+    <motion.main
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className="w-full"
+    >
       <Hero />
       {/* <MultiLayerParallax /> */}
       <About />
@@ -36,7 +51,12 @@ export default function Home() {
         >
           NFT
         </button>
-        <div className="hidden group-hover:block duration-300 delay-75 ease-linear relative py-2 border min-h-[200px] max-w-[1000px] mx-auto border-[#D4D297] border-t-1 border-l-0 border-r-0 border-b-0 sm:px-2">
+        <motion.div
+          variants={textVariant2}
+          initial="hidden"
+          whileInView="show"
+          className="hidden group-hover:block duration-300 delay-75 ease-linear relative py-2 border min-h-[200px] max-w-[1000px] mx-auto border-[#D4D297] border-t-1 border-l-0 border-r-0 border-b-0 sm:px-2"
+        >
           <div className="absolute hidden lg:block top-[-7px] left-[-35px] rotate-[20deg] h-full w-[1px] bg-[#D4D297]"></div>
           <div className="absolute hidden lg:block top-[-7px] right-[-35px] rotate-[-20deg] h-full w-[1px] bg-[#D4D297]"></div>
           <p
@@ -77,7 +97,7 @@ export default function Home() {
               The Genesis game.{" "}
             </span>
           </p>
-        </div>
+        </motion.div>
       </div>
       <Charecters />
       <div
@@ -105,6 +125,6 @@ export default function Home() {
       <Team />
       {/* <Roadmap /> */}
       <NewRoadmap />
-    </main>
+    </motion.main>
   );
 }
