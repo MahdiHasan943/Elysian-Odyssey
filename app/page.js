@@ -29,13 +29,55 @@ export default function Home() {
       <Genesis />
       <div
         id="NFT"
-        className="w-full bg-[#191919] text-center border border-[#566000] py-8 px-4"
+        className="w-full group h-auto bg-[#191919] text-center border border-[#566000] py-8 px-4"
       >
         <button
-          className={`${cinzel.className} bg-[#D5D399] py-1  text-[44px] px-10  rounded-sm`}
+          className={`${cinzel.className} group-hover:mt-[-130px!important] bg-[#D5D399] py-1  text-[44px] px-10  rounded-sm`}
         >
           NFT
         </button>
+        <div className="hidden group-hover:block duration-300 delay-75 ease-linear relative py-2 border min-h-[200px] max-w-[1000px] mx-auto border-[#D4D297] border-t-1 border-l-0 border-r-0 border-b-0 sm:px-2">
+          <div className="absolute hidden lg:block top-[-7px] left-[-35px] rotate-[20deg] h-full w-[1px] bg-[#D4D297]"></div>
+          <div className="absolute hidden lg:block top-[-7px] right-[-35px] rotate-[-20deg] h-full w-[1px] bg-[#D4D297]"></div>
+          <p
+            className={`${roboto_slab.className}  px-2 capitalize text-[#92916f]  text-center pt-4 group-hover:text-[21px] text-[20px] `}
+          >
+            {" "}
+            Currently,{" "}
+            <span className=" pl-1 text-[#D4D297]  group-hover:text-[25px] text-[24px] font-bold">
+              5556 NFTs{" "}
+            </span>
+            have been{" "}
+            <span className=" pl-1 text-[#D4D297]  group-hover:text-[25px] text-[24px] font-bold">
+              minted{" "}
+            </span>
+            and are{" "}
+            <span className=" pl-1 text-[#D4D297]  group-hover:text-[25px] text-[24px] font-bold">
+              live{" "}
+            </span>
+            on the{" "}
+            <span className=" pl-1 text-[#ae5967]  group-hover:text-[25px] text-[24px] font-bold">
+              BNB Chain.{" "}
+            </span>
+            <br></br>
+            Each{" "}
+            <span className=" pl-1 text-[#D4D297]  group-hover:text-[25px] text-[24px] font-bold">
+              NFT{" "}
+            </span>
+            features{" "}
+            <span className=" pl-1 text-[#D4D297]  group-hover:text-[25px] text-[24px] font-bold">
+              unique traits{" "}
+            </span>{" "}
+            and represents a
+            <span className=" pl-1 text-[#D4D297]  group-hover:text-[25px] text-[24px] font-bold">
+              playable character{" "}
+            </span>{" "}
+            in <br />
+            <span className=" pl-1 text-[#ae5967]  group-hover:text-[25px] text-[24px] font-bold">
+              The Genesis game.{" "}
+            </span>
+          </p>
+        </div>
       </div>
       <Charecters />
       <div
