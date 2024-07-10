@@ -42,7 +42,12 @@ const Imagus = () => {
           <h2
             className={`  text-center  sectionTitle text-[42px] tracking-tighter sm:text-[120px] lg:text-[160px] 2xl:text-[180px]`}
           >
-            <span className={`${roboto_slab.className} mr-[-50px]`}> i</span>{" "}
+            <span
+              className={`${roboto_slab.className} mr-[-20px] sm:mr-[-50px]`}
+            >
+              {" "}
+              i
+            </span>{" "}
             <span className={`${cinzel.className}`}>Magus Engine</span>
           </h2>
         </div>
