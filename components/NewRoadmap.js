@@ -38,7 +38,9 @@ const NewRoadmap = () => {
           2022
         </p>
         <div class="group nft-container">
-          <h2 class="nft-title">NFT Community Building and NFT Sale</h2>
+          <h2 class={`${cinzel.className} nft-title`}>
+            Team Expension and fundraising
+          </h2>
           <div class="nft-content">
             <p class="nft-description">
               During this phase our team has worked on creating the storyline,
@@ -78,7 +80,7 @@ const NewRoadmap = () => {
                 </p>
               </div>
               <h2
-                className={`${roboto_slab} font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
+                className={`${cinzel.className}  font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
               >
                 {" "}
                 NFT Community Building and NFT Sale
@@ -121,7 +123,7 @@ const NewRoadmap = () => {
                 </p>
               </div>
               <h2
-                className={`${roboto_slab} font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
+                className={`${cinzel.className}  font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
               >
                 {" "}
                 NFT Community Building and NFT Sale
@@ -165,7 +167,7 @@ const NewRoadmap = () => {
                 </p>
               </div>
               <h2
-                className={`${roboto_slab} font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
+                className={`${cinzel.className}  font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
               >
                 {" "}
                 NFT Community Building and NFT Sale
@@ -208,7 +210,7 @@ const NewRoadmap = () => {
                 </p>
               </div>
               <h2
-                className={`${roboto_slab} font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
+                className={`${cinzel.className}  font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
               >
                 {" "}
                 NFT Community Building and NFT Sale
@@ -250,7 +252,7 @@ const NewRoadmap = () => {
                 </p>
               </div>
               <h2
-                className={`${roboto_slab} font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
+                className={`${cinzel.className}  font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
               >
                 {" "}
                 NFT Community Building and NFT Sale
