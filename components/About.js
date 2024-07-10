@@ -49,7 +49,7 @@ const About = () => {
             className=""
           /> */}
         </div>
-        <div className="w-full mt-[50px]  sm:mt-[50px]  px-4  md:min-h-[800px] md:max-h-[800px]   py-10 flex justify-center items-center absolute top-0 left-0 h-full z-[100000] max-auto">
+        <div className="w-full mt-[50px]  sm:mt-[50px]  px-4  md:min-h-[800px] md:max-h-[800px]   py-10 flex justify-center items-center absolute top-0 left-0 h-full  max-auto">
           <div className="   mx-auto w-full ">
             {/* <Image
               src={"/Screenshot_2.png"}

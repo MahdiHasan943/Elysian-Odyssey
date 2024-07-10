@@ -28,7 +28,7 @@ const Imagus = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="mt-[-50px] z-0"
+      className="mt-[-50px]"
       id="iMagus"
     >
       <div className="  mt-[0] min-h-[2080px] sm:min-h-[1500px] sm:max-h-[1800px]   lg:min-h-[900px] lg:max-h-[900px]  relative ">

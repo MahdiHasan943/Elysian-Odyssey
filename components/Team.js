@@ -57,7 +57,7 @@ const Team = () => {
         className={`${roboto_slab.className}`}
         id="team"
       >
-        <div className=" min-h-[1200px]   lg:min-h-[1350px] lg:max-h-[1350px] 2xl:min-h-[1200px]  2xl:max-h-[1200px] relative overflow-hidden ">
+        <div className=" min-h-[1200px]   lg:min-h-[1350px] lg:max-h-[1350px] 2xl:min-h-[1250px]  2xl:max-h-[1250px] relative overflow-hidden ">
           <div className=" absolute top-0 flex justify-center items-center w-full h-[400px] left-0 z-[50]">
             <h2
               className={`${cinzel.className} text-center sectionTitle flex justify-center text-[85px] md:text-[180px] `}
@@ -103,7 +103,7 @@ const Team = () => {
               modules={[Navigation, Pagination]}
               slidesPerView="auto"
               spaceBetween={50}
-              className="mySwiper max-w-[1800px!important] mt-[200px] 2xl:mt-[150px] overflow-hidden mx-auto smallest:px-[12px!important] md:px-[40px!important]  my-8 "
+              className="mySwiper max-w-[1800px!important] pt-5 mt-[200px] 2xl:mt-[150px] overflow-hidden mx-auto smallest:px-[12px!important] md:px-[40px!important]  my-8 "
               breakpoints={breakpoints}
               loop={true}
             >
@@ -116,71 +116,61 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <div className="border-[#36371c] bg-[#161616] shadow-2xl  z-20 border-[2px] min-h-[700px]">
-                    <Image
-                      src={"/images/MileNikolikj.jpg"}
-                      alt="team-member"
-                      width={300}
-                      height={300}
-                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
-                    />
-                    <p
-                      className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
-                    >
-                      Mile Nikolikj
-                    </p>
-                    <p
-                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
-                    >
-                      Founder and CEO
-                    </p>
-                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
-
-                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
-                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
-                        Web 2 entrepreneur
+                  <a href="https://www.facebook.com/share/v/TKVJmm1rw5QT8jtQ/">
+                    <div className="border-[#D4D297] group bg-[#161616] shadow-2xl  z-20 border-[2px] min-h-[700px]">
+                      <Image
+                        src={"/images/MileNikolikj.jpg"}
+                        alt="team-member"
+                        width={300}
+                        height={300}
+                        className=" border-[3px] group-hover:scale-105 duration-300 delay-75 ease-linear group-hover:mt-[-120px]  mt-[-130px] mx-auto my-4 w-[200px] h-[200px] border-[#D4D297] rounded-full"
+                      />
+                      <p
+                        className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
+                      >
+                        Mile Nikolikj
                       </p>
                       <p
-                        className={`${roboto_slab.className}text-[18px] py-5  leading-[25px]  text-[#fff] `}
+                        className={`${roboto_slab.className} py-4 group-hover:bg-[#D4D297] group-hover:text-[#111] border border-[#D4D297] border-l-0 border-r-0 uppercase font-normal text-[#fff] text-center text-[22px]`}
                       >
-                        In crypto since 2017
+                        Founder and CEO
                       </p>
+                      <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
 
-                      <p className="text-[18px]  leading-[25px]  text-[#fff]">
-                        Investor in{" "}
-                        <span className="text-[#ff7f98] font-bold  text-[20px] ">
-                          {" "}
-                          60+
-                        </span>{" "}
-                        gaming <br />
-                        Projects makes him <br />
-                        understand the market <br /> very well
-                      </p>
-                      <p className="text-[18px] py-5  leading-[25px]  text-[#fff] ">
-                        Successfully launched{" "}
-                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
-                          2 NFT{" "}
-                        </span>
-                        <br />
-                        projects
-                      </p>
-                      <p className="text-[18px] py-5  leading-[25px]  text-[#fff] ">
-                        Actively visiting various IRL events
-                      </p>
+                      <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                        <p className="text-[18px]  leading-[25px]  text-[#fff] ">
+                          Web 2 entrepreneur
+                        </p>
+                        <p
+                          className={`${roboto_slab.className}text-[18px] py-5  leading-[25px]  text-[#fff] `}
+                        >
+                          In crypto since 2017
+                        </p>
+
+                        <p className="text-[18px]  leading-[25px]  text-[#fff]">
+                          Investor in{" "}
+                          <span className="text-[#ff7f98] font-bold  text-[20px] ">
+                            {" "}
+                            60+
+                          </span>{" "}
+                          gaming <br />
+                          Projects makes him <br />
+                          understand the market <br /> very well
+                        </p>
+                        <p className="text-[18px] py-5  leading-[25px]  text-[#fff] ">
+                          Successfully launched{" "}
+                          <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                            2 NFT{" "}
+                          </span>
+                          <br />
+                          projects
+                        </p>
+                        <p className="text-[18px] py-5  leading-[25px]  text-[#fff] ">
+                          Actively visiting various IRL events
+                        </p>
+                      </div>
                     </div>
-                    <Link
-                      href="https://www.linkedin.com/in/mile-nikolikj-2664681a1/"
-                      target="_blank"
-                    >
-                      <Image
-                        src={"/linkdin.png"}
-                        alt="linkdin"
-                        width={40}
-                        height={40}
-                        className="py-6 mx-auto"
-                      />
-                    </Link>
-                  </div>
+                  </a>
                 </motion.div>
               </SwiperSlide>
               <SwiperSlide className=" py-[130px]">
@@ -189,75 +179,65 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px] z-20 border-[2px]">
-                    <Image
-                      src={"/images/MilosTosic.jfif"}
-                      alt="team-member"
-                      width={300}
-                      height={300}
-                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
-                    />
-                    <p
-                      className={`${roboto_slab.className} text-center font-bold text-[#fff] text-[30px]`}
-                    >
-                      MILOS TOSIC
-                    </p>
-                    <p
-                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
-                    >
-                      CTO
-                    </p>
-                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
-
-                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
-                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
-                        25 years of professional programming experience in video
-                        games with focus on game engine architecture, tools and
-                        pipelines
-                      </p>
-
-                      <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
-                        Former expert programmer in{" "}
-                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
-                          {" "}
-                          Ubisoft{" "}
-                        </span>{" "}
-                        and Tencent and Senior programmer in Blue Side and
-                        Guerrilla
-                      </p>
-                      <p className="text-[18px] py-5  leading-[25px]  text-[#fff] ">
-                        Previous works:{" "}
-                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
-                          {" "}
-                          Assassin’s Creed{" "}
-                        </span>{" "}
-                        Odyssey,{" "}
-                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
-                          {" "}
-                          League of Legends{" "}
-                        </span>{" "}
-                        Wild Rift,
-                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
-                          {" "}
-                          PUBG{" "}
-                        </span>
-                        Mobile, Mortal Kombat One, DDay, Killzone 3, Trials
-                        franchise (multiple titles), and more.
-                      </p>
-                    </div>
-                    <Link
-                      href="https://www.linkedin.com/in/milostosic77/"
-                      target="_blank"
-                    >
+                  <a href="https://www.linkedin.com/in/milostosic77/">
+                    <div className="border-[#D4D297] group bg-[#161616] shadow-2xl min-h-[700px] z-20 border-[2px]">
                       <Image
-                        src={"/linkdin.png"}
-                        alt="linkdin"
-                        width={40}
-                        height={40}
-                        className="py-6 mx-auto"
+                        src={"/images/MilosTosic.jfif"}
+                        alt="team-member"
+                        width={300}
+                        height={300}
+                        className=" border-[3px] group-hover:scale-105 duration-300 delay-75 ease-linear group-hover:mt-[-120px]  mt-[-130px] mx-auto my-4 w-[200px] h-[200px] border-[#D4D297] rounded-full"
                       />
-                    </Link>
-                  </div>
+                      <p
+                        className={`${roboto_slab.className} text-center font-bold text-[#fff] text-[30px]`}
+                      >
+                        MILOS TOSIC
+                      </p>
+                      <p
+                        className={`${roboto_slab.className} py-4 group-hover:bg-[#D4D297] group-hover:text-[#111] border border-[#D4D297] border-l-0 border-r-0 uppercase font-normal text-[#fff] text-center text-[22px]`}
+                      >
+                        CTO
+                      </p>
+                      <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                      <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                        <p className="text-[18px]  leading-[25px]  text-[#fff] ">
+                          25 years of professional programming experience in
+                          video games with focus on game engine architecture,
+                          tools and pipelines
+                        </p>
+
+                        <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
+                          Former expert programmer in{" "}
+                          <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                            {" "}
+                            Ubisoft{" "}
+                          </span>{" "}
+                          and Tencent and Senior programmer in Blue Side and
+                          Guerrilla
+                        </p>
+                        <p className="text-[18px] py-5  leading-[25px]  text-[#fff] ">
+                          Previous works:{" "}
+                          <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                            {" "}
+                            Assassin’s Creed{" "}
+                          </span>{" "}
+                          Odyssey,{" "}
+                          <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                            {" "}
+                            League of Legends{" "}
+                          </span>{" "}
+                          Wild Rift,
+                          <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                            {" "}
+                            PUBG{" "}
+                          </span>
+                          Mobile, Mortal Kombat One, DDay, Killzone 3, Trials
+                          franchise (multiple titles), and more.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
                 </motion.div>
               </SwiperSlide>
               <SwiperSlide className=" py-[130px]">
@@ -266,54 +246,45 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
-                    <Image
-                      src={"/images/AlfioTrabuio.jfif"}
-                      alt="team-member"
-                      width={300}
-                      height={300}
-                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
-                    />
-                    <p
-                      className={`${roboto_slab.className} text-center font-bold text-[#fff] text-[30px]`}
-                    >
-                      ALFIO TRABUIO
-                    </p>
-                    <p
-                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
-                    >
-                      TECHNICAL ART DIRECTION
-                    </p>
-                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
-
-                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
-                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
-                        A veteran game developer started in early 90s, focusing
-                        on technical art solutions, plugin and pipeline
-                        development providing teams with productivity solutions
-                      </p>
-
-                      <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
-                        Technical lead in{" "}
-                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
-                          {" "}
-                          Ubisoft
-                        </span>
-                      </p>
-                    </div>
-                    <Link
-                      href="https://www.linkedin.com/in/alfio-trabuio-5915511/"
-                      target="_blank"
-                    >
+                  <a href="https://www.linkedin.com/in/alfio-trabuio-5915511/">
+                    <div className="border-[#D4D297] group bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
                       <Image
-                        src={"/linkdin.png"}
-                        alt="linkdin"
-                        width={40}
-                        height={40}
-                        className="py-6 mx-auto"
+                        src={"/images/AlfioTrabuio.jfif"}
+                        alt="team-member"
+                        width={300}
+                        height={300}
+                        className=" border-[3px] group-hover:scale-105 duration-300 delay-75 ease-linear group-hover:mt-[-120px]  mt-[-130px] mx-auto my-4 w-[200px] h-[200px] border-[#D4D297] rounded-full"
                       />
-                    </Link>
-                  </div>
+                      <p
+                        className={`${roboto_slab.className} text-center font-bold text-[#fff] text-[30px]`}
+                      >
+                        ALFIO TRABUIO
+                      </p>
+                      <p
+                        className={`${roboto_slab.className} py-4 group-hover:bg-[#D4D297] group-hover:text-[#111] border border-[#D4D297] border-l-0 border-r-0 uppercase font-normal text-[#fff] text-center text-[22px]`}
+                      >
+                        TECHNICAL ART DIRECTION
+                      </p>
+                      <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                      <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                        <p className="text-[18px]  leading-[25px]  text-[#fff] ">
+                          A veteran game developer started in early 90s,
+                          focusing on technical art solutions, plugin and
+                          pipeline development providing teams with productivity
+                          solutions
+                        </p>
+
+                        <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
+                          Technical lead in{" "}
+                          <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                            {" "}
+                            Ubisoft
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                  </a>
                 </motion.div>
               </SwiperSlide>
 
@@ -323,64 +294,54 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
-                    <Image
-                      src={"/images/TomislavTesla.jfif"}
-                      alt="team-member"
-                      width={300}
-                      height={300}
-                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
-                    />
-                    <p
-                      className={`${roboto_slab.className} text-center font-bold text-[#fff] text-[30px]`}
-                    >
-                      TOMISLAV TESLA
-                    </p>
-                    <p
-                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
-                    >
-                      VFX / CREATURE ANIMATION
-                    </p>
-                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
-
-                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
-                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
-                        A seasoned senior character and creature 3D animator
-                        with a rich background in diverse animation styles,
-                        covering games, AR/VR/MR, Feature, and VFX films.
-                      </p>
-
-                      <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
-                        Previously worked on famous blockbuster movies like:
-                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
-                          {" "}
-                          Aquaman,
-                        </span>{" "}
-                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
-                          Disney’s
-                        </span>{" "}
-                        Noelle, the immersive Underwater, the captivating
-                        Dungeons & Dragons: Honor Among Thieves, and the highly
-                        anticipated Mufasa:{" "}
-                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
-                          Lion King{" "}
-                        </span>
-                        among others.
-                      </p>
-                    </div>
-                    <Link
-                      href="https://www.linkedin.com/in/vladimir-filipovi%C4%87-744b516/"
-                      target="_blank"
-                    >
+                  <a href="https://www.linkedin.com/in/vladimir-filipovi%C4%87-744b516/">
+                    <div className="border-[#D4D297] group bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
                       <Image
-                        src={"/linkdin.png"}
-                        alt="linkdin"
-                        width={40}
-                        height={40}
-                        className="py-6 mx-auto"
+                        src={"/images/TomislavTesla.jfif"}
+                        alt="team-member"
+                        width={300}
+                        height={300}
+                        className=" border-[3px] group-hover:scale-105 duration-300 delay-75 ease-linear group-hover:mt-[-120px]  mt-[-130px] mx-auto my-4 w-[200px] h-[200px] border-[#D4D297] rounded-full"
                       />
-                    </Link>
-                  </div>
+                      <p
+                        className={`${roboto_slab.className} text-center font-bold text-[#fff] text-[30px]`}
+                      >
+                        TOMISLAV TESLA
+                      </p>
+                      <p
+                        className={`${roboto_slab.className} py-4 group-hover:bg-[#D4D297] group-hover:text-[#111] border border-[#D4D297] border-l-0 border-r-0 uppercase font-normal text-[#fff] text-center text-[22px]`}
+                      >
+                        VFX / CREATURE ANIMATION
+                      </p>
+                      <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                      <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                        <p className="text-[18px]  leading-[25px]  text-[#fff] ">
+                          A seasoned senior character and creature 3D animator
+                          with a rich background in diverse animation styles,
+                          covering games, AR/VR/MR, Feature, and VFX films.
+                        </p>
+
+                        <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
+                          Previously worked on famous blockbuster movies like:
+                          <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                            {" "}
+                            Aquaman,
+                          </span>{" "}
+                          <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                            Disney’s
+                          </span>{" "}
+                          Noelle, the immersive Underwater, the captivating
+                          Dungeons & Dragons: Honor Among Thieves, and the
+                          highly anticipated Mufasa:{" "}
+                          <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                            Lion King{" "}
+                          </span>
+                          among others.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
                 </motion.div>
               </SwiperSlide>
 
@@ -390,57 +351,47 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px] z-20 border-[2px]">
-                    <Image
-                      src={"/images/VladimirFilipovic.jfif"}
-                      alt="team-member"
-                      width={300}
-                      height={300}
-                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
-                    />
-                    <p
-                      className={`${roboto_slab.className} text-center font-bold text-[#fff] text-[30px]`}
-                    >
-                      VLADIMIR FILIPOVIC
-                    </p>
-                    <p
-                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
-                    >
-                      PROGRAMMING
-                    </p>
-                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
-
-                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
-                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
-                        Vladimir is software engineer with 20 years of
-                        experience, mainly in largescale backend systems, but
-                        also in video games, data science and finance.
-                      </p>
-
-                      <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
-                        Previously worked in{" "}
-                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
-                          Meta
-                        </span>{" "}
-                        and{" "}
-                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
-                          Google
-                        </span>
-                      </p>
-                    </div>
-                    <Link
-                      href="https://www.linkedin.com/in/gamedesignerdave/"
-                      target="_blank"
-                    >
+                  <a href="https://www.linkedin.com/in/gamedesignerdave/">
+                    <div className="border-[#D4D297] group bg-[#161616] shadow-2xl min-h-[700px] z-20 border-[2px]">
                       <Image
-                        src={"/linkdin.png"}
-                        alt="linkdin"
-                        width={40}
-                        height={40}
-                        className="py-6 mx-auto"
+                        src={"/images/VladimirFilipovic.jfif"}
+                        alt="team-member"
+                        width={300}
+                        height={300}
+                        className=" border-[3px] group-hover:scale-105 duration-300 delay-75 ease-linear group-hover:mt-[-120px]  mt-[-130px] mx-auto my-4 w-[200px] h-[200px] border-[#D4D297] rounded-full"
                       />
-                    </Link>
-                  </div>
+                      <p
+                        className={`${roboto_slab.className} text-center font-bold text-[#fff] text-[30px]`}
+                      >
+                        VLADIMIR FILIPOVIC
+                      </p>
+                      <p
+                        className={`${roboto_slab.className} py-4 group-hover:bg-[#D4D297] group-hover:text-[#111] border border-[#D4D297] border-l-0 border-r-0 uppercase font-normal text-[#fff] text-center text-[22px]`}
+                      >
+                        PROGRAMMING
+                      </p>
+                      <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                      <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                        <p className="text-[18px]  leading-[25px]  text-[#fff] ">
+                          Vladimir is software engineer with 20 years of
+                          experience, mainly in largescale backend systems, but
+                          also in video games, data science and finance.
+                        </p>
+
+                        <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
+                          Previously worked in{" "}
+                          <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                            Meta
+                          </span>{" "}
+                          and{" "}
+                          <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                            Google
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                  </a>
                 </motion.div>
               </SwiperSlide>
               <SwiperSlide className=" py-[130px]">
@@ -449,68 +400,57 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
-                    <Image
-                      src={"/images/DavidFried.jfif"}
-                      alt="team-member"
-                      width={300}
-                      height={300}
-                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
-                    />
-                    <p
-                      className={`${roboto_slab.className} text-center font-bold text-[#fff] text-[30px]`}
-                    >
-                      DAVID FRIED
-                    </p>
-                    <p
-                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
-                    >
-                      GAME DESIGN
-                    </p>
-                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
-
-                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
-                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
-                        David has over 25 years of game and narrative design
-                        experience.r
-                      </p>
-
-                      <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
-                        Some of his work includes{" "}
-                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
-                          Warcraft III
-                        </span>
-                        ,{" "}
-                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
-                          World of Warcraft,
-                        </span>{" "}
-                        Oddworld Stranger’s Wrath, Wasteland 3 and many more
-                      </p>
-                      <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
-                        Previously worked for{" "}
-                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
-                          Blizzard Entertainmen
-                        </span>
-                        t and{" "}
-                        <span className="text-[#ff7f98] font-bold  text-[19px] ">
-                          Ubisoft
-                        </span>
-                      </p>
-                    </div>
-
-                    <Link
-                      href="https://www.linkedin.com/in/urospavlovic/"
-                      target="_blank"
-                    >
+                  <a href="https://www.linkedin.com/in/urospavlovic/">
+                    <div className="border-[#D4D297] group bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
                       <Image
-                        src={"/linkdin.png"}
-                        alt="linkdin"
-                        width={40}
-                        height={40}
-                        className="py-6 mx-auto"
+                        src={"/images/DavidFried.jfif"}
+                        alt="team-member"
+                        width={300}
+                        height={300}
+                        className=" border-[3px] group-hover:scale-105 duration-300 delay-75 ease-linear group-hover:mt-[-120px]  mt-[-130px] mx-auto my-4 w-[200px] h-[200px] border-[#D4D297] rounded-full"
                       />
-                    </Link>
-                  </div>
+                      <p
+                        className={`${roboto_slab.className} text-center font-bold text-[#fff] text-[30px]`}
+                      >
+                        DAVID FRIED
+                      </p>
+                      <p
+                        className={`${roboto_slab.className} py-4 group-hover:bg-[#D4D297] group-hover:text-[#111] border border-[#D4D297] border-l-0 border-r-0 uppercase font-normal text-[#fff] text-center text-[22px]`}
+                      >
+                        GAME DESIGN
+                      </p>
+                      <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                      <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                        <p className="text-[18px]  leading-[25px]  text-[#fff] ">
+                          David has over 25 years of game and narrative design
+                          experience.r
+                        </p>
+
+                        <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
+                          Some of his work includes{" "}
+                          <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                            Warcraft III
+                          </span>
+                          ,{" "}
+                          <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                            World of Warcraft,
+                          </span>{" "}
+                          Oddworld Stranger’s Wrath, Wasteland 3 and many more
+                        </p>
+                        <p className="text-[18px] py-5 leading-[25px]  text-[#fff]">
+                          Previously worked for{" "}
+                          <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                            Blizzard Entertainmen
+                          </span>
+                          t and{" "}
+                          <span className="text-[#ff7f98] font-bold  text-[19px] ">
+                            Ubisoft
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                  </a>
                 </motion.div>
               </SwiperSlide>
 
@@ -521,50 +461,39 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
-                    <Image
-                      src={"/uros.png"}
-                      alt="team-member"
-                      width={300}
-                      height={300}
-                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
-                    />
-                    <p
-                      className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
-                    >
-                      Uros Pavlovic
-                    </p>
-                    <p
-                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
-                    >
-                      Level design
-                    </p>
-                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
-
-                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
-                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
-                        Uros has been working in the field of level design and
-                        level art for more than 20 years. <br /> <br />
-                        He has 14 titles shipped on variety of platforms, from
-                        PC via console to mobile. He holds an active lecturing
-                        role on 3D modelling and game design at University of
-                        Belgrade.
-                      </p>
-                    </div>
-
-                    <Link
-                      href="https://www.linkedin.com/in/urospavlovic/"
-                      target="_blank"
-                    >
+                  <a href="https://www.linkedin.com/in/urospavlovic/">
+                    <div className="border-[#D4D297] group bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
                       <Image
-                        src={"/linkdin.png"}
-                        alt="linkdin"
-                        width={40}
-                        height={40}
-                        className="py-6 mx-auto"
+                        src={"/uros.png"}
+                        alt="team-member"
+                        width={300}
+                        height={300}
+                        className=" border-[3px] group-hover:scale-105 duration-300 delay-75 ease-linear group-hover:mt-[-120px]  mt-[-130px] mx-auto my-4 w-[200px] h-[200px] border-[#D4D297] rounded-full"
                       />
-                    </Link>
-                  </div>
+                      <p
+                        className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
+                      >
+                        Uros Pavlovic
+                      </p>
+                      <p
+                        className={`${roboto_slab.className} py-4 group-hover:bg-[#D4D297] group-hover:text-[#111] border border-[#D4D297] border-l-0 border-r-0 uppercase font-normal text-[#fff] text-center text-[22px]`}
+                      >
+                        Level design
+                      </p>
+                      <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                      <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                        <p className="text-[18px]  leading-[25px]  text-[#fff] ">
+                          Uros has been working in the field of level design and
+                          level art for more than 20 years. <br /> <br />
+                          He has 14 titles shipped on variety of platforms, from
+                          PC via console to mobile. He holds an active lecturing
+                          role on 3D modelling and game design at University of
+                          Belgrade.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
                 </motion.div>
               </SwiperSlide>
 
@@ -575,52 +504,41 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
-                    <Image
-                      src={"/nenand.png"}
-                      alt="team-member"
-                      width={300}
-                      height={300}
-                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
-                    />
-                    <p
-                      className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
-                    >
-                      Nenad Krstic
-                    </p>
-                    <p
-                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
-                    >
-                      Concept Art & Illustration
-                    </p>
-                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
-
-                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
-                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
-                        Nenad is a concept designer with a background in
-                        architecture who has over 10 years of game development
-                        experience in in a wide range of genres ranging from
-                        real-time strategies to first person shooters. <br />{" "}
-                        <br />
-                        He held a variety of in-house studio roles: game
-                        designer, modelling supervisor, concept artist, UI/UX
-                        designer and research & development lead.
-                      </p>
-                    </div>
-
-                    <Link
-                      href="https://www.linkedin.com/in/nenad-krstic-6b23b259/"
-                      target="_blank"
-                    >
+                  <a href="https://www.linkedin.com/in/nenad-krstic-6b23b259/">
+                    <div className="border-[#D4D297] group bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
                       <Image
-                        src={"/linkdin.png"}
-                        alt="linkdin"
-                        width={40}
-                        height={40}
-                        className="py-6 mx-auto"
+                        src={"/nenand.png"}
+                        alt="team-member"
+                        width={300}
+                        height={300}
+                        className=" border-[3px] group-hover:scale-105 duration-300 delay-75 ease-linear group-hover:mt-[-120px]  mt-[-130px] mx-auto my-4 w-[200px] h-[200px] border-[#D4D297] rounded-full"
                       />
-                    </Link>
-                  </div>
+                      <p
+                        className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
+                      >
+                        Nenad Krstic
+                      </p>
+                      <p
+                        className={`${roboto_slab.className} py-4 group-hover:bg-[#D4D297] group-hover:text-[#111] border border-[#D4D297] border-l-0 border-r-0 uppercase font-normal text-[#fff] text-center text-[22px]`}
+                      >
+                        Concept Art & Illustration
+                      </p>
+                      <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                      <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                        <p className="text-[18px]  leading-[25px]  text-[#fff] ">
+                          Nenad is a concept designer with a background in
+                          architecture who has over 10 years of game development
+                          experience in in a wide range of genres ranging from
+                          real-time strategies to first person shooters. <br />{" "}
+                          <br />
+                          He held a variety of in-house studio roles: game
+                          designer, modelling supervisor, concept artist, UI/UX
+                          designer and research & development lead.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
                 </motion.div>
               </SwiperSlide>
 
@@ -633,51 +551,40 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
-                    <Image
-                      src={"/Andrew.png"}
-                      alt="team-member"
-                      width={300}
-                      height={300}
-                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
-                    />
-                    <p
-                      className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
-                    >
-                      Andrew Hakim Lie
-                    </p>
-                    <p
-                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
-                    >
-                      3D modelling & art
-                    </p>
-                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
-
-                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
-                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
-                        Award winning computer graphics artist with over 18
-                        years of experience specialising in both photoreal and
-                        stylized imagery. <br />
-                        <br />
-                        Previously worked on PUBG Mobile, WeShoot, Shadow
-                        Tracker (Vive VR)
-                        <br /> <br />
-                      </p>
-                    </div>
-
-                    <Link
-                      href="https://www.linkedin.com/in/andrew-hakim-lie-b52b8557/"
-                      target="_blank"
-                    >
+                  <a href="https://www.linkedin.com/in/andrew-hakim-lie-b52b8557/">
+                    <div className="border-[#D4D297] group bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
                       <Image
-                        src={"/linkdin.png"}
-                        alt="linkdin"
-                        width={40}
-                        height={40}
-                        className="py-6 mx-auto"
+                        src={"/Andrew.png"}
+                        alt="team-member"
+                        width={300}
+                        height={300}
+                        className=" border-[3px] group-hover:scale-105 duration-300 delay-75 ease-linear group-hover:mt-[-120px]  mt-[-130px] mx-auto my-4 w-[200px] h-[200px] border-[#D4D297] rounded-full"
                       />
-                    </Link>
-                  </div>
+                      <p
+                        className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
+                      >
+                        Andrew Hakim Lie
+                      </p>
+                      <p
+                        className={`${roboto_slab.className} py-4 group-hover:bg-[#D4D297] group-hover:text-[#111] border border-[#D4D297] border-l-0 border-r-0 uppercase font-normal text-[#fff] text-center text-[22px]`}
+                      >
+                        3D modelling & art
+                      </p>
+                      <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                      <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                        <p className="text-[18px]  leading-[25px]  text-[#fff] ">
+                          Award winning computer graphics artist with over 18
+                          years of experience specialising in both photoreal and
+                          stylized imagery. <br />
+                          <br />
+                          Previously worked on PUBG Mobile, WeShoot, Shadow
+                          Tracker (Vive VR)
+                          <br /> <br />
+                        </p>
+                      </div>
+                    </div>
+                  </a>
                 </motion.div>
               </SwiperSlide>
               {/* 11 */}
@@ -688,46 +595,35 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
-                    <Image
-                      src={"/Nikolija.png"}
-                      alt="team-member"
-                      width={300}
-                      height={300}
-                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
-                    />
-                    <p
-                      className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
-                    >
-                      Nikolija Stojmenovic
-                    </p>
-                    <p
-                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
-                    >
-                      HR
-                    </p>
-                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
-
-                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
-                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
-                        Successfully recruited 5000+ highly competent
-                        professionals Large network of developers
-                      </p>
-                    </div>
-
-                    <Link
-                      href="https://www.linkedin.com/in/nikolija-stojmenovic-a931a8b6/"
-                      target="_blank"
-                    >
+                  <a href="https://www.linkedin.com/in/nikolija-stojmenovic-a931a8b6/">
+                    <div className="border-[#D4D297] group bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
                       <Image
-                        src={"/linkdin.png"}
-                        alt="linkdin"
-                        width={40}
-                        height={40}
-                        className="py-6 mx-auto"
+                        src={"/Nikolija.png"}
+                        alt="team-member"
+                        width={300}
+                        height={300}
+                        className=" border-[3px] group-hover:scale-105 duration-300 delay-75 ease-linear group-hover:mt-[-120px]  mt-[-130px] mx-auto my-4 w-[200px] h-[200px] border-[#D4D297] rounded-full"
                       />
-                    </Link>
-                  </div>
+                      <p
+                        className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
+                      >
+                        Nikolija Stojmenovic
+                      </p>
+                      <p
+                        className={`${roboto_slab.className} py-4 group-hover:bg-[#D4D297] group-hover:text-[#111] border border-[#D4D297] border-l-0 border-r-0 uppercase font-normal text-[#fff] text-center text-[22px]`}
+                      >
+                        HR
+                      </p>
+                      <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                      <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                        <p className="text-[18px]  leading-[25px]  text-[#fff] ">
+                          Successfully recruited 5000+ highly competent
+                          professionals Large network of developers
+                        </p>
+                      </div>
+                    </div>
+                  </a>
                 </motion.div>
               </SwiperSlide>
               {/* 12 */}
@@ -738,13 +634,13 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
+                  <div className="border-[#D4D297] group bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
                     <Image
                       src={"/minoru.png"}
                       alt="team-member"
                       width={300}
                       height={300}
-                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
+                      className=" border-[3px] group-hover:scale-105 duration-300 delay-75 ease-linear group-hover:mt-[-120px]  mt-[-130px] mx-auto my-4 w-[200px] h-[200px] border-[#D4D297] rounded-full"
                     />
                     <p
                       className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
@@ -752,7 +648,7 @@ const Team = () => {
                       Minoru Pathirana
                     </p>
                     <p
-                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
+                      className={`${roboto_slab.className} py-4 group-hover:bg-[#D4D297] group-hover:text-[#111] border border-[#D4D297] border-l-0 border-r-0 uppercase font-normal text-[#fff] text-center text-[22px]`}
                     >
                       Character designer
                     </p>
@@ -763,19 +659,6 @@ const Team = () => {
                         -Certified Adobe artist -50+ 1/1 NFT designs sold
                       </p>
                     </div>
-
-                    {/* <Link
-                      href="https://www.linkedin.com/in/urospavlovic/"
-                      target="_blank"
-                    >
-                      <Image
-                        src={"/linkdin.png"}
-                        alt="linkdin"
-                        width={40}
-                        height={40}
-                        className="py-6 mx-auto"
-                      />
-                    </Link> */}
                   </div>
                 </motion.div>
               </SwiperSlide>
@@ -787,47 +670,36 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <div className="border-[#36371c] bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
-                    <Image
-                      src={"/zafir.png"}
-                      alt="team-member"
-                      width={300}
-                      height={300}
-                      className=" border-[3px] mt-[-130px] mx-auto my-4 w-[220px] h-[220px] border-[#36371c] rounded-full"
-                    />
-                    <p
-                      className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
-                    >
-                      Zafir Chuchanov
-                    </p>
-                    <p
-                      className={`${roboto_slab.className} uppercase font-normal text-[#fff] text-center text-[18px]`}
-                    >
-                      Business development
-                    </p>
-                    <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
-
-                    <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
-                      <p className="text-[18px]  leading-[25px]  text-[#fff] ">
-                        -iGaming Business development expert -13 years of
-                        experience in the field -Deep understanding of the
-                        market and customer behaviour
-                      </p>
-                    </div>
-
-                    <Link
-                      href=" https://www.linkedin.com/in/zchuchanov/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                      target="_blank"
-                    >
+                  <a href=" https://www.linkedin.com/in/zchuchanov/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                    <div className="border-[#D4D297] group bg-[#161616] shadow-2xl min-h-[700px]  z-20 border-[2px]">
                       <Image
-                        src={"/linkdin.png"}
-                        alt="linkdin"
-                        width={40}
-                        height={40}
-                        className="py-6 mx-auto"
+                        src={"/zafir.png"}
+                        alt="team-member"
+                        width={300}
+                        height={300}
+                        className=" border-[3px] group-hover:scale-105 duration-300 delay-75 ease-linear group-hover:mt-[-120px]  mt-[-130px] mx-auto my-4 w-[200px] h-[200px] border-[#D4D297] rounded-full"
                       />
-                    </Link>
-                  </div>
+                      <p
+                        className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
+                      >
+                        Zafir Chuchanov
+                      </p>
+                      <p
+                        className={`${roboto_slab.className} py-4 group-hover:bg-[#D4D297] group-hover:text-[#111] border border-[#D4D297] border-l-0 border-r-0 uppercase font-normal text-[#fff] text-center text-[22px]`}
+                      >
+                        Business development
+                      </p>
+                      <div className="h-[2px] w-full bg-[#36371c] my-4"></div>
+
+                      <div className=" pl-[10px]  2xl:pl-[60px] pr-[10px]">
+                        <p className="text-[18px]  leading-[25px]  text-[#fff] ">
+                          -iGaming Business development expert -13 years of
+                          experience in the field -Deep understanding of the
+                          market and customer behaviour
+                        </p>
+                      </div>
+                    </div>
+                  </a>
                 </motion.div>
               </SwiperSlide>
 

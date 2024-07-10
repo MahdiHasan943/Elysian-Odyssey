@@ -86,7 +86,7 @@ export default function Home() {
       >
         <img
           src="/Assets/buybtn1.png"
-          className="mt-[-50px] pl-2 sm:pl-0 sm:mt-[-90px] mx-auto"
+          className="mt-[-50px] hover:scale-110 duration-300 delay-75 ease-linear pl-2 sm:pl-0 sm:mt-[-90px] mx-auto"
           alt=""
         />
         <p
@@ -97,7 +97,7 @@ export default function Home() {
         </p>
         <img
           src="/Assets/buybtn2.png"
-          className="w-[80px]  border-[5px] hover:border-[#194219] duration-200 delay-75 ease-linear hover:rotate-[-5deg] border-[#531212] rounded-[999px]   lg:w-auto mx-auto mt-6"
+          className="w-[80px]    duration-200 delay-75 ease-linear hover:rotate-[10deg] hover:scale-105  rounded-[999px]   lg:w-auto mx-auto mt-6"
           alt=""
         />
       </div>
