@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
-import React, { useState } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
+import React, { useRef, useState } from "react";
 import { TypingText } from "./reusable/CustomText";
-import { motion } from "framer-motion";
 import {
   planetVariants,
   slideIn,
@@ -19,7 +19,14 @@ const roboto_slab = Roboto_Slab({
   display: "swap",
 });
 
-const About = () => {
+const Hero = () => {
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start start", "end start"],
+  });
+  const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
   // State to track hover status
   const [isHovered, setIsHovered] = useState(false);
   let timeoutId;
@@ -50,13 +57,13 @@ const About = () => {
 
   return (
     <motion.div
-      variants={staggerContainer}
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
-      className="z-10 "
+      ref={ref}
+      className="z-50  bg-[#191919] relative mt-[-200px] pb-[100px] sm:pb-0 h-[130vh] tinso90:h-[100vh]  sm:h-[130vh]  overflow-hidden"
     >
-      <div className=" min-h-[850px] mt-[-200px] sm:min-h-[950px]    larger:min-h-[1000px] larger:max-h-[1200px]  relative overflow-hidden ">
+      <motion.div
+        style={{ y: textY }}
+        className=" min-h-[850px]  sm:min-h-[950px]    larger:min-h-[1000px] larger:max-h-[1200px]  relative overflow-hidden "
+      >
         <div className="absolute top-0 left-0 h-full w-full">
           <Image
             src={"/Assets/Background-Landing-P.png"}
@@ -133,9 +140,9 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </motion.div>
   );
 };
 
-export default About;
+export default Hero;
