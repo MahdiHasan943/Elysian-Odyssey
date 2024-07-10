@@ -1,14 +1,8 @@
-import { Inter, Cinzel } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Top from "@/components/Top";
 
-const roboto_slab = Cinzel({
-  weight: ["400", "500", "600", "700"],
-  subsets: ["latin"],
-  display: "swap",
-});
 export const metadata = {
   title: "Elysian Odyssey",
   description:
@@ -18,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${roboto_slab.className} `}>
+      <body className={` `}>
         <Header />
         {children}
 

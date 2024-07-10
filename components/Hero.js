@@ -10,7 +10,7 @@ import {
   textVariant2,
   textVariant3,
 } from "@/utils/motion";
-import { Roboto_Slab, Work_Sans, Cinzel } from "next/font/google";
+import { Roboto_Slab } from "next/font/google";
 import Description from "./reusable/Description";
 import Link from "next/link";
 const roboto_slab = Roboto_Slab({
@@ -18,11 +18,7 @@ const roboto_slab = Roboto_Slab({
   subsets: ["latin"],
   display: "swap",
 });
-const cinzel = Cinzel({
-  weight: ["400", "500", "600"],
-  subsets: ["latin"],
-  display: "swap",
-});
+
 const About = () => {
   // State to track hover status
   const [isHovered, setIsHovered] = useState(false);
@@ -100,16 +96,21 @@ const About = () => {
               />
 
               <div className="min-w-[50%] mt-[-120px] sm:mt-0 z-10 xl:min-w-auto">
-                <p
-                  className={`${roboto_slab.className} text-[30px] sm:text-[42px] atharo:text-[80px] font-[300!important] text-center lg:text-right text-[#D4D297] atharo:leading-[90px]`}
+                {/* <p
+                  className={`text-[30px] wel sm:text-[42px] atharo:text-[80px] font-[300!important] text-center lg:text-right text-[#D4D297] atharo:leading-[90px]`}
                 >
                   Welcome to
                 </p>
                 <h1
-                  className={`${cinzel.className} font-bold text-[#D4D297] text-[38px] leading-[50px]  sm:text-[52px] sm:leading-[62px]    atharo:text-[79px] text-center lg:text-right atharo:leading-[88px]`}
+                  className={`hero_title font-bold text-[#D4D297] text-[38px] leading-[50px]  sm:text-[52px] sm:leading-[62px]    atharo:text-[79px] text-center lg:text-right atharo:leading-[88px]`}
                 >
                   Elysian Odyssey
-                </h1>
+                </h1> */}
+                <img
+                  src="/Assets/welcome.svg"
+                  className="w-[300px] sm:w-[450px] ml-auto mr-auto lg:mr-0  lg:w-[350px] xl:w-[400px] 2xl:w-auto lg:ml-auto"
+                  alt=""
+                />
                 <p
                   className={`${roboto_slab.className} text-[18px] leading-[27px] sm:text-[20px] sm:leading-[36px]  xl:text-[31px] font-[300!important] text-center lg:text-right text-[#F3F3F3] xl:leading-[42px]`}
                 >
