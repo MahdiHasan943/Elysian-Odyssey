@@ -11,6 +11,7 @@ import {
 } from "@/utils/motion";
 import { Roboto_Slab, Cinzel } from "next/font/google";
 import Description from "./reusable/Description";
+import Link from "next/link";
 const roboto_slab = Roboto_Slab({
   weight: ["400", "300", "500", "600", "700", "900"],
   subsets: ["latin"],
@@ -161,13 +162,13 @@ const About = () => {
                       and more.
                     </p>
                   </div>{" "}
-                  <a href="#team">
+                  <Link href={"/team"}>
                     <img
-                      src="/Assets/abtn.png"
+                      src="/Button.png"
                       className="mx-auto w-[230px] pt-4"
                       alt=""
                     />
-                  </a>
+                  </Link>{" "}
                 </div>
               </div>
               {/* 4 */}

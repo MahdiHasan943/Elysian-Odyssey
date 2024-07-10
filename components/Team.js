@@ -57,7 +57,7 @@ const Team = () => {
         className={`${roboto_slab.className}`}
         id="team"
       >
-        <div className=" min-h-[1200px]   lg:min-h-[1350px] lg:max-h-[1350px] 2xl:min-h-[1250px]  2xl:max-h-[1250px] relative overflow-hidden ">
+        <div className=" min-h-[1200px] mt-[-150px] lg:min-h-[1350px] lg:max-h-[1350px] 2xl:min-h-[1250px]  2xl:max-h-[1250px] relative overflow-hidden ">
           <div className=" absolute top-0 flex justify-center items-center w-full h-[400px] left-0 z-[50]">
             <h2
               className={`${cinzel.className} text-center sectionTitle flex justify-center text-[85px] md:text-[180px] `}
@@ -126,7 +126,7 @@ const Team = () => {
                         className=" border-[3px] group-hover:scale-105 duration-300 delay-75 ease-linear group-hover:mt-[-120px]  mt-[-130px] mx-auto my-4 w-[200px] h-[200px] border-[#D4D297] rounded-full"
                       />
                       <p
-                        className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
+                        className={`${cinzel.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
                       >
                         Mile Nikolikj
                       </p>
@@ -394,7 +394,7 @@ const Team = () => {
                   </a>
                 </motion.div>
               </SwiperSlide>
-              <SwiperSlide className=" py-[130px]">
+              {/* <SwiperSlide className=" py-[130px]">
                 <motion.div
                   variants={fadeIn("right", "bounce", 0.2, 1)}
                   initial="hidden"
@@ -452,7 +452,7 @@ const Team = () => {
                     </div>
                   </a>
                 </motion.div>
-              </SwiperSlide>
+              </SwiperSlide> */}
 
               {/* 7 */}
               <SwiperSlide className=" py-[130px]">
@@ -471,7 +471,7 @@ const Team = () => {
                         className=" border-[3px] group-hover:scale-105 duration-300 delay-75 ease-linear group-hover:mt-[-120px]  mt-[-130px] mx-auto my-4 w-[200px] h-[200px] border-[#D4D297] rounded-full"
                       />
                       <p
-                        className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
+                        className={`${cinzel.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
                       >
                         Uros Pavlovic
                       </p>
@@ -514,7 +514,7 @@ const Team = () => {
                         className=" border-[3px] group-hover:scale-105 duration-300 delay-75 ease-linear group-hover:mt-[-120px]  mt-[-130px] mx-auto my-4 w-[200px] h-[200px] border-[#D4D297] rounded-full"
                       />
                       <p
-                        className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
+                        className={`${cinzel.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
                       >
                         Nenad Krstic
                       </p>
@@ -561,7 +561,7 @@ const Team = () => {
                         className=" border-[3px] group-hover:scale-105 duration-300 delay-75 ease-linear group-hover:mt-[-120px]  mt-[-130px] mx-auto my-4 w-[200px] h-[200px] border-[#D4D297] rounded-full"
                       />
                       <p
-                        className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
+                        className={`${cinzel.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
                       >
                         Andrew Hakim Lie
                       </p>
@@ -605,7 +605,7 @@ const Team = () => {
                         className=" border-[3px] group-hover:scale-105 duration-300 delay-75 ease-linear group-hover:mt-[-120px]  mt-[-130px] mx-auto my-4 w-[200px] h-[200px] border-[#D4D297] rounded-full"
                       />
                       <p
-                        className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
+                        className={`${cinzel.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
                       >
                         Nikolija Stojmenovic
                       </p>
@@ -680,7 +680,7 @@ const Team = () => {
                         className=" border-[3px] group-hover:scale-105 duration-300 delay-75 ease-linear group-hover:mt-[-120px]  mt-[-130px] mx-auto my-4 w-[200px] h-[200px] border-[#D4D297] rounded-full"
                       />
                       <p
-                        className={`${roboto_slab.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
+                        className={`${cinzel.className} uppercase text-center font-bold text-[#fff] text-[30px]`}
                       >
                         Zafir Chuchanov
                       </p>

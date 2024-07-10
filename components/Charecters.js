@@ -6,7 +6,13 @@ import { staggerContainer } from "@/utils/motion";
 import { motion } from "framer-motion";
 import { exploreWorlds } from "@/constants";
 import Player from "./reusable/Player";
+import { Cinzel } from "next/font/google";
 
+const cinzel = Cinzel({
+  weight: ["400", "500", "600"],
+  subsets: ["latin"],
+  display: "swap",
+});
 const Charecters = () => {
   const [active, setActive] = useState("world-2");
 
@@ -15,7 +21,9 @@ const Charecters = () => {
       <div className="">
         <div className=" min-h-[900px] md:min-h-[1200px]   lg:min-h-[1100px] lg:max-h-[1100px]  relative  ">
           <div className=" absolute top-0 flex justify-center items-center w-full h-[200px] sm:h-[400px] left-0 z-[50]">
-            <h2 className=" text-center sectionTitle text-[47px] md:text-[80px] lg:text-[120px] larger:text-[180px]">
+            <h2
+              className={`${cinzel.className} text-center sectionTitle text-[47px] md:text-[80px] lg:text-[120px] larger:text-[180px]`}
+            >
               CHARECTERS
             </h2>
           </div>
