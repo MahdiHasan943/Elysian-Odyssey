@@ -86,7 +86,7 @@ const Header = () => {
                   /> */}
                   <img
                     src="/Assets/logo.png"
-                    className="hover:scale-110 duration-300 delay-100 ease-linear"
+                    className="hover:scale-125 duration-300 delay-100 ease-linear"
                     alt=""
                   />
                 </Link>{" "}
