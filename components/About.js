@@ -31,7 +31,7 @@ const About = () => {
       className="mt-[-50px]  z-0"
       id="About-Us"
     >
-      <div className=" min-h-[1450px] mt-[0]   md:min-h-[950px] md:max-h-[950px]  relative  ">
+      <div className=" min-h-[1450px] mt-[0] sm:min-h-[1050px] sm:max-h-[1050px]   lg:min-h-[950px] lg:max-h-[950px]  relative  ">
         <div className=" absolute top-0 flex justify-center items-center w-full min-h-[100px] sm:h-[400px] left-0 z-[50]">
           <h2
             className={`${cinzel.className} capitalize text-center  sectionTitle text-[42px] sm:text-[120px] lg:text-[160px] 2xl:text-[200px]`}
@@ -130,7 +130,7 @@ const About = () => {
                 </div>
               </div>
               {/* 3 */}
-              <div className="mx-auto border  flex justify-center items-center border-[#D4D297]  hover:h-[380px] sm:hover:h-[280px]  h-[280px] w-full group abox1  relative">
+              <div className="mx-auto border  flex justify-center items-center border-[#D4D297]  hover:h-[380px] lg:hover:h-[280px]  h-[280px] w-full group abox1  relative">
                 <div className=" py-2 w-[300px] xl:w-[500px] group-hover:w-full group-hover:h-full  duration-300 delay-100 ease-linear  h-[80%] abox">
                   <p
                     className={`${roboto_slab.className} capitalize text-[#D4D297] text-center text-[56px] font-bold`}
@@ -171,7 +171,7 @@ const About = () => {
                 </div>
               </div>
               {/* 4 */}
-              <div className="mx-auto border  flex justify-center items-center border-[#D4D297] hover:h-[380px] sm:hover:h-[280px]  h-[280px] w-full group abox2  relative">
+              <div className="mx-auto border  flex justify-center items-center border-[#D4D297] hover:h-[380px] lg:hover:h-[280px]  h-[280px] w-full group abox2  relative">
                 <div className=" py-2 w-[300px] xl:w-[500px] group-hover:w-full group-hover:h-full  duration-300 delay-100 ease-linear  h-[80%] abox">
                   <p
                     className={`${roboto_slab.className} capitalize text-[#D4D297] text-center text-[56px] font-bold`}
