@@ -124,14 +124,14 @@ const HeroTwo = () => {
                 className="absolute top-[50%] hidden lg:block  lg:left-[50%]   lg:translate-x-[-55%] xl:left-[50%]   xl:translate-x-[-50%]  translate-y-[-50%] z-[1]"
                 alt=""
               />
-              <div className="min-w-[50%] mt-[-120px] sm:mt-0 z-10 xl:min-w-auto text-right">
+              <div className="min-w-[50%] mt-[-150px] sm:mt-0 z-10 xl:min-w-auto text-right">
                 <p
-                  className={`${cinzel.className} text-[42px] font-semibold sm:text-[46px] lg:text-[50px] 2xl:text-[79px] text-[#D4D297] text-center lg:text-right`}
+                  className={`${cinzel.className}  text-[30px] carsho14:text-[42px] font-semibold sm:text-[46px] lg:text-[50px] 2xl:text-[79px] text-[#D4D297] text-center lg:text-right`}
                 >
                   Welcome To
                 </p>
                 <h1
-                  className={`${cinzel.className} text-[42px] sm:text-[48px] lg:text-[50px] text-center lg:text-right 2xl:text-[80px] mt-[-15px] sm:mt-[-25px] font-bold text-[#D4D297]`}
+                  className={`${cinzel.className} text-[32px] carsho14:text-[42px] sm:text-[48px] lg:text-[50px] text-center lg:text-right 2xl:text-[80px] mt-[-15px] sm:mt-[-25px] font-bold text-[#D4D297]`}
                 >
                   elysian odyssey
                 </h1>

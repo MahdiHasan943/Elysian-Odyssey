@@ -17,6 +17,7 @@ module.exports = {
     },
     screens: {
       smallest: "392px",
+      iphoneTwelve: "375px",
       moreSmall: "405px",
       carsho14: "414px",
       tinso90: "390px",
