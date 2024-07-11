@@ -116,7 +116,7 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <a href="https://www.facebook.com/share/v/TKVJmm1rw5QT8jtQ/">
+                  <a href="https://www.linkedin.com/in/mile-nikolikj-2664681a1/">
                     <div className="border-[#D4D297] group bg-[#161616] shadow-2xl  z-20 border-[2px] min-h-[700px]">
                       <Image
                         src={"/images/MileNikolikj.jpg"}
