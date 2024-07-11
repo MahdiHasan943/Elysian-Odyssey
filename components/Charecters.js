@@ -24,7 +24,13 @@ const Charecters = () => {
             <h2
               className={`${cinzel.className} text-center sectionTitle text-[47px] md:text-[80px] lg:text-[120px] larger:text-[180px]`}
             >
-              CHARECTERS
+              <span
+                className={`${cinzel.className} capitalize text-center  sectionTitle text-[70px] md:text-[120px]  lg:text-[160px] larger:text-[230px]`}
+              >
+                {" "}
+                C
+              </span>
+              HARECTERS
             </h2>
           </div>
 

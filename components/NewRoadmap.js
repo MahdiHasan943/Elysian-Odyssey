@@ -29,7 +29,12 @@ const NewRoadmap = () => {
       <h2
         className={`${cinzel.className} text-center sectionTitle text-[60px] md:text-[110px] larger:text-[200px]`}
       >
-        ROADMAP
+        <span
+          className={`${cinzel.className} capitalize text-center  sectionTitle text-[90px]  md:text-[140px] 2xl:text-[250px]`}
+        >
+          R
+        </span>
+        OADMAP
       </h2>
       <div className="max-w-[1100px] mx-auto">
         <p

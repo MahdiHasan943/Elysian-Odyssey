@@ -37,7 +37,19 @@ const About = () => {
           <h2
             className={`${cinzel.className} capitalize text-center  sectionTitle text-[42px] sm:text-[120px] lg:text-[160px] 2xl:text-[200px]`}
           >
-            ABOUT US
+            <span
+              className={`${cinzel.className} capitalize text-center  sectionTitle text-[60px] sm:text-[150px] lg:text-[190px] 2xl:text-[230px]`}
+            >
+              {" "}
+              A
+            </span>
+            BOUT{" "}
+            <span
+              className={`${cinzel.className} capitalize text-center  sectionTitle text-[60px] sm:text-[150px] lg:text-[190px] 2xl:text-[230px]`}
+            >
+              U
+            </span>
+            S
           </h2>
         </div>
 
@@ -59,7 +71,7 @@ const About = () => {
               height={400}
               className="block sm:hidden"
             /> */}
-            <div className="grid w-full 2xl:w-[70%] mx-auto grid-cols-1 mt-[-100px] sm:mt-0  md:mt-[200px] gap-1  xl:gap-1 md:grid-cols-2">
+            <div className="grid w-full 2xl:w-[70%] mx-auto grid-cols-1 mt-[-100px] sm:mt-0  md:mt-[220px] gap-1  xl:gap-1 md:grid-cols-2">
               <div className="mx-auto border  flex justify-center items-center border-[#D4D297] h-[280px] w-full group abox1  relative">
                 <div className=" py-2 w-[300px] xl:w-[500px] group-hover:w-full group-hover:h-full  duration-300 delay-100 ease-linear  h-[80%] abox">
                   <p

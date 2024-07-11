@@ -43,7 +43,7 @@ const Imagus = () => {
             className={`  text-center  sectionTitle text-[42px] tracking-tighter sm:text-[120px] lg:text-[160px] 2xl:text-[180px]`}
           >
             <span
-              className={`${roboto_slab.className} mr-[-20px] sm:mr-[-50px]`}
+              className={`${roboto_slab.className} mr-[-20px] font-[400]  text-[32px] sm:text-[100px] lg:text-[140px] 2xl:text-[160px] sm:mr-[-50px]`}
             >
               {" "}
               i
