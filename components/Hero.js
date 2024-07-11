@@ -10,7 +10,7 @@ import {
   textVariant2,
   textVariant3,
 } from "@/utils/motion";
-import { Roboto_Slab } from "next/font/google";
+import { Cinzel, Roboto_Slab } from "next/font/google";
 import Description from "./reusable/Description";
 import Link from "next/link";
 const roboto_slab = Roboto_Slab({
@@ -19,6 +19,11 @@ const roboto_slab = Roboto_Slab({
   display: "swap",
 });
 
+const cinzel = Cinzel({
+  weight: ["400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+  display: "swap",
+});
 const Hero = () => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -79,7 +84,7 @@ const Hero = () => {
               <div className="mt-[100px] lg:mt-0">
                 <img
                   src="/Assets/Logo.webp"
-                  className="w-[260px] sm:w-[500px] mx-auto lg:w-auto lg:h-auto"
+                  className="w-[260px] sm:w-[500px]  mx-auto 2xl:w-auto lg:h-auto"
                   alt=""
                 />
                 <Image
@@ -93,17 +98,27 @@ const Hero = () => {
               </div>
               <img
                 src="/Assets/Linija.svg"
-                className="absolute top-[50%] hidden lg:block left-[50%] translate-x-[-50%] translate-y-[-50%] z-[1]"
+                className="absolute top-[50%] hidden lg:block  lg:left-[50%]   lg:translate-x-[-55%] xl:left-[50%]   xl:translate-x-[-50%]  translate-y-[-50%] z-[1]"
                 alt=""
               />
-              <div className="min-w-[50%] mt-[-120px] sm:mt-0 z-10 xl:min-w-auto">
+              <div className="min-w-[50%] mt-[-120px] sm:mt-0 z-10 xl:min-w-auto text-right">
+                <p
+                  className={`${cinzel.className} text-[42px] font-semibold sm:text-[46px] lg:text-[50px] 2xl:text-[79px] text-[#D4D297] text-center lg:text-right`}
+                >
+                  Welcome To
+                </p>
+                <h1
+                  className={`${cinzel.className} text-[42px] sm:text-[48px] lg:text-[50px] text-center lg:text-right 2xl:text-[80px] mt-[-15px] sm:mt-[-25px] font-bold text-[#D4D297]`}
+                >
+                  elysian odyssey
+                </h1>
                 <img
-                  src="/Assets/welcome.svg"
-                  className="w-[300px] sm:w-[450px] ml-auto mr-auto lg:mr-0 lg:w-[350px] xl:w-[400px] 2xl:w-auto lg:ml-auto"
+                  src="/hero-line.svg"
+                  className="ml-auto mr-auto lg:mr-0 lg:ml-auto mb-[20px] max-w-[450px] 2xl:max-w-[100%]"
                   alt=""
                 />
                 <p
-                  className={`${roboto_slab.className} text-[18px] leading-[27px] sm:text-[20px] sm:leading-[36px] xl:text-[31px] font-[300!important] text-center lg:text-right text-[#F3F3F3] xl:leading-[42px]`}
+                  className={`${roboto_slab.className} text-[18px] leading-[27px]  xl:text-[31px] font-[300!important] text-center lg:text-right text-[#F3F3F3] xl:leading-[42px]`}
                 >
                   <span className={`font-bold`}>Elysian Odyssey</span> is a{" "}
                   <span className={`font-bold`}>game development platform</span>

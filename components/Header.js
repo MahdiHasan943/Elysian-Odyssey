@@ -98,7 +98,7 @@ const Header = () => {
                 variants={navVariants}
                 initial="hidden"
                 whileInView="show"
-                className="hidden lg:flex justify-center items-center gap-8"
+                className="hidden xl:flex justify-center items-center gap-8"
               >
                 <p
                   className={`${roboto_slab.className} hover:scale-110 duration-300 delay-100 ease-linear`}
@@ -256,7 +256,7 @@ const Header = () => {
                   alt="menu"
                   width={24}
                   height={24}
-                  className="w-[24px] block lg:hidden h-[24px] object-contain"
+                  className="w-[24px] block xl:hidden h-[24px] object-contain"
                 />
               </motion.div>
 
