@@ -351,7 +351,7 @@ const Team = () => {
                   initial="hidden"
                   whileInView="show"
                 >
-                  <a href="https://www.linkedin.com/in/gamedesignerdave/">
+                  <a href="https://www.linkedin.com/in/vladimir-filipovi%C4%87-744b516">
                     <div className="border-[#D4D297] group bg-[#161616] shadow-2xl min-h-[700px] z-20 border-[2px]">
                       <Image
                         src={"/images/VladimirFilipovic.jfif"}
