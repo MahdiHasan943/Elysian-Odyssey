@@ -64,12 +64,12 @@ const Hero = () => {
   return (
     <motion.div
       ref={ref}
-      className="z-50 bg-[#191919] relative mt-[-200px] pb-[100px] sm:pb-0 h-[130vh] tinso90:h-[100vh] sm:h-[130vh] overflow-hidden"
+      className="z-50 bg-[#191919] relative mt-[-200px] pb-[100px] sm:pb-0 h-[130vh] tinso90:h-[100vh] sm:h-[130vh]  mLong:h-[70vh]  overflow-hidden"
       style={{ willChange: "transform" }} // Adding this for smoother animations
     >
       <motion.div
         style={{ y: textY, willChange: "transform" }} // Adding this for smoother animations
-        className="min-h-[850px] sm:min-h-[950px] mt-[-100px] sm:mt-0 larger:min-h-[1000px] larger:max-h-[1200px] relative overflow-hidden"
+        className="min-h-[850px] sm:min-h-[950px] mt-[-100px] sm:mt-0 larger:min-h-[1000px] larger:max-h-[1200px] less_large:min-h-[800px] less_large:max-h-[800px] relative overflow-hidden"
       >
         <div className="absolute top-0 left-0 h-full w-full">
           <Image

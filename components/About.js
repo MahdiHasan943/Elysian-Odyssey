@@ -32,7 +32,7 @@ const About = () => {
       className="mt-[-50px]  z-0"
       id="About-Us"
     >
-      <div className=" min-h-[1450px] mt-[0] sm:min-h-[1050px] sm:max-h-[1050px]   lg:min-h-[1050px] lg:max-h-[1050px]  relative  ">
+      <div className=" min-h-[1450px] mt-[0] sm:min-h-[1050px] sm:max-h-[1050px]   lg:min-h-[1050px] lg:max-h-[1050px]   relative  ">
         <div className=" absolute top-0 flex bg-[#191919] sm:bg-transparent justify-center items-center w-full min-h-[100px] sm:h-[400px] left-0 z-[50]">
           <h2
             className={`${cinzel.className} capitalize text-center  sectionTitle text-[42px] sm:text-[120px] lg:text-[160px] 2xl:text-[200px]`}

@@ -54,10 +54,10 @@ const Team = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${roboto_slab.className}`}
+        className={`${roboto_slab.className} larger:h-screen`}
         id="team"
       >
-        <div className=" min-h-[1200px] mt-[-150px] lg:min-h-[1350px] lg:max-h-[1350px] 2xl:min-h-[1250px]  2xl:max-h-[1250px] relative overflow-hidden ">
+        <div className=" min-h-[1200px] mt-[-150px] lg:min-h-[1350px] lg:max-h-[1350px] 2xl:min-h-[1250px]  2xl:max-h-[1250px] larger:h-screen  relative overflow-hidden ">
           <div className=" absolute top-0 flex justify-center items-center w-full h-[400px] left-0 z-[50]">
             <h2
               className={`${cinzel.className} text-center sectionTitle flex justify-center text-[85px] md:text-[180px] `}
@@ -68,7 +68,7 @@ const Team = () => {
               </a>{" "}
             </h2>
           </div>
-          <div className="absolute top-0 bg-[#191919] left-0 h-full w-full">
+          <div className="absolute top-0 bg-[#191919]  left-0 h-full larger:h-screen w-full">
             {/* <Image
               src={"/panel/team.jpg"}
               alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
@@ -103,21 +103,21 @@ const Team = () => {
               modules={[Navigation, Pagination]}
               slidesPerView="auto"
               spaceBetween={50}
-              className="mySwiper max-w-[1800px!important] pt-5 mt-[200px] 2xl:mt-[150px] overflow-hidden mx-auto smallest:px-[12px!important] md:px-[40px!important]  my-8 "
+              className="mySwiper max-w-[1800px!important]  pt-5 mt-[200px] 2xl:mt-[150px] overflow-hidden mx-auto smallest:px-[12px!important] md:px-[40px!important]  my-8 "
               breakpoints={breakpoints}
               loop={true}
             >
               <div className="absolute z-50 h-[100px]   top-1/2 left-0 w-full">
                 <SwipperNewBtn />
               </div>
-              <SwiperSlide className=" py-[130px]">
+              <SwiperSlide className=" py-[130px] ">
                 <motion.div
                   variants={fadeIn("right", "bounce", 0.2, 1)}
                   initial="hidden"
                   whileInView="show"
                 >
                   <a href="https://www.linkedin.com/in/mile-nikolikj-2664681a1/">
-                    <div className="border-[#D4D297] group bg-[#161616] shadow-2xl  z-20 border-[2px] min-h-[700px]">
+                    <div className="border-[#D4D297] group bg-[#161616]  shadow-2xl  z-20 border-[2px] min-h-[700px]">
                       <Image
                         src={"/images/MileNikolikj.jpg"}
                         alt="team-member"
