@@ -74,7 +74,7 @@ const Imagus = () => {
               <div className="mx-auto w-[98%] h-[98%] hover:w-full hover:h-full min-h-[500px] group   duration-500 delay-150 ease-linear  xl:w-auto imagus1  relative">
                 <div className="w-full h-full imagus">
                   <p
-                    className={`${cinzel.className} px-2 text-left group-hover:text-center group-hover:bg-[#f7f6a4] group-hover:text-[#111] duration-500 delay-150 ease-linear capitalize text-[#f7f6a4]  text-[44px]  lg:text-[44px] font-bold`}
+                    className={`${cinzel.className} px-2 text-left group-hover:text-center group-hover:bg-[#f7f6a4] group-hover:text-[#111] duration-500 delay-150 ease-linear capitalize text-[#f7f6a4] text-[40px] sm:text-[44px]  lg:text-[44px] font-bold`}
                   >
                     Overview
                   </p>
@@ -117,7 +117,7 @@ const Imagus = () => {
               <div className="mx-auto w-[98%] h-[98%] hover:w-full hover:h-full min-h-[500px] group   duration-200 delay-75 ease-linear  xl:w-auto imagus2  relative">
                 <div className="w-full  h-full imagus">
                   <p
-                    className={`${cinzel.className}  px-2 text-left group-hover:text-center group-hover:bg-[#f7f6a4] group-hover:text-[#111] duration-300 delay-75 ease-linear capitalize text-[#f7f6a4]  text-[44px]  lg:text-[44px] font-bold`}
+                    className={`${cinzel.className}  px-2 text-left group-hover:text-center group-hover:bg-[#f7f6a4] group-hover:text-[#111] duration-300 delay-75 ease-linear capitalize text-[#f7f6a4]  text-[40px] sm:text-[44px]   lg:text-[44px] font-bold`}
                   >
                     Key Advantages
                   </p>
@@ -164,7 +164,7 @@ const Imagus = () => {
               <div className="mx-auto w-[98%] h-[98%] hover:w-full hover:h-full min-h-[500px] group   duration-200 delay-75 ease-linear  xl:w-auto imagus3  relative">
                 <div className="w-full  h-full imagus">
                   <p
-                    className={`${cinzel.className} px-2 text-left group-hover:text-center group-hover:bg-[#f7f6a4] group-hover:text-[#111] duration-300 delay-75 ease-linear capitalize text-[#f7f6a4]  text-[44px]  lg:text-[44px] font-bold`}
+                    className={`${cinzel.className} px-2 text-left group-hover:text-center group-hover:bg-[#f7f6a4] group-hover:text-[#111] duration-300 delay-75 ease-linear capitalize text-[#f7f6a4] text-[37px] sm:text-[44px]  lg:text-[44px] font-bold`}
                   >
                     Compatibility
                   </p>
