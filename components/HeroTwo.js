@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { useScroll, useTransform, useSpring, motion } from "framer-motion";
 import React, { useRef, useState } from "react";
 import { TypingText } from "./reusable/CustomText";
 import {
@@ -24,14 +24,29 @@ const cinzel = Cinzel({
   subsets: ["latin"],
   display: "swap",
 });
-const Hero = () => {
+const HeroTwo = () => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start start", "end start"],
   });
-  const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+
+  // Add useSpring to smooth out the transformations
+  const backgroundY = useSpring(
+    useTransform(scrollYProgress, [0, 1], ["0%", "100%"]),
+    {
+      stiffness: 100,
+      damping: 20,
+    }
+  );
+  const textY = useSpring(
+    useTransform(scrollYProgress, [0, 1], ["0%", "100%"]),
+    {
+      stiffness: 100,
+      damping: 20,
+    }
+  );
+
   // State to track hover status
   const [isHovered, setIsHovered] = useState(false);
   let timeoutId;
@@ -64,12 +79,12 @@ const Hero = () => {
   return (
     <motion.div
       ref={ref}
-      className="z-50 hidden sm:block bg-[#191919] relative mt-[-200px] pb-[100px] sm:pb-0 h-[130vh] tinso90:h-[100vh] sm:h-[130vh]  mLong:h-[70vh]  overflow-hidden"
+      className="z-50 block sm:hidden bg-[#191919] relative mt-[-200px] pb-[100px] sm:pb-0 h-[130vh] tinso90:h-[100vh] sm:h-[130vh]  mLong:h-[70vh]  overflow-hidden"
       style={{ willChange: "transform" }} // Adding this for smoother animations
     >
       <motion.div
         style={{ y: textY, willChange: "transform" }} // Adding this for smoother animations
-        className="min-h-[850px] sm:min-h-[950px] mt-[-100px] sm:mt-0 larger:min-h-[1000px] larger:max-h-[1200px] less_large:min-h-[800px] less_large:max-h-[800px] relative overflow-hidden"
+        className="min-h-[850px] sm:min-h-[950px]  sm:mt-0 larger:min-h-[1000px] larger:max-h-[1200px] less_large:min-h-[800px] less_large:max-h-[800px] relative overflow-hidden"
       >
         <div className="absolute top-0 left-0 h-full w-full">
           <Image
@@ -152,4 +167,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroTwo;

@@ -18,6 +18,7 @@ import { Cinzel, Roboto_Slab } from "next/font/google";
 import Imagus from "@/components/Imagus";
 import Genesis from "@/components/Genesis";
 import NewRoadmap from "@/components/NewRoadmap";
+import HeroTwo from "@/components/HeroTwo";
 const roboto_slab = Roboto_Slab({
   weight: ["400", "300", "500", "600", "700", "900"],
   subsets: ["latin"],
@@ -38,6 +39,7 @@ export default function Home() {
       className="w-full "
     >
       <Hero />
+      <HeroTwo />
       {/* <MultiLayerParallax /> */}
       <About />
       <Imagus></Imagus>
