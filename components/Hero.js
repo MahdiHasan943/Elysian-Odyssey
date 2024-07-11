@@ -87,8 +87,16 @@ const Hero = () => {
                   className="w-[260px] sm:w-[500px]  mx-auto 2xl:w-auto lg:h-auto"
                   alt=""
                 />
-                <Image
+                {/* <Image
                   src={"/Assets/Button.png"}
+                  alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
+                  onClick={handleDownload}
+                  width={350}
+                  height={100}
+                  className="w-[200px] hover:scale-x-125 duration-300 delay-100 ease-linear sm:w-auto mx-auto mt-8"
+                /> */}
+                <Image
+                  src={"/whitebt.png"}
                   alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
                   onClick={handleDownload}
                   width={350}
