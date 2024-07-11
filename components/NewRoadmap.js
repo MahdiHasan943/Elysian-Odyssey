@@ -27,7 +27,7 @@ const NewRoadmap = () => {
   return (
     <div id="Roadmap" className="bg-[#241D1C] px-4  sm:px-16">
       <h2
-        className={`${cinzel.className} text-center sectionTitle text-[60px] md:text-[110px] larger:text-[200px]`}
+        className={`${cinzel.className} text-center sectionTitle text-[45px] md:text-[110px] larger:text-[200px]`}
       >
         <span
           className={`${cinzel.className} capitalize text-center  sectionTitle text-[90px]  md:text-[140px] 2xl:text-[250px]`}

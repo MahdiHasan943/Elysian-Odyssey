@@ -19,10 +19,10 @@ const Charecters = () => {
   return (
     <div id="Characters">
       <div className="">
-        <div className=" min-h-[900px] md:min-h-[1200px]   lg:min-h-[1100px] lg:max-h-[1100px]  relative  ">
+        <div className=" overflow-hidden min-h-[900px] md:min-h-[1200px]   lg:min-h-[1100px] lg:max-h-[1100px]  relative  ">
           <div className=" absolute top-0 flex justify-center items-center w-full h-[200px] sm:h-[400px] left-0 z-[50]">
             <h2
-              className={`${cinzel.className} text-center sectionTitle text-[47px] md:text-[80px] lg:text-[120px] larger:text-[180px]`}
+              className={`${cinzel.className} text-center sectionTitle text-[35px] md:text-[80px] lg:text-[120px] larger:text-[180px]`}
             >
               <span
                 className={`${cinzel.className} capitalize text-center  sectionTitle text-[70px] md:text-[120px]  lg:text-[160px] larger:text-[230px]`}
@@ -42,7 +42,7 @@ const Charecters = () => {
               objectFit="cover"
               className=""
             /> */}
-            <div className="w-full px-4  py-10 absolute top-0 left-0 h-full z-[100000] max-auto">
+            <div className="w-full  px-4  py-10 absolute top-0 left-0 h-full z-[100000] max-auto">
               <section
                 className={`sm:p-16 w-full max-w-[1600px]  mt-[-70px] sm:mt-0 mx-auto xs:p-8 px-6 py-12`}
                 id="explore"
