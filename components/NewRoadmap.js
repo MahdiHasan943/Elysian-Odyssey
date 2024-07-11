@@ -43,18 +43,19 @@ const NewRoadmap = () => {
           </h2>
           <div class="nft-content">
             <p class="nft-description">
-              During this phase our team has worked on creating the storyline,
-              designing the characters, building community and selling the
-              characters in form of NFT.
+              During this phase, our team focuses on expanding the team with
+              highly competent individuals that are leading professionals in the
+              industry. Also the team is starting to raise funds to secure it’s
+              development:
             </p>
             <p class="nft-details">
-              - Lore creation: The story about the four beings of genesis has
-              been born. Each character got in depth explanation about their
-              abilities and disadvantages. <br />
-              - Character design: Each character was carefully designed to
-              contain the characteristics described in the Lore. <br />- NFT
-              mint: 5556 Elysians were born to live on the blockchain - <br />-
-              Community building: a community of 1000+ holders was created.
+              Fundraising: Raising funds in this stage will make sure the team
+              will have enough resources to develop the best possible product
+              and ensure it has smooth launch process on the market. Team
+              Expansion: Scaling our development team with skilled professionals
+              in game design, development, and blockchain integration. Alpha
+              trailer: we will release the first trailer of the Elysian Odyssey
+              game
             </p>
           </div>
         </div>
@@ -80,7 +81,7 @@ const NewRoadmap = () => {
                 </p>
               </div>
               <h2
-                className={`${cinzel.className}  font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
+                className={`${cinzel.className}  font-bold px-2 text-[24px] sm:text-[30px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
               >
                 {" "}
                 NFT Community Building and NFT Sale
@@ -88,15 +89,15 @@ const NewRoadmap = () => {
             </div>
             <div className="w-full border  roadMap1_content duration-300 delay-75 ease-linear border-[#8F8D68]">
               <p className="text-[#fff] text-[16px] px-4 py-2">
-                During this phase, our team focuses on conceptualising the game
-                mechanics, storyline, and world-building elements of Elysian
-                Odyssey. Key activities include:
-              </p>
-              <p className="py-6 text-[#fff] text-[16px] px-4">
-                - Conceptualization: Refining the game concept, defining core
-                gameplay mechanics, and establishing the narrative framework. -
-                Prototype Development: Building early-stage prototypes to test
-                fundamental game mechanics and gather user feedback.
+                During this phase our team has worked on creating the storyline,
+                designing the characters, building community and selling the
+                characters in form of NFT. <br /> Lore creation: The story about
+                the four beings of genesis has been born. Each character got in
+                depth explanation about their abilities and disadvantages
+                Character design: Each character was carefully designed to
+                contain the characteristics described in the Lore. NFT mint:
+                5556 Elysians were born to live on the blockchain Community
+                building: a community of 1000+ holders was created.
               </p>
             </div>
           </div>
@@ -123,10 +124,10 @@ const NewRoadmap = () => {
                 </p>
               </div>
               <h2
-                className={`${cinzel.className}  font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
+                className={`${cinzel.className}  font-bold px-2 text-[24px] sm:text-[30px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
               >
                 {" "}
-                NFT Community Building and NFT Sale
+                Conceptualization and Development
               </h2>
             </div>
             <div className="w-full roadMap1_content duration-300 delay-75 ease-linear border border-[#8F8D68]">
@@ -167,23 +168,28 @@ const NewRoadmap = () => {
                 </p>
               </div>
               <h2
-                className={`${cinzel.className}  font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
+                className={`${cinzel.className}  font-bold px-2 text-[24px] sm:text-[30px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
               >
                 {" "}
-                NFT Community Building and NFT Sale
+                Full development mode and launch preparations{" "}
               </h2>
             </div>
             <div className="w-full roadMap1_content duration-300 delay-75 ease-linear border border-[#8F8D68]">
               <p className="text-[#fff] text-[16px] px-4 py-2">
-                During this phase, our team focuses on conceptualising the game
-                mechanics, storyline, and world-building elements of Elysian
-                Odyssey. Key activities include:
+                In this phase, we conduct alpha testing to gather insights from
+                early adopters and refine the game based on their feedback. Key
+                activities include:
               </p>
               <p className="py-6 text-[#fff] text-[16px] px-4">
-                - Conceptualization: Refining the game concept, defining core
-                gameplay mechanics, and establishing the narrative framework. -
-                Prototype Development: Building early-stage prototypes to test
-                fundamental game mechanics and gather user feedback.
+                Alpha Testing: Inviting a select group of players to participate
+                in closed alpha testing to evaluate gameplay mechanics, identify
+                bugs, and provide suggestions for improvement. Iterative
+                Development: Implementing iterative updates and enhancements
+                based on alpha testing feedback to optimize gameplay, user
+                experience, and performance. Community Engagement: Engaging with
+                the community through regular updates, feedback sessions, and
+                community-driven initiatives to foster a sense of ownership and
+                collaboration.
               </p>
             </div>
           </div>
@@ -210,23 +216,27 @@ const NewRoadmap = () => {
                 </p>
               </div>
               <h2
-                className={`${cinzel.className}  font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
+                className={`${cinzel.className}  font-bold px-2 text-[24px] sm:text-[30px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
               >
                 {" "}
-                NFT Community Building and NFT Sale
+                Token Launch and Community Expansion
               </h2>
             </div>
             <div className="w-full border roadMap1_content duration-300 delay-75 ease-linear border-[#8F8D68]">
               <p className="text-[#fff] text-[16px] px-4 py-2">
-                During this phase, our team focuses on conceptualising the game
-                mechanics, storyline, and world-building elements of Elysian
-                Odyssey. Key activities include:
+                During this phase, we prepare for the public launch of ELY and
+                focus on expanding our community outreach efforts. Key
+                activities include:
               </p>
               <p className="py-6 text-[#fff] text-[16px] px-4">
-                - Conceptualization: Refining the game concept, defining core
-                gameplay mechanics, and establishing the narrative framework. -
-                Prototype Development: Building early-stage prototypes to test
-                fundamental game mechanics and gather user feedback.
+                Community Building: Scaling our community outreach efforts
+                through social media campaigns, influencer partnerships, and
+                community events to attract new players and build a vibrant
+                gaming and crypto community. Marketing Campaigns: Launching
+                targeted marketing campaigns to raise awareness about Elysian
+                Odyssey and drive user acquisition. Token Launch: Opening our
+                community to a wider audience through a public release, allowing
+                players and investors to join our community
               </p>
             </div>
           </div>
@@ -252,23 +262,29 @@ const NewRoadmap = () => {
                 </p>
               </div>
               <h2
-                className={`${cinzel.className}  font-bold px-2 text-[30px] sm:text-[38px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
+                className={`${cinzel.className}  font-bold px-2 text-[24px] sm:text-[30px] border  border-b-1 border-l-0 border-r-0 border-[#8F8D68] text-[#D2D096]`}
               >
                 {" "}
-                NFT Community Building and NFT Sale
+                Elysian Odyssey beta release
               </h2>
             </div>
             <div className="w-full roadMap1_content duration-300 delay-75 ease-linear border border-[#8F8D68]">
               <p className="text-[#fff] text-[16px] px-4 py-2">
-                During this phase, our team focuses on conceptualising the game
-                mechanics, storyline, and world-building elements of Elysian
-                Odyssey. Key activities include:
+                In the final phase, we officially launch Elysian Odyssey and
+                continue to support the game with regular updates, content
+                expansions, and community engagement initiatives. Key activities
+                include:
               </p>
               <p className="py-6 text-[#fff] text-[16px] px-4">
-                - Conceptualization: Refining the game concept, defining core
-                gameplay mechanics, and establishing the narrative framework. -
-                Prototype Development: Building early-stage prototypes to test
-                fundamental game mechanics and gather user feedback.
+                Official Launch: Celebrating the official launch of Elysian
+                Odyssey across multiple platforms, including PC, console, and
+                mobile devices. Post-Launch Support: Providing ongoing support
+                and maintenance to ensure the stability, security, and
+                performance of the game. Content Expansions: Introducing new
+                content updates, expansions, and DLCs to keep the game fresh and
+                engaging for players. Community Events: Hosting regular
+                community events, tournaments, and competitions to foster player
+                engagement and retention.
               </p>
             </div>
           </div>
