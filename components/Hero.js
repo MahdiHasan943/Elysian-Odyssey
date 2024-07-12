@@ -64,7 +64,7 @@ const Hero = () => {
   return (
     <motion.div
       ref={ref}
-      className="z-50 hidden sm:block bg-[#191919] relative mt-[-200px] pb-[100px] sm:pb-0 h-[130vh] tinso90:h-[100vh] sm:h-[130vh]  mLong:h-[110vh]  overflow-hidden"
+      className="z-50 hidden sm:block bg-[#191919] relative mt-[-200px] pb-[100px] sm:pb-0 h-[130vh] tinso90:h-[100vh] sm:h-[130vh]  mLong:h-[80vh]  overflow-hidden"
       style={{ willChange: "transform" }} // Adding this for smoother animations
     >
       <motion.div
@@ -80,8 +80,8 @@ const Hero = () => {
             className=""
           />
           <div className="w-full px-4 flex justify-center items-center py-10 absolute top-0 left-0 h-full z-[100000] max-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 max-w-[2500px] mx-auto sm:px-4 xl:px-16 h-full items-center gap-2 w-full">
-              <div className="mt-[100px] lg:mt-0">
+            <div className="grid grid-cols-1 lg:grid-cols-2 max-w-[2500px] mx-auto sm:px-4  xl:px-16 h-full items-center gap-2 w-full">
+              <div className="mt-[100px] lg:mt-0 ">
                 <img
                   src="/Assets/Logo.webp"
                   className="w-[260px] sm:w-[500px]  mx-auto 2xl:w-auto mLong:w-[800px] lg:h-auto"
