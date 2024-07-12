@@ -80,7 +80,7 @@ const Hero = () => {
             className=""
           />
           <div className="w-full px-4 flex justify-center items-center py-10 absolute top-0 left-0 h-full z-[100000] max-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 max-w-[2500px] mx-auto sm:px-4  xl:px-16 h-full items-center gap-2 w-full">
+            <div className="grid grid-cols-1  lg:grid-cols-2 max-w-[1900px] mx-auto sm:px-4  xl:px-16 h-full items-center gap-2 w-full">
               <div className="mt-[100px] lg:mt-0 ">
                 <img
                   src="/Assets/Logo.webp"
