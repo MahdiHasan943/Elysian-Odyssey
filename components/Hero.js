@@ -106,7 +106,7 @@ const Hero = () => {
               </div>
               <img
                 src="/Assets/Linija.svg"
-                className="absolute top-[50%] hidden lg:block  lg:left-[50%]   lg:translate-x-[-55%] xl:left-[50%]   xl:translate-x-[-50%]  translate-y-[-50%] z-[1]"
+                className="absolute top-[50%] hidden lg:block  lg:left-[50%]   lg:translate-x-[-55%] xl:left-[50%]   xl:translate-x-[-50%]  translate-y-[-50%] mLong:translate-x-[-35%] mLong:left-[50%] z-[1]"
                 alt=""
               />
               <div className="min-w-[50%] mt-[-120px] sm:mt-0 z-10 xl:min-w-auto text-right">
