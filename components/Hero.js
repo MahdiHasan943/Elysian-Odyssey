@@ -64,7 +64,7 @@ const Hero = () => {
   return (
     <motion.div
       ref={ref}
-      className="z-50 hidden sm:block bg-[#191919] relative mt-[-200px] pb-[100px] sm:pb-0 h-[130vh] tinso90:h-[100vh] sm:h-[130vh]  mLong:h-[70vh]  overflow-hidden"
+      className="z-50 hidden sm:block bg-[#191919] relative mt-[-200px] pb-[100px] sm:pb-0 h-[130vh] tinso90:h-[100vh] sm:h-[130vh]  mLong:h-[110vh]  overflow-hidden"
       style={{ willChange: "transform" }} // Adding this for smoother animations
     >
       <motion.div
@@ -84,7 +84,7 @@ const Hero = () => {
               <div className="mt-[100px] lg:mt-0">
                 <img
                   src="/Assets/Logo.webp"
-                  className="w-[260px] sm:w-[500px]  mx-auto 2xl:w-auto lg:h-auto"
+                  className="w-[260px] sm:w-[500px]  mx-auto 2xl:w-auto mLong:w-[800px] lg:h-auto"
                   alt=""
                 />
                 {/* <Image
@@ -96,7 +96,7 @@ const Hero = () => {
                   className="w-[200px] hover:scale-x-125 duration-300 delay-100 ease-linear sm:w-auto mx-auto mt-8"
                 /> */}
                 <Image
-                  src={"/whitebt.png"}
+                  src={"/newbtn.png"}
                   alt="A diverse group of professionals standing together, wearing business attire and smiling at the camera. They appear confident and engaged in their work."
                   onClick={handleDownload}
                   width={350}
@@ -118,7 +118,15 @@ const Hero = () => {
                 <h1
                   className={`${cinzel.className} text-[42px] sm:text-[48px] lg:text-[50px] text-center lg:text-right 2xl:text-[80px] mt-[-15px] sm:mt-[-25px] font-bold text-[#D4D297]`}
                 >
-                  elysian odyssey
+                  <span className="text-[58px] sm:text-[62px] lg:text-[70px] text-center lg:text-right 2xl:text-[100px]">
+                    {" "}
+                    e
+                  </span>
+                  lysian{" "}
+                  <span className="text-[58px] sm:text-[62px] lg:text-[70px] text-center lg:text-right 2xl:text-[100px]">
+                    o
+                  </span>
+                  dyssey
                 </h1>
                 <img
                   src="/hero-line.svg"
