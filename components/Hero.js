@@ -64,7 +64,7 @@ const Hero = () => {
   return (
     <motion.div
       ref={ref}
-      className="z-50 hidden sm:block bg-[#191919] relative mt-[-200px] pb-[100px] sm:pb-0 h-[130vh] tinso90:h-[100vh] sm:h-[130vh]  mLong:h-[130vh]  overflow-hidden"
+      className="z-50 hidden sm:block bg-[#191919] relative mt-[-200px] pb-[100px] sm:pb-0 h-[130vh] tinso90:h-[100vh] sm:h-[130vh]  mLong:h-[80vh]  overflow-hidden"
       style={{ willChange: "transform" }} // Adding this for smoother animations
     >
       <motion.div
